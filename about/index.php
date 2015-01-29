@@ -26,7 +26,7 @@
 
 			<p><strong>But most of all</strong>... I enjoy listening to real people, watching their habits, then creating beautiful and useful product experiences that meet their needs and exceed their expectations.</p>
 
-			<p>In persuit of user-driven design, have also founded and managed several profitable products, most significantly as the Founder of <a href="https://prevue.it/">Prevue</a> &mdash; a product built and run solely by myself, and used by over 20,000 agencies to share design concepts with clients. In addition to unparalleled customer interaction, the experience of running a business has taught me how to continually push the boundaries of a project whilst also working within limited technical scope and harsh financial constraints.</p>
+			<p>In pursuit of user-driven design, have also founded and managed several profitable products, most significantly as the Founder of <a href="https://prevue.it/">Prevue</a> &mdash; a product built and run solely by myself, and used by over 20,000 agencies to share design concepts with clients. In addition to unparalleled customer interaction, the experience of running a business has taught me how to continually push the boundaries of a project whilst also working within limited technical scope and harsh financial constraints.</p>
 
 			<p>Previously a competitive sailor and professional coach, I appreciate the importance of a healthy work/life balance. When I'm not in front of a computer you'll likely find me outdoors - riding motorbikes, swimming, running or travelling.</p>
 						
