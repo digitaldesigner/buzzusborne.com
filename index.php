@@ -4,7 +4,7 @@
 ?>
 		
 		<div id="intro">
-			<h3>I'm Buzz, a Digital Designer living in Sydney. I work as the UX Director at <a href="projects/campmon/" title="See my design work for Campaign Monitor">Campaign Monitor</a> and Founded <a href="projects/prevue/" title="See my design work for Prevue">Prevue</a>.</h3>
+			<h3>I'm Buzz, a Digital Designer living in Sydney. I work as the UX Director at Campaign Monitor and Founded Prevue. <a href="/about/" title="More about me">More</a></h3>
 		</div>
 		
 		<div id="showall">		

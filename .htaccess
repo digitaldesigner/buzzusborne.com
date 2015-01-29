@@ -1,0 +1,23 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+# Error docs
+ErrorDocument 404 /404.php
+
+# BEGIN (mt) controlled settings
+<IfModule pagespeed_module>
+  ModPagespeed on
+</IfModule>
+# END (mt) controlled settings
+
+AddOutputFilterByType DEFLATE text/html text/plain text/xml
+AddOutputFilterByType DEFLATE text/css application/x-javascript
+AddOutputFilterByType DEFLATE text/css text/html text/plain text/xml text/javascript
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access 1 month"
+ExpiresDefault "access 1 month"
+</IfModule>
