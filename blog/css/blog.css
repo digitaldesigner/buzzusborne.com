@@ -1,0 +1,436 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 62.5%;
+  line-height: 1.5em;
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+legend,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+}
+ol,
+ul {
+  list-style: none;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: none;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+::selection {
+  background: #ec4885;
+  color: #facfdf;
+}
+::-moz-selection {
+  background: #ec4885;
+  color: #facfdf;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+audio:not([controls]) {
+  display: none;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  outline: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+button,
+input {
+  border: 1px solid;
+  outline: none;
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  -webkit-appearance: button;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+strong {
+  font-weight: bold;
+}
+html,
+body {
+  background: #ffffff;
+  font-family: 'PT Sans', sans-serif;
+}
+body {
+  border-top: 6px solid #333333;
+}
+#outer_wrapper {
+  margin: 0px auto;
+  width: 500px;
+}
+#header {
+  float: left;
+  width: 500px;
+  margin: 80px 0;
+}
+#header h1 a {
+  float: left;
+  width: 151px;
+  height: 52px;
+  overflow: hidden;
+  text-indent: -9000px;
+  background: url('http://buzzusborne.com/blog/buzzusborne.gif') left center no-repeat;
+  margin-left: -3px;
+}
+#header h2 {
+  float: right;
+  text-align: right;
+  font-size: 1.3em;
+  line-height: 1.5em;
+  margin: 10px 0 0 0;
+}
+#header h2 a {
+  color: #a5aaae;
+}
+#header h2 a:hover {
+  color: #00aadd;
+}
+.pagination,
+.prev_next {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0 0 150px 0;
+}
+.pagination a,
+.prev_next a {
+  float: left;
+  width: 50%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #a5aaae;
+}
+.pagination a.prev,
+.prev_next a.prev {
+  color: #00aadd;
+}
+.pagination a.prev:hover,
+.prev_next a.prev:hover {
+  color: #0083aa;
+}
+.pagination a.next,
+.prev_next a.next {
+  text-align: right;
+}
+.pagination a.next:hover,
+.prev_next a.next:hover {
+  color: #656b71;
+}
+.prev_next a:last-child {
+  color: #00aadd;
+  text-align: right;
+}
+.prev_next a:last-child:hover {
+  color: #0083aa;
+}
+.main {
+  float: left;
+  width: 100%;
+}
+.main ol.posts {
+  float: left;
+  width: 100%;
+}
+.main ol.posts li {
+  float: left;
+  width: 100%;
+  margin: 0 0 120px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.main ol.posts li #aside {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+.main ol.posts li #aside a {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #656b71;
+}
+.main ol.posts li #aside a .date {
+  position: absolute;
+  right: -30px;
+  top: 10px;
+  width: 20px;
+  height: 20px;
+  background: url('http://buzzusborne.com/blog/permalink.png') top center no-repeat;
+  overflow: hidden;
+  text-indent: -9000px;
+}
+.main ol.posts li #aside a .date:hover {
+  background-position: bottom center;
+}
+.main ol.posts li #aside p {
+  display: none;
+}
+.main ol.posts li #aside ul.tags {
+  float: left;
+  width: 100%;
+  background: #ffec98;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.main ol.posts li #aside ul.tags li {
+  float: right;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+.main ol.posts li #aside ul.tags li a {
+  float: right;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: -60px;
+  top: 80px;
+}
+.main ol.posts li .post_content {
+  float: left;
+  width: 100%;
+}
+.main ol.posts li .post_content h1,
+.main ol.posts li .post_content h2 {
+  float: left;
+  width: 100%;
+  margin: 10px 0 20px 0;
+  font-family: 'Open Sans', sans-serif;
+  color: #656b71;
+  font-size: 2em;
+}
+.main ol.posts li .post_content h1 a,
+.main ol.posts li .post_content h2 a {
+  color: #333333;
+}
+.main ol.posts li .post_content h1 a:hover,
+.main ol.posts li .post_content h2 a:hover {
+  color: #00aadd;
+}
+.main ol.posts li .post_content .photo img {
+  width: 100%;
+  height: auto;
+}
+.main ol.posts li .post_content p {
+  float: left;
+  width: 100%;
+  font-size: 1.35em;
+  line-height: 1.9em;
+  color: #a5aaae;
+  margin: 0 0 20px 0;
+}
+.main ol.posts li .post_content p strong {
+  color: #333333;
+  font-weight: normal;
+}
+.main ol.posts li .post_content p em {
+  font-style: italic;
+  color: #c0c3c6;
+}
+.main ol.posts li .post_content p a {
+  color: #656b71;
+  border-bottom: 1px dotted #656b71;
+}
+.main ol.posts li .post_content p a:hover {
+  color: #00aadd;
+  border-color: #00aadd;
+}
+.main ol.posts li .post_content p img {
+  border: none!important;
+}
+.main ol.posts li .post_content p .blockquote {
+  float: left;
+  font-size: 2em;
+  width: 80%;
+  font-style: italic;
+}
+.main ol.posts li .post_content blockquote {
+  float: left;
+  width: 80%;
+  border-left: 2px solid #f0f0f0;
+  padding-left: 5%;
+  margin: 15px 0 35px 0;
+}
+.main ol.posts li .post_content blockquote p {
+  margin: 0;
+  font-style: italic;
+  font-size: 1.45em;
+}
+.main .post {
+  float: left;
+  width: 100%;
+  margin: -50px 0 80px 0;
+}
+.main .post h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.15em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #656b71;
+  float: left;
+  width: 100%;
+  margin: 0 0 30px 0;
+}
+.main .post ol.notes {
+  float: left;
+  width: 100%;
+}
+.main .post ol.notes li {
+  margin: 0 0 10px 0;
+  font-size: 1.4em;
+  color: #a5aaae;
+}
+.main .post ol.notes li a {
+  color: #656b71;
+}
+.main .post ol.notes li a:hover {
+  color: #00aadd;
+}
