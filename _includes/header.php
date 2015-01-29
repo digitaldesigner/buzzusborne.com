@@ -89,7 +89,7 @@
 		
 		<div id="header">
 			<h1><a href="<?php echo path; ?>">Buzz Usborne</a></h1>
-			<h2>Digital Art Director</h2>
+			<h2>Digital Designer</h2>
 		</div>
 
 		<div id="keycontrols">

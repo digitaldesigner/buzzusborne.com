@@ -20,7 +20,7 @@
 			
 			<p class="lead">I am Digital Designer and Creative Director living in Sydney, Australia. With a passion for problem solving – I enjoy varied, challenging digital work.</p>
 
-			<p>I have been responsible for producing award-winning UX and Digital design as part of the Skype, Microsoft and Campaign Monitor product teams. And as a Digital Designer working in agencies on behalf of clients such as Agent Provocateur, Johnson & Johnson, Toni&Guy and E*Trade.</p>
+			<p>I have been responsible for producing award-winning UX and UI design as part of the Skype, Microsoft and Campaign Monitor product teams. And as a Digital Designer working in agencies on behalf of clients such as Agent Provocateur, Johnson & Johnson, Toni&Guy and E*Trade.</p>
 
 			<p>I am an excellent communicator with a passion for creativity and technical innovation. Well-versed in running a project from concept through to completion, I not only have experience in design but a proven track record of building and leading highly successful creative teams – most recently as the UX Director for <a href="http://campaignmonitor.com">Campaign Monitor</a>.</p>
 
