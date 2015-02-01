@@ -4,10 +4,14 @@
 ?>
 		
 		<div id="intro">
-			<h3>I'm Buzz, a Digital Designer living in Sydney. I work as the UX Director at Campaign Monitor and Founded Prevue. <a href="/about/" title="More about me">More</a></h3>
+			<h3>Product (UX/UI)<br /><a href="projects/prevue">Prevue</a>, Canvas, Workflows &amp; Dashboard, CreateSend, Skype, Archived</h3>
+		</div>
+
+		<div id="intro">
+			<h3>Digital<br /><a href="projects/skype">Skype</a>, Campaign Monitor, <a href="projects/pbp/">Postbox Party</a>, <a href="projects/the-argyle/">The Argyle</a>, Toni&amp;Guy, Tractor</h3>
 		</div>
 		
-		<div id="showall">		
+		<!-- <div id="showall">
 			<div class="image half prevue">
 				<a href="projects/prevue/">
 					<span class="title"><em>Prevue</em></span>
@@ -43,8 +47,7 @@
 					<span class="title"><em>The Argyle</em></span>
 					<img src="_assets/gfx/theargyle.jpg" height="180" draggable="false" />
 				</a>
-			</div>
-		</div>
+			</div> -->
 		
 <?php
 	$hideCross=TRUE;

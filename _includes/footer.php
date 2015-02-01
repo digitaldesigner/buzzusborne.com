@@ -1,14 +1,3 @@
-		<?php if(!isset($hideCross)) { ?><h4>Selected projects</h4>
-		<ul id="work"><?php
-
-	foreach($projects as $dir => $details):
-		echo "\n			<li"; if($thisDIR==$dir){ echo " class=\"active\""; }
-		echo"><a href=\"".path."projects/".$dir."\"><span class=\"title\"><em>".$details['title']."</em></span><img src=\"".path."_assets/gfx/".$details['thumb']."\" /></a></li>";
-	endforeach;			
-
-?>
-		
-		</ul><?php } ?>
 		
 		<div id="footer"<?php if(isset($home)) { echo 'class="break"'; } ?>>
 			<ul>
