@@ -64,6 +64,9 @@
 		endforeach;
 		
 	}
+	
+	$prev = NULL;
+	$next = NULL;
 
 ?><!DOCTYPE html>
 <html lang="en">

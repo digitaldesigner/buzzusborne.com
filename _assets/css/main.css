@@ -674,6 +674,15 @@ p {
   color: #00aadd;
   border-color: #00aadd;
 }
+hr.sectionBreak {
+  float: left;
+  width: 6%;
+  margin: 30px 47% 50px;
+  padding: 0;
+  border: none;
+  height: 3px;
+  background: #d9d9dd;
+}
 #intro h3 {
   float: left;
   width: 70%;
@@ -693,8 +702,25 @@ p {
 #intro h3 a:hover {
   border-color: #c2e065;
 }
+.fullImage {
+  float: left;
+  width: 90%;
+  text-align: center;
+  margin: 30px 5%;
+}
+.fullImage img {
+  width: auto;
+  max-width: 100%;
+}
+.fullImage img.spacer {
+  margin-top: 20px;
+}
+.project h3,
 #project h3,
-#about h3 {
+#about h3,
+.project h2,
+#project h2,
+#about h2 {
   float: left;
   width: 563.66666667px;
   margin: 20px 0 40px 0;
@@ -704,6 +730,13 @@ p {
   font-weight: 800;
   color: #2f353e;
 }
+.project h2,
+#project h2,
+#about h2 {
+  text-decoration: underline;
+  font-size: 4em;
+}
+.project ol,
 #project ol,
 #about ol {
   float: right;
@@ -713,6 +746,7 @@ p {
   padding: 0 40px 0 0;
   list-style-position: outside;
 }
+.project ol li,
 #project ol li,
 #about ol li {
   float: left;
@@ -724,6 +758,7 @@ p {
   line-height: 1.6em;
   color: #505a6a;
 }
+.project hr.section,
 #project hr.section,
 #about hr.section {
   float: left;
@@ -733,6 +768,7 @@ p {
   border: none;
   border-bottom: 4px solid #ececee;
 }
+.project p,
 #project p,
 #about p {
   float: right;
@@ -741,18 +777,22 @@ p {
   margin: 0 0 30px 0;
   padding: 0 40px 0 0;
 }
+.project p a,
 #project p a,
 #about p a {
   color: inherit;
   border-bottom: 1px solid #c2e065;
 }
+.project p a:hover,
 #project p a:hover,
 #about p a:hover {
   color: #00aadd;
   border-color: #00aadd;
 }
+.project p.caption,
 #project p.caption,
 #about p.caption,
+.project p.info,
 #project p.info,
 #about p.info {
   font-style: italic;
@@ -762,20 +802,25 @@ p {
   color: #a5b3be;
   clear: both;
 }
+.project p.caption strong,
 #project p.caption strong,
 #about p.caption strong,
+.project p.info strong,
 #project p.info strong,
 #about p.info strong {
   font-weight: normal;
   font-style: inherit;
   color: #2f353e;
 }
+.project p.caption a,
 #project p.caption a,
 #about p.caption a,
+.project p.info a,
 #project p.info a,
 #about p.info a {
   font-style: inherit;
 }
+.project p.caption,
 #project p.caption,
 #about p.caption {
   float: left;
@@ -785,12 +830,14 @@ p {
   margin: 0px 0 10px 170px;
   border-left: 1px solid #f4f4f5;
 }
+.project p.caption.inline,
 #project p.caption.inline,
 #about p.caption.inline {
   float: right;
   border: none;
   margin-bottom: 30px;
 }
+.project p.info,
 #project p.info,
 #about p.info {
   float: left;
@@ -799,12 +846,14 @@ p {
   text-align: right;
   border-right: 1px solid #f4f4f5;
 }
+.project p.half,
 #project p.half,
 #about p.half {
   width: 330px;
   padding: 0 50px 0 30px;
   margin: 30px 0 0 0;
 }
+.project p.half.caption,
 #project p.half.caption,
 #about p.half.caption {
   float: right;
@@ -812,6 +861,7 @@ p {
   border-left: 1px solid #f4f4f5;
   clear: none;
 }
+.project h5,
 #project h5,
 #about h5 {
   float: left;
@@ -823,12 +873,14 @@ p {
   font-weight: 800;
   color: #2f353e;
 }
+.project h5.half,
 #project h5.half,
 #about h5.half {
   width: 330px;
   padding: 0 50px 0 45px;
   margin: 50px 0 0 0;
 }
+.project .image,
 #project .image,
 #about .image {
   float: left;
@@ -836,56 +888,68 @@ p {
   background: #fbfbfb;
   margin: 30px 0 30px;
 }
+.project .image img,
 #project .image img,
 #about .image img {
   float: left;
   margin: 0;
   padding: 0;
 }
+.project .image.first,
 #project .image.first,
 #about .image.first {
   margin-top: 0;
 }
+.project .image.close,
 #project .image.close,
 #about .image.close {
   margin-top: -20px;
 }
+.project .image.border,
 #project .image.border,
 #about .image.border {
   width: 848px;
   border: 1px solid #f4f4f5;
 }
+.project .image.border img,
 #project .image.border img,
 #about .image.border img {
   width: 100%;
 }
+.project .image.half,
 #project .image.half,
 #about .image.half {
   width: 420px;
   margin: 30px 5px 30px 0;
 }
+.project .image.half.border,
 #project .image.half.border,
 #about .image.half.border {
   width: 418px;
 }
+.project .image.half.right,
 #project .image.half.right,
 #about .image.half.right {
   float: right;
   margin-left: 5px;
   margin-right: 0;
 }
+.project .image.half.close,
 #project .image.half.close,
 #about .image.half.close {
   margin-top: -20px;
 }
+.project .image.under,
 #project .image.under,
 #about .image.under {
   margin-bottom: 60px;
 }
+.project .image.over,
 #project .image.over,
 #about .image.over {
   margin-top: 50px;
 }
+.project .video,
 #project .video,
 #about .video {
   float: right;
@@ -895,6 +959,7 @@ p {
   padding: 0 0 0 0;
   background: #f4f4f5;
 }
+.project .video img,
 #project .video img,
 #about .video img {
   width: 100%;
@@ -1277,19 +1342,29 @@ ul#work li.active .title em:hover {
     margin-left: 10%;
     margin-right: 10%;
   }
+  .container .project,
   .container #project {
     max-width: 100%;
     float: left;
   }
+  .container .project img,
   .container #project img {
     max-width: 100%;
     height: auto;
   }
+  .container .project h2,
+  .container #project h2,
+  .container .project h3,
   .container #project h3,
+  .container .project h5,
   .container #project h5,
+  .container .project p,
   .container #project p,
+  .container .project ol,
   .container #project ol,
+  .container .project p.half,
   .container #project p.half,
+  .container .project .video,
   .container #project .video {
     float: left;
     width: 70%;
@@ -1298,17 +1373,33 @@ ul#work li.active .title em:hover {
     padding-left: 0;
     padding-right: 0;
   }
+  .container .project h2.info,
+  .container #project h2.info,
+  .container .project h3.info,
   .container #project h3.info,
+  .container .project h5.info,
   .container #project h5.info,
+  .container .project p.info,
   .container #project p.info,
+  .container .project ol.info,
   .container #project ol.info,
+  .container .project p.half.info,
   .container #project p.half.info,
+  .container .project .video.info,
   .container #project .video.info,
+  .container .project h2.caption,
+  .container #project h2.caption,
+  .container .project h3.caption,
   .container #project h3.caption,
+  .container .project h5.caption,
   .container #project h5.caption,
+  .container .project p.caption,
   .container #project p.caption,
+  .container .project ol.caption,
   .container #project ol.caption,
+  .container .project p.half.caption,
   .container #project p.half.caption,
+  .container .project .video.caption,
   .container #project .video.caption {
     width: 50%;
     margin-left: 13%;
@@ -1319,31 +1410,50 @@ ul#work li.active .title em:hover {
     border-left: 1px solid #e7e7e9;
     border-right: none;
   }
+  .container .project h2.caption,
+  .container #project h2.caption,
+  .container .project h3.caption,
   .container #project h3.caption,
+  .container .project h5.caption,
   .container #project h5.caption,
+  .container .project p.caption,
   .container #project p.caption,
+  .container .project ol.caption,
   .container #project ol.caption,
+  .container .project p.half.caption,
   .container #project p.half.caption,
+  .container .project .video.caption,
   .container #project .video.caption,
+  .container .project h2.caption.inline,
+  .container #project h2.caption.inline,
+  .container .project h3.caption.inline,
   .container #project h3.caption.inline,
+  .container .project h5.caption.inline,
   .container #project h5.caption.inline,
+  .container .project p.caption.inline,
   .container #project p.caption.inline,
+  .container .project ol.caption.inline,
   .container #project ol.caption.inline,
+  .container .project p.half.caption.inline,
   .container #project p.half.caption.inline,
+  .container .project .video.caption.inline,
   .container #project .video.caption.inline {
     float: left;
     width: 70%;
   }
+  .container .project ol li,
   .container #project ol li {
     width: 100%;
     margin-left: 0;
     margin-right: 0;
     padding-left: 0;
   }
+  .container .project .video,
   .container #project .video {
     width: 90%;
     margin-left: 5%;
   }
+  .container .project .image,
   .container #project .image {
     float: left;
     padding-left: 0;
@@ -1353,9 +1463,11 @@ ul#work li.active .title em:hover {
     margin-right: 0;
     background: none;
   }
+  .container .project .image.border,
   .container #project .image.border {
     width: 100%;
   }
+  .container .project .image.half,
   .container #project .image.half {
     width: 49%;
     margin-left: 0;
@@ -1363,10 +1475,12 @@ ul#work li.active .title em:hover {
     padding-left: 0;
     padding-right: 0;
   }
+  .container .project .image.half.right,
   .container #project .image.half.right {
     margin-left: 0.5%;
     margin-right: 0;
   }
+  .container .project .image.half img,
   .container #project .image.half img {
     float: none;
     display: inline-block;
@@ -1375,6 +1489,7 @@ ul#work li.active .title em:hover {
     max-width: 100%;
     height: auto;
   }
+  .container .project .image.half.break,
   .container #project .image.half.break {
     width: 100%;
   }
@@ -1462,6 +1577,11 @@ ul#work li.active .title em:hover {
   }
 }
 @media only screen and (max-width: 450px) {
+  body hr.sectionBreak {
+    width: 14%;
+    margin-left: 43%;
+    margin-right: 43%;
+  }
   body .container {
     width: 96%;
     margin: 0 2%;
@@ -1507,28 +1627,36 @@ ul#work li.active .title em:hover {
   body .container ul#work li {
     width: 100%;
   }
+  body .container .project p.caption,
   body .container #project p.caption,
+  body .container .project p.info,
   body .container #project p.info {
     width: 70%;
   }
+  body .container .project ol,
   body .container #project ol {
     list-style-position: inside;
   }
+  body .container .project .image.half,
   body .container #project .image.half {
     margin-top: 5px;
     margin-bottom: 0;
     width: 100%;
   }
+  body .container .project .image.half.under,
   body .container #project .image.half.under {
     display: none;
   }
+  body .container .project .image.half img,
   body .container #project .image.half img {
     max-width: 100%;
     height: auto;
   }
+  body .container .project .image.close,
   body .container #project .image.close {
     margin-top: 5px;
   }
+  body .container .project .video,
   body .container #project .video {
     width: 100%;
     margin-left: 0;

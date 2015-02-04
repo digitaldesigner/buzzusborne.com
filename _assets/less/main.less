@@ -192,6 +192,16 @@ p { .bodyfont; }
 	}
 }
 
+hr.sectionBreak {
+	float:left;
+	width:6%;
+	margin:30px 47% 50px;
+	padding:0;
+	border:none;
+	height:3px;
+	background:darken(@borders,10%);
+}
+
 #intro {
 	h3 {
 		float:left;
@@ -213,15 +223,37 @@ p { .bodyfont; }
 	}
 }
 
+.fullImage {
+	float:left;
+	width:90%;
+	text-align:center;
+	margin:30px 5%;
+	
+	img {
+		width:auto;
+		max-width:100%;
+		
+		&.spacer {
+			margin-top:20px;
+		}
+	}
+}
+
+.project,
 #project,
 #about {
 	
-	h3 {
+	h3,h2 {
 		float:left;
 		width:@sitewidth - (@sitewidth/3 + 3);
 		margin:20px 0 40px 0;
 		padding-left:(@sitewidth/3 + 3);
 		.title(3em);
+	}
+	
+	h2 {
+		text-decoration:underline;
+		font-size:4em;
 	}
 	
 	ol{
@@ -872,6 +904,7 @@ ul#work{
 			}
 		}
 		
+		.project,
 		#project {
 			max-width:100%;
 			float:left;
@@ -881,7 +914,7 @@ ul#work{
 				height:auto;
 			}
 			
-			h3,h5,p,ol,p.half,.video {
+			h2,h3,h5,p,ol,p.half,.video {
 				float:left;
 				width:70%;
 				margin-left:15%;
@@ -1073,6 +1106,13 @@ ul#work{
 
 @media only screen and (max-width: @mobile) {
 	body {
+		
+		hr.sectionBreak {
+			width:14%;
+			margin-left:43%;
+			margin-right:43%;
+		}
+		
 		.container {
 			width:96%;
 			margin:0 2%;
@@ -1126,6 +1166,7 @@ ul#work{
 				}
 			}
 			
+			.project,
 			#project {
 				p {
 					&.caption,&.info{
