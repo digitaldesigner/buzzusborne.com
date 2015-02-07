@@ -49,8 +49,9 @@
 			<div class="image close"><img src="../_images/prevue/ui_proMenu.png" /></div>
 			<div class="image close"><img src="../_images/prevue/ui_groups.jpg" /></div>
 			<div class="image close"><img src="../_images/prevue/ui_upgrade.jpg" /></div>
-			<div class="image half close under"><img src="../_images/prevue/ui_menu.png" /></div>
-			<div class="image half right close under"><img src="../_images/prevue/ui_logo.png" /></div>
+			<div class="image half close"><img src="../_images/prevue/ui_menu.png" /></div>
+			<div class="image half right close"><img src="../_images/prevue/ui_logo.png" /></div>
+			<div class="image close under"><img src="../_images/prevue/ui_icons.png" /></div>
 		</div>
 	</div>
 	
