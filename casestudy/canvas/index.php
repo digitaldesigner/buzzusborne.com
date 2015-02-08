@@ -12,8 +12,9 @@
 	<div class="container">	
 		<div class="project">
 			<h2>Canvas</h2>
-			<p class="info"><strong>Above/</strong> Something</p>
-			<p>Other text</p>
+			<p class="info"><strong>Above/</strong> Canvas provides the user with a number of customisable designs as a starting point</p>
+			<p>Building HTML emails that work across-the-board is hard... making them look good is next to impossible. There are existing tools out there, but all of them provide create cookie-cutter templates and hard-to-use interfaces &mdash; <a href="https://www.campaignmonitor.com" target="_blank">Campaign Monitor</a> saw an opportunity to do better:</p>
+			<blockquote><em>&ldquo;</em>Create an easy way for people to design beautiful, bespoke-looking emails that work everywhere, without needing to know code.&rdquo;</blockquote>
 		</div>
 	</div>
 	
@@ -24,8 +25,10 @@
 	<div class="container">	
 		<div class="project">
 			<h5>UX</h5>
-			<p class="info"><strong>Below/</strong> Some small parts of the UI where special attention has been paid to the details</p>			
-			<p>Prevue has been my own personal experiment in UX/UI - every interaction, element and animation has been designed to ensure the product is as efficient and intuitive as possible.</p>
+			<p class="info"><strong>Below/</strong> Some of the sketches that helped inform the interface design</p>			
+			<p>After researching existing products in the market, and other similar tools like website and blog creators - I saw that most tools were simply passing complexity onto the user. Instead, I wanted to create a simple interface that let the user see their finished creation without unnecessary UI getting in the way. I wanted to focus on ease-of-use, and produce a product that felt intuitive, fun and native.</p>
+			
+			<p>Starting with a lot of sketching, I set out to create an experience that didn't require much UI - one that only showed controls and prompts when the user absolutely needed them.</p>
 			
 			<div class="image half"><img src="../_images/canvas/sketch_01.jpg" /></div>
 			<div class="image half right"><img src="../_images/canvas/sketch_02.jpg" /></div>
@@ -41,8 +44,8 @@
 	<div class="container">
 		<div class="project">
 			<h5>Designing a Visual Language</h5>
-			<p class="info"><strong>Below/</strong> Some small parts of the UI where special attention has been paid to the details</p>			
-			<p>Prevue has been my own personal experiment in UX/UI - every interaction, element and animation has been designed to ensure the product is as efficient and intuitive as possible.</p>
+			<p class="info"><strong>Below/</strong> sdgsd</p>
+			<p>Flexible, intuitive, visual foundation to build on. Core principles, blue means drag, when stuff hovers. How things drag</p>
 			
 			<div class="image"><img src="../_images/canvas/blankslate.png" width="100%" /></div>
 			<div class="image close"><img src="../_images/canvas/icon_tests.png" width="100%" /></div>
@@ -56,9 +59,10 @@
 	
 	<div class="container">
 		<div class="project">
-			<h5>UX</h5>
+			<h5>A &lsquo;Blank Canvas&rsquo;</h5>
 			<p class="info"><strong>Below/</strong> Some small parts of the UI where special attention has been paid to the details</p>			
-			<p>Prevue has been my own personal experiment in UX/UI - every interaction, element and animation has been designed to ensure the product is as efficient and intuitive as possible.</p>
+			<p>The outcome was an easy-to-use interface that allows users to design bespoke-looking emails that suited their content, without having to worry about the complexity of HTML. Users are rarely presented with errors, can create content how they want, and are able to see exactly what their email will look like at all times.</p>
+			<p><a href="https://www.campaignmonitor.com/email-templates/">Try Canvas</a> (now called 'Template Builder')</p>
 		</div>
 	</div>
 	

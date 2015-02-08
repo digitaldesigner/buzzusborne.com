@@ -604,7 +604,8 @@ h1 {
   font-weight: 800;
   color: #2f353e;
 }
-p {
+p,
+blockquote {
   font-family: 'Lora', Georgia, serif;
   font-size: 1.5em;
   line-height: 1.6em;
@@ -770,7 +771,10 @@ hr.sectionBreak {
 }
 .project p,
 #project p,
-#about p {
+#about p,
+.project blockquote,
+#project blockquote,
+#about blockquote {
   float: right;
   text-align: left;
   width: 522.66666667px;
@@ -779,22 +783,34 @@ hr.sectionBreak {
 }
 .project p a,
 #project p a,
-#about p a {
+#about p a,
+.project blockquote a,
+#project blockquote a,
+#about blockquote a {
   color: inherit;
   border-bottom: 1px solid #c2e065;
 }
 .project p a:hover,
 #project p a:hover,
-#about p a:hover {
+#about p a:hover,
+.project blockquote a:hover,
+#project blockquote a:hover,
+#about blockquote a:hover {
   color: #00aadd;
   border-color: #00aadd;
 }
 .project p.caption,
 #project p.caption,
 #about p.caption,
+.project blockquote.caption,
+#project blockquote.caption,
+#about blockquote.caption,
 .project p.info,
 #project p.info,
-#about p.info {
+#about p.info,
+.project blockquote.info,
+#project blockquote.info,
+#about blockquote.info {
   font-style: italic;
   font-size: 1.3em;
   line-height: 1.9em;
@@ -805,9 +821,15 @@ hr.sectionBreak {
 .project p.caption strong,
 #project p.caption strong,
 #about p.caption strong,
+.project blockquote.caption strong,
+#project blockquote.caption strong,
+#about blockquote.caption strong,
 .project p.info strong,
 #project p.info strong,
-#about p.info strong {
+#about p.info strong,
+.project blockquote.info strong,
+#project blockquote.info strong,
+#about blockquote.info strong {
   font-weight: normal;
   font-style: inherit;
   color: #2f353e;
@@ -815,14 +837,23 @@ hr.sectionBreak {
 .project p.caption a,
 #project p.caption a,
 #about p.caption a,
+.project blockquote.caption a,
+#project blockquote.caption a,
+#about blockquote.caption a,
 .project p.info a,
 #project p.info a,
-#about p.info a {
+#about p.info a,
+.project blockquote.info a,
+#project blockquote.info a,
+#about blockquote.info a {
   font-style: inherit;
 }
 .project p.caption,
 #project p.caption,
-#about p.caption {
+#about p.caption,
+.project blockquote.caption,
+#project blockquote.caption,
+#about blockquote.caption {
   float: left;
   text-align: left;
   width: 502.66666667px;
@@ -832,14 +863,20 @@ hr.sectionBreak {
 }
 .project p.caption.inline,
 #project p.caption.inline,
-#about p.caption.inline {
+#about p.caption.inline,
+.project blockquote.caption.inline,
+#project blockquote.caption.inline,
+#about blockquote.caption.inline {
   float: right;
   border: none;
   margin-bottom: 30px;
 }
 .project p.info,
 #project p.info,
-#about p.info {
+#about p.info,
+.project blockquote.info,
+#project blockquote.info,
+#about blockquote.info {
   float: left;
   width: 183.33333333px;
   padding: 0 10px 0 40px;
@@ -848,18 +885,40 @@ hr.sectionBreak {
 }
 .project p.half,
 #project p.half,
-#about p.half {
+#about p.half,
+.project blockquote.half,
+#project blockquote.half,
+#about blockquote.half {
   width: 330px;
   padding: 0 50px 0 30px;
   margin: 30px 0 0 0;
 }
 .project p.half.caption,
 #project p.half.caption,
-#about p.half.caption {
+#about p.half.caption,
+.project blockquote.half.caption,
+#project blockquote.half.caption,
+#about blockquote.half.caption {
   float: right;
   padding-left: 20px;
   border-left: 1px solid #f4f4f5;
   clear: none;
+}
+.project blockquote,
+#project blockquote,
+#about blockquote {
+  font-size: 2em;
+  font-style: italic;
+  position: relative;
+}
+.project blockquote em,
+#project blockquote em,
+#about blockquote em {
+  position: absolute;
+  top: -5px;
+  left: -50px;
+  font-size: 4em;
+  font-family: "Times New Roman";
 }
 .project h5,
 #project h5,
@@ -1365,7 +1424,9 @@ ul#work li.active .title em:hover {
   .container .project p.half,
   .container #project p.half,
   .container .project .video,
-  .container #project .video {
+  .container #project .video,
+  .container .project blockquote,
+  .container #project blockquote {
     float: left;
     width: 70%;
     margin-left: 15%;
@@ -1387,6 +1448,8 @@ ul#work li.active .title em:hover {
   .container #project p.half.info,
   .container .project .video.info,
   .container #project .video.info,
+  .container .project blockquote.info,
+  .container #project blockquote.info,
   .container .project h2.caption,
   .container #project h2.caption,
   .container .project h3.caption,
@@ -1400,7 +1463,9 @@ ul#work li.active .title em:hover {
   .container .project p.half.caption,
   .container #project p.half.caption,
   .container .project .video.caption,
-  .container #project .video.caption {
+  .container #project .video.caption,
+  .container .project blockquote.caption,
+  .container #project blockquote.caption {
     width: 50%;
     margin-left: 13%;
     margin-right: 0;
@@ -1424,6 +1489,8 @@ ul#work li.active .title em:hover {
   .container #project p.half.caption,
   .container .project .video.caption,
   .container #project .video.caption,
+  .container .project blockquote.caption,
+  .container #project blockquote.caption,
   .container .project h2.caption.inline,
   .container #project h2.caption.inline,
   .container .project h3.caption.inline,
@@ -1437,7 +1504,9 @@ ul#work li.active .title em:hover {
   .container .project p.half.caption.inline,
   .container #project p.half.caption.inline,
   .container .project .video.caption.inline,
-  .container #project .video.caption.inline {
+  .container #project .video.caption.inline,
+  .container .project blockquote.caption.inline,
+  .container #project blockquote.caption.inline {
     float: left;
     width: 70%;
   }
@@ -1596,6 +1665,18 @@ ul#work li.active .title em:hover {
     margin-left: 7%;
     margin-right: 8%;
     margin-bottom: 20px;
+  }
+  body .container blockquote {
+    margin-top: 30px;
+  }
+  body .container blockquote em {
+    position: absolute;
+    left: -20px;
+    top: -35px;
+    float: left;
+    width: 100%;
+    margin: 0;
+    font-size: 3em;
   }
   body .container #overlay {
     margin-top: 10px;

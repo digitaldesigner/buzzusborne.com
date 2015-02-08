@@ -124,7 +124,7 @@ a#next{
 }
 
 h1 { .title; }
-p { .bodyfont; }
+p,blockquote { .bodyfont; }
 
 #header {
 	float:left;
@@ -284,7 +284,7 @@ hr.sectionBreak {
 		}
 	}
 	
-	p {
+	p,blockquote {
 		float:right;
 		text-align:left;
 		width:((@sitewidth - (@sitewidth/3) - 4) - 40);
@@ -354,6 +354,20 @@ hr.sectionBreak {
 				border-left:1px solid @borders;
 				clear:none;
 			}
+		}
+	}
+
+	blockquote {
+		font-size:2em;
+		font-style:italic;
+		position:relative;
+		
+		em {
+			position:absolute;
+			top:-5px;
+			left:-50px;
+			font-size:4em;
+			font-family:"Times New Roman";
 		}
 	}
 	
@@ -914,7 +928,7 @@ ul#work{
 				height:auto;
 			}
 			
-			h2,h3,h5,p,ol,p.half,.video {
+			h2,h3,h5,p,ol,p.half,.video,blockquote {
 				float:left;
 				width:70%;
 				margin-left:15%;
@@ -1128,6 +1142,20 @@ ul#work{
 					margin-left:7%;
 					margin-right:8%;
 					margin-bottom:20px;
+				}
+			}
+			
+			blockquote {
+				margin-top:30px;
+				
+				em {
+					position:absolute;
+					left:-20px;
+					top:-35px;
+					float:left;
+					width:100%;
+					margin:0;
+					font-size:3em;
 				}
 			}
 			
