@@ -48,12 +48,14 @@
 			<p>Flexible, intuitive, visual foundation to build on. Core principles, blue means drag, when stuff hovers. How things drag</p>
 			
 			<div class="image"><img src="../_images/canvas/blankslate.png" width="100%" /></div>
+			<p class="caption">Some kind of shit right here</p>
+			<div class="image"><img src= "../_images/canvas/text_alignment.gif" /></div>
 			<div class="image close"><img src="../_images/canvas/icon_tests.png" width="100%" /></div>
-			<p class="caption"><strong>Above/</strong> User testing iconography</p>
 		</div>
 	</div>
 	
 	<div class="fullImage">
+		<img src="../_images/canvas/misc_icons.png" />
 		<img src="../_images/canvas/section_content.png" />
 	</div> 
 	
@@ -68,6 +70,7 @@
 	
 	<div class="fullImage">
 		<img src="../_images/canvas/full_app.jpg" />
+		<img src="../_images/canvas/final_email.jpg" class="spacer" />
 	</div>
 	
 	<div class="container">
