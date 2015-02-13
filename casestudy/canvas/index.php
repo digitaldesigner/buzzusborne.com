@@ -6,20 +6,20 @@
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/choose_template.jpg" />
+		<img src="../_images/canvas/modal.jpg" />
 	</div>
 
 	<div class="container">	
 		<div class="project">
 			<h2>Canvas</h2>
-			<p class="info"><strong>Above/</strong> Canvas provides the user with a number of customisable designs as a starting point</p>
+			<p class="info"><strong>Above &amp; below/</strong> Canvas provides the user with a number of customisable designs as a starting point</p>
 			<p>Building HTML emails that work across-the-board is hard... making them look good is next to impossible. There are existing tools out there, but all of them provide create cookie-cutter templates and hard-to-use interfaces &mdash; <a href="https://www.campaignmonitor.com" target="_blank">Campaign Monitor</a> saw an opportunity to do better:</p>
-			<blockquote><em>&ldquo;</em>Create an easy way for people to design beautiful, bespoke-looking emails that work everywhere, without needing to know code.&rdquo;</blockquote>
+			<blockquote class="spacer"><em>&ldquo;</em>Create an easy way for people to design beautiful, bespoke-looking emails that work everywhere, without needing to know code.&rdquo;</blockquote>
 		</div>
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/modal.jpg" width="100%" />
+		<img src="../_images/canvas/choose_template.jpg" width="100%" />
 	</div>
 	
 	<div class="container">	

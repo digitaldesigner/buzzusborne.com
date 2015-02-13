@@ -716,6 +716,9 @@ hr.sectionBreak {
 .fullImage img.spacer {
   margin-top: 20px;
 }
+.fullImage img.bottom {
+  margin-bottom: 50px;
+}
 .project h3,
 #project h3,
 #about h3,
@@ -911,6 +914,11 @@ hr.sectionBreak {
   font-style: italic;
   position: relative;
 }
+.project blockquote.spacer,
+#project blockquote.spacer,
+#about blockquote.spacer {
+  margin: 30px 0 60px;
+}
 .project blockquote em,
 #project blockquote em,
 #about blockquote em {
@@ -919,6 +927,7 @@ hr.sectionBreak {
   left: -50px;
   font-size: 4em;
   font-family: "Times New Roman";
+  color: #00aadd;
 }
 .project h5,
 #project h5,
