@@ -1,5 +1,6 @@
 <?php 
 	define('path','../../');
+	$buzzTitle="Product Designer";
 	include(path.'_includes/header.php');
 ?>
 		

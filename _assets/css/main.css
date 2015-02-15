@@ -1131,78 +1131,51 @@ h4 {
   text-align: center;
   font-weight: normal;
 }
-#showall {
+.showall {
   float: left;
   width: 100%;
   margin: 30px 0 40px 0;
 }
-#showall .image {
+.showall .image {
   float: left;
   width: 100%;
   background: #fbfbfb;
   margin: 0 0 11px 0;
   overflow: hidden;
 }
-#showall .image.cmdigi {
-  background-color: #ebebef;
+.showall .image.eleven {
+  background: #e7e7e9;
 }
-#showall .image.cmdigi .title {
-  color: #042033;
+.showall .image.one {
+  background: #d9d9dd;
 }
-#showall .image.cmdigi img {
-  width: 100%;
+.showall .image.nine {
+  background: #ccccd1;
 }
-#showall .image.buzz {
-  background-color: #dcdade;
+.showall .image.three {
+  background: #bfbfc4;
 }
-#showall .image.buzz .title {
-  color: white;
+.showall .image.seven {
+  background: #b1b1b8;
 }
-#showall .image.buzz img {
-  width: 100%;
+.showall .image.six {
+  background: #a4a4ac;
 }
-#showall .image.skype {
-  background-color: #1fb8e9;
+.showall .image.done {
+  background: #c2e065;
 }
-#showall .image.skype .title {
-  color: #052b37;
-}
-#showall .image.campmon {
-  background-color: #1688eb;
-}
-#showall .image.campmon .title {
-  color: #000102;
-}
-#showall .image.prevue {
-  background-color: #8a7c8d;
-}
-#showall .image.prevue .title {
-  color: white;
-}
-#showall .image.pbp {
-  background-color: #b6b19d;
-}
-#showall .image.pbp .title {
-  color: #302e24;
-}
-#showall .image.argyle {
-  background-color: #7a201c;
-}
-#showall .image.argyle .title {
-  color: #d85c57;
-}
-#showall .image img {
+.showall .image img {
   float: left;
   margin: 0;
   padding: 0;
 }
-#showall .image a {
+.showall .image a {
   float: left;
   width: 100%;
   height: 100%;
   position: relative;
 }
-#showall .image a .title {
+.showall .image a .title {
   position: absolute;
   font-family: "proxima-nova", Georgia;
   font-size: 4em;
@@ -1222,71 +1195,71 @@ h4 {
   -o-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
-#showall .image a .title em {
+.showall .image a .title em {
   font-weight: inherit;
   font-style: normal;
   display: inline;
   border-bottom: 3px solid;
 }
-#showall .image a:hover .title {
+.showall .image a:hover .title {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
 }
-#showall .image.half {
+.showall .image.half {
   height: 478px;
   width: 420px;
   margin-right: 5px;
 }
-#showall .image.half img {
+.showall .image.half img {
   width: 100%;
 }
-#showall .image.half .title {
+.showall .image.half .title {
   line-height: 468px;
 }
-#showall .image.half:hover .title {
+.showall .image.half:hover .title {
   line-height: 478px;
 }
-#showall .image.half.right {
+.showall .image.half.right {
   float: right;
   margin-left: 5px;
   margin-right: 0;
 }
-#showall .image.spanthree {
+.showall .image.spanthree {
   height: 286px;
   width: 563.66666667px;
 }
-#showall .image.spanthree .title {
+.showall .image.spanthree .title {
   line-height: 276px;
 }
-#showall .image.spanthree:hover .title {
+.showall .image.spanthree:hover .title {
   line-height: 286px;
 }
-#showall .image.portrait {
+.showall .image.portrait {
   width: 276.33333333px;
   float: right;
   height: 477px;
 }
-#showall .image.portrait .title {
+.showall .image.portrait .title {
   line-height: 467px;
   font-size: 3em;
 }
-#showall .image.portrait:hover .title {
+.showall .image.portrait:hover .title {
   line-height: 477px;
 }
-#showall .image.thumb {
+.showall .image.thumb {
   width: 276.33333333px;
   margin-right: 11px;
   height: 180px;
 }
-#showall .image.thumb .title {
+.showall .image.thumb .title {
   line-height: 165px;
   font-size: 2.5em;
 }
-#showall .image.thumb:hover .title {
+.showall .image.thumb:hover .title {
   line-height: 175px;
 }
-#showall .image.thumb.right {
+.showall .image.thumb.right {
   margin-right: 0;
 }
 ul#work {
@@ -1605,40 +1578,40 @@ ul#work li.active .title em:hover {
   .container #footer.break ul {
     width: 100%;
   }
-  .container #showall .image img {
+  .container .showall .image img {
     max-width: 100%;
     height: auto;
   }
-  .container #showall .image.half {
+  .container .showall .image.half {
     width: 50%;
     margin-left: 0;
     margin-right: 0;
     height: auto;
     margin-bottom: 2%;
   }
-  .container #showall .image.half.right {
+  .container .showall .image.half.right {
     float: left;
   }
-  .container #showall .image.spanthree {
+  .container .showall .image.spanthree {
     width: 66%;
     margin-left: 0;
     margin-right: 0;
     height: auto;
     margin-bottom: 0;
   }
-  .container #showall .image.portrait {
+  .container .showall .image.portrait {
     width: 31.85%;
     height: auto;
     max-height: 10%;
     margin-left: 0;
     margin-right: 0;
   }
-  .container #showall .image.thumb {
+  .container .showall .image.thumb {
     width: 33%;
     margin: 0;
     height: auto;
   }
-  .container #showall .image a .title {
+  .container .showall .image a .title {
     display: none;
   }
   .container #about h3,
@@ -1690,25 +1663,25 @@ ul#work li.active .title em:hover {
   body .container #overlay {
     margin-top: 10px;
   }
-  body .container #showall {
+  body .container .showall {
     margin-left: 5%;
     width: 90%;
   }
-  body .container #showall .image.half,
-  body .container #showall .image.spanthree,
-  body .container #showall .image.thumb,
-  body .container #showall .image.portrait {
+  body .container .showall .image.half,
+  body .container .showall .image.spanthree,
+  body .container .showall .image.thumb,
+  body .container .showall .image.portrait {
     width: 100%;
     margin-top: 0;
     margin-bottom: 2%;
   }
-  body .container #showall .image.half img,
-  body .container #showall .image.spanthree img,
-  body .container #showall .image.thumb img,
-  body .container #showall .image.portrait img {
+  body .container .showall .image.half img,
+  body .container .showall .image.spanthree img,
+  body .container .showall .image.thumb img,
+  body .container .showall .image.portrait img {
     width: 100%;
   }
-  body .container #showall .image.portrait {
+  body .container .showall .image.portrait {
     max-height: 280px;
   }
   body .container ol {

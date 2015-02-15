@@ -1,5 +1,6 @@
 <?php 
 	define('path','../../');
+	$buzzTitle="Product Designer";
 	include(path.'_includes/header.php');
 ?>
 		
@@ -44,18 +45,20 @@
 	<div class="container">
 		<div class="project">
 			<h5>Designing a Visual Language</h5>
-			<p class="info"><strong>Below/</strong> sdgsd</p>
+			<p class="info"><strong>Below/</strong> Explanation...</p>
 			<p>Flexible, intuitive, visual foundation to build on. Core principles, blue means drag, when stuff hovers. How things drag</p>
 			
 			<div class="image"><img src="../_images/canvas/blankslate.png" width="100%" /></div>
-			<p class="caption">Some kind of shit right here</p>
-			<div class="image"><img src= "../_images/canvas/text_alignment.gif" /></div>
 			<div class="image close"><img src="../_images/canvas/icon_tests.png" width="100%" /></div>
+			
+			<div class="image half close"><img src="../_images/canvas/sidebar_image.jpg" width="100%" /></div>
+			<div class="image half right close"><img src="../_images/canvas/sidebar_gallery.jpg" width="100%" /></div>
+			
+			<p class="caption"><strong>Above &amp; below/</strong> Explanation...</p>
 		</div>
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/misc_icons.png" />
 		<img src="../_images/canvas/section_content.png" />
 	</div> 
 	

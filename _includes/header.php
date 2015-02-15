@@ -5,32 +5,10 @@
 		"title"=>"Prevue",
 		"thumb"=>"prevue.jpg"
 	);
-	$projects["campmon"]=array(
+	$projects["canvas"]=array(
 		"title"=>"Campaign Monitor",
 		"thumb"=>"campaignmonitor.jpg"
 	);
-	$projects["pbp"]=array(
-		"title"=>"Postbox Party",
-		"thumb"=>"postboxparty.jpg"
-	);
-	$projects["skype"]=array(
-		"title"=>"Skype",
-		"thumb"=>"skype.png"
-	);
-	$projects["the-argyle"]=array(
-		"title"=>"The Argyle",
-		"thumb"=>"theargyle.jpg"
-	);
-	$projects["cm-digital"]=array(
-		"title"=>"Digital CM",
-		"thumb"=>"cm_digital.jpg"
-	);
-	
-	$projects["cm-ux"]=array(
-		"title"=>"UX Design",
-		"thumb"=>"cm_ux.png"
-	);
-
 
 	$url = $_SERVER['REQUEST_URI'];
 	$parts = explode('/',$url);
@@ -72,7 +50,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Buzz Usborne - <?php if(array_key_exists($thisDIR,$projects)){ echo $projects[$thisDIR]['title']; } else { echo "Digital Art Director"; } ?></title>
+	<title>Buzz Usborne - <?php if(array_key_exists($thisDIR,$projects)){ echo $projects[$thisDIR]['title']; } else { echo "Digital Designer"; } ?></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="robots" content="index,follow,archive"/>
 	<meta name="Description" content="The portfolio of Digital Art Director, Buzz Usborne" />
@@ -92,7 +70,7 @@
 		
 		<div id="header">
 			<h1><a href="<?php echo path; ?>">Buzz Usborne</a></h1>
-			<h2>Digital Designer</h2>
+			<h2><?php if(isset($buzzTitle)&&$buzzTitle){ echo $buzzTitle; } else { echo "Digital Designer"; } ?></h2>
 		</div>
 
 		<div id="keycontrols">

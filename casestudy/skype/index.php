@@ -1,5 +1,6 @@
 <?php 
 	define('path','../../');
+	$buzzTitle="Iconographer";
 	include(path.'_includes/header.php');
 ?>
 		

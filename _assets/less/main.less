@@ -574,7 +574,7 @@ h4 {
 	
 }
 
-#showall {
+.showall {
 	float:left;
 	width:100%;
 	margin:30px 0 40px 0;
@@ -585,64 +585,28 @@ h4 {
 		background:lighten(@testing,2.5%);
 		margin:0 0 11px 0;
 		overflow:hidden;
-		
-		&.cmdigi {
-			background-color:#ebebef;
-			
-			.title{
-				color:darken(#44adf2,50%);
-			}
-			
-			img {
-				width:100%;
-			}
+
+		&.eleven {
+			background:darken(@testing,5%);
+		}
+		&.one {
+			background:darken(@testing,10%);
+		}
+		&.nine {
+			background:darken(@testing,15%);
+		}
+		&.three {
+			background:darken(@testing,20%);
+		}
+		&.seven {
+			background:darken(@testing,25%);
+		}
+		&.six {
+			background:darken(@testing,30%);
 		}
 		
-		&.buzz { 
-			background-color:#dcdade;
-			
-			.title{
-				color:white;
-			}
-			
-			img {
-				width:100%;
-			}
-		}
-		&.skype { background-color:#1fb8e9; 
-		
-			.title{
-				color:darken(#1fb8e9,40%);
-			}
-		
-		}
-		&.campmon { 
-			background-color:#1688eb;
-		
-			.title{
-				color:darken(#1688eb,50%);
-			}
-		}
-		&.prevue { 
-			background-color:#8a7c8d;
-			
-			.title{
-				color:white;
-			}
-		}
-		&.pbp { 
-			background-color:#b6b19d;
-			
-			.title{
-				color:darken(#b6b19d,50%);
-			}
-		}
-		&.argyle { 
-			background-color:#7a201c; 
-			
-			.title {
-				color:lighten(#7a201c,30%);
-			}
+		&.done {
+			background:@link;
 		}
 		
 		img {
@@ -1059,7 +1023,7 @@ ul#work{
 			}
 		}
 	
-		#showall {
+		.showall {
 			
 			.image {
 	
@@ -1172,7 +1136,7 @@ ul#work{
 				margin-top:10px;
 			}
 			
-			#showall {
+			.showall {
 				margin-left:5%;
 				width:90%;
 				.image {

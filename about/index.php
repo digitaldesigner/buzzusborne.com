@@ -6,7 +6,7 @@
 		<div id="about">		
 			<h3>About.</h3>
 			<ol>
-				<li><span>&#8226;</span><strong><?php echo date('Y'); ?></strong><br />UX Director<br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
+				<li><span>&#8226;</span><strong>Present</strong><br />UX Director<br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>2008 &ndash; <?php echo date('Y'); ?></strong><br />Founder<br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>2011 &ndash; 2014</strong><br />Creative Director<br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>2010</strong><br />Art Director<br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
