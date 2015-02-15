@@ -1,6 +1,6 @@
 <?php
 	
-	header('Location: http://buzzusborne.com');
+	header('Location: ../');
 	exit();
 	
 ?>
