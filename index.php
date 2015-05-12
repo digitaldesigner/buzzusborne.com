@@ -4,7 +4,7 @@
 ?>
 		
 		<div id="intro">
-			<h3>I'm Buzz, a Digital Designer living in Sydney. I work as the UX Director at Campaign Monitor and Founded Prevue. <a href="/about/" title="More about me">More</a></h3>
+			<h3>I'm Buzz, a Digital Designer. I work as the Senior Product Designer at Campaign Monitor &amp; Founded <a href="https://prevue.it/">Prevue</a>.</h3>
 		</div>
 		
 		<div id="showall">		

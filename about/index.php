@@ -6,8 +6,8 @@
 		<div id="about">		
 			<h3>About.</h3>
 			<ol>
-				<li><span>&#8226;</span><strong><?php echo date('Y'); ?></strong><br />UX Director<br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
-				<li><span>&#8226;</span><strong>2008 &ndash; <?php echo date('Y'); ?></strong><br />Founder<br /><a href="https://prevue.it/">Prevue</a></li>
+				<li><span>&#8226;</span><strong>Now</strong><br />UX Director<br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
+				<li><span>&#8226;</span><strong>2008 &ndash; Now</strong><br />Founder<br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>2011 &ndash; 2014</strong><br />Creative Director<br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>2010</strong><br />Art Director<br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
 				<li><span>&#8226;</span><strong>2009</strong><br />UX/UI Designer<br />Skype, Facebook, Various</li>
@@ -18,7 +18,7 @@
 				
 			</ol>
 			
-			<p class="lead">I am Digital Designer and Creative Director living in Sydney, Australia. With a passion for problem solving – I enjoy varied, challenging digital work.</p>
+			<p class="lead">I'm a Digital Designer and Creative Director living in Sydney, Australia. With a passion for problem solving – I enjoy varied, challenging digital work.</p>
 
 			<p>I have been responsible for producing award-winning UX and UI design as part of the Skype, Microsoft and Campaign Monitor product teams. And as a Digital Designer working in agencies on behalf of clients such as Agent Provocateur, Johnson & Johnson, Toni&Guy and E*Trade.</p>
 
