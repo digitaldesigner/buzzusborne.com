@@ -17,10 +17,10 @@
 			<p>Working in-house with the Skype design teams in London and Estonia, I designed the icon suite currently used in all Skype applications - including their <a href="http://skype.com">global website</a> and iPhone app.</p>
 			<p>The brief was to design a family of icons that were recognisably Skype, and were scalable enough to work across multiple platforms and sizes.</p>
 			
-			<div class="image"><img src="../_images/skype/arrows.png" width="100%" /></div>
+			<div class="image"><img class="lazy" data-original="../_images/skype/arrows.png" width="100%" /></div>
 			<p class="caption"><strong>Above &amp; below/</strong> A small selection of the icons in the suite. All of them follow a strict grid and rate-of-curve, which help them all appear visually similar.</p>
-			<div class="image"><img src="../_images/skype/iconset.png" width="100%" /></div>
-			<div class="image close"><img src="../_images/skype/main_icons.png" width="100%" /></div>
+			<div class="image"><img class="lazy" data-original="../_images/skype/iconset.png" width="100%" /></div>
+			<div class="image close"><img class="lazy" data-original="../_images/skype/main_icons.png" width="100%" /></div>
 			
 			<h5>Designing to a grid</h5>
 			<p class="info"><strong>Below/</strong> Every icon was constructed using strict guidelines defining alignment, angle and rate of curve</p>
@@ -31,17 +31,31 @@
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/skype/call.png" />
-		<img class="spacer" src="../_images/skype/cog.png" />
-		<img class="spacer bottom" src="../_images/skype/headset.png" />
+		<img class="lazy" data-original="../_images/skype/call.png" />
+		<img class="spacer lazy" data-original="../_images/skype/cog.png" />
+		<img class="spacer bottom lazy" data-original="../_images/skype/headset.png" />
 	</div>
 	
 	<div class="container">
 		<div class="project">
 			<p class="caption"><strong>Below/</strong> Some lesser-used icons you may not have seen before, for things like Skype credits, voicemail, API messages and faxing</p>
-			<div class="image"><img src="../_images/skype/misc.png" width="100%" /></div>
-			
+			<div class="image"><img class="lazy" data-original="../_images/skype/misc.png" width="100%" /></div>
 		</div>
+		<dl class="outro">
+			<div class="col left">
+				<dt>Position</dt>
+					<dd>Art Director (Freelance)</dd>
+			</div>
+			<div class="col middle">
+				<dt>Company</dt>
+					<dd>Skype</dd>
+			</div>
+			<div class="col right">			
+				<dt>Responsibilities</dt>
+					<dd>Iconography</dd>
+					<dd>Team Lead</dd>
+			</div>
+		</dl>
 		
 			
 <?php

@@ -7,7 +7,7 @@
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/modal.jpg" />
+		<img src="../_images/canvas/full_app.jpg" />
 	</div>
 
 	<div class="container">	
@@ -72,11 +72,28 @@
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/full_app.jpg" />
 		<img src="../_images/canvas/final_email.jpg" class="spacer" />
 	</div>
 	
 	<div class="container">
+		<dl class="outro">
+			<div class="col left">
+				<dt>Position</dt>
+					<dd>Senior Product Designer</dd>
+				<dt>Company</dt>
+					<dd>Campaign Monitor</dd>
+			</div>
+			<div class="col middle">			
+				<dt>Responsibilities</dt>
+					<dd>UX &amp; UI</dd>
+					<dd>Prototype</dd>
+					<dd>Project management</dd>
+			</div>
+			<div class="col right">
+				<dt>More</dt>
+					<dd><a href="https://vimeo.com/97889197" target="_blank">Watch video tour</a></dd>
+			</div>
+		</dl>
 	
 <?php
 	include(path.'_includes/footer.php');

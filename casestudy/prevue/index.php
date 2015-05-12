@@ -12,7 +12,7 @@
 
 	<div class="container">	
 		<div class="project">
-			<h2>Prevue.it</h2>
+			<h2><em>Prevue</em></h2>
 			<p class="info"><strong>Above/</strong> The Library screen. A drag-and-drop UI that allows upload and collection of work into projects and groups</p>
 			<p>In 2007 I built an app that let me share fullscreen design concepts with my clients, organise my work, and allow my images to be annotated with feedback. Today, that app is used by 20,000 designers and agencies to share over 1 million designs with their own clients.</p>
 			<p>Though still designed, built and run entirely by myself - Prevue now operates as a profitable business, and a playground for my experimentations in UX, UI and code. Above all else, Prevue provides me with unparallelled experience in feature management, customer communication and product strategy.</p>
@@ -72,6 +72,30 @@
 			<div class="image"><img src="../_images/prevue/Home_Iconography.png" width="100%" /></div>
 			<div class="image"><img src="../_images/prevue/Signup.png" width="100%" /></div>
 		</div>
+		
+		<dl class="outro">
+			<div class="col left">
+				<dt>Position</dt>
+					<dd>Founder &amp; Product Lead</dd>
+				<dt>Company</dt>
+					<dd>Prevue</dd>
+				<dt>Date</dt>
+					<dd>2007&ndash;<?php echo date('Y'); ?></dd>
+			</div>
+			<div class="col middle">			
+				<dt>Responsibilities</dt>
+					<dd>UX &amp; UI</dd>
+					<dd>Front-end (HTML, CSS, JavaScript)</dd>
+					<dd>Backend (MySQL, PHP, Apache)</dd>
+					<dd>Business development &amp; Sales</dd>
+					<dd>Support</dd>
+			</div>
+			<div class="col right">
+				<dt>More</dt>
+					<dd><a href="#">Articles on Medium</a></dd>
+					<dd><a href="#">Visit Prevue</a></dd>
+			</div>
+		</dl>
 		
 <?php
 	include(path.'_includes/footer.php');
