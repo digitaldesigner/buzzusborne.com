@@ -130,16 +130,45 @@ p,blockquote { .bodyfont; }
 		font-weight:bold;
 		color:@titles;
 		
+		em {
+			font-weight:100;
+			color:@subtext;
+		}
+		
 		a {
 			display:inline-block;
 			color:inherit;
 			font-weight:inherit;
 			border-bottom:2px solid @link;
+			position:relative;
+			
+			span {
+				display:none;
+				position:absolute;
+				right:100%;
+				float:left;
+				width:auto;
+				margin:0;
+				padding:0 10px 0 0;
+				color:@linkhover;
+			}
 			
 			&:hover {
+				span {
+					display:block;
+				}
+				
 				border-color:@linkhover;
 			}
 		}
+	}
+	
+	&.project {
+		h1 {
+			text-align:left;
+		}
+
+		margin-bottom:30px;
 	}
 	
 	h2 {	
@@ -251,6 +280,32 @@ hr.sectionBreak {
 		margin:20px 0 40px 0;
 		padding-left:(@sitewidth/3 + 3);
 		.title(3em);
+	}
+	
+	
+	h1 {
+		float:left;
+		width:100%;
+		text-align:left;
+		.title(4em);
+		margin:20px 0 10px 0;
+		padding:0;
+	}
+	
+	.subscript {
+		float:left;
+		width:100%;
+		margin:0 0 40px 0;
+		text-align:left;
+		.title(1.4em);
+		font-weight:400;
+		color:@subtext;
+		
+		em {
+			display:inline-block;
+			*display:inline;
+			margin:0 3px;
+		}
 	}
 	
 	h2 {
@@ -498,7 +553,7 @@ dl.outro {
 	
 	&:after,&:before {
 		bottom: 100%;
-		left: 34.5%;
+		left: 50%;
 		border: solid transparent;
 		content: " ";
 		height: 0;
@@ -1234,6 +1289,28 @@ ul#work{
 					margin-right:8%;
 					margin-bottom:20px;
 				}
+			}
+
+			#header,
+			.project {
+				width:90%;
+				margin-left:5%;
+				
+				h1,.subscript {
+					text-align:center;
+				}
+				
+				h1 {
+					margin-bottom:5px;
+				}
+				
+				.subscript {
+					margin-bottom:10px;
+				}
+			}
+
+			#header h1 em {
+				display:none;
 			}
 
 			dl.outro {

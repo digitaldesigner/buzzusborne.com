@@ -3,7 +3,10 @@
 	$buzzTitle="Product Designer";
 	include(path.'_includes/header.php');
 ?>
-		
+		<div class="project">
+			<h1>Canvas</h1>
+			<span class="subscript">Product Design Lead <em>·</em> UX / UI <em>·</em> 2014</span>
+		</div>
 	</div>
 	
 	<div class="fullImage">
@@ -12,7 +15,6 @@
 
 	<div class="container">	
 		<div class="project">
-			<h2>Canvas</h2>
 			<p class="info"><strong>Above &amp; below/</strong> Canvas provides the user with a number of customisable designs as a starting point</p>
 			<p>Building HTML emails that work across-the-board is hard... making them look good is next to impossible. There are existing tools out there, but all of them provide create cookie-cutter templates and hard-to-use interfaces &mdash; <a href="https://www.campaignmonitor.com" target="_blank">Campaign Monitor</a> saw an opportunity to do better:</p>
 			<blockquote class="spacer"><em>&ldquo;</em>Create an easy way for people to design beautiful, bespoke-looking emails that work everywhere, without needing to know code.&rdquo;</blockquote>

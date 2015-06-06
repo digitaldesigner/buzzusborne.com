@@ -621,14 +621,38 @@ blockquote {
   font-weight: bold;
   color: #2f353e;
 }
+#header h1 em {
+  font-weight: 100;
+  color: #a5b3be;
+}
 #header h1 a {
   display: inline-block;
   color: inherit;
   font-weight: inherit;
   border-bottom: 2px solid #c2e065;
+  position: relative;
+}
+#header h1 a span {
+  display: none;
+  position: absolute;
+  right: 100%;
+  float: left;
+  width: auto;
+  margin: 0;
+  padding: 0 10px 0 0;
+  color: #00aadd;
 }
 #header h1 a:hover {
   border-color: #00aadd;
+}
+#header h1 a:hover span {
+  display: block;
+}
+#header.project {
+  margin-bottom: 30px;
+}
+#header.project h1 {
+  text-align: left;
 }
 #header h2 {
   float: left;
@@ -734,6 +758,40 @@ hr.sectionBreak {
   font-size: 3em;
   font-weight: 800;
   color: #2f353e;
+}
+.project h1,
+#project h1,
+#about h1 {
+  float: left;
+  width: 100%;
+  text-align: left;
+  font-family: "proxima-nova", Georgia;
+  font-size: 4em;
+  font-weight: 800;
+  color: #2f353e;
+  margin: 20px 0 10px 0;
+  padding: 0;
+}
+.project .subscript,
+#project .subscript,
+#about .subscript {
+  float: left;
+  width: 100%;
+  margin: 0 0 40px 0;
+  text-align: left;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #2f353e;
+  font-weight: 400;
+  color: #a5b3be;
+}
+.project .subscript em,
+#project .subscript em,
+#about .subscript em {
+  display: inline-block;
+  *display: inline;
+  margin: 0 3px;
 }
 .project h2,
 #project h2,
@@ -1073,7 +1131,7 @@ dl.outro {
 dl.outro:after,
 dl.outro:before {
   bottom: 100%;
-  left: 34.5%;
+  left: 50%;
   border: solid transparent;
   content: " ";
   height: 0;
@@ -1765,6 +1823,28 @@ ul#work li.active .title em:hover {
     margin-left: 7%;
     margin-right: 8%;
     margin-bottom: 20px;
+  }
+  body .container #header,
+  body .container .project {
+    width: 90%;
+    margin-left: 5%;
+  }
+  body .container #header h1,
+  body .container .project h1,
+  body .container #header .subscript,
+  body .container .project .subscript {
+    text-align: center;
+  }
+  body .container #header h1,
+  body .container .project h1 {
+    margin-bottom: 5px;
+  }
+  body .container #header .subscript,
+  body .container .project .subscript {
+    margin-bottom: 10px;
+  }
+  body .container #header h1 em {
+    display: none;
   }
   body .container dl.outro {
     padding: 40px 0 0px;

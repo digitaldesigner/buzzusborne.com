@@ -3,7 +3,10 @@
 	$buzzTitle="Iconographer";
 	include(path.'_includes/header.php');
 ?>
-		
+		<div class="project">
+			<h1>Skype</h1>
+			<span class="subscript">Art Director <em>·</em> Iconography <em>·</em> 2012</span>
+		</div>
 	</div>
 	
 	<div class="fullImage">
@@ -12,7 +15,6 @@
 
 	<div class="container">	
 		<div class="project">
-			<h3>Skype</h3>
 			<p class="info"><strong>Above:</strong> The Skype app (OS X) featuring 12 icons I designed</p>
 			<p>Working in-house with the Skype design teams in London and Estonia, I designed the icon suite currently used in all Skype applications - including their <a href="http://skype.com">global website</a> and iPhone app.</p>
 			<p>The brief was to design a family of icons that were recognisably Skype, and were scalable enough to work across multiple platforms and sizes.</p>

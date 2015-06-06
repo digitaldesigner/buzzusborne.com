@@ -3,7 +3,10 @@
 	$buzzTitle="Creative Director";
 	include(path.'_includes/header.php');
 ?>
-		
+		<div class="project">
+			<h1>Campaign Monitor</h1>
+			<span class="subscript">Creative Director <em>·</em> Branding / Digital / Print / Advertising <em>·</em> 2012&ndash;2014</span>
+		</div>
 	</div>
 	
 	<div class="fullImage">
@@ -12,7 +15,6 @@
 
 	<div class="container">
 		<div class="project">
-			<h2>Campaign Monitor</h2>
 			<p class="info"><strong>Above &amp; below/</strong> Something</p>
 			<p>I was the Creative Director for the Digital Design team at Campaign Monitor. Over the course of 3 years, I designed the brand, site and set the visual tone for all global marketing. During this time I had my hand in all areas of design, from print and advertising through to art direction and development.</p>
 			
