@@ -509,7 +509,7 @@ hr.sectionBreak {
   margin: 70px 45% 90px;
   height: 0;
   border: none;
-  border-bottom: 4px solid #ececee;
+  border-bottom: 2px solid #ececee;
 }
 .project p,
 #project p,
@@ -1072,6 +1072,9 @@ ul#caseStudies li a p em {
   display: inline-block;
   *display: inline;
   margin: 0 3px;
+}
+ul#caseStudies li a img {
+  width: 100%;
 }
 #footer {
   float: left;

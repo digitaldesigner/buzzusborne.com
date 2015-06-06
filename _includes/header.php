@@ -68,7 +68,7 @@
 		<?php if(path=="../../"){ ?><div id="header" class="project">
 			<h1><a href="<?php echo path; ?>">Buzz</a><em> /</em></h1><?php } else { ?><div id="header">
 			<h1><a href="<?php echo path; ?>">Buzz Usborne</a></h1>
-			<h2><?php if(isset($buzzTitle)&&$buzzTitle){ echo $buzzTitle; } else { echo "Digital Designer"; } ?></h2><?php } ?>
+			<?php } ?>
 
 		</div>
 
