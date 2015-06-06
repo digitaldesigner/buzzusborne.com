@@ -185,104 +185,45 @@ body {
   margin: 0px auto;
   width: 850px;
   position: relative;
-  transition: all 0.5s ease;
+  -webkit-transition: width 0.4s ease;
+  -moz-transition: width 0.4s ease;
+  -ms-transition: width 0.4s ease;
+  -o-transition: width 0.4s ease;
+  transition: width 0.4s ease;
 }
 #keycontrols {
   display: none;
   position: fixed;
-  bottom: 30px;
+  top: 0px;
   left: 0px;
   width: 100%;
   text-align: center;
   z-index: 150;
+  background: white;
+  border-bottom: 1px solid #f4f4f5;
 }
 #keycontrols ul {
-  margin: 0;
+  margin: 0px auto;
+  width: 850px;
+  position: relative;
+  background: red;
+  text-align: left;
 }
 #keycontrols ul li {
   float: left;
-  display: inline-block;
-  *display: inline;
-  font-size: 1.5em;
-  margin-left: 30px;
+  width: 50%;
+}
+#keycontrols ul li.next {
+  text-align: right;
 }
 #keycontrols ul li a {
-  display: inline-block;
-  *display: inline;
-  width: 45px;
-  overflow: hidden;
-  background: #2f353e;
-  -khtml-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
-  box-shadow: 0px 2px 1px rgba(47, 53, 62, 0.2), inset 0px 2px 0px #5b6778;
-  -moz-box-shadow: 0px 2px 1px rgba(47, 53, 62, 0.2), inset 0px 2px 0px #5b6778;
-  -webkit-box-shadow: 0px 2px 1px rgba(47, 53, 62, 0.2), inset 0px 2px 0px #5b6778;
-  font-family: "Trebuchet MS";
-  color: white;
-  vertical-align: middle;
-  line-height: 40px;
-  text-shadow: 0px 1px #191c21;
-}
-#keycontrols ul li a.arrow {
-  font-size: 1.7em;
-  padding-bottom: 3px;
-}
-#keycontrols ul li a:hover {
-  background: #3a414d;
-}
-#keycontrols ul li a:active,
-#keycontrols ul li a.pressed {
-  background: #3a414d;
-  box-shadow: 0px 2px 1px rgba(47, 53, 62, 0.2), 0px 2px 1px rgba(255, 255, 255, 0.2), inset 0px 0px 10px #030304;
-  -moz-box-shadow: 0px 2px 1px rgba(47, 53, 62, 0.2), 0px 2px 1px rgba(255, 255, 255, 0.2), inset 0px 0px 10px #030304;
-  -webkit-box-shadow: 0px -1px 1px rgba(47, 53, 62, 0.2), 0px 2px 1px rgba(255, 255, 255, 0.2), inset 0px 0px 10px #030304;
-}
-#keycontrols ul li#combo {
-  float: right;
-  margin-right: 30px;
-}
-#keycontrols ul li#combo a {
-  width: auto;
-  padding: 0 16px;
-}
-#keycontrols ul li#combo span {
-  display: inline-block;
-  *display: inline;
-  vertical-align: middle;
-  line-height: 45px;
-  width: 15px;
-  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 20px 0;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.8em;
+  font-weight: 800;
   color: #2f353e;
-  margin: 0 0 0 4px;
-  font-weight: bold;
-}
-#keycontrols ul li#comboClose {
-  display: none;
-}
-#keycontrols ul li#comboClose.show {
-  float: right;
-  margin-right: 30px;
-  display: inline-block;
-}
-a#prev,
-a#next {
-  position: fixed;
-  top: 0;
-  height: 100%;
-  width: 79px;
-  background: url('../gfx/arrows.png') left center no-repeat;
-  background-position: 30px center;
-  text-indent: -9000px;
-  z-index: 100;
-}
-a#prev {
-  left: 0;
-}
-a#next {
-  right: 0;
-  background-position: -30px center;
 }
 h1 {
   font-family: "proxima-nova", Georgia;
@@ -1030,7 +971,7 @@ h4 {
 ul#caseStudies {
   float: left;
   width: 100%;
-  margin: 0 0 100px 0;
+  margin: 40px 0 100px 0;
 }
 ul#caseStudies li {
   float: left;
@@ -1060,6 +1001,7 @@ ul#caseStudies li a {
   height: 100%;
   text-align: center;
   overflow: hidden;
+  color: #2f353e;
 }
 ul#caseStudies li a h5 {
   position: absolute;
@@ -1076,8 +1018,15 @@ ul#caseStudies li a h5 {
   text-decoration: underline;
   top: -3%;
   opacity: 0;
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 ul#caseStudies li a:hover h5 {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
   opacity: 1;
   top: 0;
 }
@@ -1145,10 +1094,6 @@ ul#caseStudies li a img {
     float: left;
     width: 90%;
     margin: 0 5%;
-  }
-  .container a#prev,
-  .container a#next {
-    max-width: 10%;
   }
   .container .project,
   .container #project {
@@ -1368,10 +1313,6 @@ ul#caseStudies li a img {
     width: 96%;
     margin: 0 2%;
   }
-  body .container #prev,
-  body .container #next {
-    display: none;
-  }
   body .container dl.outro {
     padding: 40px 0 0px;
     box-shadow: 0px 0px 0px;
@@ -1446,10 +1387,5 @@ ul#caseStudies li a img {
   body .container #project .video {
     width: 100%;
     margin-left: 0;
-  }
-}
-@media only screen and (max-width: 1210px) {
-  #keycontrols {
-    bottom: -100%;
   }
 }

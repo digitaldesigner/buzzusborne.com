@@ -1,53 +1,22 @@
 <?php
 
-	$projects=array();
-	$projects["prevue"]=array(
-		"title"=>"Prevue",
-		"thumb"=>"prevue.jpg"
-	);
-	$projects["canvas"]=array(
-		"title"=>"Campaign Monitor",
-		"thumb"=>"campaignmonitor.jpg"
-	);
-
-	$url = $_SERVER['REQUEST_URI'];
-	$parts = explode('/',$url);
-	$dir = $_SERVER['SERVER_NAME'];
-	for ($i = 0; $i < count($parts) - 1; $i++) { $dir .= $parts[$i] . "/"; }
-	$dir = substr($dir, 0, -1);
-	$folders = explode("/",$dir);
-	$thisDIR = end($folders);
-	$prev=NULL;
-	$next=NULL;
+	$prev = NULL;
+	$next = NULL;
 	
-	if(array_key_exists($thisDIR,$projects)){
-		
-		$i=0;
-		$thisPro=0;
-		foreach($projects as $folder => $title):
-			if($folder==$thisDIR){
-				$thisPro=$i;
-			}
-			$i++;
-		endforeach;
-		
-		$i=0;
-		foreach($projects as $folder => $details):
-			if($i==($thisPro-1)){
-				$prev="\n					<a href=\"".path."casestudy/".$folder."/\" class=\"arrow\" title=\"Jump to ".$details['title']."\" id=\"thirtySeven\">&lsaquo;</a>";
-			} elseif($i==($thisPro+1)){
-				$next="\n					<a href=\"".path."casestudy/".$folder."/\" class=\"arrow\" title=\"Jump to ".$details['title']."\" id=\"thirtyNine\">&rsaquo;</a>";
-			}
-			$i++;
-		endforeach;
-		
+	if(isset($navigation) && is_array($navigation)){
+		if(array_key_exists('prev',$navigation) && $navigation['prev']){
+			$prev="\n					<li><a href=\"".$navigation['prev']['path']."/\" class=\"arrow\" title=\"Previous: ".$navigation['prev']['title']."\" id=\"thirtySeven\"><em>Previous</em><br />".$navigation['prev']['title']."</a></li>";
+		}
+		if(array_key_exists('next',$navigation) && $navigation['next']){
+			$next="\n					<li class=\"next\"><a href=\"".$navigation['next']['path']."/\" class=\"arrow\" title=\"Next: ".$navigation['next']['title']."\" id=\"thirtyNine\"><em>Next</em><br />".$navigation['next']['title']."</a></li>";
+		}
 	}
 	
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Buzz Usborne - <?php if(array_key_exists($thisDIR,$projects)){ echo $projects[$thisDIR]['title']; } else { echo "Digital Designer"; } ?></title>
+	<title>Buzz Usborne - <?php if(array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Digital Designer"; } ?></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="robots" content="index,follow,archive"/>
 	<meta name="Description" content="The portfolio of Digital Art Director, Buzz Usborne" />
@@ -63,31 +32,22 @@
 </head>
 <body<?php if(isset($bodyclass)){ echo " class=\"".$bodyclass."\""; }?>>
 	
+	<div id="keycontrols">
+		<ul>
+<?php 
+if($prev || $next){ 
+	if($prev){ echo $prev; }
+	if($next){ echo $next; } 
+}
+?>
+		</ul>
+	</div>
+	
 	<div class="container">
 		
 		<?php if(path=="../../"){ ?><div id="header" class="project">
-			<h1><a href="<?php echo path; ?>">Buzz</a><em> /</em></h1><?php } else { ?><div id="header">
+			<h1><a href="<?php echo path; ?>">Buzz</a><em>/</em></h1><?php } else { ?><div id="header">
 			<h1><a href="<?php echo path; ?>">Buzz Usborne</a></h1>
 			<?php } ?>
 
-		</div>
-
-		<div id="keycontrols">
-			<ul>
-<?php 
-	if($prev || $next){ 
-		echo "				<li>"; 
-		if($prev){ echo $prev; }
-		if($next){ echo $next; } 
-		echo "\n				</li>\n";
-	}
-	if(isset($concepts) && $concepts) { ?>				<li id="combo">
-					<a href="concepts/" id="ctrlKey" class="showConcepts">ctrl</a><span>+</span>
-					<a href="concepts/" id="sixtySeven" class="showConcepts">c</a>
-				</li>
-				<li id="comboClose">
-					<a href="javascript://" class="closeModal" id="esc">esc</a>
-				</li>
-<?php } ?>
-			</ul>
 		</div>

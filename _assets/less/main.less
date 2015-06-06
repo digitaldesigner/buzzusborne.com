@@ -10,111 +10,47 @@ body {
 	margin:0px auto;
 	width:@sitewidth;
 	position:relative;
-	transition: all 0.5s ease;
+	-webkit-transition: width 0.4s ease;
+	-moz-transition: width 0.4s ease;
+	-ms-transition: width 0.4s ease;
+	-o-transition: width 0.4s ease;
+	transition: width 0.4s ease;
 }
 
 #keycontrols {
 	display:none;
 	position:fixed;
-	bottom:30px;
+	top:0px;
 	left:0px;
 	width:100%;
 	text-align:center;
 	z-index:150;
+	background:white;
+	border-bottom:1px solid @borders;
 	
 	ul {
-		margin:0;
+		margin:0px auto;
+		width:@sitewidth;
+		position:relative;
+		background:red;
+		text-align:left;
 		
 		li {
 			float:left;
-			display:inline-block;
-			*display:inline;
-			font-size:1.5em;
-			margin-left:30px;
+			width:50%;
+			
+			&.next {
+				text-align:right;
+			}
 			
 			a {
-				display:inline-block;
-				*display:inline;
-				width:45px;
-				overflow:hidden;
-				background:@dark;
-				.rounded-corners(3px);
-				box-shadow:0px 2px 1px rgba(47,53,62,0.2),inset 0px 2px 0px lighten(@dark,20%);
-				-moz-box-shadow:0px 2px 1px rgba(47,53,62,0.2),inset 0px 2px 0px lighten(@dark,20%);
-				-webkit-box-shadow:0px 2px 1px rgba(47,53,62,0.2),inset 0px 2px 0px lighten(@dark,20%);
-				font-family:"Trebuchet MS";
-				color:white;
-				vertical-align:middle;
-				line-height:40px;
-				text-shadow:0px 1px darken(@dark,10%);
-				
-				&.arrow {
-					font-size:1.7em;
-					padding-bottom:3px;
-				}
-				
-				&:hover {
-					background:lighten(@dark,5%);
-				}
-				
-				&:active,&.pressed {
-					background:lighten(@dark,5%);
-					box-shadow:0px 2px 1px rgba(47,53,62,0.2),0px 2px 1px rgba(255,255,255,0.2),inset 0px 0px 10px darken(@dark,20%);
-					-moz-box-shadow:0px 2px 1px rgba(47,53,62,0.2),0px 2px 1px rgba(255,255,255,0.2),inset 0px 0px 10px darken(@dark,20%);
-					-webkit-box-shadow:0px -1px 1px rgba(47,53,62,0.2),0px 2px 1px rgba(255,255,255,0.2),inset 0px 0px 10px darken(@dark,20%);
-				}
-			}
-			
-			&#combo {
-				float:right;
-				margin-right:30px;
-				
-				a {
-					width:auto;
-					padding:0 16px;
-				}
-				
-				span {
-					display:inline-block;
-					*display:inline;
-					vertical-align:middle;
-					line-height:45px;
-					width:15px;
-					text-align:center;
-					color:@dark;
-					margin:0 0 0 4px;
-					font-weight:bold;
-				}
-			}
-			
-			&#comboClose {
-				display:none;
-				
-				&.show {
-					float:right;
-					margin-right:30px;
-					display:inline-block;
-				}
+				float:left;
+				width:100%;
+				padding:20px 0;
+				.title(1.8em);
 			}
 		}
 	}
-}
-
-a#prev,a#next{
-	position:fixed;
-	top:0;
-	height:100%;
-	width:79px;
-	background:url('../gfx/arrows.png') left center no-repeat;
-	background-position:30px center;
-	text-indent:-9000px;
-	z-index:100;
-}
-
-a#prev{ left:0; }
-a#next{
-	right:0;
-	background-position:-30px center;
 }
 
 h1 { .title; }
@@ -769,7 +705,7 @@ h4 {
 ul#caseStudies {
 	float:left;
 	width:100%;
-	margin:0 0 100px 0;
+	margin:40px 0 100px 0;
 	
 	li {
 		float:left;
@@ -801,6 +737,7 @@ ul#caseStudies {
 			height:100%;
 			text-align:center;
 			overflow:hidden;
+			color:@dark;
 
 			h5 {
 				position:absolute;
@@ -814,10 +751,17 @@ ul#caseStudies {
 				text-decoration:underline;
 				top:-3%;
 				opacity:0;
+				-webkit-transition: all 0.4s ease;
+				-moz-transition: all 0.4s ease;
+				-ms-transition: all 0.4s ease;
+				-o-transition: all 0.4s ease;
+				transition: all 0.4s ease;
 			}
 			
 			&:hover {
 				h5 {
+			    -webkit-opacity: 1;
+			    -moz-opacity: 1;
 					opacity:1;
 					top:0;
 				}
@@ -898,10 +842,7 @@ ul#caseStudies {
 		float:left;
 		width:90%;
 		margin:0 5%;
-		
-		a#prev,a#next {
-			max-width:10%;
-		}
+	
 
 		.project,
 		#project {
@@ -1066,10 +1007,6 @@ ul#caseStudies {
 			width:96%;
 			margin:0 2%;
 			
-			#prev,#next {
-				display:none;
-			}
-
 			dl.outro {
 				padding:40px 0 0px;
 				box-shadow:0px 0px 0px;
@@ -1158,7 +1095,5 @@ ul#caseStudies {
 }
 
 @media only screen and (max-width: 1210px) {
-	#keycontrols {
-		bottom:-100%;
-	}
+
 }

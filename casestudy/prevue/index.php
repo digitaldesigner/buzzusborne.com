@@ -1,17 +1,32 @@
 <?php 
 	define('path','../../');
-	$buzzTitle="Product Designer";
+	$pageTitle="Product Designer";
+	
+	$navigation = array(
+		"this" => array(
+			"path"	=> "./",
+			"title"	=> "Prevue"
+		),
+		"prev" => array(
+			"path"	=> "../../",
+			"title"	=> "Home"
+		),
+		"next" => array(
+			"path"	=> "../canvas/",
+			"title"	=> "Canvas"
+		)
+	);
+	
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
 			<h1>Prevue</h1>
 			<span class="subscript">Founder &amp; Product Design Lead <em>·</em> UX / UI / Development <em>·</em> <?php echo date('Y'); ?></span>
 		</div>
-		
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/prevue/Library.jpg"  />
+		<img src="../_images/prevue/Homepage.jpg"  />
 	</div>
 
 	<div class="container">	
@@ -23,13 +38,15 @@
 	</div>	
 	
 	<div class="fullImage">
-		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Drag.jpg" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Library.jpg" />
 	</div>
 		
 	<div class="container">	
 		<div class="project">
 			<p class="caption"><strong>Above/</strong> Images can be uploaded via drag &amp; drop, collected into projects and organised. They can then be securely shared with the public <strong>(below)</strong> for feedback.</p>
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Public_Project.jpg" width="100%" /></div>
+			
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Drag.jpg" width="100%" /></div>
+			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Public_Project.jpg" width="100%" /></div>
 			<p class="caption"><strong>Below/</strong> Everything in the app is optimised for ease or organisation, and for real-time client feedback. Projects can be commented on, images can be highlighted and annotated &mdash; then all feedback is collated, and can start a conversation thread</p>
 		</div>
 	</div>
@@ -60,11 +77,7 @@
 	</div>
 	
 	<hr class="sectionBreak" />
-	
-	<div class="fullImage">
-		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Homepage.jpg" />
-	</div>			
-			
+
 	<div class="container">
 		<div class="project">
 			<h5>Marketing &amp; Optimisation</h5>
