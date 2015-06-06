@@ -3,7 +3,7 @@
 	$buzzTitle="Product Designer";
 	include(path.'_includes/header.php');
 ?>
-		<div class="project">
+		<div id="projectIntro">
 			<h1>Prevue</h1>
 			<span class="subscript">Founder &amp; Product Design Lead <em>·</em> UX / UI / Development <em>·</em> <?php echo date('Y'); ?></span>
 		</div>

@@ -66,7 +66,7 @@
 	<div class="container">
 		
 		<?php if(path=="../../"){ ?><div id="header" class="project">
-			<h1><a href="<?php echo path; ?>">Buzz</a><em>/</em></h1><?php } else { ?><div id="header">
+			<h1><a href="<?php echo path; ?>">Buzz</a><em> /</em></h1><?php } else { ?><div id="header">
 			<h1><a href="<?php echo path; ?>">Buzz Usborne</a></h1>
 			<h2><?php if(isset($buzzTitle)&&$buzzTitle){ echo $buzzTitle; } else { echo "Digital Designer"; } ?></h2><?php } ?>
 
@@ -91,11 +91,3 @@
 <?php } ?>
 			</ul>
 		</div>
-<?php if(isset($AJAX) && !$AJAX) { ?>
-
-		<div id="preheader">
-			<h3>Concepts</h3>
-			<p>It's nice to see the glossy final end result - but it's not often you get to see the failed concepts, the sketches and ideas that went into a brief. So here's a look behind the scenes of <a href="../">this project</a>:</p>
-		</div>
-		
-<?php } ?>
