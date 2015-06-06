@@ -773,46 +773,59 @@ ul#caseStudies {
 	
 	li {
 		float:left;
-		width:100%;
-			
-		a {
-			float:left;
-			width:100%;
-			padding:10px 0;
-			
-			h5 {
-				float:left;
-				width:100%;
-				text-align:left;
-				.title(3em);
-				margin:0;
-				padding:0;
-				
-				small {
-					font-weight:inherit;
-					font-size:.7em;
-					
-				}
-			}
-	
-			p {
-				float:left;
-				width:100%;
-				margin:0;
-				text-align:left;
-				.title(1.4em);
-				font-weight:400;
-				color:@subtext;
+		width:50%;
+		position:relative;
+		border-right:2px solid white;
+		border-bottom:2px solid white;
+		border-top:2px solid white;
+		box-sizing: border-box;
+
+		&.even {
+			border-right:0;
+			border-left:2px solid white;
+		}
 		
-				em {
-					display:inline-block;
-					*display:inline;
-					margin:0 3px;
-				}
+		&:before{
+			content:"";
+			display:block;
+			padding-top:100%;
+		}
+		
+		a {
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			padding:0;
+			background:#f4f4f5;
+			height:100%;
+			text-align:center;
+			overflow:hidden;
+
+			h5 {
+				position:absolute;
+				left:0;
+				width:100%;
+				.title(2.1em);
+				height:100%;
+				display:flex;
+				justify-content:center;
+				align-items:center;
+				text-decoration:underline;
+				top:-3%;
+				opacity:0;
 			}
 			
+			&:hover {
+				h5 {
+					opacity:1;
+					top:0;
+				}
+			}
+
 			img {
 				width:100%;
+				max-height:100%;
 			}
 		}
 	}
@@ -1038,6 +1051,15 @@ ul#caseStudies {
 			width:14%;
 			margin-left:43%;
 			margin-right:43%;
+		}
+		
+		ul#caseStudies {
+			li {
+				background:none;
+				width:100%;
+				border:none;
+				margin:0 0 4px;
+			}
 		}
 		
 		.container {

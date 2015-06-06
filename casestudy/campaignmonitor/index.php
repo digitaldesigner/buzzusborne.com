@@ -3,7 +3,7 @@
 	$buzzTitle="Creative Director";
 	include(path.'_includes/header.php');
 ?>
-		<div class="project">
+		<div id="projectIntro">
 			<h1>Campaign Monitor</h1>
 			<span class="subscript">Creative Director <em>·</em> Branding / Digital / Print / Advertising <em>·</em> 2012&ndash;2014</span>
 		</div>

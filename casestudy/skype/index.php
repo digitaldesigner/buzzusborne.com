@@ -3,7 +3,7 @@
 	$buzzTitle="Iconographer";
 	include(path.'_includes/header.php');
 ?>
-		<div class="project">
+		<div id="projectIntro">
 			<h1>Skype</h1>
 			<span class="subscript">Art Director <em>·</em> Iconography <em>·</em> 2012</span>
 		</div>
