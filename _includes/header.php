@@ -34,18 +34,15 @@
 		$i=0;
 		foreach($projects as $folder => $details):
 			if($i==($thisPro-1)){
-				$prev="\n					<a href=\"".path."projects/".$folder."/\" class=\"arrow\" title=\"Jump to ".$details['title']."\" id=\"thirtySeven\">&#65513;</a>";
+				$prev="\n					<a href=\"".path."casestudy/".$folder."/\" class=\"arrow\" title=\"Jump to ".$details['title']."\" id=\"thirtySeven\">&lsaquo;</a>";
 			} elseif($i==($thisPro+1)){
-				$next="\n					<a href=\"".path."projects/".$folder."/\" class=\"arrow\" title=\"Jump to ".$details['title']."\" id=\"thirtyNine\">&#65515;</a>";
+				$next="\n					<a href=\"".path."casestudy/".$folder."/\" class=\"arrow\" title=\"Jump to ".$details['title']."\" id=\"thirtyNine\">&rsaquo;</a>";
 			}
 			$i++;
 		endforeach;
 		
 	}
 	
-	$prev = NULL;
-	$next = NULL;
-
 ?><!DOCTYPE html>
 <html lang="en">
 <head>

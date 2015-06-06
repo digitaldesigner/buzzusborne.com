@@ -11,5 +11,6 @@
 		
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="<?php echo path; ?>_assets/js/lazysizes.min.js"></script>	
+	<script src="<?php echo path; ?>_assets/js/modal.js"></script>	
 </body>
 </html>
