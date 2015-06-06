@@ -10,10 +10,6 @@
 		
 		
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
-  <script type="text/javascript" charset="utf-8">
-		$(function() {$("img.lazy").lazyload({effect : "fadeIn"});});
-  </script>
-	
+  <script src="<?php echo path; ?>_assets/js/lazysizes.min.js"></script>	
 </body>
 </html>

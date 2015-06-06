@@ -22,7 +22,7 @@
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/choose_template.jpg" width="100%" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/choose_template.jpg" width="100%" />
 	</div>
 	
 	<div class="container">	
@@ -33,10 +33,10 @@
 			
 			<p>Starting with a lot of sketching, I set out to create an experience that didn't require much UI - one that only showed controls and prompts when the user absolutely needed them.</p>
 			
-			<div class="image half"><img src="../_images/canvas/sketch_01.jpg" /></div>
-			<div class="image half right"><img src="../_images/canvas/sketch_02.jpg" /></div>
-			<div class="image half close"><img src="../_images/canvas/sketch_03.jpg" /></div>
-			<div class="image half right close"><img src="../_images/canvas/sketch_04.jpg" /></div>
+			<div class="image half"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_01.jpg" /></div>
+			<div class="image half right"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_02.jpg" /></div>
+			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_03.jpg" /></div>
+			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_04.jpg" /></div>
 		</div>
 	</div>
 	
@@ -50,18 +50,18 @@
 			<p class="info"><strong>Below/</strong> Explanation...</p>
 			<p>Flexible, intuitive, visual foundation to build on. Core principles, blue means drag, when stuff hovers. How things drag</p>
 			
-			<div class="image"><img src="../_images/canvas/blankslate.png" width="100%" /></div>
-			<div class="image close"><img src="../_images/canvas/icon_tests.png" width="100%" /></div>
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/blankslate.png" width="100%" /></div>
+			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/icon_tests.png" width="100%" /></div>
 			
-			<div class="image half close"><img src="../_images/canvas/sidebar_image.jpg" width="100%" /></div>
-			<div class="image half right close"><img src="../_images/canvas/sidebar_gallery.jpg" width="100%" /></div>
+			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sidebar_image.jpg" width="100%" /></div>
+			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sidebar_gallery.jpg" width="100%" /></div>
 			
 			<p class="caption"><strong>Above &amp; below/</strong> Explanation...</p>
 		</div>
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/section_content.png" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/section_content.png" />
 	</div> 
 	
 	<div class="container">
@@ -74,14 +74,14 @@
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/final_email.jpg" class="spacer" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/final_email.jpg" class="spacer" />
 	</div>
 	
 	<div class="container">
 		<dl class="outro">
 			<div class="col left">
 				<dt>Position</dt>
-					<dd>Senior Product Designer</dd>
+					<dd>Product Design Lead</dd>
 				<dt>Company</dt>
 					<dd>Campaign Monitor</dd>
 			</div>
