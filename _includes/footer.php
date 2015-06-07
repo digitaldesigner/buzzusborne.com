@@ -7,10 +7,11 @@
 				<li class="right">&copy;<?php echo date('Y'); ?></li>
 			</ul>
 		</div><?php } ?>
+	
+	</div>	
 		
-		
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <?php if(!isset($hideFoot)) { ?><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="<?php echo path; ?>_assets/js/lazysizes.min.js"></script>	
-	<script src="<?php echo path; ?>_assets/js/modal.js"></script>	
+	<script src="<?php echo path; ?>_assets/js/modal.js"></script><?php } ?>
 </body>
 </html>
