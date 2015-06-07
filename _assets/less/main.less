@@ -26,13 +26,16 @@ body {
 	text-align:center;
 	z-index:150;
 	background:white;
-	border-bottom:1px solid @borders;
+	border-bottom:1px solid darken(@borders,8%);
+	box-shadow:0px 0 0px 2px rgba(0,0,0,0.04);
+	-moz-box-shadow:0px 0 0px 2px rgba(0,0,0,0.04);
+	-webkit-box-shadow:0px 0 0px 2px rgba(0,0,0,0.04);
+	opacity:0.97;
 	
 	ul {
 		margin:0px auto;
 		width:@sitewidth;
 		position:relative;
-		background:red;
 		text-align:left;
 		
 		li {
@@ -46,8 +49,21 @@ body {
 			a {
 				float:left;
 				width:100%;
-				padding:20px 0;
-				.title(1.8em);
+				padding:10px 0 15px 0;
+				.title(1.6em);
+				
+				em {
+					display:inline-block;
+					margin:0 0 0 1px;
+					text-transform:uppercase;
+					letter-spacing:0.2em;
+					font-size:.6em;
+					color:@subtext;
+				}
+				
+				&:hover {
+					color:@linkhover;
+				}
 			}
 		}
 	}
@@ -195,6 +211,17 @@ hr.sectionBreak {
 		margin:20px 0 40px 0;
 		padding-left:(@sitewidth/3 + 3);
 		.title(3em);
+	}
+	
+	#photo {
+		float:right;
+		width:120px;
+		height:120px;
+		margin:-20px 0 0 0;
+		
+		img {
+			width:100%;
+		}
 	}
 	
 	h1 {
@@ -351,7 +378,7 @@ hr.sectionBreak {
 			left:-50px;
 			font-size:4em;
 			font-family:"Times New Roman";
-			color:@linkhover;
+			color:@dark;
 		}
 	}
 	
@@ -959,6 +986,13 @@ ul#caseStudies {
 				padding-right:0;
 			}
 		
+			#photo {
+				float:left;
+				margin:-10px 0 20px 15%;
+				width:50px;
+				height:50px;
+			}
+		
 			ol {
 				position:relative;
 				float:left;
@@ -1006,6 +1040,10 @@ ul#caseStudies {
 		.container {
 			width:96%;
 			margin:0 2%;
+			
+			#about #photo {
+				display:none;
+			}
 			
 			dl.outro {
 				padding:40px 0 0px;

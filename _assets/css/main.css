@@ -200,13 +200,16 @@ body {
   text-align: center;
   z-index: 150;
   background: white;
-  border-bottom: 1px solid #f4f4f5;
+  border-bottom: 1px solid #dfdfe2;
+  box-shadow: 0px 0 0px 2px rgba(0, 0, 0, 0.04);
+  -moz-box-shadow: 0px 0 0px 2px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0px 0 0px 2px rgba(0, 0, 0, 0.04);
+  opacity: 0.97;
 }
 #keycontrols ul {
   margin: 0px auto;
   width: 850px;
   position: relative;
-  background: red;
   text-align: left;
 }
 #keycontrols ul li {
@@ -219,11 +222,22 @@ body {
 #keycontrols ul li a {
   float: left;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0 15px 0;
   font-family: "proxima-nova", Georgia;
-  font-size: 1.8em;
+  font-size: 1.6em;
   font-weight: 800;
   color: #2f353e;
+}
+#keycontrols ul li a em {
+  display: inline-block;
+  margin: 0 0 0 1px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: .6em;
+  color: #a5b3be;
+}
+#keycontrols ul li a:hover {
+  color: #00aadd;
 }
 h1 {
   font-family: "proxima-nova", Georgia;
@@ -371,6 +385,19 @@ hr.sectionBreak {
   font-size: 3em;
   font-weight: 800;
   color: #2f353e;
+}
+.project #photo,
+#project #photo,
+#about #photo {
+  float: right;
+  width: 120px;
+  height: 120px;
+  margin: -20px 0 0 0;
+}
+.project #photo img,
+#project #photo img,
+#about #photo img {
+  width: 100%;
 }
 .project h1,
 #project h1,
@@ -607,7 +634,7 @@ hr.sectionBreak {
   left: -50px;
   font-size: 4em;
   font-family: "Times New Roman";
-  color: #00aadd;
+  color: #2f353e;
 }
 .project h5,
 #project h5,
@@ -1276,6 +1303,12 @@ ul#caseStudies li a img {
     padding-left: 0;
     padding-right: 0;
   }
+  .container #about #photo {
+    float: left;
+    margin: -10px 0 20px 15%;
+    width: 50px;
+    height: 50px;
+  }
   .container #about ol {
     position: relative;
     float: left;
@@ -1312,6 +1345,9 @@ ul#caseStudies li a img {
   body .container {
     width: 96%;
     margin: 0 2%;
+  }
+  body .container #about #photo {
+    display: none;
   }
   body .container dl.outro {
     padding: 40px 0 0px;

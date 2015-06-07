@@ -1,22 +1,19 @@
 <?php 
 	define('path','../../');
-	$pageTitle="Product Designer";
-	
 	$navigation = array(
 		"this" => array(
 			"path"	=> "./",
 			"title"	=> "Prevue"
 		),
 		"prev" => array(
-			"path"	=> "../../",
+			"path"	=> "../..",
 			"title"	=> "Home"
 		),
 		"next" => array(
-			"path"	=> "../canvas/",
+			"path"	=> "../canvas",
 			"title"	=> "Canvas"
 		)
 	);
-	
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">

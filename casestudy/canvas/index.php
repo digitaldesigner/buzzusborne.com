@@ -1,6 +1,19 @@
 <?php 
 	define('path','../../');
-	$buzzTitle="Product Designer";
+	$navigation = array(
+		"this" => array(
+			"path"	=> "../../",
+			"title"	=> "Canvas"
+		),
+		"prev" => array(
+			"path"	=> "../prevue",
+			"title"	=> "Prevue"
+		),
+		"next" => array(
+			"path"	=> "../skype",
+			"title"	=> "Skype"
+		)
+	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">

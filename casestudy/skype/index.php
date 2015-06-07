@@ -1,6 +1,19 @@
 <?php 
 	define('path','../../');
-	$buzzTitle="Iconographer";
+	$navigation = array(
+		"this" => array(
+			"path"	=> "./",
+			"title"	=> "Skype"
+		),
+		"prev" => array(
+			"path"	=> "../canvas",
+			"title"	=> "Canvas"
+		),
+		"next" => array(
+			"path"	=> "../campaignmonitor",
+			"title"	=> "Campaign Monitor"
+		)
+	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">

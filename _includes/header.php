@@ -5,10 +5,10 @@
 	
 	if(isset($navigation) && is_array($navigation)){
 		if(array_key_exists('prev',$navigation) && $navigation['prev']){
-			$prev="\n					<li><a href=\"".$navigation['prev']['path']."/\" class=\"arrow\" title=\"Previous: ".$navigation['prev']['title']."\" id=\"thirtySeven\"><em>Previous</em><br />".$navigation['prev']['title']."</a></li>";
+			$prev="<li><a href=\"".$navigation['prev']['path']."/\" class=\"arrow\" title=\"Use your LEFT arrow key to navigate to the PREVIOUS casestudy\" id=\"thirtySeven\"><em>Previous</em><br />".$navigation['prev']['title']."</a></li>";
 		}
 		if(array_key_exists('next',$navigation) && $navigation['next']){
-			$next="\n					<li class=\"next\"><a href=\"".$navigation['next']['path']."/\" class=\"arrow\" title=\"Next: ".$navigation['next']['title']."\" id=\"thirtyNine\"><em>Next</em><br />".$navigation['next']['title']."</a></li>";
+			$next="<li class=\"next\"><a href=\"".$navigation['next']['path']."/\" class=\"arrow\" title=\"Use your RIGHT arrow key to navigate to the NEXT casestudy\" id=\"thirtyNine\"><em>Next</em><br />".$navigation['next']['title']."</a></li>";
 		}
 	}
 	
@@ -16,7 +16,7 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Buzz Usborne - <?php if(array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Digital Designer"; } ?></title>
+	<title>Buzz Usborne - <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Digital Designer"; } ?></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="robots" content="index,follow,archive"/>
 	<meta name="Description" content="The portfolio of Digital Art Director, Buzz Usborne" />
@@ -34,12 +34,13 @@
 	
 	<div id="keycontrols">
 		<ul>
-<?php 
-if($prev || $next){ 
-	if($prev){ echo $prev; }
-	if($next){ echo $next; } 
-}
-?>
+			<?php 
+			if($prev || $next){ 
+				if($prev){ echo $prev; }
+				if($next){ echo "\n			".$next; } 
+			}
+			?>
+			
 		</ul>
 	</div>
 	
