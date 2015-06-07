@@ -4,7 +4,7 @@
 ?>
 	<div id="about">		
 		<div id="photo"><a href="/about"><img src="_assets/home/buzzusborne.png" alt="Read more about Buzz" /></a></div>
-		<p class="lead">I'm a Digital Designer and Founder of Prevue. Previously Product Design Lead at Campaign Monitor, Art Director at Skype, and Creative Director to various digital agencies.</p>
+		<p class="lead">I&rsquo;m a Digital Designer and Founder of Prevue. Previously Product Design Lead at Campaign Monitor, Art Director at Skype, and Creative Director to various digital agencies.</p>
 	</div>
 		
 		<ul id="caseStudies">

@@ -252,6 +252,18 @@ blockquote {
   line-height: 1.6em;
   color: #505a6a;
 }
+em.special {
+  display: inline-block;
+  margin: 0 2px;
+  font-size: 1.1em;
+  font-family: "Times New Roman";
+  color: inherit;
+}
+em.special.amp {
+  margin: 0;
+  font-family: Baskerville,Georgia;
+  font-style: italic;
+}
 #header {
   float: left;
   width: 100%;
@@ -852,9 +864,11 @@ dl.outro .right {
 #about p {
   float: left;
   margin-bottom: 40px;
+  clear: both;
 }
 #about p.lead {
   font-size: 1.7em;
+  clear: none;
 }
 #about p:last-child {
   margin-top: 8px;
@@ -864,6 +878,18 @@ dl.outro .right {
   font-style: italic;
   color: #a5b3be;
 }
+#about p strong {
+  font-size: .99em;
+  color: #2f353e;
+}
+#about hr {
+  float: left;
+  width: 20px;
+  clear: both;
+  border: 0;
+  margin: 0 0 30px 0;
+  border-bottom: 1px solid #bfbfc4;
+}
 #about ol {
   position: absolute;
   top: 0;
@@ -871,10 +897,31 @@ dl.outro .right {
   float: right;
   list-style: none;
   width: 153.33333333px;
-  padding: 0 30px 0 0;
+  padding: 0 30px 50px 0;
   text-align: left;
   margin: 95px 0 0 0;
-  border-right: 1px solid #f4f4f5;
+  border-right: 1px solid #efeff0;
+}
+#about ol #fadeOut {
+  position: absolute;
+  bottom: 0;
+  height: 80px;
+  right: -12px;
+  width: 21px;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 1%, #ffffff 80%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(1%, rgba(255, 255, 255, 0)), color-stop(80%, #ffffff));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 1%, #ffffff 80%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 1%, #ffffff 80%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 1%, #ffffff 80%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 1%, #ffffff 80%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff', endColorstr='#ffffff', GradientType=0);
+  /* IE6-9 */
 }
 #about ol li {
   float: left;
@@ -1302,6 +1349,9 @@ ul#caseStudies li a img {
     margin-right: 15%;
     padding-left: 0;
     padding-right: 0;
+  }
+  .container #about hr {
+    display: none;
   }
   .container #about #photo {
     float: left;

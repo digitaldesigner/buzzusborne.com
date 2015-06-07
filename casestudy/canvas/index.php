@@ -100,7 +100,7 @@
 			</div>
 			<div class="col middle">			
 				<dt>Responsibilities</dt>
-					<dd>UX &amp; UI</dd>
+					<dd>UX <em class="special amp">&amp;</em> UI</dd>
 					<dd>Prototype</dd>
 					<dd>Project management</dd>
 			</div>

@@ -72,6 +72,20 @@ body {
 h1 { .title; }
 p,blockquote { .bodyfont; }
 
+em.special {
+	display:inline-block;
+	margin:0 2px;
+	font-size:1.1em;
+	font-family:"Times New Roman";
+	color:inherit;
+	
+	&.amp {
+		margin:0;
+		font-family:Baskerville,Georgia;
+		font-style:italic;
+	}
+}
+
 #header {
 	float:left;
 	width:100%;
@@ -580,9 +594,11 @@ dl.outro {
 	p {
 		float:left;
 		margin-bottom:40px;
+		clear:both;
 		
 		&.lead {
 			font-size:1.7em;
+			clear:none;
 		}
 		
 		&:last-child {
@@ -594,6 +610,21 @@ dl.outro {
 			font-style:italic;
 			color:@subtext;
 		}
+		
+		strong{
+			font-size:.99em;
+			color:@dark;
+		}
+		
+	}
+	
+	hr {
+		float:left;
+		width:20px;
+		clear:both;
+		border:0;
+		margin:0 0 30px 0;
+		border-bottom:1px solid darken(@borders,20%);
 	}
 	
 	ol {
@@ -603,10 +634,25 @@ dl.outro {
 		float:right;
 		list-style:none;
 		width:(@sitewidth/3) - 130;
-		padding:0 30px 0 0;
+		padding:0 30px 50px 0;
 		text-align:left;
 		margin:95px 0 0 0;
-		border-right:1px solid @borders;
+		border-right:1px solid darken(@borders,2%);
+		
+		#fadeOut {
+			position:absolute;
+			bottom:0;
+			height:80px;
+			right:-12px;
+			width:21px;
+			background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,0) 1%, rgba(255,255,255,1) 80%); /* FF3.6+ */
+			background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(1%,rgba(255,255,255,0)), color-stop(80%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+			background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 80%); /* Chrome10+,Safari5.1+ */
+			background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 80%); /* Opera 11.10+ */
+			background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 80%); /* IE10+ */
+			background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 80%); /* W3C */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+		}
 		
 		li {
 			float:left;
@@ -984,6 +1030,10 @@ ul#caseStudies {
 				margin-right:15%;
 				padding-left:0;
 				padding-right:0;
+			}
+			
+			hr {
+				display:none;
 			}
 		
 			#photo {

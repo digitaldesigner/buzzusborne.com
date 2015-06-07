@@ -18,7 +18,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Prevue</h1>
-			<span class="subscript">Founder &amp; Product Design Lead <em>·</em> UX / UI / Development <em>·</em> <?php echo date('Y'); ?></span>
+			<span class="subscript">Founder &amp; Product Design Lead <em>&#8226;</em> UX / UI / Development <em>&#8226;</em> <?php echo date('Y'); ?></span>
 		</div>
 	</div>
 	
@@ -89,7 +89,7 @@
 		<dl class="outro">
 			<div class="col left">
 				<dt>Position</dt>
-					<dd>Founder &amp; Product Lead</dd>
+					<dd>Founder <em class="special amp">&amp;</em> Product Lead</dd>
 				<dt>Company</dt>
 					<dd>Prevue</dd>
 				<dt>Date</dt>
@@ -97,16 +97,16 @@
 			</div>
 			<div class="col middle">			
 				<dt>Responsibilities</dt>
-					<dd>UX &amp; UI</dd>
+					<dd>UX <em class="special amp">&amp;</em> UI</dd>
 					<dd>Front-end (HTML, CSS, JavaScript)</dd>
 					<dd>Backend (MySQL, PHP, Apache)</dd>
-					<dd>Business development &amp; Sales</dd>
+					<dd>Business development <em class="special amp">&amp;</em> Sales</dd>
 					<dd>Support</dd>
 			</div>
 			<div class="col right">
 				<dt>More</dt>
-					<dd><a href="#">Articles on Medium</a></dd>
-					<dd><a href="#">Visit Prevue</a></dd>
+					<dd><a href="https://medium.com/prevue-app">Articles on Medium</a></dd>
+					<dd><a href="https://prevue.it/">Visit Prevue</a></dd>
 			</div>
 		</dl>
 		
