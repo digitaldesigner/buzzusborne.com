@@ -1,6 +1,19 @@
 <?php 
 	define('path','../../');
-	$buzzTitle="Creative Director";
+	$navigation = array(
+		"this" => array(
+			"path"	=> "../../",
+			"title"	=> "Campaign Monitor"
+		),
+		"prev" => array(
+			"path"	=> "../skype",
+			"title"	=> "Skype"
+		),
+		"next" => array(
+			"path"	=> "../monitor",
+			"title"	=> "Monitor App"
+		)
+	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
