@@ -1164,6 +1164,11 @@ ul#caseStudies li a img {
     padding-left: 0;
     padding-right: 0;
   }
+  #keycontrols ul {
+    float: left;
+    width: 90%;
+    margin: 0 5%;
+  }
   .container {
     float: left;
     width: 90%;
