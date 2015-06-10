@@ -1079,13 +1079,11 @@ ul#caseStudies li a {
 }
 ul#caseStudies li a h5 {
   position: absolute;
-  background: #222;
   left: 0;
   width: 100%;
   font-family: "proxima-nova", Georgia;
   font-size: 2.1em;
   font-weight: 800;
-  color: #2f353e;
   height: 100%;
   display: flex;
   justify-content: center;
@@ -1093,7 +1091,7 @@ ul#caseStudies li a h5 {
   vertical-align: middle;
   text-decoration: none;
   top: 0;
-  color: white;
+  color: #2f353e;
   opacity: 0;
   -webkit-transition: all 0.4s ease;
   -moz-transition: all 0.4s ease;

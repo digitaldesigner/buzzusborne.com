@@ -78,11 +78,13 @@
 	<div class="container">
 		<div class="project">
 			<h5>Marketing &amp; Optimisation</h5>
-			<p class="info"><strong>Above/</strong> The Prevue homepage, which features in-page signup and a Javascript "video" tour</p>			
-			<p>In addition to the product itself, I also spend a great deal of effort on Marketing &mdash; which could be A/B testing the <a href="https://prevue.it/">homepage</a>, writing for the <a href="https://blog.prevue.it/">blog</a> and sending regular email marketing.</p>
+			<p class="info"><strong>Below/</strong> A lightweight and mobile-first CMS I built for Prevue that allows me to manage activity in the app</p>			
+			<p>In addition to the product itself, I also spend a great deal of effort on Marketing &mdash; which varies from A/B testing the <a href="https://prevue.it/">homepage</a> and writing for the <a href="https://blog.prevue.it/">blog</a> to sending regular email marketing.</p>
 			<p>This side of the business has also been a good opportunity to experiment with conversion optimisation and lead-nurturing, all of which I measure using a bespoke CMS I built for Prevue.</p>
 			
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/cms.jpg" width="100%" /></div>
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Home_Iconography.png" width="100%" /></div>
+			<p class="caption"><strong>Above/</strong> Iconography used throughout the marketing site. <br /><strong>Below/</strong> One of the signup variants being tested on the homepage</p>
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Signup.png" width="100%" /></div>
 		</div>
 		
@@ -98,9 +100,10 @@
 			<div class="col middle">			
 				<dt>Responsibilities</dt>
 					<dd>UX <em class="special amp">&amp;</em> UI</dd>
+					<dd>User testing</dd>
 					<dd>Front-end (HTML, CSS, JavaScript)</dd>
 					<dd>Backend (MySQL, PHP, Apache)</dd>
-					<dd>Business development <em class="special amp">&amp;</em> Sales</dd>
+					<dd>Business development <em class="special amp">&amp;</em> Strategy</dd>
 					<dd>Support</dd>
 			</div>
 			<div class="col right">

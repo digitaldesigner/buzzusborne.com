@@ -23,53 +23,54 @@
 	</div>
 	
 	<div class="fullImage">
-		<img src="../_images/canvas/full_app.jpg" />
+		<img src="../_images/canvas/final_email.jpg" />
 	</div>
 
 	<div class="container">	
 		<div class="project">
-			<p class="info"><strong>Above &amp; below/</strong> Canvas provides the user with a number of customisable designs as a starting point</p>
-			<p>Building HTML emails that work across-the-board is hard... making them look good is next to impossible. There are existing tools out there, but all of them provide create cookie-cutter templates and hard-to-use interfaces &mdash; <a href="https://www.campaignmonitor.com" target="_blank">Campaign Monitor</a> saw an opportunity to do better:</p>
-			<blockquote class="spacer"><em>&ldquo;</em>Create an easy way for people to design beautiful, bespoke-looking emails that work everywhere, without needing to know code.&rdquo;</blockquote>
+			<p class="info"><strong>Above &amp; below/</strong> Thing</p>
+			<p>One of the biggest challenges I undertook during my time at Campaign Monitor was the design of &lsquo;Canvas&rsquo;, a platform that enables customers to build beautiful emails using drag-and-drop.</p>
+			
+			<p>From the outset, the value of this new builder was clear &mdash; coding HTML emails that actually work is difficult... making them look good is next to impossible. There are existing tools, but all of them provide create cookie-cutter templates and hard-to-use interfaces. <a href="https://www.campaignmonitor.com" target="_blank">Campaign Monitor</a> saw an opportunity to do better.</p>
+			<blockquote><em>&ldquo;</em>As a user, I want an easy way to design a beautiful, bespoke email that matches my brand, works everywhere, and doesn't require a knowledge of HTML.&rdquo;</blockquote>
 		</div>
 	</div>
 	
 	<div class="fullImage">
-		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/choose_template.jpg" width="100%" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/draggables.png" width="100%" />
 	</div>
 	
 	<div class="container">	
 		<div class="project">
-			<h5>UX</h5>
+			<h5>A UX Challenge</h5>
 			<p class="info"><strong>Below/</strong> Some of the sketches that helped inform the interface design</p>			
-			<p>After researching existing products in the market, and other similar tools like website and blog creators - I saw that most tools were simply passing complexity onto the user. Instead, I wanted to create a simple interface that let the user see their finished creation without unnecessary UI getting in the way. I wanted to focus on ease-of-use, and produce a product that felt intuitive, fun and native.</p>
+			<p>After researching existing products in the market, and other similar tools like website and blog creators - I saw that most tools were simply passing complexity onto the user. As a point of difference, I wanted to create a simple interface that let the user see their finished creation without unnecessary UI getting in the way. I wanted to focus on ease-of-use, and produce a product that felt intuitive, fun and native.</p>
 			
 			<p>Starting with a lot of sketching, I set out to create an experience that didn't require much UI - one that only showed controls and prompts when the user absolutely needed them.</p>
 			
 			<div class="image half"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_01.jpg" /></div>
 			<div class="image half right"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_02.jpg" /></div>
-			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_03.jpg" /></div>
-			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_04.jpg" /></div>
-		</div>
-	</div>
-	
-	<div class="fullImage">
-		<img src="../_images/canvas/draggables.png" />
-	</div>
-	
-	<div class="container">
-		<div class="project">
-			<h5>Designing a Visual Language</h5>
-			<p class="info"><strong>Below/</strong> Explanation...</p>
-			<p>Flexible, intuitive, visual foundation to build on. Core principles, blue means drag, when stuff hovers. How things drag</p>
+			<div class="image half close under"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_03.jpg" /></div>
+			<div class="image half right close under"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sketch_04.jpg" /></div>
+			
+			<p>Through sketching, research and wireframing I formed a simple set of design &lsquo;intentions&rsquo; &mdash; which I planned to use as my guidelines in the UI stages of the project:</p>
+			
+			<ol>
+				<li>A beautiful and well-built email is the only acceptable outcome &mdash; regardless of content</li>
+				<li>Adding and editing content should be native, and intuitive</li>
+				<li>At all points, the email should look as close to its finished state as possible. Unnecessary presentation interface controls and architecture should be avoided</li>
+				<li>The UI should be preemptive of the various ways users add and interact with content, not prescriptive</li>
+				<li>Avoid presenting the user with errors - instead, do what we assume they were trying to achieve</li>
+				<li>We should not expect a higher than necessary level of technical understanding from users. So the interface should operate seamlessly without knowledge of drag and drop capability</li>
+			</ol>
+			
+			<p class="info"><strong>Below/</strong> The UI takes cues from native applications and existing WYSIWYG editors</p>			
+			<p>The visual design, whilst minimal, was designed to be scalable and adapt to the future plans of the product. This meant putting less emphasis on glossy visuals, and placing more importance on interactions &mdash; a direction that required constant design, prototyping and user-testing.</p>
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/blankslate.png" width="100%" /></div>
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/icon_tests.png" width="100%" /></div>
-			
 			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sidebar_image.jpg" width="100%" /></div>
 			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sidebar_gallery.jpg" width="100%" /></div>
-			
-			<p class="caption"><strong>Above &amp; below/</strong> Explanation...</p>
 		</div>
 	</div>
 	
@@ -79,15 +80,17 @@
 	
 	<div class="container">
 		<div class="project">
-			<h5>A &lsquo;Blank Canvas&rsquo;</h5>
-			<p class="info"><strong>Below/</strong> Some small parts of the UI where special attention has been paid to the details</p>			
-			<p>The outcome was an easy-to-use interface that allows users to design bespoke-looking emails that suited their content, without having to worry about the complexity of HTML. Users are rarely presented with errors, can create content how they want, and are able to see exactly what their email will look like at all times.</p>
-			<p><a href="https://www.campaignmonitor.com/email-templates/">Try Canvas</a> (now called 'Template Builder')</p>
+			<h5>Introducing Canvas</h5>
+			<p class="info"><strong>Below/</strong> The journey from selecting a design to adding and editing your own content</p>			
+			<p>The outcome was an easy-to-use &ldquo;WYSIWYG&rdquo; product that allows users to design bespoke-looking emails that suited their content, without having to worry about the complexity of HTML. Users are rarely presented with errors, can format content how they want, and are able to see exactly what their email will look like at all times. Values true to my original design intentions.</p>
+			<p>Today, Canvas (now simply called &lsquo;Email Builder&rsquo;) is a core product of the Campaign Monitor platform &mdash; and the visual language I originally designed is still used by the product team who continue to work on it.</p>
 		</div>
 	</div>
 	
 	<div class="fullImage">
-		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/final_email.jpg" class="spacer" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/choose_template.jpg" />
+		<img class="lazyload spacer" data-sizes="auto" data-src="../_images/canvas/modal.jpg" />
+		<img class="lazyload spacer" data-sizes="auto" data-src="../_images/canvas/full_app.jpg" />
 	</div>
 	
 	<div class="container">
