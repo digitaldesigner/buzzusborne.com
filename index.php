@@ -8,7 +8,7 @@
 	</div>
 		
 		<ul id="caseStudies">
-				<li><a href="casestudy/prevue/"><h5><span>Prevue</span></h5><img src="_assets/home/temp.jpg"></a></li>
+				<li><a href="casestudy/prevue/"><h5><span>Prevue</span></h5></a></li>
 				<li class="even"><a href="casestudy/canvas/"><h5><span>Canvas</span></h5></a></li>
 				<li><a href="casestudy/skype/"><h5><span>Skype</span></h5></a></li>
 				<li class="even"><a href="casestudy/campaignmonitor/"><h5><span>Campaign Monitor</span></h5></a></li>
