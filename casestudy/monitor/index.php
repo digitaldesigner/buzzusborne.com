@@ -50,6 +50,8 @@
 			<p class="caption"><strong>Below/</strong> Iconography, along with the blank avatar I drew (modeled on my own head), being used in two of the key screens</p>
 			<div class="image half"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/iphone_map.jpg" width="100%" /></div>
 			<div class="image half right"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/iphone_stats.jpg" width="100%" /></div>
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/nav_bar.png" width="100%" /></div>
+
 		</div>
 	</div>
 	
@@ -57,13 +59,8 @@
 		<img class="lazyload" data-sizes="auto" data-src="../_images/monitor/small_icons.png" width="100%" />
 	</div>
 	
-	
 	<div class="container">
 		<div class="project">
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/nav_bar.png" width="100%" /></div>
-			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/final_icons_blue.png" width="100%" /></div>
-
-
 			<dl class="outro">
 				<div class="col left">
 					<dt>Position</dt>

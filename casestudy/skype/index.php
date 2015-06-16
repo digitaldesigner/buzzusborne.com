@@ -37,23 +37,23 @@
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/skype/process.jpg" width="100%" /></div>
 			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/skype/process02.jpg" /></div>
-			<div class="image half close right"><img class="lazyload" data-sizes="auto" data-src="../_images/skype/sketches.png" /></div>
+			<div class="image half close right under"><img class="lazyload" data-sizes="auto" data-src="../_images/skype/sketches.png" /></div>
 			
 			<p class="info"><strong>Above/</strong> Working with the creative team to concept and test variants of the core icon set (call, video etc)</p>
 			
 			<p>I led my own team, working under the direction of Steve Pearce (previously Deepend and Poke, pictured above) in London, and alongside the Skype product team led by <a href="http://zilmer.com/" target="_blank">Priidu Zilmer</a> in Estonia.</p>
 			
-			<p>My research was largely influenced by <a href="http://iconwerk.de/" target="_blank">Stefan Dziallas</a>, which led me to pursue a direction that relied on negative space and solid shapes &mdash; a direction I felt would be timeless, as well as scalable. For each icon in the core group (call, video, SMS etc), I sketched up to 50 concepts, which were roughly artworked and user-tested.</p>		
+			<p>My research was largely influenced by <a href="http://iconwerk.de/" target="_blank">Stefan Dziallas</a>, which led me to pursue a direction that relied on negative space and solid shapes &mdash; a direction I felt would be timeless, as well as scalable. For each icon in the core group (call, video, SMS etc), I sketched up to 50 concepts, which were roughly artworked and user-tested &mdash; below is an example of the discarded concepts for the video icon:</p>
 		</div>
 	</div>
 	
 	<div class="fullImage">
-		<img class="lazyload" data-sizes="auto" data-src="../_images/skype/concepts.png" />
+		<img class="spacer lazyload" data-sizes="auto" data-src="../_images/skype/concepts.png" />
 	</div>
 	
 	<div class="container">
 		<div class="project">
-			<h5>Personality through conformity</h5>
+			<h5>Artwork</h5>
 			<p class="info"><strong>Above/</strong> The various concepts for the video icon, the most successful of which was taken to the artwork stage (below)</p>
 			<p>The consistent &ldquo;personality&rdquo; and responsive requirements of the brief led me to take a different approach to the artwork stage of the project. Rather than approach each icon individually, my assumption was that if I designed all shapes as I would a typeface (i.e. set to a rigid grid with global &ldquo;rules&rdquo;), I would achieve personality through uniformity.</p>
 			
