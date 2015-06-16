@@ -29,22 +29,22 @@
 	<div class="container">	
 		<div class="project">
 			<h5>The Brief</h5>
-			<p class="info"><strong>Above &amp; below/</strong> Thing</p>
-			<p>One of the biggest challenges I undertook during my time at Campaign Monitor was the design of &lsquo;Canvas&rsquo;, a platform that enables customers to build beautiful emails using drag-and-drop.</p>
+			<p class="info"><strong>Above/</strong> An immersive, design-led email builder that has the feel of a native website builder</p>
+			<p>One of the biggest challenges for designers and marketers is the complexity involved in building HTML email templates. Coding mobile-responsive emails that work cross-browser is difficult&hellip; but making them look good too is next to impossible.</p>
 			
-			<p>From the outset, the value of this new builder was clear &mdash; coding HTML emails that actually work is difficult... making them look good is next to impossible. There are existing tools, but all of them provide create cookie-cutter templates and hard-to-use interfaces. <a href="https://www.campaignmonitor.com" target="_blank">Campaign Monitor</a> saw an opportunity to do better.</p>
-			<blockquote><em>&ldquo;</em>As a user, I want an easy way to design a beautiful, bespoke email that matches my brand, works everywhere, and doesn't require a knowledge of HTML.&rdquo;</blockquote>
+			<p>There are existing tools, but all of them provide create cookie-cutter templates and hard-to-use interfaces. <a href="https://www.campaignmonitor.com" target="_blank">Campaign Monitor</a> saw an opportunity to do better.</p>
+			
+			<p>In what was one of the most challenging tasks of my career, I was tasked with designing an easy way for anyone to design a beautiful, bespoke email that matches their brand, works everywhere, and doesn&rsquo;t require a knowledge of HTML.</p>	
 		</div>
 	</div>
 	
 	<div class="fullImage">
-		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/draggables.png" width="100%" />
+		<img class="lazyload bottom" data-sizes="auto" data-src="../_images/canvas/draggables.png" width="100%" />
 	</div>
 	
 	<div class="container">	
 		<div class="project">
-			<h5>A UX Challenge</h5>
-			<p class="info"><strong>Below/</strong> Some of the sketches that helped inform the interface design</p>			
+			<p class="info"><strong>Above/</strong> Some of the core functionality, drag <em class="special amp">&amp;</em> drop content tiles</p>			
 			<p>After researching existing products in the market, and other similar tools like website and blog creators - I saw that most tools were simply passing complexity onto the user. As a point of difference, I wanted to create a simple interface that let the user see their finished creation without unnecessary UI getting in the way. I wanted to focus on ease-of-use, and produce a product that felt intuitive, fun and native.</p>
 			
 			<p>Starting with a lot of sketching, I set out to create an experience that didn't require much UI - one that only showed controls and prompts when the user absolutely needed them.</p>
@@ -65,13 +65,18 @@
 				<li>We should not expect a higher than necessary level of technical understanding from users. So the interface should operate seamlessly without knowledge of drag and drop capability</li>
 			</ol>
 			
+			<h5>Designing a visual language</h5 >
 			<p class="info"><strong>Below/</strong> The UI takes cues from native applications and existing WYSIWYG editors</p>			
-			<p>The visual design, whilst minimal, was designed to be scalable and adapt to the future plans of the product. This meant putting less emphasis on glossy visuals, and placing more importance on interactions &mdash; a direction that required constant design, prototyping and user-testing.</p>
+			<p>The visual design, whilst minimal, was designed to be scalable and adapt to the future plans of the product. This meant putting less emphasis on glossy visuals, and placing more importance on interactions.</p>
+			<p>Whilst carefully balancing my design intentions with technical scope, I produced a number of interactive prototypes which were user-tested, refined, documented and built &mdash; a process I saw from concept to completion.</p>
 			
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/blankslate.png" width="100%" /></div>
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/blankslate.png" width="100%" /></div>			
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/icon_tests.png" width="100%" /></div>
-			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sidebar_image.jpg" width="100%" /></div>
-			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sidebar_gallery.jpg" width="100%" /></div>
+			
+			<p class="caption"><strong>Above/</strong> Though seemingly-simple pieces of UI, even the text editor and delete controls went through numerous rounds of testing and iteration to perfect</p>
+
+			<div class="image half"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sidebar_image.jpg" width="100%" /></div>
+			<div class="image half right"><img class="lazyload" data-sizes="auto" data-src="../_images/canvas/sidebar_gallery.jpg" width="100%" /></div>
 		</div>
 	</div>
 	
