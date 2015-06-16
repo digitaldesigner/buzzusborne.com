@@ -7,16 +7,17 @@ function releasePress(e){
 	$('a#ctrlKey,a#sixtySeven').removeClass();
 }
 
-$(window).scroll(function(){ 
-	var scrollDis = $(document).scrollTop();
-	var windowHeight = $( window ).height();
-
-	if(scrollDis > windowHeight){
-		$('#keycontrols').fadeIn(200);
-	} else if(scrollDis <= windowHeight){
-		$('#keycontrols').fadeOut(200);
-	}
-	
-});
-
 $(document).keydown(keylistener).keyup(releasePress);
+
+var leadImage = $('.leadImg').offset();
+var leadImageH = $('.leadImg').height();
+
+$(window).scroll(function(){
+   if($(window).scrollTop()>((leadImage.top + leadImageH) - (leadImageH / 2))){
+		 $('#keycontrols').fadeIn(200);
+		 $('.leadImg').addClass('scrollout');
+   } else {
+		 $('.leadImg').removeClass('scrollout');
+		 $('#keycontrols').fadeOut(200);
+   }
+});

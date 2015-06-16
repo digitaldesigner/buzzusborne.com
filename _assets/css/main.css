@@ -206,6 +206,9 @@ body {
   -webkit-box-shadow: 0px 0 0px 2px rgba(0, 0, 0, 0.04);
   opacity: 0.97;
 }
+#keycontrols.hidden {
+  top: 100%;
+}
 #keycontrols ul {
   margin: 0px auto;
   width: 850px;
@@ -332,13 +335,18 @@ hr.sectionBreak {
   height: 2px;
   background: #d9d9dd;
 }
+img {
+  display: block;
+}
 .fullImage {
   float: left;
   width: 90%;
   text-align: center;
   margin: 30px 5%;
+  min-height: 100px;
 }
 .fullImage img {
+  display: inline-block;
   width: auto;
   max-width: 100%;
 }
@@ -348,12 +356,22 @@ hr.sectionBreak {
 .fullImage img.bottom {
   margin-bottom: 50px;
 }
+.fullImage img.leadImg {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.fullImage img.scrollout {
+  opacity: 0.7;
+}
 .fullImage.placeholder {
-  background: #f4f4f5;
+  background: #edeeee;
   height: 450px;
-  box-shadow: inset 0px 0 0px 10px #f2f2f4;
-  -moz-box-shadow: inset 0px 0 0px 10px #f2f2f4;
-  -webkit-box-shadow: inset 0px 0 0px 10px #f2f2f4;
+  box-shadow: inset 0px 0 0px 10px #ebeded;
+  -moz-box-shadow: inset 0px 0 0px 10px #ebeded;
+  -webkit-box-shadow: inset 0px 0 0px 10px #ebeded;
 }
 #projectIntro h1 {
   float: left;
@@ -532,7 +550,13 @@ hr.sectionBreak {
 #about p.info,
 .project blockquote.info,
 #project blockquote.info,
-#about blockquote.info {
+#about blockquote.info,
+.project p.inlineCaption,
+#project p.inlineCaption,
+#about p.inlineCaption,
+.project blockquote.inlineCaption,
+#project blockquote.inlineCaption,
+#about blockquote.inlineCaption {
   font-style: italic;
   font-size: 1.3em;
   line-height: 1.9em;
@@ -551,7 +575,13 @@ hr.sectionBreak {
 #about p.info strong,
 .project blockquote.info strong,
 #project blockquote.info strong,
-#about blockquote.info strong {
+#about blockquote.info strong,
+.project p.inlineCaption strong,
+#project p.inlineCaption strong,
+#about p.inlineCaption strong,
+.project blockquote.inlineCaption strong,
+#project blockquote.inlineCaption strong,
+#about blockquote.inlineCaption strong {
   font-weight: normal;
   font-style: inherit;
   color: #2f353e;
@@ -567,8 +597,22 @@ hr.sectionBreak {
 #about p.info a,
 .project blockquote.info a,
 #project blockquote.info a,
-#about blockquote.info a {
+#about blockquote.info a,
+.project p.inlineCaption a,
+#project p.inlineCaption a,
+#about p.inlineCaption a,
+.project blockquote.inlineCaption a,
+#project blockquote.inlineCaption a,
+#about blockquote.inlineCaption a {
   font-style: inherit;
+}
+.project p.inlineCaption,
+#project p.inlineCaption,
+#about p.inlineCaption,
+.project blockquote.inlineCaption,
+#project blockquote.inlineCaption,
+#about blockquote.inlineCaption {
+  padding-left: 0;
 }
 .project p.caption,
 #project p.caption,
@@ -672,7 +716,8 @@ hr.sectionBreak {
 #about .image {
   float: left;
   width: 100%;
-  background: white;
+  background: #edeeee;
+  min-height: 100px;
   margin: 30px 0 30px;
 }
 .project .image img,
@@ -739,11 +784,11 @@ hr.sectionBreak {
 .project .image.placeholder,
 #project .image.placeholder,
 #about .image.placeholder {
-  background: #f4f4f5;
+  background: #edeeee;
   height: 300px;
-  box-shadow: inset 0px 0 0px 10px #f2f2f4;
-  -moz-box-shadow: inset 0px 0 0px 10px #f2f2f4;
-  -webkit-box-shadow: inset 0px 0 0px 10px #f2f2f4;
+  box-shadow: inset 0px 0 0px 10px #ebeded;
+  -moz-box-shadow: inset 0px 0 0px 10px #ebeded;
+  -webkit-box-shadow: inset 0px 0 0px 10px #ebeded;
 }
 .project .video,
 #project .video,
@@ -753,7 +798,7 @@ hr.sectionBreak {
   width: 562.66666667px;
   margin: 0 0 30px 0;
   padding: 0 0 0 0;
-  background: #f4f4f5;
+  background: #edeeee;
 }
 .project .video img,
 #project .video img,
@@ -869,6 +914,13 @@ dl.outro .right {
 #about p.lead {
   font-size: 1.7em;
   clear: none;
+}
+#about p.lead em {
+  color: inherit;
+  font-style: normal;
+}
+#about p.lead em.special.amp {
+  font-style: italic;
 }
 #about p:last-child {
   margin-top: 8px;
@@ -1145,7 +1197,7 @@ ul#caseStudies li a img {
   color: #a5b3be;
   font-style: italic;
 }
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 980px) {
   #header h1,
   #header h2,
   #header .subscript {
@@ -1170,6 +1222,11 @@ ul#caseStudies li a img {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+  .fullImage.top {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%!important;
   }
   #keycontrols ul {
     float: left;
@@ -1372,10 +1429,7 @@ ul#caseStudies li a img {
     display: none;
   }
   .container #about #photo {
-    float: left;
-    margin: -10px 0 20px 15%;
-    width: 50px;
-    height: 50px;
+    display: none;
   }
   .container #about ol {
     position: relative;
@@ -1416,9 +1470,6 @@ ul#caseStudies li a img {
   body .container {
     width: 96%;
     margin: 0 2%;
-  }
-  body .container #about #photo {
-    display: none;
   }
   body .container dl.outro {
     padding: 40px 0 0px;

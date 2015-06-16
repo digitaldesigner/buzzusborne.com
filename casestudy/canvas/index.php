@@ -22,12 +22,13 @@
 		</div>
 	</div>
 	
-	<div class="fullImage">
-		<img src="../_images/canvas/final_email.jpg" />
+	<div class="fullImage top">
+		<img class="leadImg" src="../_images/canvas/modal_head.jpg" />
 	</div>
 
 	<div class="container">	
 		<div class="project">
+			<h5>The Brief</h5>
 			<p class="info"><strong>Above &amp; below/</strong> Thing</p>
 			<p>One of the biggest challenges I undertook during my time at Campaign Monitor was the design of &lsquo;Canvas&rsquo;, a platform that enables customers to build beautiful emails using drag-and-drop.</p>
 			
@@ -89,8 +90,8 @@
 	
 	<div class="fullImage">
 		<img class="lazyload" data-sizes="auto" data-src="../_images/canvas/choose_template.jpg" />
-		<img class="lazyload spacer" data-sizes="auto" data-src="../_images/canvas/modal.jpg" />
 		<img class="lazyload spacer" data-sizes="auto" data-src="../_images/canvas/full_app.jpg" />
+		<img class="lazyload spacer" data-sizes="auto" data-src="../_images/canvas/final_email.jpg" />
 	</div>
 	
 	<div class="container">

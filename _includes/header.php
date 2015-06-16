@@ -31,21 +31,7 @@
 	<meta name="viewport" content="width=320,initial-scale=1.0" />
 </head>
 <body<?php if(isset($bodyclass)){ echo " class=\"".$bodyclass."\""; }?>>
-	
-	<div id="keycontrols">
-		<ul>
-			<?php 
-			if($prev || $next){ 
-				if($prev){ echo $prev; }
-				if($next){ echo "\n			".$next; } 
-			}
-			?>
-			
-		</ul>
-	</div>
-	
 	<div class="container">
-		
 		<?php if(path=="../../"){ ?><div id="header" class="project">
 			<h1><a href="<?php echo path; ?>">Buzz</a><em>/</em></h1><?php } else { ?><div id="header">
 			<h1><a href="<?php echo path; ?>">Buzz Usborne</a></h1>

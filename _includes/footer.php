@@ -9,9 +9,23 @@
 		</div><?php } ?>
 	
 	</div>	
-		
-  <?php if(!isset($hideFoot)) { ?><script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  <script src="<?php echo path; ?>_assets/js/lazysizes.min.js"></script>	
+	
+	<div id="keycontrols"<?php if(isset($hideNav)) { echo " class=\"hidden\""; }?>>
+		<ul>
+			<?php 
+			if($prev || $next){ 
+				if($prev){ echo $prev; }
+				if($next){ echo "\n			".$next; } 
+			}
+			?>
+			
+		</ul>
+	</div>
+	
+  <?php if(!isset($hideFoot)) { ?>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="<?php echo path; ?>_assets/js/lazysizes.min.js"></script>	
 	<script src="<?php echo path; ?>_assets/js/modal.js"></script><?php } ?>
+	
 </body>
 </html>

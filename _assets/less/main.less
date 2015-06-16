@@ -32,6 +32,10 @@ body {
 	-webkit-box-shadow:0px 0 0px 2px rgba(0,0,0,0.04);
 	opacity:0.97;
 	
+	&.hidden {
+		top:100%;
+	}
+	
 	ul {
 		margin:0px auto;
 		width:@sitewidth;
@@ -160,13 +164,17 @@ hr.sectionBreak {
 	background:darken(@borders,10%);
 }
 
+img { display:block; }
+
 .fullImage {
 	float:left;
 	width:90%;
 	text-align:center;
 	margin:30px 5%;
+	min-height:100px;
 	
 	img {
+		display:inline-block;
 		width:auto;
 		max-width:100%;
 		
@@ -176,6 +184,18 @@ hr.sectionBreak {
 		
 		&.bottom {
 			margin-bottom:50px;
+		}
+		
+		&.leadImg{
+			-webkit-transition: all 0.4s ease;
+			-moz-transition: all 0.4s ease;
+			-ms-transition: all 0.4s ease;
+			-o-transition: all 0.4s ease;
+			transition: all 0.4s ease;
+		}
+		
+		&.scrollout {
+			opacity:0.7;
 		}
 	}
 	
@@ -321,7 +341,7 @@ hr.sectionBreak {
 			}
 		}
 	
-		&.caption,&.info{
+		&.caption,&.info,&.inlineCaption{
 			font-style:italic;
 			font-size:1.3em;
 			line-height:1.9em;
@@ -338,6 +358,10 @@ hr.sectionBreak {
 			a {
 				font-style:inherit;
 			}
+		}
+		
+		&.inlineCaption {
+			padding-left:0;
 		}
 		
 		&.caption {
@@ -413,7 +437,8 @@ hr.sectionBreak {
 	.image {
 		float:left;
 		width:100%;
-		background:white;
+		background:@testing;
+		min-height:100px;
 		margin:30px 0 30px;
 		
 		img {
@@ -599,6 +624,15 @@ dl.outro {
 		&.lead {
 			font-size:1.7em;
 			clear:none;
+			
+			em {
+				color:inherit;
+				font-style:normal;
+
+				&.special.amp {
+					font-style:italic;
+				}
+			}
 		}
 		
 		&:last-child {
@@ -920,6 +954,12 @@ ul#caseStudies {
 		}
 	}
 	
+	.fullImage.top {
+		margin-left:0;
+		margin-right:0;
+		width:100%!important;
+	}
+	
 	#keycontrols {
 
 		ul {
@@ -1063,10 +1103,7 @@ ul#caseStudies {
 			}
 		
 			#photo {
-				float:left;
-				margin:-10px 0 20px 15%;
-				width:50px;
-				height:50px;
+				display:none;
 			}
 		
 			ol {
@@ -1116,19 +1153,10 @@ ul#caseStudies {
 				}
 			}
 		}
-		
-		// .fullImage img.spacer {
-		// 	margin-top:0;
-		// 	margin-bottom:0;
-		// }
-		
+				
 		.container {
 			width:96%;
 			margin:0 2%;
-			
-			#about #photo {
-				display:none;
-			}
 			
 			dl.outro {
 				padding:40px 0 0px;
@@ -1174,9 +1202,10 @@ ul#caseStudies {
 			ol {
 				list-style-position:inside;
 			}
-			
+						
 			.project,
 			#project {
+				
 				p {
 					&.caption,&.info{
 						width:70%;
@@ -1201,21 +1230,12 @@ ul#caseStudies {
 					&.close {
 						margin-top:5px;
 					}
-					
-					// margin-top:5px;
-					// margin-bottom:5px;
-					//
-					// &.half,&.close,&.under {
-					// 	margin-top:5px;
-					// 	margin-bottom:5px;
-					// }
 				}
 				
 				.video {
 					width:100%;
 					margin-left:0;
 				}
-				
 			}
 		}
 	}

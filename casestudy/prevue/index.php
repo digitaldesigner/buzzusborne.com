@@ -22,12 +22,13 @@
 		</div>
 	</div>
 	
-	<div class="fullImage">
-		<img src="../_images/prevue/Homepage.jpg"  />
+	<div class="fullImage top">
+		<img class="leadImg" src="../_images/prevue/Homepage.jpg"  />
 	</div>
 
 	<div class="container">	
 		<div class="project">
+			<h5>The Brief</h5>
 			<p class="info"><strong>Above/</strong> The Library screen. A drag-and-drop UI that allows upload and collection of work into projects and groups</p>
 			<p>In 2007 I built an app that let me share fullscreen design concepts with my clients, organise my work, and allow my images to be annotated with feedback. Today, that app is used by 20,000 designers and agencies to share over 1 million designs with their own clients.</p>
 			<p>Though still designed, built and run entirely by myself - Prevue now operates as a profitable business, and a playground for my experimentations in UX, UI and code. Above all else, Prevue provides me with unparallelled experience in feature management, customer communication and product strategy.</p>

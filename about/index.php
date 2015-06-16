@@ -1,5 +1,12 @@
 <?php
 	define('path','../');
+	$hideNav=TRUE;
+	$navigation = array(
+		"next" => array(
+			"path"	=> "..",
+			"title"	=> "Home"
+		)
+	);
 	include(path.'_includes/header.php');
 ?>
 		
@@ -15,52 +22,56 @@
 			
 			<p><strong>But most of all</strong>... I enjoy listening to real people, watching their habits, then creating beautiful and useful product experiences that meet their needs and exceed their expectations.</p>
 			
+									
+			<div class="image">
+				<img class="lazyload" data-sizes="auto" data-src="../_assets/gfx/buzz_large.jpg" width="100%">
+			</div>
+			<p class="inlineCaption">Above: Awkwardly staged, from <a href="https://vimeo.com/63710984" target="_blank">this video</a></p>
 			<hr />
 
 			<p>Previously a competitive sailor and professional coach, I appreciate the importance of a healthy work<em class="special">/</em>life balance. When I'm not in front of a computer you'll likely find me outdoors &mdash; riding motorbikes, swimming, running or traveling.</p>
+			
 
 			<ol>
 				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Founder <em class="special amp">&amp;</em> Product Lead</strong><br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>Product Design Lead</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Art Director</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
-				<li><span>&#8226;</span><strong>Art Director (Freelance)</strong><br />Skype, Facebook, Various</li>
+				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://www.fatdigital.com.au/">Fat Digital</a></li>
+				<li><span>&#8226;</span><strong>UX<em class="special">/</em>UI Lead (Freelance)</strong><br />Skype, Facebook, Various</li>
 				<li><span>&#8226;</span><strong>Senior Designer</strong><br /><a href="http://storyworldwide.com/">Story Worldwide</a></li>
 				<li><span>&#8226;</span><strong>Lead Designer</strong><br />Large</li>
 				<li><span>&#8226;</span><strong>Designer</strong><br /><a href="http://popcornbox.com/">Popcorn Design</a></li>
 				<li><span>&#8226;</span><strong>Junior</strong><br /><a href="http://www.absolutedesign.co.uk/">Absolute Design</a></li>
 				<span id="fadeOut">&nbsp;</span>
 			</ol>
-			
-		</div>
 		
-		<dl class="outro">
-			<div class="col left">
-				<dt>Colophon</dt>
-					<dd>Lora Regular<em class="special">/</em>Italic</dd>
-					<dd>Proxima Nova</dd>
-					<dd>Compiled with LESS</dd>
-					<dd>Written in HTML <em class="special amp">&amp;</em> PHP</dd>
-			</div>
-			<div class="col middle">			
-				<dt>Core Skills</dt>
-					<dd>Sketching <em class="special amp">&amp;</em> Concepts</dd>
-					<dd>Digital Design</dd>
-					<dd>UX<em class="special">/</em>UI</dd>
-					<dd>Iconography</dd>
-					<dd>Prototyping (HTML<em class="special">/</em>CSS)</dd>
-			</div>
-			<div class="col right">
-				<dt>Say &ldquo;Hello&rdquo;</dt>
-					<dd><a href="http://linkedin.com/in/buzzusborne/">LinkedIn</a></dd>
-					<dd><a href="http://medium.com/@buzzusborne/">Medium</a></dd>
-					<dd><a href="http://twitter.com/@buzzusborne/">Twitter</a></dd>
-					<dd><a href="mailto:hello@buzzusborne.com">Email</a></dd>
-			</div>
-		</dl>
-		
-		
+			<dl class="outro">
+				<div class="col left">
+					<dt>Colophon</dt>
+						<dd>Lora Regular<em class="special">/</em>Italic</dd>
+						<dd>Proxima Nova</dd>
+						<dd>Compiled with LESS</dd>
+						<dd>Written in HTML <em class="special amp">&amp;</em> PHP</dd>
+				</div>
+				<div class="col middle">			
+					<dt>Core Skills</dt>
+						<dd>Sketching <em class="special amp">&amp;</em> Concepts</dd>
+						<dd>Digital Design</dd>
+						<dd>UX<em class="special">/</em>UI</dd>
+						<dd>Iconography</dd>
+						<dd>Prototyping (HTML<em class="special">/</em>CSS)</dd>
+				</div>
+				<div class="col right">
+					<dt>Elsewhere</dt>
+						<dd><a href="https://instagram.com/buzz/">Instagram</a></dd>
+						<dd><a href="http://linkedin.com/in/buzzusborne/">LinkedIn</a></dd>
+						<dd><a href="http://medium.com/@buzzusborne/">Medium</a></dd>
+						<dd><a href="http://twitter.com/@buzzusborne/">Twitter</a></dd>
+						<dd><a href="mailto:hello@buzzusborne.com">Email</a></dd>
+				</div>
+			</dl>
+				
 <?php
-	$hideFoot = TRUE;
 	include(path.'_includes/footer.php');
 ?>

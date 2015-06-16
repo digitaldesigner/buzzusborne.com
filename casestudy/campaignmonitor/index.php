@@ -22,12 +22,13 @@
 		</div>
 	</div>
 	
-	<div class="fullImage">
-		<img src="../_images/campaignmonitor/cm_signage.jpg" />
+	<div class="fullImage top">
+		<img class="leadImg" src="../_images/campaignmonitor/cm_signage.jpg" />
 	</div>
 
 	<div class="container">
 		<div class="project">
+			<h5>The Brief</h5>
 			<p class="info"><strong>Above/</strong> The Campaign Monitor logo featured in their Sydney offices</p>
 			<p>I was the Creative Director for the Digital Design team at Campaign Monitor. Over the course of 3 years, I designed the brand, site and set the visual tone for all global marketing. During this time I had my hand in all areas of design, from print and advertising through to art direction and development.</p>
 			<p>Focussing on giving the company a more &lsquo;human&rsquo; and modern feel, I designed the brand that Campaign Monitor uses today. Starting with the logo, I worked with typographer <a href="http://studioanthonylane.com/" target="_blank">Anthony Lane</a> to produce an identity that could be extended to our marketing efforts, both online and off.</p>
@@ -44,16 +45,15 @@
 	
 	<div class="container">
 		<div class="project">
-			<p class="caption"><strong>Above/</strong> The grid behind the full logo, meticulously crafted to work at any size</p>
 			
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/business_cards.jpg" width="100%"></div>
-
+			<hr class="sectionBreak" />
+			<h5>Brand Application</h5>
 			<p class="info"><strong>Below/</strong> Various applications of the brand in advertising and apparel</p>			
 			<p>One of my primary goals with the brand was to create a friendly and approachable image, whilst also remaining a respected leader in the field. <strong>Tone of voice</strong> played a big part in helping to achieve this &mdash; a playful tone can be seen in advertising.</p>
 			<p>I also aimed to reinforce the playful, fun and human nature of the brand in supporting collateral &mdash; and always aimed to support the design community where possible. Here's how we played with the logo to produce a series of branded giveaway's.</p>
 			
-			
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/print_ad.jpg" width="100%"></div>
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/business_cards.jpg" width="100%"></div>
+			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/print_ad.jpg" width="100%"></div>
 			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/sketchbook.jpg" width="100%"></div>
 			<div class="image half close right"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/poster.jpg" width="100%"></div>
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/cb_tee.jpg" width="100%"></div>
@@ -70,9 +70,17 @@
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/customers_large.jpg" width="100%"></div>
 			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/campaignmonitor_home.jpg" width="100%"></div>
 			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/case_study_small.jpg" width="100%"></div>
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/canvas_landing.jpg" width="100%"></div>
+		</div>
+	</div>
+	
+	<div class="fullImage">
+		<img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/canvas_large.jpg" width="100%">
+	</div>
+	
+	<div class="container">
+		<div class="project">	
 			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/cm_contact.png" width="100%"></div>
-			<div class="image half right close under"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/cm_unlimited.png" width="100%"></div>
+			<div class="image half close right under"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/cm_unlimited.png" width="100%"></div>
 			
 			<p>Proudly launched before &ldquo;flat design&rdquo; was a thing, and built on a custom PHP framework of my own design, the constantly-evolving site receives over 5 million unique visits a year.</p>
 
