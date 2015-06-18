@@ -694,7 +694,10 @@ img {
 }
 .project h5,
 #project h5,
-#about h5 {
+#about h5,
+.project h6,
+#project h6,
+#about h6 {
   float: left;
   width: 563.66666667px;
   margin: 40px 0 20px 0;
@@ -706,10 +709,22 @@ img {
 }
 .project h5.half,
 #project h5.half,
-#about h5.half {
+#about h5.half,
+.project h6.half,
+#project h6.half,
+#about h6.half {
   width: 330px;
   padding: 0 50px 0 45px;
   margin: 50px 0 0 0;
+}
+.project h6,
+#project h6,
+#about h6 {
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  padding-left: 0;
+  font-size: 2.1em;
 }
 .project .image,
 #project .image,
