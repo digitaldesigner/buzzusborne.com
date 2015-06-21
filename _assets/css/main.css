@@ -1112,75 +1112,71 @@ h4 {
 ul#caseStudies {
   float: left;
   width: 100%;
-  margin: 40px 0 100px 0;
+  margin: 60px 0 100px 0;
 }
 ul#caseStudies li {
   float: left;
   width: 50%;
-  position: relative;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
   border-top: 2px solid white;
   box-sizing: border-box;
+  margin-bottom: 30px;
 }
 ul#caseStudies li.even {
   border-right: 0;
   border-left: 2px solid white;
 }
-ul#caseStudies li:before {
-  content: "";
-  display: block;
-  padding-top: 100%;
-}
 ul#caseStudies li a {
-  position: absolute;
-  top: 0;
-  left: 0;
+  float: left;
   width: 100%;
   padding: 0;
-  background: #f4f4f5;
-  height: 100%;
-  text-align: center;
-  overflow: hidden;
+  text-align: left;
   color: #2f353e;
-}
-ul#caseStudies li a h5 {
-  position: absolute;
-  left: 0;
-  width: 100%;
-  font-family: "proxima-nova", Georgia;
-  font-size: 2.1em;
-  font-weight: 800;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
-  text-decoration: none;
-  top: 0;
-  color: #2f353e;
-  opacity: 0;
-  -webkit-transition: all 0.4s ease;
-  -moz-transition: all 0.4s ease;
-  -ms-transition: all 0.4s ease;
-  -o-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-  -webkit-transform: scale(1.1);
-}
-ul#caseStudies li a h5 span {
-  display: inline-block;
-  border-bottom: 2px solid #00aadd;
-}
-ul#caseStudies li a:hover h5 {
-  -webkit-transform: scale(1);
-  -webkit-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
-  top: 0;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  /* For some Androids */
 }
 ul#caseStudies li a img {
   width: 100%;
   max-height: 100%;
+}
+ul#caseStudies li a:hover h5 span {
+  border-color: #00aadd;
+}
+ul#caseStudies li .image {
+  float: left;
+  width: 100%;
+  background: #edeeee;
+  overflow: hidden;
+}
+ul#caseStudies li .image img {
+  width: 100%;
+}
+ul#caseStudies li h5 {
+  float: left;
+  margin: 0;
+  width: 100%;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.9em;
+  font-weight: 800;
+  color: #2f353e;
+}
+ul#caseStudies li h5 span {
+  display: inline-block;
+  border-bottom: 2px solid white;
+}
+ul#caseStudies li p {
+  float: left;
+  width: 100%;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #2f353e;
+  font-weight: 400;
+  color: #a5b3be;
+  margin: 0;
+  padding: 0 0 10px 0;
 }
 #footer {
   float: left;
@@ -1222,6 +1218,9 @@ ul#caseStudies li a img {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+  ul#caseStudies {
+    margin-top: 40px;
   }
   #projectIntro {
     float: left;
@@ -1473,13 +1472,29 @@ ul#caseStudies li a img {
     margin-left: 43%;
     margin-right: 43%;
   }
+  body ul#caseStudies {
+    margin-top: -15px;
+  }
   body ul#caseStudies li {
     background: none;
     width: 100%;
     border: none;
-    margin: 0 0 4px;
+    margin: 0 0 0 0;
   }
-  body ul#caseStudies li a h5 {
+  body ul#caseStudies li h5 {
+    padding-top: 50px;
+  }
+  body ul#caseStudies li h5,
+  body ul#caseStudies li p {
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  body ul#caseStudies li p {
+    padding-bottom: 15px;
+    margin-bottom: 0;
+  }
+  body ul#caseStudies li.soon {
     display: none;
   }
   body .container {
