@@ -917,6 +917,10 @@ dl.outro .right {
   margin-bottom: 20px;
   position: relative;
 }
+#about.timeline p,
+#about.timeline h6 {
+  width: 80%;
+}
 #about h3 {
   width: 800px;
   padding-left: 0;
@@ -1431,7 +1435,8 @@ ul#caseStudies li p {
     width: 100%;
   }
   .container #about h3,
-  .container #about p {
+  .container #about p,
+  .container #about h6 {
     float: left;
     width: 70%;
     margin-left: 15%;
