@@ -88,6 +88,12 @@ em.special {
 		font-family:Baskerville,Georgia;
 		font-style:italic;
 	}
+	
+	&.bullet {
+		margin-left:10px;
+		margin-right:10px;
+		color:darken(@borders,15%);
+	}
 }
 
 #header {
@@ -226,12 +232,6 @@ img { display:block; }
 		.title(1.4em);
 		font-weight:400;
 		color:@subtext;
-		
-		em {
-			display:inline-block;
-			*display:inline;
-			margin:0 3px;
-		}
 	}
 }
 
@@ -251,7 +251,7 @@ img { display:block; }
 		float:right;
 		width:120px;
 		height:120px;
-		margin:-20px 0 0 0;
+		margin:-30px 0 0 0;
 		
 		img {
 			width:100%;
@@ -538,6 +538,7 @@ dl.outro {
 	.rounded-corners(5px);
 	box-sizing: border-box;
 	position: relative;
+	padding:0 0 20px 0;
 	
 	&:after,&:before {
 		bottom: 100%;
@@ -645,6 +646,16 @@ dl.outro {
 
 				&.special.amp {
 					font-style:italic;
+				}
+			}
+			
+			a {
+				border-color:@linkhover;
+				border-width:2px;
+				color:@dark;
+				
+				&:hover {
+					color:@linkhover;
 				}
 			}
 		}
@@ -826,21 +837,12 @@ h4 {
 ul#caseStudies {
 	float:left;
 	width:100%;
-	margin:60px 0 100px 0;
+	margin:30px 0 30px 0;
 	
 	li {
 		float:left;
-		width:50%;
-		border-right:2px solid white;
-		border-bottom:2px solid white;
-		border-top:2px solid white;
-		box-sizing: border-box;
-		margin-bottom:30px;
-
-		&.even {
-			border-right:0;
-			border-left:2px solid white;
-		}
+		width:100%;
+		margin:0 0 80px 0;
 		
 		a {
 			float:left;
@@ -854,12 +856,6 @@ ul#caseStudies {
 				max-height:100%;
 			}
 			
-			&:hover {
-				h5 span {
-					border-color:@linkhover;
-				}
-			}
-			
 		  -webkit-tap-highlight-color: rgba(0,0,0,0);
 		  -webkit-tap-highlight-color: transparent; /* For some Androids */
 		}
@@ -869,6 +865,7 @@ ul#caseStudies {
 			width:100%;
 			background:@testing;
 			overflow:hidden;
+			min-height:100px;
 			
 			img {
 				width:100%;
@@ -877,15 +874,16 @@ ul#caseStudies {
 		
 		h5 {
 			float:left;
-			margin:0;
+			margin:20px 0 0 0;
 			width:100%;
 			.title(1.9em);
 
 			span {
 				display:inline-block;
-				border-bottom:2px solid white;
+				border-bottom:2px solid @linkhover;
 			}
 		}
+		
 		p {
 			float:left;
 			width:100%;
@@ -893,11 +891,34 @@ ul#caseStudies {
 			font-weight:400;
 			color:@subtext;
 			margin:0;
-			padding:0 0 10px 0;
+			padding:0;
 		}
-		
+	
 		&.soon {
-			
+			float:left;
+			padding:0;
+			margin:0;
+
+			h5 {
+				span {
+					position:relative;
+					border:none;
+				}
+				
+				.strikethrough {
+					position:absolute;
+					top:0;
+					left:-3%;
+					width:106%;
+					height:2px;
+					top:8px;
+					border-top:2px solid @linkhover;
+					opacity:0.8;
+			    -ms-transform: rotate(-3.5deg);
+			    -webkit-transform: rotate(-3.5deg);
+			    transform: rotate(-3.5deg);
+				}
+			}
 		}
 	}
 }
@@ -951,7 +972,13 @@ ul#caseStudies {
 	}
 	
 	ul#caseStudies {
-		margin-top:40px;
+		li {
+			text-align:center;
+			
+			h5,p {
+				text-align:center;
+			}
+		}
 	}
 	
 	#projectIntro {
@@ -1157,29 +1184,12 @@ ul#caseStudies {
 		}
 		
 		ul#caseStudies {
-			margin-top:-15px;
+			margin-top:-10px; 
 			
 			li {
-				background:none;
-				width:100%;
-				border:none;
-				margin:0 0 0 0;
+				margin:0 0 5px 0;
 				
-				h5 {
-					padding-top:50px;
-				}
-				
-				h5,p {
-					width:70%;
-					padding-left:15%;
-					padding-right:15%;
-				}
-				p {
-					padding-bottom:15px;
-					margin-bottom:0;
-				}
-				
-				&.soon {
+				p,h5 {
 					display:none;
 				}
 			}

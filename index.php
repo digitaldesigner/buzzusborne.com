@@ -14,70 +14,66 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="about">		
-			<p class="lead">I&rsquo;m a Digital Designer and Founder of <a href="casestudy/prevue/" title="See my work for Prevue">Prevue</a>. Previously Product Design Lead at <a href="casestudy/canvas/" title="See my work for Campaign Monitor">Campaign Monitor</a>, UX<em class="special">/</em>UI Designer at <a href="casestudy/skype/" title="See my work for Skype">Skype</a> <em class="special amp">&amp;</em> Creative Director to various digital agencies.</p>
+			<p class="lead">I&rsquo;m a Digital Designer and Founder of Prevue. Previously Product Design Lead Campaign Monitor, UX<em class="special">/</em>UI Designer at Skype and Creative Director to various digital agencies. <a href="about/">More</a></p>
+			<div id="photo"><a href="about/" title="Read more about me"><img src="_assets/home/buzzusborne.jpg" width="100%" /></a></div>
 		</div>
 		
 		<ul id="caseStudies">
 				<li>
 					<a href="casestudy/prevue/">
+						<div class="image leadImg"><img src="casestudy/_images/prevue/Homepage.jpg" /></div>
 						<h5><span>Prevue</span></h5>
-						<p>UX<em class="special">/</em>UI</p>
-						<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/prevue.jpg" /></div>
+						<p>Founder &amp; Product Design Lead <em class="special bullet">&#8226;</em> UX <em class="special">/</em> UI <em class="special">/</em> HTML</p>
 					</a>
 				</li>
-				<li class="even">
+				<li>
 					<a href="casestudy/canvas/">
+						<div class="image"><img class="lazyload" data-sizes="auto" data-src="casestudy/_images/canvas/modal_head.jpg" /></div>
 						<h5><span>Canvas</span></h5>
-						<p>UX<em class="special">/</em>UI</p>
-						<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/temp.jpg" /></div>
+						<p>Product Design Lead <em class="special bullet">&#8226;</em> UX <em class="special">/</em> UI</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/skype/">
+						<div class="image"><img class="lazyload" data-sizes="auto" data-src="casestudy/_images/skype/desktop_skype.jpg" /></div>
 						<h5><span>Skype</span></h5>
-						<p>UX<em class="special">/</em>UI</p>
-						<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/temp.jpg" /></div>
+						<p>Art Director <em class="special bullet">&#8226;</em> Iconography <em class="special">/</em> UI</p>
 					</a>
 				</li>
-				<li class="even">
+				<li>
 					<a href="casestudy/campaignmonitor/">
+						<div class="image"><img class="lazyload" data-sizes="auto" data-src="casestudy/_images/campaignmonitor/cm_signage.jpg" /></div>
 						<h5><span>Campaign Monitor</span></h5>
-						<p>Branding <em class="special amp">&amp;</em> Creative Direction</p>
-						<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/temp.jpg" /></div>
+						<p>Creative Director <em class="special bullet">&#8226;</em> Branding <em class="special">/</em> Digital <em class="special">/</em> Print <em class="special">/</em> Advertising </p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/monitor/">
+						<div class="image"><img class="lazyload" data-sizes="auto" data-src="casestudy/_images/monitor/icons_photo.jpg" /></div>
 						<h5><span>Monitor App</span></h5>
-						<p>UX<em class="special">/</em>UI</p>
-						<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/monitor.jpg" /></div>
+						<p>Product Design Lead <em class="special bullet">&#8226;</em> Iconography <em class="special">/</em> UX <em class="special">/</em> UI</p>
 					</a>
 				</li>
-				<!-- <li class="soon even">
-					<h5><span>Create <small>+</small> Send</span></h5>
-					<p>Coming soon</p>
-					<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/temp.jpg" /></div>
+				<li class="soon">
+					<h5><span>Create <small>+</small> Send<div class="strikethrough">&nbsp;</div></span></h5>
+					<p>Product Design Lead &mdash; Coming soon</p>
 				</li>
 				<li class="soon">
-					<h5><span>Postbox Party</span></h5>
-					<p>Digital</p>
-					<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/temp.jpg" /></div>
-				</li>
-				<li class="soon even">
-					<h5><span>Toni <small>+</small> Guy</span></h5>
-					<p>Coming soon</p>
-					<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/temp.jpg" /></div>
+					<h5><span>Postbox Party<div class="strikethrough">&nbsp;</div></span></h5>
+					<p>Art Director &mdash; Coming soon</p>
 				</li>
 				<li class="soon">
-					<h5><span>The Argyle</span></h5>
-					<p>Coming soon</p>
-					<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/temp.jpg" /></div>
+					<h5><span>Toni <small>+</small> Guy<div class="strikethrough">&nbsp;</div></span></h5>
+					<p>Art Director &mdash; Coming soon</p>
 				</li>
-				<li class="soon even">
-					<h5><span>Skype for Business</span></h5>
-					<p>Coming soon</p>
-					<div class="image"><img class="lazyload" data-sizes="auto" data-src="_assets/home/temp.jpg" /></div>
-				</li> -->
+				<li class="soon">
+					<h5><span>The Argyle<div class="strikethrough">&nbsp;</div></span></h5>
+					<p>Art Director &mdash; Coming soon</p>
+				</li>
+				<li class="soon">
+					<h5><span>Skype for Business<div class="strikethrough">&nbsp;</div></span></h5>
+					<p>Lead Visual Designer &mdash; Coming soon</p>
+				</li>
 		</ul>
 				
 <?php

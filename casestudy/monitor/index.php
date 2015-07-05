@@ -8,13 +8,17 @@
 		"prev" => array(
 			"path"	=> "../campaignmonitor",
 			"title"	=> "Campaign Monitor"
+		),
+		"next" => array(
+			"path"	=> "../../about",
+			"title"	=> "About"
 		)
 	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
 			<h1>Monitor App</h1>
-			<span class="subscript">Creative Director <em>·</em> Art Direction / Iconography <em>·</em> 2014</span>
+			<span class="subscript">Product Design Lead <em class="special bullet">&#8226;</em> Art Direction / Iconography <em class="special bullet">&#8226;</em> 2014</span>
 		</div>
 	</div>
 	
