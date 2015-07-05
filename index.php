@@ -42,7 +42,7 @@
 				</li>
 				<li>
 					<a href="casestudy/campaignmonitor/">
-						<div class="image"><img class="lazyload" data-sizes="auto" data-src="casestudy/_images/campaignmonitor/cm_signage.jpg" /></div>
+						<div class="image"><img class="lazyload" data-sizes="auto" data-src="casestudy/_images/campaignmonitor/signage.jpg" /></div>
 						<h5><span>Campaign Monitor</span></h5>
 						<p>Creative Director <em class="special bullet">&#8226;</em> Branding <em class="special">/</em> Digital <em class="special">/</em> Print <em class="special">/</em> Advertising </p>
 					</a>

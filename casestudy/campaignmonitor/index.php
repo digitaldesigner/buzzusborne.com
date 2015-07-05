@@ -23,7 +23,7 @@
 	</div>
 	
 	<div class="fullImage top">
-		<img class="leadImg" src="../_images/campaignmonitor/cm_signage.jpg" />
+		<img class="leadImg" src="../_images/campaignmonitor/signage.jpg" />
 	</div>
 
 	<div class="container">
