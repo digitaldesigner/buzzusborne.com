@@ -31,7 +31,7 @@
 			<h5>The Brief</h5>
 			<p class="info"><strong>Above/</strong> The Library screen. A drag-and-drop UI that allows upload and collection of work into projects and groups</p>
 			
-			<p>In 2007, as a freelance designer, I was having trouble presenting design concepts to my clients in the browser. Sending JPG's over email, or presenting from multi-page PDF&rsquo;s didn't do a great job at showing my work to its full potential.</p>
+			<p>In 2007, as a freelance designer, I was having trouble presenting design concepts to my clients in the browser. Sending JPGs over email, or presenting from multi-page PDFs didn't do a great job at showing my work to its full potential.</p>
 			
 			<p>So as a side-project, and an excuse to learn HTML and CSS, I built a small app that let me share fullscreen design concepts with my clients, organise my work, and allow my images to be annotated with feedback.</p> 
 			

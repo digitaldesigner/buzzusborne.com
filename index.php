@@ -14,7 +14,7 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="about">		
-			<p class="lead">I&rsquo;m a Digital Designer and Founder of Prevue. Previously Product Design Lead Campaign Monitor, UX<em class="special">/</em>UI Designer at Skype and Creative Director to various digital agencies. <a href="about/">More</a></p>
+			<p class="lead">I&rsquo;m a Digital Designer and Founder of Prevue. Previously Product Design Lead at Campaign Monitor, UX<em class="special">/</em>UI Designer at Skype and Creative Director to various digital agencies. <a href="about/">More</a></p>
 			<div id="photo"><a href="about/" title="Read more about me"><img src="_assets/home/buzzusborne.jpg" width="100%" /></a></div>
 		</div>
 		

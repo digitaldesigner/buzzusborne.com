@@ -27,5 +27,29 @@
 	<script src="<?php echo path; ?>_assets/js/lazysizes.min.js"></script>	
 	<script src="<?php echo path; ?>_assets/js/modal.js"></script><?php } ?>
 	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-64855407-<?php if(isset($_SERVER) && is_array($_SERVER) && array_key_exists('HTTP_HOST',$_SERVER)){
+		switch ($_SERVER['HTTP_HOST']) {
+		    case "buzzusborne.com":
+		        echo "1";
+		        break;
+		    case "digital.design":
+		        echo "2";
+		        break;
+		    case "usborne.buzz":
+		        echo "3";
+		        break;
+				default:
+						echo "1";
+		}
+	}?>', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
