@@ -19,7 +19,7 @@
 	<title>Buzz Usborne - <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Digital Designer"; } ?></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="robots" content="index,follow,archive"/>
-	<meta name="Description" content="The portfolio of Product Designer and Creative Director, Buzz Usborne." />
+	<meta name="Description" content="Product Designer & Creative Director." />
 	<meta name="Keywords" content="Buzz Usborne director digital design creative art campaign monitor prevue osbourne Pete Peter Graphic Digital Design Portfolio Designer London Sydney" />
 	<meta property="og:description" content="The portfolio of Product Designer and Creative Director, Buzz Usborne." />
 	<link href="<?php echo path; ?>_assets/gfx/favicon.ico" rel="shortcut icon" type="image/x-icon" />
