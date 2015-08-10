@@ -33,7 +33,8 @@
 			<p>Previously a competitive sailor and professional coach, I appreciate the importance of a healthy work<em class="special">/</em>life balance. When I'm not in front of a computer you'll likely find me outdoors &mdash; riding motorbikes, swimming, running or traveling.</p>
 			
 			<ol>
-				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Founder <em class="special amp">&amp;</em> Product Lead</strong><br /><a href="https://prevue.it/">Prevue</a></li>
+				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Head of Design</strong><br /><a href="https://sendle.com/">Sendle</a></li>
+				<li><span>&#8226;</span><strong>Founder <em class="special amp">&amp;</em> Product Lead</strong><br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>Product Design Lead<br /> <em class="special">(</em>UX Director<em class="special">)</em></strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Art Director</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
