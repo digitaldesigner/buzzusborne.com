@@ -82,6 +82,9 @@
 	<div class="container">
 		<div class="project">
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/skype/misc.png" width="100%" /></div>
+			
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/skype/unfriended_movie.jpg" width="100%" /></div>
+			<p class="caption"><strong>Above/</strong> My work featuring in the movie, &lsquo;Unfriended&rsquo; (<a href="https://www.youtube.com/watch?v=JQfjW0DLDr0" target="_blank">Watch trailer</a>).<br />Courtesy of Universal Pictures.</p>
 		</div>
 		<dl class="outro">
 			<div class="col left">
