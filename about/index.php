@@ -15,7 +15,7 @@
 ?>
 		
 		<div id="about">		
-			<h3>About.</h3>			
+			<h3 class="spacer">Hi,</h3>			
 			<p class="lead">I&rsquo;m a Product Designer and Creative Director living in Sydney, Australia. I&rsquo;m deeply passionate about problem solving and enjoy varied, challenging digital work.</p>
 			
 			<p>I enjoy listening to real people, watching their habits and understanding their frustrations &mdash; then creating beautiful and useful product experiences that meet their needs and exceed their expectations.</p>
