@@ -26,8 +26,8 @@
 
 			<p>My passion is finding visual solutions to tough problems &mdash; not design, or following trends for the sake of it. Instead, I enjoy researching, concepting, validating, and executing solutions in whatever form best suits the brief &mdash; from stunning visual design and clear copywriting, to clever technical innovation and subtle interaction. It&rsquo;s my pursuit of problem solving that has seen me in a variety of design roles, from print through to UX.</p>
 
-			<div class="image leadImg"><img class="lazyload" data-sizes="auto" data-src="../_assets/gfx/buzz_usborne.jpg" width="100%"></div>
-			<p class="inlineCaption">Above: A still from <a href="https://www.youtube.com/watch?v=9-lmZ6n2jZU" target="_blank">an interview with Dropbox</a></p>
+			<div class="image leadImg"><img class="lazyload" data-sizes="auto" data-src="../_assets/gfx/buzz_usborne_beer.jpg" width="100%"></div>
+			<p class="inlineCaption">Above: Drinking responsibly and in moderation, in a hat.</a></p>
 			<hr />
 
 			<p>Previously a competitive sailor and professional coach, I appreciate the importance of a healthy work<em class="special">/</em>life balance. When I'm not in front of a computer you'll likely find me outdoors &mdash; riding motorbikes, swimming, running or traveling.</p>
