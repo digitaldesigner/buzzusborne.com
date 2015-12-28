@@ -13,54 +13,9 @@
 	);
 	include(path.'_includes/header.php');
 ?>
-<<<<<<< HEAD
-		
-		<div id="intro">
-			<h3>I'm Buzz, a Digital Designer. I work as the Senior Product Designer at Campaign Monitor &amp; Founded <a href="https://prevue.it/">Prevue</a>.</h3>
-		</div>
-		
-		<div id="showall">		
-			<div class="image half prevue">
-				<a href="projects/prevue/">
-					<span class="title"><em>Prevue</em></span>
-					<img src="_assets/gfx/large_prevue.jpg" height="478" draggable="false" />
-				</a>
-			</div>
-			<div class="image half right close campmon">
-				<a href="projects/campmon/">
-					<span class="title"><em>Campaign Monitor</em></span>
-					<img src="_assets/gfx/large_campmon.jpg" height="478" draggable="false" />
-				</a>
-			</div>
-			<div class="image spanthree skype">
-				<a href="projects/skype/">
-					<span class="title"><em>Skype</em></span>
-					<img src="_assets/gfx/large_skype.png" height="286" draggable="false" />
-				</a>
-			</div>
-			<div class="image portrait pbp">
-				<a href="projects/pbp/">
-					<span class="title"><em>Postbox Party</em></span>
-					<img src="_assets/gfx/large_pbp.jpg" height="477" draggable="false" />
-				</a>
-			</div>
-			<div class="image thumb cmdigi">
-				<a href="projects/cm-digital">
-					<span class="title"><em>CM Digital</em></span>
-					<img src="_assets/gfx/cm_digital.jpg" height="180" draggable="false" />
-				</a>
-			</div>
-			<div class="image thumb right argyle">
-				<a href="projects/the-argyle/">
-					<span class="title"><em>The Argyle</em></span>
-					<img src="_assets/gfx/theargyle.jpg" height="180" draggable="false" />
-				</a>
-			</div>
-=======
 		<div id="about">		
 			<p class="lead">I&rsquo;m a Digital Designer, Founder of Prevue and Head of Design at <a href="https://sendle.com/" target="_blank">Sendle</a>. Previously Product Design Lead at Campaign Monitor, Skype and Creative Director to various digital agencies. <a href="about/">More</a></p>
 			<div id="photo"><a href="about/" title="Read more about me"><img src="_assets/home/buzzusborne_bw.jpg" width="100%" /></a></div>
->>>>>>> ux-rehash
 		</div>
 		
 		<ul id="caseStudies">
