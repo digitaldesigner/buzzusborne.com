@@ -3,6 +3,9 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
 
+RewriteCond %{REQUEST_URI} ^(.*)//(.*)$
+RewriteRule . %1/%2 [R=301,L]
+
 # Error docs
 ErrorDocument 404 /404.php
 
@@ -21,3 +24,4 @@ ExpiresByType text/css "access 1 month"
 ExpiresByType text/html "access 1 month"
 ExpiresDefault "access 1 month"
 </IfModule>
+
