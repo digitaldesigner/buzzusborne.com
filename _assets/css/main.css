@@ -726,6 +726,18 @@ img {
   padding-left: 0;
   font-size: 2.1em;
 }
+.project .signature,
+#project .signature,
+#about .signature {
+  float: left;
+  width: 100px;
+  height: 70px;
+  background: url('../gfx/signature.png') top left no-repeat;
+  background-size: 100px 70px;
+  overflow: hidden;
+  text-indent: 100%;
+  margin-left: -13px;
+}
 .project .image,
 #project .image,
 #about .image {

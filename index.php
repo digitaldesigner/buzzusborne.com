@@ -16,7 +16,7 @@
 		<div id="about">		
 			<p class="lead">I&rsquo;m the Founder of Prevue <em class="special amp">&amp;</em> Head of Product at Sendle. Previously UX Director at Campaign Monitor, UI Lead at Skype and Creative Director to various digital agencies. <a href="about/">More</a></p>
 			
-			<h3>Case Studies</h3>
+			<h3>Work.</h3>
 		</div>
 		
 		<ul class="caseStudies">
@@ -28,17 +28,17 @@
 					</a>
 				</li>
 				<li>
-					<a href="casestudy/canvas/">
-						<div class="image"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-sizes="auto" data-src="casestudy/_images/canvas/full_app.jpg" /></div>
-						<h5><span>Email Builder</span></h5>
-						<p>Product Design Lead (UX <em class="special">/</em> UI)</p>
-					</a>
-				</li>
-				<li>
 					<a href="casestudy/skype/">
 						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/skype/desktop_skype.jpg" /></div>
 						<h5><span>Skype</span></h5>
 						<p>Digital Art Director</p>
+					</a>
+				</li>
+				<li>
+					<a href="casestudy/canvas/">
+						<div class="image"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-sizes="auto" data-src="casestudy/_images/canvas/full_app.jpg" /></div>
+						<h5><span>Email Builder</span></h5>
+						<p>Product Design Lead (UX <em class="special">/</em> UI)</p>
 					</a>
 				</li>
 				<li>
