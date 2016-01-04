@@ -44,7 +44,7 @@
 				<li>
 					<a href="casestudy/campaignmonitor/">
 						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/campaignmonitor/business_cards.jpg" /></div>
-						<h5><span>Campaign Monitor</span></h5>
+						<h5><span>Campaign Monitor Brand</span></h5>
 						<p>Creative Director</p>
 					</a>
 				</li>

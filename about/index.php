@@ -22,11 +22,11 @@
 				
 			<p>I&rsquo;ve designed brands, icons, websites and apps &mdash; I write copy, sketch, prototype and test. I&rsquo;ve built and led teams of designers &mdash; creating processes and strategies that help others do amazing work. I can code, and understand the intricacies of front and back-end development &mdash; collaborating with developers to help identify innovative solutions to tough problems. But above all else, I&rsquo;m deeply passionate about <strong>problem solving</strong>. I like getting my hands dirty with varied, challenging work &mdash; in whatever form that takes.</p>
 			
-			<p>I also run my own startup, <a href="../casestudy/prevue/">Prevue</a>. It&rsquo;s an app I designed, built, and currently manage &mdash; which is currently used by over 30,000 design agencies to share concepts and gather client feedback. The experience of building a profitable and sustainable business has taught me how to continually push the boundaries of a project, whilst working within limited technical scope and harsh financial constraints. It&rsquo;s also given me an opportunity to experiment with UX, code and design &mdash; and understand that design alone won&rsquo;t get you far.</p>
+			<p>I also run my own startup, <a href="../casestudy/prevue/">Prevue</a>. It&rsquo;s an app I designed, built, and currently manage &mdash; which is currently used by over 30,000 design agencies to share concepts and gather client feedback. The experience of building a profitable and sustainable business has taught me how to continually push the boundaries of a project, whilst working within limited technical scope and harsh financial constraints. It&rsquo;s also given me an opportunity to experiment with UX, code and design &mdash; and understand the role of design in a business.</p>
 			
 			<hr />
 			<p>Before designing, I was a competitive dinghy sailor and professional coach for the Royal Navy and various clubs in the Mediterranean. I spent far too much time at the beach, took home a couple of awards, and even made it onto a magazine cover once. My mind is never too far from the ocean, and I definitely appreciate the importance of a healthy work<em class="special">/</em>life balance.</p>
-			<p>So when I&rsquo;m not online, you&rsquo;ll  find me outdoors &mdash; riding motorbikes, swimming, sand running or traveling.</p>
+			<p>So when I&rsquo;m not online, you&rsquo;ll  find me outdoors &mdash; riding motorbikes, swimming, sand running or travelling.</p>
 			
 			<p><strong class="signature">Buzz/</strong></p>
 			

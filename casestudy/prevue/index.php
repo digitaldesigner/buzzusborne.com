@@ -62,7 +62,7 @@
 	
 	<div class="fullImage">
 		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Project.jpg" />
-		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Fullscreen.jpg" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/FullScreen.jpg" />
 	</div>
 	
 	<div class="container">
