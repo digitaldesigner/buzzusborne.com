@@ -16,7 +16,9 @@
 		<div id="about">		
 			<p class="lead">I&rsquo;m the Founder of Prevue <em class="special amp">&amp;</em> Head of Product at Sendle. Previously UX Director at Campaign Monitor, UI Lead at Skype and Creative Director to various digital agencies. <a href="about/">More</a></p>
 			
-			<h3>Work.</h3>
+			<div id="photo"><a href="about/" title="More about Buzz"><img src="_assets/home/buzz_bw.jpg" alt="Buzz Usborne" /></a></div>
+			
+			<h3>Case Studies</h3>
 		</div>
 		
 		<ul class="caseStudies">
@@ -50,14 +52,14 @@
 				</li>
 				<li>
 					<a href="casestudy/monitor/">
-						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/monitor/nav_bar.png" /></div>
+						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/monitor/app_design.jpg" /></div>
 						<h5><span>Monitor for iOS</span></h5>
 						<p>Product Design Lead</p>
 					</a>
 				</li>
 			</ul>
 
-			<ul class="caseStudies">
+			<ul style="display:none;" class="caseStudies">
 				<li class="slim">
 					<a href="#">
 						<h5><span>Sendle</span></h5>

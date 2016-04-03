@@ -32,9 +32,6 @@
 			<p class="info"><strong>Above/</strong> The full logo featured in Campaign Monitor's Sydney offices in 2015</p>
 			<p>One of my first jobs as Creative Director at Campaign Monitor was to consider the long term brand image of the company. At the time, the logo and website didn't reflect the core values of the business, or the future plans of the product &mdash; my brief was to give the brand a &ldquo;refresh&rdquo;.</p>
 			
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/og_logo.png" width="100%"></div>
-	
-			<p class="info"><strong>Above/</strong> The old logo</p>
 			<p>Campaign Monitor is a company with world-class customer support at their core, so one of the main things I wanted to achieve was to bring a more &lsquo;human&rsquo; feel to the brand. I needed to represent the product as a respectable market leader, but there was definitely room to give everything a touch of fun and personality.</p>
 				
 			<div class="image half"><img class="lazyload" data-sizes="auto" data-src="../_images/campaignmonitor/brand_sketch_01.jpg" width="100%"></div>

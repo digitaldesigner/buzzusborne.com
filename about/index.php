@@ -15,18 +15,21 @@
 ?>
 		
 		<div id="about">		
-			<h3 class="spacer">Hello,</h3>			
-			<p class="lead">I&rsquo;m Buzz. I&rsquo;m a digital designer living in sunny Sydney, Australia. I&rsquo;m currently working with a startup called <a href="https://www.sendle.com/" target="blank">Sendle</a>, where I&rsquo;m the Head of Product.</p>
+			<h3 class="spacer">Hello,</h3>
 			
-			<p>Before that, I was UX Director at <a href="https://www.campaignmonitor.com/" target="blank">Campaign Monitor</a>. I&rsquo;ve also been fortunate to work for the likes of Skype, Facebook, Microsoft and various startups &mdash; designing UX<em class="special">/</em>UI, talking product strategy, thinking about code and leading creative teams. I&rsquo;ve also worked for a number of digital and advertising agencies in Europe, Australia and USA.</p>
-				
-			<p>I&rsquo;ve designed brands, icons, websites and apps &mdash; I write copy, sketch, prototype and test. I&rsquo;ve built and led teams of designers &mdash; creating processes and strategies that help others do amazing work. I can code, and understand the intricacies of front and back-end development &mdash; collaborating with developers to help identify innovative solutions to tough problems. But above all else, I&rsquo;m deeply passionate about <strong>problem solving</strong>. I like getting my hands dirty with varied, challenging work &mdash; in whatever form that takes.</p>
+			<p class="lead">I&rsquo;m Buzz. I&rsquo;m a digital designer living in sunny Sydney. I&rsquo;m currently the Head of Product at <a href="https://www.sendle.com/" target="blank">Sendle.com</a>, and was previously the UX Director at <a href="https://www.campaignmonitor.com/" target="_blank">Campaign Monitor</a>.</p>
+
+			<p>I enjoy working with passionate design and engineering teams to produce amazing solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that's through crafting beautiful visual design, writing clever code, or by working with others to achieve great results. Though a team lead by title, I&rsquo;m most comfortable leading by example, and have been fortunate to work with companies who allow me to be deeply involved in evolving the design process and product strategy, whilst also regularly practicing my trade.</p>
+
+			<p>In 2008 I built <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; and is a project I continue to run today. The experience of building a profitable and sustainable product has provided me with an invaluable opportunity to learn from building and managing software as a service, and the role of design in a business. It&rsquo;s also given me opportunity to experiment with UX, code and design.</p>
+
+			<p>Prior to my roles in Australia, I spent 8 years working with digital and advertising agencies in the UK, USA and Europe &mdash; where I designed over a variety of disciplines, and learned a great deal about client/agency relations. Working primarily in fashion and alongside a number of world-class designers and directors &mdash; I&rsquo;ve designed more blogs and eCommerce sites than I can recall. But it was during this time that I developed my love of code and design thinking, which ultimately pushed me to a career in tech.</p>
+
+			<div class="image">
+				<img src="../_assets/home/buzz_mountains.jpg" class="lazyload" width="100%" />
+			</div>			
 			
-			<p>I also run my own startup, <a href="../casestudy/prevue/">Prevue</a>. It&rsquo;s an app I designed, built, and currently manage &mdash; which is currently used by over 30,000 design agencies to share concepts and gather client feedback. The experience of building a profitable and sustainable business has taught me how to continually push the boundaries of a project, whilst working within limited technical scope and harsh financial constraints. It&rsquo;s also given me an opportunity to experiment with UX, code and design &mdash; and understand the role of design in a business.</p>
-			
-			<hr />
-			<p>Before designing, I was a competitive dinghy sailor and professional coach for the Royal Navy and various clubs in the Mediterranean. I spent far too much time at the beach, took home a couple of awards, and even made it onto a magazine cover once. My mind is never too far from the ocean, and I definitely appreciate the importance of a healthy work<em class="special">/</em>life balance.</p>
-			<p>So when I&rsquo;m not online, you&rsquo;ll  find me outdoors &mdash; riding motorbikes, swimming, sand running or travelling.</p>
+			<p>Before designing full-time, I was a competitive sailor and professional dinghy racing coach. My mind is never too far from the ocean, and I appreciate the importance of a healthy work/life balance. So when I&rsquo;m not online, you&rsquo;ll find me outdoors &mdash; riding motorbikes, swimming, sand running or travelling.</p>
 			
 			<p><strong class="signature">Buzz/</strong></p>
 			
@@ -54,7 +57,6 @@
 				<div class="col left">
 					<dt>Interviews</dt>
 						<dd><a href="http://www.tractor.edu.au/news/industry-interview-buzz-usborne">&ldquo;Industry Interview #1&rdquo;</a></dd>
-						<dd><a href="https://www.youtube.com/watch?v=9-lmZ6n2jZU">Dropbox for Business</a> (Video)</dd>
 						<dd><a href="https://australiandesignradio.simplecast.fm/18">Australian Design Radio</a> (Podcast)</dd>
 				</div>
 				<div class="col middle">			
