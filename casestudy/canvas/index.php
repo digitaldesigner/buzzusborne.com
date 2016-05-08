@@ -17,8 +17,8 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
-			<h1>Canvas</h1>
-			<span class="subscript">Product Design Lead <em>·</em> UX / UI <em>·</em> 2014</span>
+			<h1>Email Builder</h1>
+			<span class="subscript">Product Design Lead <em>·</em> UX / UI / Prototype</span>
 		</div>
 	</div>
 	

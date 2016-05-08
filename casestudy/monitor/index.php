@@ -50,7 +50,8 @@
 
 			<p>The resulting app lived up to the original intentions &mdash; it looked strikingly similar to the iOS style, but also had a unique Campaign Monitor feel.</p>
 
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/app_design.jpg" width="100%" /></div>
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/test.jpg" width="100%" /></div>
+			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/app_design.jpg" width="100%" /></div>
 			<p class="caption"><strong>Below/</strong> Iconography, along with the blank avatar I drew (modeled on my own head), being used in two of the key screens</p>
 			<div class="image half"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/iphone_map.jpg" width="100%" /></div>
 			<div class="image half right"><img class="lazyload" data-sizes="auto" data-src="../_images/monitor/iphone_stats.jpg" width="100%" /></div>

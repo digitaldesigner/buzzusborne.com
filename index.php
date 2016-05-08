@@ -14,11 +14,11 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="about">		
-			<p class="lead">I&rsquo;m the Founder of Prevue <em class="special amp">&amp;</em> Head of Product at Sendle. Previously UX Director at Campaign Monitor, UI Lead at Skype and Creative Director to various digital agencies. <a href="about/">More</a></p>
+			<p class="lead">I&rsquo;m a digital product designer <em class="special amp">&amp;</em> Founder of Prevue. Formerly Head of Product at Sendle, UX Director at Campaign Monitor, UI Lead at Skype and Creative Director to various digital agencies. <a href="about/">About me</a></p>
 			
 			<div id="photo"><a href="about/" title="More about Buzz"><img src="_assets/home/buzz_bw.jpg" alt="Buzz Usborne" /></a></div>
 			
-			<h3>Case Studies</h3>
+			<h3>What I&rsquo;ve worked on&hellip;</h3>
 		</div>
 		
 		<ul class="caseStudies">
@@ -31,28 +31,35 @@
 				</li>
 				<li>
 					<a href="casestudy/skype/">
-						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/skype/desktop_skype.jpg" /></div>
+						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/skype/skype_conversation.jpg" /></div>
 						<h5><span>Skype</span></h5>
-						<p>Digital Art Director</p>
+						<p>UI Team Lead</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/canvas/">
 						<div class="image"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-sizes="auto" data-src="casestudy/_images/canvas/full_app.jpg" /></div>
-						<h5><span>Email Builder</span></h5>
+						<h5><span>Campaign Monitor Email Builder</span></h5>
+						<p>Product Design Lead (UX <em class="special">/</em> UI)</p>
+					</a>
+				</li>
+				<li>
+					<a href="casestudy/sendle/">
+						<div class="image"><img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-sizes="auto" data-src="casestudy/_images/sendle/devices.jpg" /></div>
+						<h5><span>Sendle</span></h5>
 						<p>Product Design Lead (UX <em class="special">/</em> UI)</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/campaignmonitor/">
 						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/campaignmonitor/business_cards.jpg" /></div>
-						<h5><span>Campaign Monitor Brand</span></h5>
+						<h5><span>CM Branding</span></h5>
 						<p>Creative Director</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/monitor/">
-						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/monitor/app_design.jpg" /></div>
+						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/monitor/test.jpg" /></div>
 						<h5><span>Monitor for iOS</span></h5>
 						<p>Product Design Lead</p>
 					</a>

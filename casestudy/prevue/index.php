@@ -11,7 +11,7 @@
 		),
 		"next" => array(
 			"path"	=> "../canvas",
-			"title"	=> "Canvas"
+			"title"	=> "Email Builder"
 		)
 	);
 	include(path.'_includes/header.php');
