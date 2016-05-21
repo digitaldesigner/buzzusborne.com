@@ -18,7 +18,7 @@
 			
 			<div id="photo"><a href="about/" title="More about Buzz"><img src="_assets/home/buzz_bw.jpg" alt="Buzz Usborne" /></a></div>
 			
-			<h3>What I&rsquo;ve worked on&hellip;</h3>
+			<h3>Selected work&hellip;</h3>
 		</div>
 		
 		<ul class="caseStudies">
@@ -64,45 +64,14 @@
 						<p>Product Design Lead</p>
 					</a>
 				</li>
-			</ul>
-
-			<ul style="display:none;" class="caseStudies">
-				<li class="slim">
-					<a href="#">
-						<h5><span>Sendle</span></h5>
-					</a>
-				</li>
-				<li class="slim">
-					<a href="#">
-						<h5><span>HappyStats</span></h5>
-					</a>
-				</li>
-				<li class="slim">
-					<a href="#">
-						<h5><span>Create <em class="special amp">&amp;</em> Send</span></h5>
-					</a>
-				</li>
-				<li class="slim">
-					<a href="#">
-						<h5><span>Postbox Party</span></h5>
-					</a>
-				</li>
-				<li class="slim">
-					<a href="#">
-						<h5><span>Toni <small>+</small> Guy</span></h5>
-					</a>
-				</li>
-				<li class="slim">
-					<a href="#">
-						<h5><span>The Argyle</span></h5>
-					</a>
-				</li>
-				<li class="slim">
-					<a href="#">
+				<li>
+					<a href="casestudy/skype_business/">
+						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/skype_business/profile.png" /></div>
 						<h5><span>Skype for Business</span></h5>
+						<p>UI Design Lead</p>
 					</a>
 				</li>
-		</ul>
+			</ul>
 				
 <?php
 	include(path.'_includes/footer.php');

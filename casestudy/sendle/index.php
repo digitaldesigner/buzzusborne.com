@@ -7,7 +7,7 @@
 		),
 		"prev" => array(
 			"path"	=> "../canvas",
-			"title"	=> "Canvas"
+			"title"	=> "Email Builder"
 		),
 		"next" => array(
 			"path"	=> "../campaignmonitor",
@@ -23,90 +23,61 @@
 	</div>
 	
 	<div class="fullImage top">
-		<img class="leadImg" src="../_images/sendle/popovers.png" />
+		<img class="leadImg" src="../_images/sendle/devices.jpg" />
 	</div>
 
 	<div class="container">	
 		<div class="project">
 			<h5>The Brief</h5>
-			<p class="info"><strong>Above/</strong> The <?php echo date('Y'); ?> release of Skype for Mac, featuring the icons I designed <?php echo (date('Y') - 2010); ?> years ago</p>
+			<p class="info"><strong>Above/</strong> Sendle&rsquo;s friendly, mobile-first UI is a new approach to logistics software</p>
 
-			<p>As the Skype application grew from being a desktop-based app, to being integrated on TV’s, smartphones and the web &mdash; it became apparent that their UI also needed an update in order to scale.</p>
-
-			<p>As part of the team responsible for the update, I was challenged with creating a suite of icons to be used in the future incarnations of the Skype product. My brief was to re-draw all 80 existing icons to work across multiple platforms, at all possible dimensions &mdash; whilst remaining recognisably &ldquo;Skype&rdquo;.</p>
-			
-			<div class="image "><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/stamps.png" width="100%" /></div>
-			<div class="image close under"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/iconography.png" width="100%" /></div>
-			
-			<p class="info"><strong>Above/</strong> Working with the creative team to concept and test variants of the core icon set (call, video etc)</p>
-			
-			<p>I led my own team, working under the direction of Steve Pearce (previously Deepend and Poke, pictured above) in London, and alongside the Skype product team led by <a href="http://zilmer.com/" target="_blank">Priidu Zilmer</a> in Estonia.</p>
-			
-			<p>My research was largely influenced by <a href="http://iconwerk.de/" target="_blank">Stefan Dziallas</a>, which led me to pursue a direction that relied on negative space and solid shapes &mdash; a direction I felt would be timeless, as well as scalable. For each icon in the core group (call, video, SMS etc), I sketched up to 50 concepts, which were roughly artworked and user-tested &mdash; below is an example of the discarded concepts for the video icon:</p>
-		</div>
-	</div>
-	
-	<div class="fullImage">
-		<img class="lazyload" data-sizes="auto" data-src="../_images/sendle/order_confirmation.png" />
-	</div>
-	
-	<div class="container">
-		<div class="project">
-			<p>After some research (and with the help of some mathematically-minded colleagues), I set out to construct each icon to an 8x8 grid, with each vector point snapped to an axis. The rate of curve was enforced by drawing circles divisible by 2 in diameter, with a 225px diameter curve to be featured in every icon. And angles were kept at 0&deg;, 7.5&deg;, 15&deg;, 30&deg; and 90&deg;.</p>
-		</div>
-	</div>
-	
-	<div class="fullImage">
-		<img class="lazyload" data-sizes="auto" data-src="../_images/sendle/order_summary.png" />
-	</div>
-	
-	<div class="container">
-		<div class="project">
-			<h5>Design Thinking</h5>
-			<p class="info"><strong>Above/</strong> The various concepts for the video icon, the most successful of which was taken to the artwork stage (below)</p>
-			<p>The consistent &ldquo;personality&rdquo; and responsive requirements of the brief led me to take a different approach to the artwork stage of the project. Rather than approach each icon individually, my assumption was that if I designed all shapes as I would a typeface (i.e. set to a rigid grid with global &ldquo;rules&rdquo;), I would achieve personality through uniformity.</p>
-			
-			<p>After some research (and with the help of some mathematically-minded colleagues), I set out to construct each icon to an 8x8 grid, with each vector point snapped to an axis. The rate of curve was enforced by drawing circles divisible by 2 in diameter, with a 225px diameter curve to be featured in every icon. And angles were kept at 0&deg;, 7.5&deg;, 15&deg;, 30&deg; and 90&deg;.</p>
+			<p>My role as Head of Product was to work alongside the executive team, board and investors to help define the long-term vision for the Sydney-based startup, and build the product strategy necessary to deliver on that. I also oversaw all feature development and had end-to-end involvement in the research, spec, design and implementation of new features.</p>
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/photo_01.jpg" width="100%" /></div>
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/photo_02.jpg" width="100%" /></div>
+			
+			<p class="caption"><strong>Above/</strong> One of several &lsquo;Design Thinking&rsquo; workshops I ran with the company, to encourage customer-focussed thinking and collaborative problem solving. <strong>Below/</strong> UX and feature development that resulted from understanding customer pain-points.</p>
 		</div>
 	</div>
 	
 	<div class="fullImage">
 		<img class="lazyload" data-sizes="auto" data-src="../_images/sendle/journeys.png" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/sendle/order_confirmation.png" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/sendle/order_summary.png" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/sendle/popovers.png" />
 	</div>
 	
 	<div class="container">
 		<div class="project">
-			<h5>Artwork</h5>
-			<p class="info"><strong>Above/</strong> The various concepts for the video icon, the most successful of which was taken to the artwork stage (below)</p>
-			<p>The consistent &ldquo;personality&rdquo; and responsive requirements of the brief led me to take a different approach to the artwork stage of the project. Rather than approach each icon individually, my assumption was that if I designed all shapes as I would a typeface (i.e. set to a rigid grid with global &ldquo;rules&rdquo;), I would achieve personality through uniformity.</p>
-			
-			<p>After some research (and with the help of some mathematically-minded colleagues), I set out to construct each icon to an 8x8 grid, with each vector point snapped to an axis. The rate of curve was enforced by drawing circles divisible by 2 in diameter, with a 225px diameter curve to be featured in every icon. And angles were kept at 0&deg;, 7.5&deg;, 15&deg;, 30&deg; and 90&deg;.</p>
-			
-			<p>The result was a suite of icons which were scalable to any size, whilst maintaining a common personality. The icons (below) are still used today.</p>
-		</div>
-	</div>
-	
-	<div class="container">
-		<div class="project">
+			<p class="caption"><strong>Above/</strong> Features and UI that addressed specific customer pain-points, like price certainty, trust and real-time tracking.</p>			
+			<div class="image "><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/stamps.png" width="100%" /></div>
+			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/iconography.png" width="100%" /></div>
+			<p class="caption"><strong>Above <em class="special amp">&amp;</em> Below/</strong> Though originally based on Twitter&rsquo;s Boostrap, I designed a number of custom illustrations and flourishes to give character to the product</p>
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/invoice.png" width="100%" /></div>
-			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/devices.jpg" width="100%" /></div>
+			<p class="caption"><strong>Below/</strong> I was also involved in Marketing strategy, primarily in championinig our diverse and unique customer-base through a series of &ldquo;Founder Series&rdquo; emails. These were based on the basis that &ldquo;Our customers&rsquo; success is our success&rdquo;</p>
 		</div>
+	</div>
+	
+	<div class="fullImage">
+		<img class="lazyload" data-sizes="auto" data-src="../_images/sendle/customer_emails.jpg" />
+	</div>
+	
+	<div class="container">
 		<dl class="outro">
 			<div class="col left">
 				<dt>Position</dt>
-					<dd>Art Director (Freelance)</dd>
+					<dd>Head of Product</dd>
 			</div>
 			<div class="col middle">
 				<dt>Company</dt>
-					<dd>Skype</dd>
+					<dd>Sendle.com</dd>
 			</div>
 			<div class="col right">			
 				<dt>Responsibilities</dt>
-					<dd>Iconography</dd>
-					<dd>Team Lead</dd>
+					<dd>Strategy</dd>
+					<dd>Product management</dd>
+					<dd>Design, UX/UI</dd>
+					<dd>Design, Marketing</dd>
 			</div>
 		</dl>
 		

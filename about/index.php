@@ -19,7 +19,7 @@
 			
 			<p class="lead">I&rsquo;m Buzz, a digital product designer. I built <a href="https://prevue.it/" target="_blank">a tool</a> used by thousands of agencies, led design teams at <a href="https://www.campaignmonitor.com" target="_blank">several</a> successful <a href="https://www.sendle.com/" target="_blank">startups</a>, designed the icons for <a href="http://skype.com" target="_blank">an app</a> used by your gran, and worked for some awesome agencies in several countries.</p>
 
-			<p>The thing is, I love problem solving.</p>
+			<p>I love problem solving.</p>
 			
 			<p>I enjoy working with passionate founders, designers and engineering teams to produce amazing solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that's through talking with customers, crafting beautiful visual design, writing clever code, or by working with others to achieve great results.</p>
 			
@@ -35,7 +35,7 @@
 			
 			<hr />
 			<h6>Speaking</h6>
-			<p>Advance Global Summit <span class="special">&mdash;</span> <em>Sydney Opera House, 2015</em><br />Getting Started in Digital <em class="special">&mdash;</em> <em>Vivid Sydney, 2014</em><br />Future of Digital <em class="special">&mdash;</em> <em>Mashable, 2014</em><br />The Intersection of Design and Tech <em class="special">&mdash;</em> <em>General Assembly, 2015</em></p>
+			<p class="smaller">Advance Global Summit <span class="special">&mdash;</span> <em>Sydney Opera House, 2015</em><br />Getting Started in Digital <em class="special">&mdash;</em> <em>Vivid Sydney, 2014</em><br />Future of Digital <em class="special">&mdash;</em> <em>Mashable, 2014</em><br />The Intersection of Design and Tech <em class="special">&mdash;</em> <em>General Assembly, 2015</em></p>
 			
 			<ol>
 				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Available</strong><br />From <?php echo date("M Y", strtotime("+1 month", time())); ?></li>
@@ -45,7 +45,7 @@
 				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Senior Art Director</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
 				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://www.fatdigital.com.au/">Fat Digital</a></li>
-				<li><span>&#8226;</span><strong>UX <em class="special">/</em> UI Lead</strong><br />Skype, Facebook, Various</li>
+				<li><span>&#8226;</span><strong>UX <em class="special">/</em> UI Lead</strong><br />Skype<br />Facebook<br />Various</li>
 				<li><span>&#8226;</span><strong>Lead Designer</strong><br /><a href="http://storyworldwide.com/">Story Worldwide</a></li>
 				<li><span>&#8226;</span><strong>Senior Designer</strong><br />Large Design</li>
 				<li><span>&#8226;</span><strong>Designer</strong><br /><a href="http://popcornbox.com/">Popcorn Design</a></li>
