@@ -15,31 +15,37 @@
 ?>
 		
 		<div id="about">		
-			<h3>About.</h3>			
-			<p class="lead">I&rsquo;m a Product Designer and Creative Director living in Sydney, Australia. I&rsquo;m deeply passionate about problem solving and enjoy varied, challenging digital work.</p>
+			<h3 class="spacer">Hello!</h3>
 			
-			<p>I enjoy listening to real people, watching their habits and understanding their frustrations &mdash; then creating beautiful and useful product experiences that meet their needs and exceed their expectations.</p>
-				
-			<p>Having spent over a decade working for agencies and startups, I&rsquo;ve been responsible for producing award-winning UX and UI design as part of the <a href="../casestudy/skype/">Skype</a>, Microsoft and <a href="../casestudy/campaignmonitor/">Campaign Monitor</a> product teams. And as a Digital Designer, I&rsquo;ve designed on behalf of clients such as Agent Provocateur, Johnson & Johnson, Toni&Guy and E*Trade. In addition to extensive design experience, I also have a proven track record of building and leading highly successful creative teams &mdash; most recently as the UX Director for Campaign Monitor.</p>
+			<p class="lead">I&rsquo;m Buzz, a digital product designer. I built <a href="https://prevue.it/" target="_blank">a tool</a> used by thousands of agencies, led design teams at <a href="https://www.campaignmonitor.com" target="_blank">several</a> successful <a href="https://www.sendle.com/" target="_blank">startups</a>, designed the icons for <a href="http://skype.com" target="_blank">an app</a> used by your gran, and worked for some awesome agencies in several countries.</p>
+
+			<p>I love problem solving.</p>
 			
-			<p>I am also the Founder and Product Design Lead of <a href="../casestudy/prevue/">Prevue.it</a> &mdash; a product used by over 25,000 design agencies to share design concepts and gather quick client feedback. In addition to unparalleled customer interaction, the experience of building a profitable and sustainable business has taught me how to continually push the boundaries of a project, whilst working within limited technical scope and harsh financial constraints.</p>
+			<p>I enjoy working with passionate founders, designers and engineering teams to produce amazing solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that's through talking with customers, crafting beautiful visual design, writing clever code, or by working with others to achieve great results.</p>
+			
+			<p>And though a team lead by title, I&rsquo;m most comfortable leading by example, and have been fortunate to work with companies who allow me to be deeply involved in evolving the design process and product strategy, whilst also regularly practicing my trade. I&rsquo;ve most recently done that as Head of Product for logistics startup, Sendle &mdash; and as UX Director to Campaign Monitor before that.</p>
 
-			<p>My passion is finding visual solutions to tough problems &mdash; not design, or following trends for the sake of it. Instead, I enjoy researching, concepting, validating, and executing solutions in whatever form best suits the brief &mdash; from stunning visual design and clear copywriting, to clever technical innovation and subtle interaction. It&rsquo;s my pursuit of problem solving that has seen me in a variety of design roles, from print through to UX.</p>
+			<p>I&rsquo;m also the founder of <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; and is a project I continue to run today. The experience of designing, building and growing a profitable product has provided me with an invaluable opportunity to understand the role of design in a business. Prevue has also given me a platform to experiment with UI, UX and product strategy &mdash; which has given me the insight and experience to better perform in my full-time roles.</p>
 
-			<div class="image leadImg"><img class="lazyload" data-sizes="auto" data-src="../_assets/gfx/buzz_usborne_beer.jpg" width="100%"></div>
-			<p class="inlineCaption">Above: Drinking responsibly and in moderation, in a hat.</a></p>
+			<p>Prior to moving to Australia, I spent 8 years in London working for a variety of different comapnies over a multitude of diciplines. Most notably I worked as the UI Design Lead for Skype, where I designed their current app iconography and the UI for their business tools. Prior to that, I held positions at several large digital and advertising agencies where I worked alongside a number of world-class designers and directors, designing more blogs and fashion ecommerce sites than I can recall. It was during this time that I developed my love of code and design thinking, which ultimately pushed me to a career in tech.</p>
+
+			<p>Before designing full-time, I was a competitive sailor and professional dinghy racing coach living in the Mediterranean. My mind is never too far from the ocean, and I appreciate the importance of a healthy work/life balance. So when I&rsquo;m not online, you&rsquo;ll find me outdoors &mdash; riding motorbikes, swimming, sand running or travelling.</p>
+			
+			<p><strong class="signature">Buzz/</strong></p>
+			
 			<hr />
-
-			<p>Previously a competitive sailor and professional coach, I appreciate the importance of a healthy work<em class="special">/</em>life balance. When I'm not in front of a computer you'll likely find me outdoors &mdash; riding motorbikes, swimming, running or traveling.</p>
+			<h6>Speaking</h6>
+			<p class="smaller">Advance Global Summit <span class="special">&mdash;</span> <em>Sydney Opera House, 2015</em><br />Getting Started in Digital <em class="special">&mdash;</em> <em>Vivid Sydney, 2014</em><br />Future of Digital <em class="special">&mdash;</em> <em>Mashable, 2014</em><br />The Intersection of Design and Tech <em class="special">&mdash;</em> <em>General Assembly, 2015</em></p>
 			
 			<ol>
-				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Head of Design</strong><br /><a href="https://sendle.com/">Sendle</a></li>
-				<li><span>&#8226;</span><strong>Founder <em class="special amp">&amp;</em> Product Lead</strong><br /><a href="https://prevue.it/">Prevue</a></li>
-				<li><span>&#8226;</span><strong>Product Design Lead<br /> <em class="special">(</em>UX Director<em class="special">)</em></strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
+				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Available</strong><br />From <?php echo date("M Y", strtotime("+1 month", time())); ?></li>
+				<li><span>&#8226;</span><strong>Head of Product</strong><br /><a href="https://sendle.com/">Sendle</a></li>
+				<li><span>&#8226;</span><strong>UX Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
+				<li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
-				<li><span>&#8226;</span><strong>Art Director</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
+				<li><span>&#8226;</span><strong>Senior Art Director</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
 				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://www.fatdigital.com.au/">Fat Digital</a></li>
-				<li><span>&#8226;</span><strong>UX <em class="special">/</em> UI Lead</strong><br />Skype, Facebook, Various</li>
+				<li><span>&#8226;</span><strong>UX <em class="special">/</em> UI Lead</strong><br />Skype<br />Facebook<br />Various</li>
 				<li><span>&#8226;</span><strong>Lead Designer</strong><br /><a href="http://storyworldwide.com/">Story Worldwide</a></li>
 				<li><span>&#8226;</span><strong>Senior Designer</strong><br />Large Design</li>
 				<li><span>&#8226;</span><strong>Designer</strong><br /><a href="http://popcornbox.com/">Popcorn Design</a></li>
@@ -50,23 +56,18 @@
 		
 			<dl class="outro">
 				<div class="col left">
-					<dt>Colophon</dt>
-						<dd>Lora Regular<em class="special">/</em>Italic</dd>
-						<dd>Proxima Nova</dd>
-						<dd>Compiled with LESS</dd>
-						<dd>Written in HTML <em class="special amp">&amp;</em> PHP</dd>
+					<dt>Interviews</dt>
+						<dd><a href="http://www.tractor.edu.au/news/industry-interview-buzz-usborne">&ldquo;Industry Interview #1&rdquo;</a></dd>
+						<dd><a href="https://australiandesignradio.simplecast.fm/18">Australian Design Radio</a> (Podcast)</dd>
 				</div>
 				<div class="col middle">			
-					<dt>Core Skills</dt>
-						<dd>Sketching <em class="special amp">&amp;</em> Concepts</dd>
-						<dd>Digital Design</dd>
-						<dd>UX<em class="special">/</em>UI</dd>
-						<dd>Iconography</dd>
-						<dd>Prototyping (HTML<em class="special">/</em>CSS)</dd>
+					<dt>Writing</dt>
+						<dd><a href="https://medium.com/prevue-app/god-is-in-the-details-bc3a9a9a5d88">&ldquo;God is in the Details&rdquo;</a></dd>
+						<dd><a href="https://medium.com/prevue-app/a-designer-s-guide-to-great-client-presentations-3fdb9871696b">&ldquo;A Guide to Client Presentations&rdquo;</a></dd>
+						<dd><a href="https://medium.com/@buzzusborne/the-intersection-ba071f99d9d4">&ldquo;The Intersection&rdquo;</a></dd>
 				</div>
 				<div class="col right">
 					<dt>Elsewhere</dt>
-						<dd><a href="https://instagram.com/buzz/">Instagram</a></dd>
 						<dd><a href="http://linkedin.com/in/buzzusborne/">LinkedIn</a></dd>
 						<dd><a href="http://medium.com/@buzzusborne/">Medium</a></dd>
 						<dd><a href="http://twitter.com/@buzzusborne/">Twitter</a></dd>

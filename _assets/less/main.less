@@ -442,11 +442,22 @@ img { display:block; }
 		font-size:2.1em;
 	}
 	
+  .signature {
+    float:left;
+    width:100px;
+    height:70px;
+    background:url('../gfx/signature.png') top left no-repeat;
+    background-size:100px 68px;
+    overflow:hidden;
+    text-indent:100%;
+    margin-left:-13px;
+  }
+  
 	.image {
 		float:left;
 		width:100%;
 		background:@testing;
-		min-height:100px;
+		min-height:200px;
 		margin:30px 0 30px;
 		
 		img {
@@ -627,17 +638,26 @@ dl.outro {
 	}
 	
 	h3 {
+    font-size:2.2em;
 		width:(@sitewidth - 50);
 		padding-left:0;
+    margin:30px 0 0 0;
+    
+    &.spacer {
+      margin-bottom:20px;
+    }
 	}
 	
 	p {
 		float:left;
-		margin-bottom:40px;
+		margin-bottom:30px;
 		clear:both;
+    font-size:1.65em;
+    line-height:1.7em;
+    width:630px;
 		
 		&.lead {
-			font-size:1.7em;
+			font-size:1.8em;
 			clear:none;
 			
 			em {
@@ -675,6 +695,9 @@ dl.outro {
 			color:@dark;
 		}
 		
+    &.smaller {
+      font-size:1.5em;
+    }
 	}
 	
 	hr {
@@ -695,7 +718,7 @@ dl.outro {
 		width:(@sitewidth/3) - 130;
 		padding:0 30px 50px 0;
 		text-align:left;
-		margin:95px 0 0 0;
+		margin:75px 0 0 0;
 		border-right:1px solid darken(@borders,2%);
 		
 		#fadeOut {
@@ -718,7 +741,7 @@ dl.outro {
 			width:100%;
 			margin:0 0 30px 0;
 			font-style:italic;
-			.bodyfont(1.3em,1.5em);
+			.bodyfont(1.35em,1.5em);
 			color:@subtext;
 			position:relative;
 			text-align:right;
@@ -834,7 +857,7 @@ h4 {
 	color:@subtext;
 }
 
-ul#caseStudies {
+ul.caseStudies {
 	float:left;
 	width:100%;
 	margin:30px 0 30px 0;
@@ -844,6 +867,10 @@ ul#caseStudies {
 		width:100%;
 		margin:0 0 80px 0;
 		
+    &.slim {
+      margin-bottom:10px;
+    }
+    
 		a {
 			float:left;
 			width:100%;
@@ -893,33 +920,12 @@ ul#caseStudies {
 			margin:0;
 			padding:0;
 		}
-	
-		&.soon {
-			float:left;
-			padding:0;
-			margin:0;
-
-			h5 {
-				span {
-					position:relative;
-					border:none;
-				}
-				
-				.strikethrough {
-					position:absolute;
-					top:0;
-					left:-3%;
-					width:106%;
-					height:2px;
-					top:8px;
-					border-top:2px solid @linkhover;
-					opacity:0.8;
-			    -ms-transform: rotate(-3.5deg);
-			    -webkit-transform: rotate(-3.5deg);
-			    transform: rotate(-3.5deg);
-				}
-			}
-		}
+    
+    a:hover {
+      h5 span {
+        border-color:@link;
+      }
+    }
 	}
 }
 
@@ -971,7 +977,7 @@ ul#caseStudies {
 		}
 	}
 	
-	ul#caseStudies {
+	ul.caseStudies {
 		li {
 			text-align:center;
 			
@@ -1183,8 +1189,7 @@ ul#caseStudies {
 			margin-right:43%;
 		}
 		
-		ul#caseStudies {
-			margin-top:-10px; 
+		ul.caseStudies {
 			
 			li {
 				margin:0 0 5px 0;
@@ -1284,7 +1289,7 @@ ul#caseStudies {
 
 @media only screen and (max-width: 580px) {
 	body {
-		ul#caseStudies {
+		ul.caseStudies {
 			li h5 {
 				font-size:1.8em;
 			}

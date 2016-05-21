@@ -372,11 +372,11 @@ img {
   opacity: 0.7;
 }
 .fullImage.placeholder {
-  background: #edeeee;
+  background: #f4f4f5;
   height: 450px;
-  box-shadow: inset 0px 0 0px 10px #ebeded;
-  -moz-box-shadow: inset 0px 0 0px 10px #ebeded;
-  -webkit-box-shadow: inset 0px 0 0px 10px #ebeded;
+  box-shadow: inset 0px 0 0px 10px #f2f2f4;
+  -moz-box-shadow: inset 0px 0 0px 10px #f2f2f4;
+  -webkit-box-shadow: inset 0px 0 0px 10px #f2f2f4;
 }
 #projectIntro h1 {
   float: left;
@@ -726,13 +726,25 @@ img {
   padding-left: 0;
   font-size: 2.1em;
 }
+.project .signature,
+#project .signature,
+#about .signature {
+  float: left;
+  width: 100px;
+  height: 70px;
+  background: url('../gfx/signature.png') top left no-repeat;
+  background-size: 100px 68px;
+  overflow: hidden;
+  text-indent: 100%;
+  margin-left: -13px;
+}
 .project .image,
 #project .image,
 #about .image {
   float: left;
   width: 100%;
-  background: #edeeee;
-  min-height: 100px;
+  background: #f4f4f5;
+  min-height: 200px;
   margin: 30px 0 30px;
 }
 .project .image img,
@@ -799,11 +811,11 @@ img {
 .project .image.placeholder,
 #project .image.placeholder,
 #about .image.placeholder {
-  background: #edeeee;
+  background: #f4f4f5;
   height: 300px;
-  box-shadow: inset 0px 0 0px 10px #ebeded;
-  -moz-box-shadow: inset 0px 0 0px 10px #ebeded;
-  -webkit-box-shadow: inset 0px 0 0px 10px #ebeded;
+  box-shadow: inset 0px 0 0px 10px #f2f2f4;
+  -moz-box-shadow: inset 0px 0 0px 10px #f2f2f4;
+  -webkit-box-shadow: inset 0px 0 0px 10px #f2f2f4;
 }
 .project .video,
 #project .video,
@@ -813,7 +825,7 @@ img {
   width: 562.66666667px;
   margin: 0 0 30px 0;
   padding: 0 0 0 0;
-  background: #edeeee;
+  background: #f4f4f5;
 }
 .project .video img,
 #project .video img,
@@ -923,16 +935,24 @@ dl.outro .right {
   width: 80%;
 }
 #about h3 {
+  font-size: 2.2em;
   width: 800px;
   padding-left: 0;
+  margin: 30px 0 0 0;
+}
+#about h3.spacer {
+  margin-bottom: 20px;
 }
 #about p {
   float: left;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   clear: both;
+  font-size: 1.65em;
+  line-height: 1.7em;
+  width: 630px;
 }
 #about p.lead {
-  font-size: 1.7em;
+  font-size: 1.8em;
   clear: none;
 }
 #about p.lead em {
@@ -962,6 +982,9 @@ dl.outro .right {
   font-size: .99em;
   color: #2f353e;
 }
+#about p.smaller {
+  font-size: 1.5em;
+}
 #about hr {
   float: left;
   width: 20px;
@@ -979,7 +1002,7 @@ dl.outro .right {
   width: 153.33333333px;
   padding: 0 30px 50px 0;
   text-align: left;
-  margin: 95px 0 0 0;
+  margin: 75px 0 0 0;
   border-right: 1px solid #efeff0;
 }
 #about ol #fadeOut {
@@ -1009,7 +1032,7 @@ dl.outro .right {
   margin: 0 0 30px 0;
   font-style: italic;
   font-family: 'Lora', Georgia, serif;
-  font-size: 1.3em;
+  font-size: 1.35em;
   line-height: 1.5em;
   color: #505a6a;
   color: #a5b3be;
@@ -1122,17 +1145,20 @@ h4 {
   font-weight: 500;
   color: #a5b3be;
 }
-ul#caseStudies {
+ul.caseStudies {
   float: left;
   width: 100%;
   margin: 30px 0 30px 0;
 }
-ul#caseStudies li {
+ul.caseStudies li {
   float: left;
   width: 100%;
   margin: 0 0 80px 0;
 }
-ul#caseStudies li a {
+ul.caseStudies li.slim {
+  margin-bottom: 10px;
+}
+ul.caseStudies li a {
   float: left;
   width: 100%;
   padding: 0;
@@ -1142,21 +1168,21 @@ ul#caseStudies li a {
   -webkit-tap-highlight-color: transparent;
   /* For some Androids */
 }
-ul#caseStudies li a img {
+ul.caseStudies li a img {
   width: 100%;
   max-height: 100%;
 }
-ul#caseStudies li .image {
+ul.caseStudies li .image {
   float: left;
   width: 100%;
-  background: #edeeee;
+  background: #f4f4f5;
   overflow: hidden;
   min-height: 100px;
 }
-ul#caseStudies li .image img {
+ul.caseStudies li .image img {
   width: 100%;
 }
-ul#caseStudies li h5 {
+ul.caseStudies li h5 {
   float: left;
   margin: 20px 0 0 0;
   width: 100%;
@@ -1165,11 +1191,11 @@ ul#caseStudies li h5 {
   font-weight: 800;
   color: #2f353e;
 }
-ul#caseStudies li h5 span {
+ul.caseStudies li h5 span {
   display: inline-block;
   border-bottom: 2px solid #00aadd;
 }
-ul#caseStudies li p {
+ul.caseStudies li p {
   float: left;
   width: 100%;
   font-family: "proxima-nova", Georgia;
@@ -1181,27 +1207,8 @@ ul#caseStudies li p {
   margin: 0;
   padding: 0;
 }
-ul#caseStudies li.soon {
-  float: left;
-  padding: 0;
-  margin: 0;
-}
-ul#caseStudies li.soon h5 span {
-  position: relative;
-  border: none;
-}
-ul#caseStudies li.soon h5 .strikethrough {
-  position: absolute;
-  top: 0;
-  left: -3%;
-  width: 106%;
-  height: 2px;
-  top: 8px;
-  border-top: 2px solid #00aadd;
-  opacity: 0.8;
-  -ms-transform: rotate(-3.5deg);
-  -webkit-transform: rotate(-3.5deg);
-  transform: rotate(-3.5deg);
+ul.caseStudies li a:hover h5 span {
+  border-color: #c2e065;
 }
 #footer {
   float: left;
@@ -1244,11 +1251,11 @@ ul#caseStudies li.soon h5 .strikethrough {
     padding-left: 0;
     padding-right: 0;
   }
-  ul#caseStudies li {
+  ul.caseStudies li {
     text-align: center;
   }
-  ul#caseStudies li h5,
-  ul#caseStudies li p {
+  ul.caseStudies li h5,
+  ul.caseStudies li p {
     text-align: center;
   }
   #projectIntro {
@@ -1502,14 +1509,11 @@ ul#caseStudies li.soon h5 .strikethrough {
     margin-left: 43%;
     margin-right: 43%;
   }
-  body ul#caseStudies {
-    margin-top: -10px;
-  }
-  body ul#caseStudies li {
+  body ul.caseStudies li {
     margin: 0 0 5px 0;
   }
-  body ul#caseStudies li p,
-  body ul#caseStudies li h5 {
+  body ul.caseStudies li p,
+  body ul.caseStudies li h5 {
     display: none;
   }
   body .container {
@@ -1589,7 +1593,7 @@ ul#caseStudies li.soon h5 .strikethrough {
   }
 }
 @media only screen and (max-width: 580px) {
-  body ul#caseStudies li h5 {
+  body ul.caseStudies li h5 {
     font-size: 1.8em;
   }
 }

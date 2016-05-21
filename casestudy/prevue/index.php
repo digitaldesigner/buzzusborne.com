@@ -10,8 +10,8 @@
 			"title"	=> "Home"
 		),
 		"next" => array(
-			"path"	=> "../canvas",
-			"title"	=> "Canvas"
+			"path"	=> "../skype",
+			"title"	=> "Skype"
 		)
 	);
 	include(path.'_includes/header.php');
@@ -29,20 +29,15 @@
 	<div class="container">	
 		<div class="project">
 			<h5>The Brief</h5>
-			<p class="info"><strong>Above/</strong> The Library screen. A drag-and-drop UI that allows upload and collection of work into projects and groups</p>
+			<p class="info"><strong>Above/</strong> The Prevue homepage, relaunched in 2016</p>
 			
-			<p>In 2007, as a freelance designer, I was having trouble presenting design concepts to my clients in the browser. Sending JPGs over email, or presenting from multi-page PDFs didn't do a great job at showing my work to its full potential.</p>
+			<p>In 2007, as a freelance designer, I was having trouble presenting design concepts to my clients in the browser. Sending JPGs over email, or presenting from multi-page PDFs didn't do a great job at showing my work to its full potential &mdash; plus email was a terrible way to gather contextual feedback. So I built my own solution, <a href="https://prevue.it/">Prevue</a>.</p>
 			
-			<p>So as a side-project, and an excuse to learn HTML and CSS, I built a small app that let me share fullscreen design concepts with my clients, organise my work, and allow my images to be annotated with feedback.</p> 
+			<p>Through constant progression, iteration, reinvention and plenty of late nights &mdash; Prevue now serves as the concept sharing and feedback platform for over 30,000 designers and agencies worldwide. It is, and always has been, a project built and managed solely by myself.</p> 
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/first_version.jpg" width="100%" /></div>
 			
-			<h5>A work in progress</h5>
-			<p class="info"><strong>Above/</strong> The original Library screen, where I could manage all the projects I shared</p>
-			
-			<p>Between 2007 and <?php echo date('Y'); ?>, I have grown Prevue from a side project into a subscription-based product used by over 25,000 designers and agencies to share over 1 million designs with their own clients.</p>
-			
-			<p>Though still designed, built and run entirely by myself &mdash; Prevue now operates as a profitable business, and a playground for my experimentations in UX, UI and code. Above all else, Prevue provides me with unparalleled experience in feature management, customer communication and product strategy.</p>
+			<p class="caption"><strong>Above/</strong> The original "Library" used to share my work with clients <?php echo (date('Y') - 2007); ?> years ago. Below is the same library view today, with projects and client groups.</p>
 			
 		</div>
 	</div>	
@@ -53,16 +48,19 @@
 		
 	<div class="container">	
 		<div class="project">
-			<p class="caption"><strong>Above/</strong> The Library screen, as seen today. Images can be uploaded via drag &amp; drop, collected into projects and organised, they can then be securely shared with the public for feedback <strong>(below)</strong>.</p>
+			<p class="caption"><strong>Below/</strong> I wanted the interface to feel as close to a native design tool as possible &mdash; so all interactions are drag-and-drop, in addition to having traditional fallbacks.</p>
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Drag.jpg" width="100%" /></div>
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Public_Project.jpg" width="100%" /></div>
+			
+			<p class="caption"><strong>Above/</strong> A publically shared project. The guiding principle of Prevue has always been to make shared work look as impressive as possible, and to encourage feedback.</p>
+			
 		</div>
 	</div>
 	
 	<div class="fullImage">
 		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Project.jpg" />
-		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Fullscreen.jpg" />
+		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/FullScreen.jpg" />
 	</div>
 	
 	<div class="container">
@@ -77,10 +75,7 @@
 	
 	<div class="container">	
 		<div class="project">
-			<h5>Experimental UI</h5>
-			<p class="info"><strong>Below/</strong> Some small parts of the UI where special attention has been paid to the details</p>			
-			<p>Prevue has been my own personal experiment in UX and UI &mdash; every interaction, element and animation has been designed to ensure the product is as efficient and intuitive as possible, including the addition of drag <em class="special amp">&amp;</em> drop functionality to give the app a native feel on desktop and iPad. The UI is continually refined, user-tested and improved.</p>
-			<p><a href="https://medium.com/@buzzusborne/god-is-in-the-details-bc3a9a9a5d88">&#8220;God is in the details&#8221;</a> is an article I wrote about the importance of the details in UX &amp; UI, specifically relating to my work on Prevue.</p>
+			<p class="caption"><strong>Below/</strong> Some small parts of the UI where special attention has been paid to the details</p>			
 			
 			<div class="image half"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_comment.jpg" /></div>
 			<div class="image half right"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_library.jpg" /></div>
@@ -89,23 +84,25 @@
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_upgrade.jpg" /></div>
 			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_menu.png" /></div>
 			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_logo.png" /></div>
-			<div class="image close under"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_icons.png" /></div>
+			<div class="image close "><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_icons.png" /></div>
 		</div>
 	</div>
-	
-	<hr class="sectionBreak" />
 
 	<div class="container">
 		<div class="project">
-			<h5>Product Marketing</h5>
-			<p class="info"><strong>Below/</strong> A lightweight and mobile-first CMS I built for Prevue that allows me to manage activity in the app</p>			
-			<p>In addition to the product itself, I also spend a great deal of effort on product marketing &mdash; which varies from A/B testing the <a href="https://prevue.it/">homepage</a> and writing for the <a href="https://blog.prevue.it/">blog</a> to sending regular email marketing.</p>
-			<p>This side of the business has also been a good opportunity to experiment with conversion optimisation and lead-nurturing, all of which I measure using a bespoke CMS I built for Prevue.</p>
-			
+			<p class="caption"><strong>Below/</strong> A lightweight and mobile-first CMS I built for Prevue that allows me to manage activity in the app</p>			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/cms.jpg" width="100%" /></div>
-			<p class="caption"><strong>Below/</strong> The first email of the on-boarding series (built using <a href="../canvas/">Canvas</a>), and supporting assets used in the product marketing for Prevue</p>			
+			<p class="caption"><strong>Below/</strong> Various marketing assets, including an onboarding email series I built using <a href="../canvas/">Email Builder</a> (a product I designed for <a href="../campaignmonitor">Campaign Monitor</a>)</p>			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/onboarding.png" width="100%" /></div>
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Home_Iconography.png" width="100%" /></div>
+		</div>
+	</div>
+
+	<div class="fullImage">
+		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Home_Iconography.png" />
+	</div>
+
+	<div class="container">
+		<div class="project">
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Signup.png" width="100%" /></div>
 		</div>
 		
