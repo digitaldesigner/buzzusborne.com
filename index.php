@@ -71,6 +71,13 @@
 						<p>UI Design Lead</p>
 					</a>
 				</li>
+				<li>
+					<a href="casestudy/pbp/">
+						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/pbp/pbp_homepage.jpg" /></div>
+						<h5><span>Postbox Party</span></h5>
+						<p>Freelance Designer <em class="special">/</em> Shopify development</p>
+					</a>
+				</li>
 			</ul>
 				
 <?php

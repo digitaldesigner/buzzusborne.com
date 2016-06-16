@@ -10,8 +10,8 @@
 			"title"	=> "Monitor for iOS"
 		),
 		"next" => array(
-			"path"	=> "../../about",
-			"title"	=> "About"
+			"path"	=> "../pbp",
+			"title"	=> "Postbox Party"
 		)
 	);
 	include(path.'_includes/header.php');

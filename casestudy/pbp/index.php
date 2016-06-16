@@ -6,8 +6,8 @@
 			"title"	=> "Postbox Party"
 		),
 		"prev" => array(
-			"path"	=> "../prevue",
-			"title"	=> "Prevue"
+			"path"	=> "../skype_business",
+			"title"	=> "Skype for Business"
 		),
 		"next" => array(
 			"path"	=> "../../about",
@@ -29,9 +29,10 @@
 	<div class="container">	
 		<div class="project">
 			<h5>The Brief</h5>
-			<p class="info"><strong>Above/</strong> Sendle&rsquo;s friendly, mobile-first UI is a new approach to logistics software</p>
+			<p class="info"><strong>Above/</strong> The Postbox Party homepage running as a custom Shopify theme</p>
 
-			<p>My role as Head of Product was to work alongside the executive team, board and investors to help define the long-term vision for the Sydney-based startup, and build the product strategy necessary to deliver on that. I also oversaw all feature development and had end-to-end involvement in the research, spec, design and implementation of new features.</p>
+			<p>Postbox Party is a small company based in the UK and run by a close friend who creates bespoke handmade party boxes for various occasions. I designed and built a bespoke e-commerce site as a custom <a href="http://www.shopify.com/">Shopify</a> theme &mdash; which enabled the client to fully manage all parts of the site.</p>
+			<p>Designed to have a very tactile and home-made feel, the site underwent a significant amount of testing and re-design to achieve this tricky mix of home-made and functional &mdash; a visual style that was carried from homepage through to checkout and email.</p>
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/pbp/product_page.jpg" width="100%" /></div>
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/pbp/checkout.png" width="100%" /></div>
