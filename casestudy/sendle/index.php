@@ -54,7 +54,13 @@
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/iconography.png" width="100%" /></div>
 			<p class="caption"><strong>Above <em class="special amp">&amp;</em> Below/</strong> Though originally based on Twitter&rsquo;s Boostrap, I designed a number of custom illustrations and flourishes to give character to the product</p>
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/invoice.png" width="100%" /></div>
-			<p class="caption"><strong>Below/</strong> I was also involved in Marketing strategy, primarily in championinig our diverse and unique customer-base through a series of &ldquo;Founder Series&rdquo; emails. These were based on the basis that &ldquo;Our customers&rsquo; success is our success&rdquo;</p>
+			
+			<div class="image half close"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/sendle/mkt_satchel01.jpg" /></div>
+			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/sendle/mkt_satchel02.jpg" /></div>
+			<div class="image half close"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/sendle/mkt_box.jpg" /></div>
+			<div class="image half right close"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/sendle/mkt_tee.jpg" /></div>
+			
+			<p class="caption"><strong>Above <em class="special amp">&amp;</em> Below/</strong> I was also involved with Marketing, primarily in championinig our diverse and unique customer-base through email, and extending the Sendle brand in print and apparel.</p>
 		</div>
 	</div>
 	
