@@ -10,8 +10,8 @@
 			"title"	=> "Campaign Monitor"
 		),
 		"next" => array(
-			"path"	=> "../skype_business",
-			"title"	=> "Skype for Business"
+			"path"	=> "../pbp",
+			"title"	=> "Postbox Party"
 		)
 	);
 	include(path.'_includes/header.php');

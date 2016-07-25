@@ -6,19 +6,19 @@
 			"title"	=> "Postbox Party"
 		),
 		"prev" => array(
-			"path"	=> "../skype_business",
-			"title"	=> "Skype for Business"
+			"path"	=> "../monitor",
+			"title"	=> "Monitor for iOS"
 		),
 		"next" => array(
-			"path"	=> "../../about",
-			"title"	=> "About"
+			"path"	=> "../skype_business",
+			"title"	=> "Skype for Business"
 		)
 	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
 			<h1>Postbox Party</h1>
-			<span class="subscript">Freelance <em>&#8226;</em> UX / UI / Shopify Theme <em>&#8226;</em> 2014</span>
+			<span class="subscript">Freelance <em>&#8226;</em> UX / UI / Front-end Development <em>&#8226;</em> 2014</span>
 		</div>
 	</div>
 	

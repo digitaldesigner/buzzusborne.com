@@ -18,7 +18,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Skype</h1>
-			<span class="subscript">Art Director <em>·</em> Iconography <em>·</em> 2010</span>
+			<span class="subscript">Product Design Lead <em>·</em> Iconography <em>·</em> 2010</span>
 		</div>
 	</div>
 	
