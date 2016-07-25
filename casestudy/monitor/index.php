@@ -22,14 +22,17 @@
 		</div>
 	</div>
 	
-	<div class="fullImage top">
-		<img class="leadImg" src="../_images/monitor/icons_photo.jpg" />
-	</div>
-
+	<ol class="mobileView top">
+		<li><img class="leadImg" src="../_images/monitor/_mobile/ks_01.jpg" /></li>
+		<li><img class="leadImg" src="../_images/monitor/_mobile/ks_02.jpg" /></li>
+		<li><img class="leadImg" src="../_images/monitor/_mobile/ks_04.jpg" /></li>
+		<li><img class="leadImg" src="../_images/monitor/_mobile/ks_03.jpg" /></li>
+	</ol>
+	
 	<div class="container">
 		<div class="project">
 			<h5>The Brief</h5>
-			<p class="info"><strong>Above/</strong> Iconography for the Monitor iPhone App</p>
+			<p class="info"><strong>Above/</strong> Key screens of the Monitor iPhone App</p>
 			
 			<p>Before the launch of Apple's iOS7, Campaign Monitor had planned on launching an iPhone app to accompany their web product. My brief was to design an app that looked as native to the iPhone OS as possible, but also in-keeping with the house style.</p>
 
