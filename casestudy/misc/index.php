@@ -29,7 +29,7 @@
 	<!-- Toni & Guy -->
 	<div class="container">	
 		<div class="project">
-			<p>Since my first design job in 2005, I've been luck enough to work on a wide variety of digital projects &mdash; from UX and UI to advertising, branding and landing pages. Here are a few bits of work I'm proud of, that show a variety of different design styles&hellip;</p>
+			<p>Since my first design job in 2005, I've been lucky enough to work on a wide variety of digital projects &mdash; from UX and UI to advertising, branding and landing pages. Here are a few bits of work I'm proud of, that show a variety of different design styles&hellip;</p>
 			
 			<h5>Toni&amp;Guy</h5>
 			<p><strong>Company:</strong> <a href="http://mentallyfriendly.com/" target="_blank" rel="nofollow">Mentally Friendly</a><br /><strong>Role:</strong> Design Lead<br /><strong>Date:</strong> 2011</p>
