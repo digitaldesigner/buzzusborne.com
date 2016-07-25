@@ -79,7 +79,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="casestudy/more/">
+					<a href="casestudy/misc/">
 						<div class="image"><img class="lazyload" data-sizes="auto" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="casestudy/_images/misc/montage.jpg" /></div>
 						<h5><span>Misc work</span></h5>
 						<p>Various digital projects</p>
