@@ -26,6 +26,13 @@
 	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
 	<link href="<?php echo path; ?>_assets/css/main.css" rel="stylesheet" type="text/css" />
 	<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+	<meta name="twitter:image" content="http://buzzusborne.com/_assets/gfx/twittercard.jpg">
+	<meta property="og:image" content="http://buzzusborne.com/_assets/gfx/twittercard.jpg" />
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@buzzusborne">
+	<meta name="twitter:creator" content="@buzzusborne">
+	<meta name="twitter:title" content="Portfolio of Buzz Usborne">
+	<meta name="twitter:description" content="I’m a Product Designer and Founder of Prevue. Formerly Head of Product at Sendle, Product Design Lead at Campaign Monitor and Designer at Skype.">	
 	<script type="text/javascript" src="//use.typekit.net/dlu2bpa.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=320,initial-scale=1.0" />
