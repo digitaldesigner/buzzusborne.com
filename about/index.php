@@ -15,19 +15,18 @@
 ?>
 		
 		<div id="about">		
-			<h3 class="spacer">Hello!</h3>
+			<h3 class="spacer">About me</h3>
 			
-			<p class="lead">I&rsquo;m Buzz, a digital product designer. I built <a href="https://prevue.it/" target="_blank">a tool</a> used by thousands of agencies, led design teams at <a href="https://www.campaignmonitor.com" target="_blank">several</a> successful <a href="https://www.sendle.com/" target="_blank">startups</a>, designed the icons for <a href="http://skype.com" target="_blank">an app</a> used by your gran, and worked for some awesome agencies in several countries.</p>
-
-			<p>I love problem solving.</p>
+			<p class="lead">I&rsquo;m Buzz, a digital product designer. I built <a href="../casestudy/prevue/">a tool</a> used by thousands of agencies, led design teams at <a href="../casestudy/campaignmonitor">several</a> successful <a href="../casestudy/sendle/">startups</a>, designed the icons for <a href="../casestudy/skype/">an app</a> used by your gran, and worked for some awesome agencies in several countries. I love problem solving.</p>
 			
-			<p>I enjoy working with passionate founders, designers and engineering teams to produce amazing solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that's through talking with customers, crafting beautiful visual design, writing clever code, or by working with others to achieve great results.</p>
-			
-			<p>And though a team lead by title, I&rsquo;m most comfortable leading by example, and have been fortunate to work with companies who allow me to be deeply involved in evolving the design process and product strategy, whilst also regularly practicing my trade. I&rsquo;ve most recently done that as Head of Product for logistics startup, Sendle &mdash; and as UX Director to Campaign Monitor before that.</p>
+			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that's through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results. Most recently I've done that as Head of Product at <a href="../casestudy/sendle/">Sendle</a>, and Product Design Lead at <a href="../casestudy/canvas/">Campaign Monitor</a>.</p>
 
-			<p>I&rsquo;m also the founder of <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; and is a project I continue to run today. The experience of designing, building and growing a profitable product has provided me with an invaluable opportunity to understand the role of design in a business. Prevue has also given me a platform to experiment with UI, UX and product strategy &mdash; which has given me the insight and experience to better perform in my full-time roles.</p>
+			<p>I&rsquo;m also the designer/developer behind <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; and is a project I continue to run today. The experience of designing, building and growing a profitable product has provided me with an invaluable opportunity to understand the role of design in a business. Prevue has also given me a platform to experiment with UI, UX and product strategy &mdash; which has given me the insight and experience to better perform in my full-time roles.</p>
 
-			<p>Prior to moving to Australia, I spent 8 years in London working for a variety of different comapnies over a multitude of diciplines. Most notably I worked as the UI Design Lead for Skype, where I designed their current app iconography and the UI for their business tools. Prior to that, I held positions at several large digital and advertising agencies where I worked alongside a number of world-class designers and directors, designing more blogs and fashion ecommerce sites than I can recall. It was during this time that I developed my love of code and design thinking, which ultimately pushed me to a career in tech.</p>
+			<p>Prior to moving to Australia, I spent a number of years in London working for a variety of different comapnies over a multitude of diciplines. Most notably I worked as a Product Design Lead for Skype, where I designed their current <a href="../casestudy/skype/">app iconography</a> and the UI for their <a href="../casestudy/skype_business/">business tools</a>. Prior to that, I held positions at several large digital and advertising agencies where I worked alongside a number of world-class designers and directors, designing more blogs and fashion ecommerce sites than I can recall. It was during this time that I developed my love of code and design thinking, which ultimately pushed me to a career in tech.</p>
+
+			<img class="image" src="../_assets/gfx/buzz_usborne.jpg" />
+			<p class="inlineCaption">This is what I look like (most of the time)</p>
 
 			<p>Before designing full-time, I was a competitive sailor and professional dinghy racing coach living in the Mediterranean. My mind is never too far from the ocean, and I appreciate the importance of a healthy work/life balance. So when I&rsquo;m not online, you&rsquo;ll find me outdoors &mdash; riding motorbikes, swimming, sand running or travelling.</p>
 			
@@ -38,16 +37,16 @@
 			<p class="smaller">Advance Global Summit <span class="special">&mdash;</span> <em>Sydney Opera House, 2015</em><br />Getting Started in Digital <em class="special">&mdash;</em> <em>Vivid Sydney, 2014</em><br />Future of Digital <em class="special">&mdash;</em> <em>Mashable, 2014</em><br />The Intersection of Design and Tech <em class="special">&mdash;</em> <em>General Assembly, 2015</em></p>
 			
 			<ol>
-				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Available</strong><br />From <?php echo date("M Y", strtotime("+1 month", time())); ?></li>
+				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Available</strong></li>
 				<li><span>&#8226;</span><strong>Head of Product</strong><br /><a href="https://sendle.com/">Sendle</a></li>
-				<li><span>&#8226;</span><strong>UX Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
-				<li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li>
-				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
-				<li><span>&#8226;</span><strong>Senior Art Director</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
-				<li><span>&#8226;</span><strong>Creative Director</strong><br /><a href="http://www.fatdigital.com.au/">Fat Digital</a></li>
-				<li><span>&#8226;</span><strong>UX <em class="special">/</em> UI Lead</strong><br />Skype<br />Facebook<br />Various</li>
-				<li><span>&#8226;</span><strong>Lead Designer</strong><br /><a href="http://storyworldwide.com/">Story Worldwide</a></li>
-				<li><span>&#8226;</span><strong>Senior Designer</strong><br />Large Design</li>
+				<li><span>&#8226;</span><strong>Product Design Lead</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
+				<!-- <li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li> -->
+				<li><span>&#8226;</span><strong>Head of Design</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
+				<li><span>&#8226;</span><strong>Design Lead</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
+				<li><span>&#8226;</span><strong>Product Design Lead</strong><br />Skype</li>
+				<li><span>&#8226;</span><strong>Self Employed</strong></li>
+				<li><span>&#8226;</span><strong>Senior Designer</strong><br /><a href="http://storyworldwide.com/">Story Worldwide</a></li>
+				<li><span>&#8226;</span><strong>Digital Designer</strong><br />Large Design</li>
 				<li><span>&#8226;</span><strong>Designer</strong><br /><a href="http://popcornbox.com/">Popcorn Design</a></li>
 				<li><span>&#8226;</span><strong>Junior</strong><br /><a href="http://www.absolutedesign.co.uk/">Absolute Design</a></li>
 				<span id="fadeOut">&nbsp;</span>

@@ -77,26 +77,40 @@
 		<div class="project">
 			<p class="caption"><strong>Below/</strong> Some small parts of the UI where special attention has been paid to the details</p>			
 			
-			<div class="image half"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_comment.jpg" /></div>
-			<div class="image half right"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_library.jpg" /></div>
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/plans.png" /></div>
+			
+			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_comment.jpg" /></div>
+			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_library.jpg" /></div>
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_proMenu.png" /></div>
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_groups.jpg" /></div>
 			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_upgrade.jpg" /></div>
 			<div class="image half close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_menu.png" /></div>
 			<div class="image half right close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_logo.png" /></div>
 			<div class="image close "><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/ui_icons.png" /></div>
+			<div class="image close"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/happystats.jpg" /></div>
 		</div>
 	</div>
 
 	<div class="container">
 		<div class="project">
-			<p class="caption"><strong>Below/</strong> A lightweight and mobile-first CMS I built for Prevue that allows me to manage activity in the app</p>			
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/cms.jpg" width="100%" /></div>
-			<p class="caption"><strong>Below/</strong> Various marketing assets, including an onboarding email series I built using <a href="../canvas/">Email Builder</a> (a product I designed for <a href="../campaignmonitor">Campaign Monitor</a>)</p>			
-			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/onboarding.png" width="100%" /></div>
+			<p class="caption"><strong>Below/</strong> A lightweight and mobile-first CMS I built for Prevue that allows me to quickly overview activity in the app</p>			
 		</div>
 	</div>
 
+	<ol class="mobileView">
+		<li><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/_mobile/hs_splash.jpg" /></li>
+		<li><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/_mobile/hs_detail.jpg" /></li>
+		<li><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/_mobile/hs_screen1.jpg" /></li>
+		<li><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/_mobile/hs_screen2.jpg" /></li>
+	</ol>
+
+	<div class="container">
+		<div class="project">
+			<p class="caption"><strong>Below/</strong> Various marketing assets, including an onboarding email series I built using <a href="../canvas/">Email Builder</a> (a product I designed for <a href="../campaignmonitor">Campaign Monitor</a>)</p>			
+			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/receipt.png" width="100%" /></div>
+		</div>
+	</div>
+	
 	<div class="fullImage">
 		<img class="lazyload" data-sizes="auto" data-src="../_images/prevue/Home_Iconography.png" />
 	</div>

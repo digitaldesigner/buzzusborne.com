@@ -343,6 +343,27 @@ hr.sectionBreak {
 img {
   display: block;
 }
+ol.mobileView {
+  float: left;
+  width: 100%;
+  margin: 30px 0;
+  min-height: 568px;
+  text-align: center;
+  list-style: none;
+  padding: 10px 0;
+  background: #f4f4f5;
+}
+ol.mobileView li {
+  max-width: 375px;
+  display: inline-block;
+  margin: 5px;
+  padding: 0;
+}
+ol.mobileView li img {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .fullImage {
   float: left;
   width: 90%;
@@ -1240,6 +1261,16 @@ ul.caseStudies li a:hover h5 span {
   color: #a5b3be;
   font-style: italic;
 }
+@media only screen and (max-width: 1280px) {
+  ol.mobileView {
+    min-height: auto;
+  }
+  ol.mobileView li {
+    width: 40%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
 @media only screen and (max-width: 980px) {
   #header h1,
   #header h2,
@@ -1257,6 +1288,9 @@ ul.caseStudies li a:hover h5 span {
   ul.caseStudies li h5,
   ul.caseStudies li p {
     text-align: center;
+  }
+  ol.mobileView li {
+    width: 90%;
   }
   #projectIntro {
     float: left;
