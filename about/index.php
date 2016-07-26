@@ -17,7 +17,7 @@
 		<div id="about">		
 			<h3 class="spacer">About me</h3>
 			
-			<p class="lead">I&rsquo;m Buzz, a digital product designer. I built <a href="../casestudy/prevue/">a tool</a> used by thousands of agencies, led design teams at <a href="../casestudy/campaignmonitor">several</a> successful <a href="../casestudy/sendle/">startups</a>, designed the icons for <a href="../casestudy/skype/">an app</a> used by your gran, and worked for some awesome agencies in several countries. I love problem solving.</p>
+			<p class="lead">I&rsquo;m Buzz, a digital product designer. I built <a href="../casestudy/prevue/">a tool</a> used by thousands of agencies, led design teams at <a href="../casestudy/campaignmonitor">several</a> successful <a href="../casestudy/sendle/">startups</a>, designed the icons for <a href="../casestudy/skype/">an app</a> used by your mum, and worked for some awesome agencies in several countries.</p>
 			
 			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that's through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results. Most recently I've done that as Head of Product at <a href="../casestudy/sendle/">Sendle</a>, and Product Design Lead at <a href="../casestudy/canvas/">Campaign Monitor</a>.</p>
 
