@@ -80,7 +80,7 @@
 				</li>
 				<li>
 					<a href="casestudy/misc/">
-						<div class="image"><img src="casestudy/_images/misc/montage.jpg" /></div>
+						<div class="image"><img src="casestudy/_images/misc/ex_headline.png" /></div>
 						<h5><span>Misc work</span></h5>
 						<p>Various digital projects</p>
 					</a>
