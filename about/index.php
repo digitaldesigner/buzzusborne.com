@@ -37,7 +37,7 @@
 			<p class="smaller">Advance Global Summit <span class="special">&mdash;</span> <em>Sydney Opera House, 2015</em><br />Getting Started in Digital <em class="special">&mdash;</em> <em>Vivid Sydney, 2014</em><br />Future of Digital <em class="special">&mdash;</em> <em>Mashable, 2014</em><br />The Intersection of Design and Tech <em class="special">&mdash;</em> <em>General Assembly, 2015</em></p>
 			
 			<ol>
-				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Available</strong></li>
+				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Design Lead</strong><br /><a href="https://www.atlassian.com/">Atlassian</a></li>
 				<li><span>&#8226;</span><strong>Product Design Lead</strong><br /><a href="https://sendle.com/">Sendle</a></li>
 				<li><span>&#8226;</span><strong>Product Design Lead</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li>

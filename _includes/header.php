@@ -1,5 +1,10 @@
 <?php
 
+	if($_SERVER['SERVER_PORT']!='443' && $_SERVER['HTTP_HOST']!="portfolio"){
+		header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+		exit();
+	}
+
 	$prev = NULL;
 	$next = NULL;
 	
@@ -25,9 +30,9 @@
 	<link href="<?php echo path; ?>_assets/gfx/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
 	<link href="<?php echo path; ?>_assets/css/main.css" rel="stylesheet" type="text/css" />
-	<link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
-	<meta name="twitter:image" content="http://buzzusborne.com/_assets/gfx/twittercard.jpg">
-	<meta property="og:image" content="http://buzzusborne.com/_assets/gfx/twittercard.jpg" />
+	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+	<meta name="twitter:image" content="https://buzzusborne.com/_assets/gfx/twittercard.jpg">
+	<meta property="og:image" content="https://buzzusborne.com/_assets/gfx/twittercard.jpg" />
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@buzzusborne">
 	<meta name="twitter:creator" content="@buzzusborne">
