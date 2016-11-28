@@ -565,7 +565,7 @@ ol.mobileView {
 dl.outro {
 	float:left;
 	width:100%;
-	margin:50px 0;
+	margin:30px 0;
 	border:1px solid darken(@borders,5%);
 	box-shadow:0px 4px 0px lighten(@borders,2%);
 	-moz-box-shadow:0px 4px 0px lighten(@borders,2%);
@@ -600,7 +600,12 @@ dl.outro {
 		margin-left: -7px;
 	}
 	
-	
+	&.notip {
+	  &:after,&:before {
+	    display:none;
+	  }
+	}
+  
 	dt,dd {
 		.bodyfont(1.3em);
 		float:left;
@@ -629,6 +634,20 @@ dl.outro {
 		font-size:1.3em;
 		line-height:1.9em;
 		color:@subtext;
+	}
+
+	.full {
+		float:left;
+		width:80%;
+		padding:18px 5% 0px;
+    
+    dd {
+      color:@dark;
+      
+      em {
+        color:@subtext;
+      }
+    }
 	}
 	
 	.left {

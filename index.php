@@ -14,11 +14,11 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="about">		
-			<p class="lead">I&rsquo;m a Product Designer and former Product Design Lead at Sendle, Campaign Monitor <em class="special amp">&amp;</em> Skype. I built <a href="https://prevue.it/">Prevue</a>, and previously worked as a digital designer for various agencies in USA, UK and Australia. <a href="about/">More</a></p>
+			<p class="lead">I&rsquo;m a Product Designer, Founder of <a href="https://prevue.it/">Prevue</a> and Design Lead at Atlassian. Formerly Product Design Lead at Sendle, Campaign Monitor <em class="special amp">&amp;</em> Skype &mdash; and digital designer to agencies in USA, UK and Australia. <a href="about/">Read more&hellip;</a></p>
 			
 			<div id="photo"><a href="about/" title="More about Buzz"><img src="_assets/home/buzz_colour.jpg" alt="Buzz Usborne" /></a></div>
 			
-			<h3>Selected projects&hellip;</h3>
+			<h3>Case Studies</h3>
 		</div>
 		
 		<ul class="caseStudies">
@@ -80,13 +80,14 @@
 				</li>
 				<li>
 					<a href="casestudy/misc/">
-						<div class="image"><img src="casestudy/_images/misc/ex_headline.png" /></div>
-						<h5><span>Misc work</span></h5>
+						<div class="image"><img src="casestudy/_images/misc/toniguy_01.jpg" /></div>
+						<h5><span>Assorted digital work</span></h5>
 						<p>Various digital projects</p>
 					</a>
 				</li>
 			</ul>
-				
+			 
 <?php
+	include(path.'_includes/recent.php');
 	include(path.'_includes/footer.php');
 ?>

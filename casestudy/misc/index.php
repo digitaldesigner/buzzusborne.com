@@ -3,7 +3,7 @@
 	$navigation = array(
 		"this" => array(
 			"path"	=> "../../",
-			"title"	=> "Postbox Party"
+			"title"	=> "Assorted Work"
 		),
 		"prev" => array(
 			"path"	=> "../skype_business",
@@ -18,7 +18,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>More&hellip;</h1>
-			<span class="subscript">Various digital projects <em>&#8226;</em> 2010 &ndash; <?php echo date('Y');?></span>
+			<span class="subscript">Assorted digital work <em>&#8226;</em> 2010 &ndash; <?php echo date('Y');?></span>
 		</div>
 	</div>
 	

@@ -1,26 +1,26 @@
 		
-		<?php if(!isset($hideFoot)) { ?><div id="footer"<?php if(isset($home)) { echo 'class="break"'; } ?>>
+			<?php if(!isset($hideFoot)) { ?><div id="footer"<?php if(isset($home)) { echo 'class="break"'; } ?>>
+				<ul>
+					<li><a href="<?php echo path; ?>/">Home</a></li>
+					<li><a href="<?php echo path; ?>about/">About</a></li>
+					<li><a href="https://linkedin.com/in/buzzusborne/">LinkedIn</a></li>
+					<li class="right">&copy;<?php echo date('Y'); ?></li>
+				</ul>
+			</div><?php } ?>
+	
+		</div>	
+	
+		<div id="keycontrols"<?php if(isset($hideNav)) { echo " class=\"hidden\""; }?>>
 			<ul>
-				<li><a href="<?php echo path; ?>/">Home</a></li>
-				<li><a href="<?php echo path; ?>about/">About</a></li>
-				<li><a href="https://linkedin.com/in/buzzusborne/">LinkedIn</a></li>
-				<li class="right">&copy;<?php echo date('Y'); ?></li>
-			</ul>
-		</div><?php } ?>
-	
-	</div>	
-	
-	<div id="keycontrols"<?php if(isset($hideNav)) { echo " class=\"hidden\""; }?>>
-		<ul>
-			<?php 
-			if($prev || $next){ 
-				if($prev){ echo $prev; }
-				if($next){ echo "\n			".$next; } 
-			}
-			?>
+				<?php 
+				if($prev || $next){ 
+					if($prev){ echo $prev; }
+					if($next){ echo "\n			".$next; } 
+				}
+				?>
 			
-		</ul>
-	</div>
+			</ul>
+		</div>
 	
   <?php if(!isset($hideFoot)) { ?>
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
