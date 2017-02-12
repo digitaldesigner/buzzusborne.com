@@ -701,7 +701,7 @@ dl.outro {
     width:630px;
 		
 		&.lead {
-			font-size:1.8em;
+			//font-size:1.8em;
 			clear:none;
 			
 			em {
@@ -752,6 +752,20 @@ dl.outro {
 		margin:0 0 30px 0;
 		border-bottom:1px solid darken(@borders,20%);
 	}
+  
+  .image {
+    background:none;
+    width:690px;
+    margin:0 0 30px -30px;
+    
+    img {
+      .rounded-corners(4px);
+    }
+    
+    .inlineCaption {
+      margin-left:30px;
+    }
+  }
 	
 	ol {
 		position:absolute;
@@ -785,7 +799,7 @@ dl.outro {
 			width:100%;
 			margin:0 0 30px 0;
 			font-style:italic;
-			.bodyfont(1.35em,1.5em);
+			.bodyfont(1.3em,1.5em);
 			color:@subtext;
 			position:relative;
 			text-align:right;
@@ -1198,7 +1212,7 @@ ul.caseStudies {
 			}
 		}
 	
-		#about {	
+		#about {	      
 			h3,p,h6 {
 				float:left;
 				width:70%;
@@ -1215,6 +1229,17 @@ ul.caseStudies {
 			#photo {
 				display:none;
 			}
+      
+      .image {
+        width:100%;
+        margin-left:0;
+        
+        p.inlineCaption {
+  				width:70%;
+  				margin-left:15%;
+  				margin-right:15%;
+        }
+      }
 		
 			ol {
 				position:relative;

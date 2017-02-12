@@ -10,6 +10,7 @@
 				</div>
 				<div class="col left">
 					<dt>Recent Interviews</dt>
+						<dd><a href="https://uigarage.net/blog-post/learn-atlassians-lead-designer-buzz-usborne/">UI Garage</a></dd>
 						<dd><a href="http://www.intelligentproductdesign.com/buzz-usborne/">Intelligent Product Design</a></dd>
 						<dd><a href="http://www.tractor.edu.au/news/industry-interview-buzz-usborne">Tractor: Industry Interview</a></dd>
 						<dd><a href="https://australiandesignradio.simplecast.fm/18">Australian Design Radio</a></dd>

@@ -992,7 +992,6 @@ dl.outro .right {
   width: 630px;
 }
 #about p.lead {
-  font-size: 1.8em;
   clear: none;
 }
 #about p.lead em {
@@ -1033,6 +1032,20 @@ dl.outro .right {
   margin: 0 0 30px 0;
   border-bottom: 1px solid #bfbfc4;
 }
+#about .image {
+  background: none;
+  width: 690px;
+  margin: 0 0 30px -30px;
+}
+#about .image img {
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+#about .image .inlineCaption {
+  margin-left: 30px;
+}
 #about ol {
   position: absolute;
   top: 0;
@@ -1072,7 +1085,7 @@ dl.outro .right {
   margin: 0 0 30px 0;
   font-style: italic;
   font-family: 'Lora', Georgia, serif;
-  font-size: 1.35em;
+  font-size: 1.3em;
   line-height: 1.5em;
   color: #505a6a;
   color: #a5b3be;
@@ -1534,6 +1547,15 @@ ul.caseStudies li a:hover h5 span {
   }
   .container #about #photo {
     display: none;
+  }
+  .container #about .image {
+    width: 100%;
+    margin-left: 0;
+  }
+  .container #about .image p.inlineCaption {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .container #about ol {
     position: relative;

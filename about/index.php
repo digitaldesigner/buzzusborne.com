@@ -17,26 +17,27 @@
 		<div id="about">		
 			<h3 class="spacer">About me</h3>
 			
-			<p class="lead">I&rsquo;m Buzz, a digital product designer. I built <a href="../casestudy/prevue/">a tool</a> used by thousands of agencies, led design teams at <a href="../casestudy/campaignmonitor">several</a> successful <a href="../casestudy/sendle/">startups</a>, designed the icons for <a href="../casestudy/skype/">an app</a> used by your mum, and worked for some awesome agencies in several countries.</p>
+			<p class="lead">Hello, I&rsquo;m Buzz &mdash; I spend my days sketching, designing, writing code and helping others through <a href="https://calendly.com/8uzz">mentoring</a>, talking, <a href="http://journal.buzzusborne.com/">blogging</a> and <a href="https://medium.com/@buzzusborne">writing</a> about design. I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of startups and agencies in Europe and Australia.</p>
 			
-			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results. Most recently I&rsquo;ve done that as Product Design Lead at <a href="../casestudy/sendle/">Sendle</a>, <a href="../casestudy/canvas/">Campaign Monitor</a> and <a href="https://www.atlassian.com/" target="_blank">Atlassian</a>.</p>
+			<div class="image">
+				<img class="image" src="../_assets/gfx/buzz_usborne_interview.jpg" />
+				<p class="inlineCaption">Sometimes you don't get the shot you're looking for</p>
+			</div>
+			
+			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>
 
-			<p>I&rsquo;m also the designer/developer behind <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; and is a project I continue to run today. The experience of designing, building and growing a profitable product has provided me with an invaluable opportunity to understand the role of design in a business. Prevue has also given me a platform to experiment with UI, UX and product strategy &mdash; which has given me the insight and experience to better perform in my full-time roles.</p>
+			<p>I&rsquo;m also the Founder of <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; and is a project I continue to run today. The experience of designing, building and growing a profitable product has provided me with an invaluable opportunity to understand the role of design in a business. Prevue has also given me a platform to experiment with UI, UX and product strategy &mdash; which has given me the insight and experience to better perform in my full-time roles.</p>
 
 			<p>Prior to moving to Australia, I spent a number of years in London working for a variety of different companies over a multitude of disciplines. Most notably I worked as a Product Design Lead for Skype, where I designed their current <a href="../casestudy/skype/">app iconography</a> and the UI for their <a href="../casestudy/skype_business/">business tools</a>. Prior to that, I held positions at several large digital and advertising agencies where I worked alongside a number of world-class designers and directors, designing more blogs and fashion ecommerce sites than I can recall. It was during this time that I developed my love of code and design thinking, which ultimately pushed me to a career in tech.</p>
 
-			<!--<img class="image" src="../_assets/gfx/buzz_usborne.jpg" />
-			<p class="inlineCaption">This is what I look like (most of the time)</p>
-			-->
-				
 			<p>Before designing full-time, I was a competitive sailor and professional dinghy racing coach living in the Mediterranean. My mind is never too far from the ocean, and I appreciate the importance of a healthy work/life balance. So when I&rsquo;m not online, you&rsquo;ll find me outdoors &mdash; riding motorbikes, swimming, sand running or travelling.</p>
 			
 			<p><strong class="signature">Buzz/</strong></p>
 			
 			<ol>
 				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Design Lead</strong><br /><a href="https://www.atlassian.com/">Atlassian</a></li>
-				<li><span>&#8226;</span><strong>Product Design Lead</strong><br /><a href="https://sendle.com/">Sendle</a></li>
-				<li><span>&#8226;</span><strong>Product Design Lead</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
+				<li><span>&#8226;</span><strong>Head of Product</strong><br /><a href="https://sendle.com/">Sendle</a></li>
+				<li><span>&#8226;</span><strong>UX Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>Head of Design</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Design Lead</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
