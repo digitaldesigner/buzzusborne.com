@@ -696,12 +696,12 @@ dl.outro {
 		float:left;
 		margin-bottom:30px;
 		clear:both;
-    font-size:1.65em;
-    line-height:1.7em;
+    font-size:1.6em;
+    line-height:1.8em;
     width:630px;
 		
 		&.lead {
-			//font-size:1.8em;
+			font-size:1.75em;
 			clear:none;
 			
 			em {
@@ -756,7 +756,7 @@ dl.outro {
   .image {
     background:none;
     width:690px;
-    margin:0 0 30px -30px;
+    margin:10px 0 30px -30px;
     
     img {
       .rounded-corners(4px);
@@ -776,7 +776,7 @@ dl.outro {
 		width:(@sitewidth/3) - 130;
 		padding:0 30px 50px 0;
 		text-align:left;
-		margin:75px 0 0 0;
+		margin:77px 0 0 0;
 		border-right:1px solid darken(@borders,2%);
 		
 		#fadeOut {
@@ -797,9 +797,11 @@ dl.outro {
 		li {
 			float:left;
 			width:100%;
-			margin:0 0 30px 0;
-			font-style:italic;
-			.bodyfont(1.3em,1.5em);
+			margin:0 0 45px 0;
+			.title(1.3em);
+			font-weight:400;
+			color:@subtext;
+      line-height:1.4em;
 			color:@subtext;
 			position:relative;
 			text-align:right;
@@ -819,7 +821,7 @@ dl.outro {
 					right:-25px;
 					width:8px;
 					height:8px;
-					background:@linkhover;
+					background:darken(@linkhover,2%);
 					z-index:2;
 				}
 				
@@ -846,7 +848,7 @@ dl.outro {
 			}
 			
 			strong {
-				font-weight:normal;
+				font-weight:inherit;
 				font-style:inherit;
 				color:@titles;
 			}

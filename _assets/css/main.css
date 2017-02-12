@@ -987,11 +987,12 @@ dl.outro .right {
   float: left;
   margin-bottom: 30px;
   clear: both;
-  font-size: 1.65em;
-  line-height: 1.7em;
+  font-size: 1.6em;
+  line-height: 1.8em;
   width: 630px;
 }
 #about p.lead {
+  font-size: 1.75em;
   clear: none;
 }
 #about p.lead em {
@@ -1035,7 +1036,7 @@ dl.outro .right {
 #about .image {
   background: none;
   width: 690px;
-  margin: 0 0 30px -30px;
+  margin: 10px 0 30px -30px;
 }
 #about .image img {
   -khtml-border-radius: 4px;
@@ -1055,7 +1056,7 @@ dl.outro .right {
   width: 153.33333333px;
   padding: 0 30px 50px 0;
   text-align: left;
-  margin: 75px 0 0 0;
+  margin: 77px 0 0 0;
   border-right: 1px solid #efeff0;
 }
 #about ol #fadeOut {
@@ -1082,12 +1083,13 @@ dl.outro .right {
 #about ol li {
   float: left;
   width: 100%;
-  margin: 0 0 30px 0;
-  font-style: italic;
-  font-family: 'Lora', Georgia, serif;
+  margin: 0 0 45px 0;
+  font-family: "proxima-nova", Georgia;
   font-size: 1.3em;
-  line-height: 1.5em;
-  color: #505a6a;
+  font-weight: 800;
+  color: #2f353e;
+  font-weight: 400;
+  line-height: 1.4em;
   color: #a5b3be;
   position: relative;
   text-align: right;
@@ -1110,7 +1112,7 @@ dl.outro .right {
   right: -25px;
   width: 8px;
   height: 8px;
-  background: #00aadd;
+  background: #00a2d3;
   z-index: 2;
 }
 #about ol li span.pulse {
@@ -1136,7 +1138,7 @@ dl.outro .right {
   margin-bottom: 0;
 }
 #about ol li strong {
-  font-weight: normal;
+  font-weight: inherit;
   font-style: inherit;
   color: #2f353e;
 }

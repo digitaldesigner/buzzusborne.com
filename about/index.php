@@ -17,7 +17,7 @@
 		<div id="about">		
 			<h3 class="spacer">About me</h3>
 			
-			<p class="lead">Hello, I&rsquo;m Buzz &mdash; I spend my days sketching, designing, writing code and helping others through <a href="https://calendly.com/8uzz">mentoring</a>, talking, <a href="http://journal.buzzusborne.com/">blogging</a> and <a href="https://medium.com/@buzzusborne">writing</a> about design. I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of startups and agencies in Europe and Australia.</p>
+			<p>Hello, I&rsquo;m Buzz &mdash; I spend my days sketching, designing, writing code and helping others through <a href="https://calendly.com/8uzz">mentoring</a>, talking, <a href="http://journal.buzzusborne.com/">blogging</a> and <a href="https://medium.com/@buzzusborne">writing</a> about design. I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
 			
 			<div class="image">
 				<img class="image" src="../_assets/gfx/buzz_usborne_interview.jpg" />
@@ -41,8 +41,8 @@
 				<li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>Head of Design</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Design Lead</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
-				<li><span>&#8226;</span><strong>Product Design Lead</strong><br />Skype</li>
-				<li><span>&#8226;</span><strong>Self Employed</strong></li>
+				<li><span>&#8226;</span><strong>UI Design Lead</strong><br /><a href="https://www.skype.com/">Skype</a></li>
+				<li><span>&#8226;</span><strong>Freelance</strong><br />Various clients</li>
 				<li><span>&#8226;</span><strong>Senior Designer</strong><br /><a href="http://storyworldwide.com/">Story Worldwide</a></li>
 				<li><span>&#8226;</span><strong>Digital Designer</strong><br />Large Design</li>
 				<li><span>&#8226;</span><strong>Designer</strong><br /><a href="http://popcornbox.com/">Popcorn Design</a></li>
