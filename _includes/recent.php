@@ -12,9 +12,10 @@
 					<dt>Recent Interviews</dt>
 						<dd><a href="http://nicelydone.club/interviews/buzz-usborne/">Nicely Done</a></dd>
 						<dd><a href="https://uigarage.net/blog-post/learn-atlassians-lead-designer-buzz-usborne/">UI Garage</a></dd>
+						<dd><a href="https://www.youtube.com/watch?v=cCNAWVt7O0I">Sydney Opera House (Video)</a></dd>
 						<dd><a href="http://www.intelligentproductdesign.com/buzz-usborne/">Intelligent Product Design</a></dd>
 						<dd><a href="http://www.tractor.edu.au/news/industry-interview-buzz-usborne">Tractor: Industry Interview</a></dd>
-						<dd><a href="https://australiandesignradio.simplecast.fm/18">Australian Design Radio</a></dd>
+						<dd><a href="https://ausdesignradio.com/episodes/272693126">Australian Design Radio</a></dd>
 				</div>
 				<div class="col middle">			
 					<dt>Writing</dt>
