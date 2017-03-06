@@ -14,7 +14,7 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="about">		
-			<p class="lead">I&rsquo;m a Product Designer, Founder of Prevue and Design Lead at Atlassian. Former design lead at Sendle, Campaign Monitor <em class="special amp">&amp;</em> Skype &mdash; and digital designer to agencies in USA, UK and Australia. <a href="about/">Read more</a></p>
+			<p class="lead">I&rsquo;m a Product Designer <em class="special amp">&amp;</em> Founder of Prevue. Former Design Lead at Atlassian, Campaign Monitor, Sendle and Skype &mdash; and digital designer to agencies in USA, UK and Australia. <a href="about/">Read more</a></p>
 			
 			<div id="photo"><a href="about/" title="More about Buzz"><img src="_assets/home/buzz_colour.jpg" alt="Buzz Usborne" /></a></div>
 			

@@ -35,7 +35,8 @@
 			<p><strong class="signature">Buzz/</strong></p>
 			
 			<ol>
-				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Design Lead</strong><br /><a href="https://www.atlassian.com/">Atlassian</a></li>
+				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Coffee break</strong></li>
+				<li><strong>Design Lead</strong><br /><a href="https://www.atlassian.com/">Atlassian</a></li>
 				<li><span>&#8226;</span><strong>Head of Product</strong><br /><a href="https://sendle.com/">Sendle</a></li>
 				<li><span>&#8226;</span><strong>UX Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
 				<li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li>
@@ -52,5 +53,6 @@
 		
 <?php
 	include(path.'_includes/recent.php');
+	$hideModal = TRUE;
 	include(path.'_includes/footer.php');
 ?>
