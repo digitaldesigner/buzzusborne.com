@@ -20,8 +20,8 @@
 			<p>Hello, I&rsquo;m Buzz &mdash; I spend my days sketching, designing, writing code and helping others through <a href="https://calendly.com/8uzz">mentoring</a>, talking, <a href="http://journal.buzzusborne.com/">blogging</a> and <a href="https://medium.com/@buzzusborne">writing</a> about design. I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
 			
 			<div class="image">
-				<img class="image" src="../_assets/gfx/buzz_usborne_interview.jpg" />
-				<p class="inlineCaption">Sometimes you don't get the shot you're looking for</p>
+				<img class="image" src="../_assets/gfx/buzz_talking.jpg" />
+				<p class="inlineCaption">Me, talking through the things I&rsquo;ve learned running Prevue</p>
 			</div>
 			
 			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>
