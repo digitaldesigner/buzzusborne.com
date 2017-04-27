@@ -19,7 +19,7 @@
 			
 			<p>Hello, I&rsquo;m Buzz &mdash; I spend my days sketching, designing, writing code and helping others through <a href="https://calendly.com/8uzz">mentoring</a>, talking, <a href="http://journal.buzzusborne.com/">blogging</a> and <a href="https://medium.com/@buzzusborne">writing</a> about design. I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
 			
-			<p>I currently design at <a href="https://www.helpscout.net">HelpScout</a>, mentor at <a href="http://outofofficehours.com">Out of Office Hours</a>, build <a href="https://prevue.it/">Prevue</a> and hang out with my <a href="https://www.instagram.com/p/BLAmU1yDy1R/">wife</a> and <a href="https://www.instagram.com/p/BRmACyxDqZ5/">son</a> in Bondi Beach.</p>
+			<p>I currently design at <a href="https://www.helpscout.net">Help Scout</a>, mentor at <a href="http://outofofficehours.com">Out of Office Hours</a>, build <a href="https://prevue.it/">Prevue</a> and hang out with my <a href="https://www.instagram.com/p/BLAmU1yDy1R/">wife</a> and <a href="https://www.instagram.com/p/BTKs48hD2-H/">son</a> in Bondi Beach.</p>
 			
 			<div class="image">
 				<img class="image" src="../_assets/gfx/buzz_talking.jpg" />
@@ -37,7 +37,7 @@
 			<p><strong class="signature">Buzz/</strong></p>
 			
 			<ol>
-				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Designer</strong><br /><a href="https://www.helpscout.net/">HelpScout</a></li>
+				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Designer</strong><br /><a href="https://www.helpscout.net/">Help Scout</a></li>
 				<li><span>&#8226;</span><strong>Design Lead</strong><br /><a href="https://www.atlassian.com/">Atlassian</a></li>
 				<li><span>&#8226;</span><strong>Head of Product</strong><br /><a href="https://sendle.com/">Sendle</a></li>
 				<li><span>&#8226;</span><strong>UX Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
