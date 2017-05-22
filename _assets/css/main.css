@@ -755,13 +755,13 @@ ol.mobileView li img {
 #project .signature,
 #about .signature {
   float: left;
-  width: 100px;
-  height: 70px;
-  background: url('../gfx/signature.png') top left no-repeat;
-  background-size: 100px 68px;
+  width: 130px;
+  height: 90px;
+  background: url('../gfx/buzz-signature.png') top left no-repeat;
+  background-size: 100% auto;
   overflow: hidden;
   text-indent: 100%;
-  margin-left: -13px;
+  margin-left: -30px;
 }
 .project .image,
 #project .image,
