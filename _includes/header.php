@@ -31,13 +31,11 @@
 	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
 	<link href="<?php echo path; ?>_assets/css/main.css" rel="stylesheet" type="text/css" />
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
-	<meta name="twitter:image" content="https://buzzusborne.com/_assets/gfx/twittercard.jpg">
-	<meta property="og:image" content="https://buzzusborne.com/_assets/gfx/twittercard.jpg" />
-	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@buzzusborne">
 	<meta name="twitter:creator" content="@buzzusborne">
-	<meta name="twitter:title" content="Portfolio of Buzz Usborne">
-	<meta name="twitter:description" content="I’m a Product Designer and Founder of Prevue. Formerly Head of Product at Sendle, Product Design Lead at Campaign Monitor and Designer at Skype.">	
+	<meta name="twitter:title" content="Buzz Usborne — Product Designer">
+	<meta name="twitter:description" content="Portfolio of Buzz, Founder of @GetPrevue & Designer @HelpScout. Formerly Design Lead @Atlassian, @CampaignMonitor & @Skype.">	
 	<script type="text/javascript" src="//use.typekit.net/dlu2bpa.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=320,initial-scale=1.0" />
