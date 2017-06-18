@@ -2,6 +2,8 @@
 			<dl class="outro notip">
 				<div class="col full">
 					<dt>Speaking Events</dt>
+						<dd>Various <em class="special">&mdash;</em> <em>Private Events, 2017</em></dd>
+						<dd>Sydney Product Designers <em class="special">&mdash;</em> <em>Meetup, 2017</em></dd>
 						<dd>Digital Design <em class="special">&mdash;</em> <em>Spark Festival, 2016</em></dd>
 						<dd>Advance Global Summit <em class="special">&mdash;</em> <em>Sydney Opera House, 2015</em></dd>
 						<dd>The Intersection of Design and Tech <em class="special">&mdash;</em> <em>General Assembly, 2015</em></dd>
@@ -29,7 +31,6 @@
 					<dt>Contact</dt>
 						<dd><a href="http://linkedin.com/in/buzzusborne/">LinkedIn</a></dd>
 						<dd><a href="http://medium.com/@buzzusborne/">Medium</a></dd>
-						<dd><a href="http://twitter.com/@buzzusborne/">Twitter</a></dd>
 						<dd><a href="https://www.instagram.com/buzz/">Instagram</a></dd>
 						<dd><a href="mailto:hello@buzzusborne.com">Email</a></dd>
 				</div>
