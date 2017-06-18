@@ -399,6 +399,15 @@ ol.mobileView li img {
   -moz-box-shadow: inset 0px 0 0px 10px #f2f2f4;
   -webkit-box-shadow: inset 0px 0 0px 10px #f2f2f4;
 }
+.fullImage.close {
+  margin-top: 0;
+}
+.fullImage.rounded img {
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
 #projectIntro h1 {
   float: left;
   width: 100%;
@@ -841,6 +850,33 @@ ol.mobileView li img {
   box-shadow: inset 0px 0 0px 10px #f2f2f4;
   -moz-box-shadow: inset 0px 0 0px 10px #f2f2f4;
   -webkit-box-shadow: inset 0px 0 0px 10px #f2f2f4;
+}
+.project .image.rounded img,
+#project .image.rounded img,
+#about .image.rounded img {
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.project .image.custom-create,
+#project .image.custom-create,
+#about .image.custom-create {
+  text-align: center;
+  background: #fcfcfd;
+  padding: 20px 0;
+  -khtml-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+.project .image.custom-create img,
+#project .image.custom-create img,
+#about .image.custom-create img {
+  width: 480px;
+  float: none;
+  display: block;
+  margin: 0px auto;
 }
 .project .video,
 #project .video,
