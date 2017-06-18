@@ -12,24 +12,25 @@
 		"next" => array(
 			"path"	=> "../../about",
 			"title"	=> "About"
-		)
+		),
+		"twitter_img" => "casestudy/_images/misc/prevue_expenses.png"
 	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
-			<h1>More&hellip;</h1>
+			<h1>Various Work</h1>
 			<span class="subscript">Assorted digital work <em>&#8226;</em> 2010 &ndash; <?php echo date('Y');?></span>
 		</div>
 	</div>
 	
 	<div class="fullImage top">
-		<img class="leadImg" src="../_images/misc/ex_headline.png"  />
+		<img class="leadImg" src="../_images/misc/prevue_expenses.png"  />
 	</div>
 	
 	<div class="container">	
 		<div class="project">
 			<h5>Prevue expense tracker</h5>
-			<p class="info"><strong>Above/</strong> A key screen for a profit and expense tracker for <a href="../prevue/">Prevue</a></p>
+			<p class="info"><strong>Above/</strong> The home screen of <a href="../prevue/">Prevue&rsquo;s</a> realtime expense tracker</p>
 			
 			<p>Whilst running <a href="../prevue/">Prevue</a>, I found it difficult to track real-time profit &mdash; especially as Prevue operates with both monthly recurring and one-off payments, and charges in multiple currencies. In addition, it was difficult to report expenses against profit&hellip; so I built my own tool.</p>
 			<p>The tool pulls real-time payment data from Stripe, calculates conversion rates using 3rd party forex rates, pulls expenses from Google Docs, then calculates tax and payment fees to leave raw profit.</p>

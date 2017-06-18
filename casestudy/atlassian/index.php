@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../prevue",
 			"title"	=> "Prevue"
-		)
+		),
+		"twitter_img" => "casestudy/_images/atlassian/jira-hero.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>
@@ -31,17 +32,17 @@
 			<h5>The Brief</h5>
 			<p class="info"><strong>Above/</strong> An Agile board, the core of the JIRA product</p>
 			
-			<p>One of my major responsibilities whilst at <a href="https://atlassian.com" target="_blank">Atlassian</a> was the re-design of JIRA &mdash; a now <?php echo (date('Y') - 2002); ?> year old issue and project tracking tool used by millions. Used primarily by software teams, JIRA is the powerhouse behind companies like NASA, Spotify, and pretty much every team I've ever worked with.</p>
+			<p>One of my major responsibilities whilst at <a href="https://atlassian.com" target="_blank">Atlassian</a> was the re-design of JIRA &mdash; a now <?php echo (date('Y') - 2002); ?> year old issue and project tracking tool used by millions. Used primarily by software teams, JIRA is the powerhouse behind companies like NASA, Spotify, and pretty much every team I&rsquo;ve ever worked with.</p>
 			
-			<p>As anyone whose every used JIRA knows&hellip; it's really hard to master. Once you have it figured, you can do some amazing things &mdash; but the barrier to entry is high. And in an increasingly saturated marketplace, small software teams aren't willing to put in the time to learn the intricacies of such a large product &mdash; so it was time for JIRA to adapt to meet their needs.</p>
+			<p>As anyone whose ever used JIRA knows&hellip; it&rsquo;s really hard to master. Once you have it figured, you can do some amazing things &mdash; but the barrier to entry is high. And in an increasingly saturated marketplace, small software teams aren&rsquo;t willing to put in the time to learn the intricacies of such a large product &mdash; so it was time for JIRA to adapt to meet their needs.</p>
 			
 			<p>Over several months, I led a series of workshops, interviews and design spikes to produce a fresh new take on JIRA that made it more appropriate for modern software teams. In early-2017, it was announced at the <a href="https://www.atlassian.com/company/events/summit-europe" target="_blank">Atlassian European Summit</a>:</p>
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/atlassian/atlassian_summit.jpg" width="100%" /></div>
 						
-			<p>The outcome of my preliminary workshops and research, and the defining hypothesis of the re-design was that by helping software teams realise their own potential sooner, they'd be advocates for life. This was validated using extensive user testing and data analysis, both during design and with the subsequent staged release.</p>
+			<p>The outcome of my preliminary workshops and research, and the defining hypothesis of the re-design was that by helping software teams realise their own potential sooner, they&rsquo;d be advocates for life. This was validated using extensive user testing and data analysis, both during design and with the subsequent staged release.</p>
 			
-			<blockquote>&ldquo;Our customers' success is our success.&rdquo;</blockquote>
+			<blockquote>&ldquo;Our customers&rsquo; success is our success.&rdquo;</blockquote>
 			
 			<p>Every UX and visual design decision was made with this in mind &mdash; and was viewed through the lens of helping teams get to a point of productivity sooner. Done right, JIRA should naturally adapt to the way you work best.</p>
 			
@@ -72,7 +73,7 @@
 			<h3>Prototyping</h3>
 			<p>Because the majority of the visual styling decisions were already in place from the design system, I turned my attention to the interaction design &mdash; which involved prototyping&hellip; from scrolling interactions and shadows, to focus states and animation.</p>
 			
-			<p>These prototypes were also used in extensive user testing, which were performed every 2 weeks to ensure we didn't get too lost in exploration or polish &mdash; and were remaining true to our hypothesis and design principles.</p>
+			<p>These prototypes were also used in extensive user testing, which were performed every 2 weeks to ensure we didn&rsquo;t get too lost in exploration or polish &mdash; and were remaining true to our hypothesis and design principles.</p>
 			
 			<p>The below example, showing how a board can be filtered by assignee, is a good demonstration of how visual decisions needed to be made in code rather than from static design files.</p>
 		</div>
@@ -84,7 +85,7 @@
 		
 	<div class="container">	
 		<div class="project">
-			<p>New functionality was introduced where it made sense, and usually in response to a shift in user expectations. The ability to add tasks directly within a column &mdash; something that's possible in Asana, Trello and the likes &mdash; was an example of such functionality. Prototyping was important to determine the ideal placement of text (notice how the word &lsquo;Create&rsquo; and the text cursor are aligned) and how animation could indicate success without being too over-the-top (when adding multiple in quick succession).</p>
+			<p>New functionality was introduced where it made sense, and usually in response to a shift in user expectations. The ability to add tasks directly within a column &mdash; something that&rsquo;s possible in Asana, Trello and the likes &mdash; was an example of such functionality. Prototyping was important to determine the ideal placement of text (notice how the word &lsquo;Create&rsquo; and the text cursor are aligned) and how animation could indicate success without being too over-the-top (when adding multiple in quick succession).</p>
 			
 			<p class="caption inline"><strong>Below/</strong> That &ldquo;click&rdquo; animation&hellip;</p>
 			
@@ -131,6 +132,7 @@
 				</div>
 				<div class="col right">
 					<dt>More</dt>
+						<dd><a href="https://uigarage.net/blog-post/learn-atlassians-lead-designer-buzz-usborne/">Interview</a></dd>
 						<dd><a href="https://www.atlassian.com/software/jira">JIRA Software</a></dd>
 						<dd><a href="https://atlassian.design/">Atlassian Design</a></dd>
 				</div>

@@ -4,6 +4,9 @@
 		header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 		exit();
 	}
+	
+	date_default_timezone_set('UTC');
+	define(basesite,'https://www.buzzusborne.com/');
 
 	$prev = NULL;
 	$next = NULL;
@@ -31,11 +34,12 @@
 	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
 	<link href="<?php echo path; ?>_assets/css/main.css" rel="stylesheet" type="text/css" />
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
-	<meta name="twitter:card" content="summary">
+	<meta name="twitter:card" content="summary<?php if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { echo "_large_image"; } ?>">
 	<meta name="twitter:site" content="@buzzusborne">
 	<meta name="twitter:creator" content="@buzzusborne">
-	<meta name="twitter:title" content="Buzz Usborne — Product Designer">
-	<meta name="twitter:description" content="Portfolio of Buzz, Founder of @GetPrevue & Designer @HelpScout. Formerly Design Lead @Atlassian, @CampaignMonitor & @Skype.">	
+	<meta name="twitter:title" content="Buzz Usborne — <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Product Designer"; } ?>">
+	<meta name="twitter:description" content="Portfolio of Buzz, Founder of @GetPrevue & Designer @HelpScout. Formerly Design Lead @Atlassian, @CampaignMonitor & @Skype.">
+<?php if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { ?>	<meta name="twitter:image" content="<?php echo basesite.$navigation['twitter_img']; ?>"><?php echo "\n"; } ?>
 	<script type="text/javascript" src="//use.typekit.net/dlu2bpa.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=320,initial-scale=1.0" />

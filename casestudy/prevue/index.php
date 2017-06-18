@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../skype",
 			"title"	=> "Skype"
-		)
+		),
+		"twitter_img" => "casestudy/_images/prevue/FullScreen.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>

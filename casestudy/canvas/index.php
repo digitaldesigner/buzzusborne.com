@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../sendle",
 			"title"	=> "Sendle"
-		)
+		),
+		"twitter_img" => "casestudy/_images/canvas/full_app.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>

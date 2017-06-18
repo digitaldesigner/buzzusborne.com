@@ -7,9 +7,10 @@
 			"title"	=> "About Buzz"
 		),
 		"next" => array(
-			"path"	=> "casestudy/prevue",
-			"title"	=> "Prevue"
-		)
+			"path"	=> "casestudy/atlassian",
+			"title"	=> "Atlassian"
+		),
+		"twitter_img" => "casestudy/_images/atlassian/jira-hero.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>
