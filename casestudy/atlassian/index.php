@@ -34,17 +34,19 @@
 			
 			<p>One of my major responsibilities whilst at <a href="https://atlassian.com" target="_blank">Atlassian</a> was the re-design of JIRA &mdash; a now <?php echo (date('Y') - 2002); ?> year old issue and project tracking tool used by millions. Used primarily by software teams, JIRA is the powerhouse behind companies like NASA, Spotify, and pretty much every team I&rsquo;ve ever worked with.</p>
 			
-			<p>As anyone whose ever used JIRA knows&hellip; it&rsquo;s really hard to master. Once you have it figured, you can do some amazing things &mdash; but the barrier to entry is high. And in an increasingly saturated marketplace, small software teams aren&rsquo;t willing to put in the time to learn the intricacies of such a large product &mdash; so it was time for JIRA to adapt to meet their needs.</p>
+			<p>As anyone whose ever used JIRA knows&hellip; it&rsquo;s really hard to master. Once you have it figured, you can do some amazing things &mdash; but the barrier to entry is high. And in an increasingly saturated marketplace, small software teams are less willing to put in the time to learn the intricacies of such a large product &mdash; so it was time for JIRA to adapt to meet their needs.</p>
 			
-			<p>Over several months, I led a series of workshops, interviews and design spikes to produce a fresh new take on JIRA that made it more appropriate for modern software teams. In early-2017, it was announced at the <a href="https://www.atlassian.com/company/events/summit-europe" target="_blank">Atlassian European Summit</a>:</p>
+			<p>Over several months, I led a series of workshops, customer interviews and design spikes to produce a fresh new take on JIRA that made it more appropriate for modern software teams. In early-2017, it was <a href="https://twitter.com/JIRA/status/859431554220789761" target="_blank">announced</a> by Atlassian&rsquo;s Head of Design at their European Summit</a>.</p>
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/atlassian/atlassian_summit.jpg" width="100%" /></div>
+			
+			<p class="caption inline">Photo credit: <a href="https://twitter.com/sherifmansour/status/859384000258818048">Sherif Mansour</a></p>
 						
-			<p>The outcome of my preliminary workshops and research, and the defining hypothesis of the re-design was that by helping software teams realise their own potential sooner, they&rsquo;d be advocates for life. This was validated using extensive user testing and data analysis, both during design and with the subsequent staged release.</p>
+			<p>The outcome of my preliminary workshops and research, and the defining hypothesis of the re-design, was that by helping software teams realise their own potential sooner, they&rsquo;d be advocates for life. This was validated using extensive user testing and data analysis, both during design and with the subsequent staged release.</p>
 			
 			<blockquote>&ldquo;Our customers&rsquo; success is our success.&rdquo;</blockquote>
 			
-			<p>Every UX and visual design decision was made with this in mind &mdash; and was viewed through the lens of helping teams get to a point of productivity sooner. Done right, JIRA should naturally adapt to the way you work best.</p>
+			<p>Every UX and visual design decision was made with this in mind &mdash; and was viewed through the lens of helping teams get to a point of productivity sooner. It was my intetion that JIRA should naturally adapt to the way you work best, and remain easy-to-use regardless of content.</p>
 			
 			<div class="image rounded"><img class="lazyload" data-sizes="auto" data-src="../_images/atlassian/jira_og.png" width="100%" /></div>
 			
