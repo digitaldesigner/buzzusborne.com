@@ -869,6 +869,8 @@ ol.mobileView li img {
   -moz-border-radius: 4px;
   -webkit-border-radius: 4px;
   border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .project .image.custom-create img,
 #project .image.custom-create img,
@@ -877,6 +879,23 @@ ol.mobileView li img {
   float: none;
   display: block;
   margin: 0px auto;
+}
+.project .image.custom-hover,
+#project .image.custom-hover,
+#about .image.custom-hover {
+  text-align: center;
+  background: white;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.project .image.custom-hover img,
+#project .image.custom-hover img,
+#about .image.custom-hover img {
+  width: 820px;
+  display: inline;
+  text-align: center;
+  margin: 0 15px 0 0;
+  float: none;
 }
 .project .video,
 #project .video,
