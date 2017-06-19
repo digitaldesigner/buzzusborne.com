@@ -236,6 +236,16 @@ ol.mobileView {
 		-moz-box-shadow:inset 0px 0 0px 10px darken(@testing,0.6%);
 		-webkit-box-shadow:inset 0px 0 0px 10px darken(@testing,0.6%);
 	}
+  
+  &.close {
+    margin-top:0;
+  }
+  
+  &.rounded {
+    img {
+      .rounded-corners(4px);
+    }
+  }
 }
 
 #projectIntro {
@@ -542,6 +552,26 @@ ol.mobileView {
 			-moz-box-shadow:inset 0px 0 0px 10px darken(@testing,0.6%);
 			-webkit-box-shadow:inset 0px 0 0px 10px darken(@testing,0.6%);
 		}
+    
+    &.rounded {
+      img {
+        .rounded-corners(4px);
+      }
+    }
+    
+    &.custom-create {
+      text-align:center;
+      background:#fcfcfd;
+      padding:20px 0;
+      .rounded-corners(4px);
+      
+      img {
+        width: 480px;
+        float:none;
+        display:block;
+        margin:0px auto;
+      }
+    }
 	}
 	
 	.video {

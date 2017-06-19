@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../skype_business",
 			"title"	=> "Skype for Business"
-		)
+		),
+		"twitter_img" => "casestudy/_images/pbp/pbp_homepage.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>

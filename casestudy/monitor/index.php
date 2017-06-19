@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../pbp",
 			"title"	=> "Postbox Party"
-		)
+		),
+		"twitter_img" => "casestudy/_images/monitor/concept_icons.png"
 	);
 	include(path.'_includes/header.php');
 ?>

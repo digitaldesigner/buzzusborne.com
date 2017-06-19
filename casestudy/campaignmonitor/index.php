@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../monitor",
 			"title"	=> "Monitor App"
-		)
+		),
+		"twitter_img" => "casestudy/_images/campaignmonitor/business_cards.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>

@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../campaignmonitor",
 			"title"	=> "Campaign Monitor"
-		)
+		),
+		"twitter_img" => "casestudy/_images/sendle/devices.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>

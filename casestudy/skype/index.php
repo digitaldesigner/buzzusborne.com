@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../canvas",
 			"title"	=> "Email Builder"
-		)
+		),
+		"twitter_img" => "casestudy/_images/skype/skype_conversation.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>

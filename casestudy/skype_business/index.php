@@ -12,7 +12,8 @@
 		"next" => array(
 			"path"	=> "../misc",
 			"title"	=> "Misc Work"
-		)
+		),
+		"twitter_img" => "casestudy/_images/skype_business/dashbord_home.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>

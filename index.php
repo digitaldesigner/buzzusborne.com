@@ -7,9 +7,10 @@
 			"title"	=> "About Buzz"
 		),
 		"next" => array(
-			"path"	=> "casestudy/prevue",
-			"title"	=> "Prevue"
-		)
+			"path"	=> "casestudy/atlassian",
+			"title"	=> "Atlassian"
+		),
+		"twitter_img" => "casestudy/_images/atlassian/jira-hero.jpg"
 	);
 	include(path.'_includes/header.php');
 ?>
@@ -22,6 +23,13 @@
 		</div>
 		
 		<ul class="caseStudies">
+				<li>
+					<a href="casestudy/atlassian/">
+						<div class="image leadImg"><img src="casestudy/_images/atlassian/jira-hero.jpg" /></div>
+						<h5><span>JIRA + Atlassian</span></h5>
+						<p>Lead Designer</p>
+					</a>
+				</li>
 				<li>
 					<a href="casestudy/prevue/">
 						<div class="image leadImg"><img src="casestudy/_images/prevue/Homepage.jpg" /></div>
