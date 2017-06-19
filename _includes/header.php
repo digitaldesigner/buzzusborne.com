@@ -6,7 +6,7 @@
 	}
 	
 	date_default_timezone_set('UTC');
-	define(basesite,'https://www.buzzusborne.com/');
+	define('basesite','https://www.buzzusborne.com/');
 
 	$prev = NULL;
 	$next = NULL;
