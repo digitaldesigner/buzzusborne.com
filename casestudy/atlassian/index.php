@@ -1,4 +1,10 @@
 <?php 
+
+	#	Protected by:
+	#		u. mike 
+	#		p. cannonbrookes
+	#	Until further notice
+
 	define('path','../../');
 	$navigation = array(
 		"this" => array(

@@ -8,6 +8,9 @@ RewriteRule . %1/%2 [R=301,L]
 
 # Error docs
 ErrorDocument 404 /404.php
+ErrorDocument 403 /404.php
+ErrorDocument 500 /404.php
+ErrorDocument 401 /404.php
 
 # BEGIN (mt) controlled settings
 <IfModule pagespeed_module>
@@ -25,3 +28,4 @@ ExpiresByType text/html "access 1 month"
 ExpiresDefault "access 1 month"
 </IfModule>
 
+Options -Indexes

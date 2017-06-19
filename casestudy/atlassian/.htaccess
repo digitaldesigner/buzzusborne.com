@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Sekrit Shit"
+AuthUserFile /home/buzzusborne/buzzusborne.com/casestudy/atlassian/.htpasswd
+Require valid-user

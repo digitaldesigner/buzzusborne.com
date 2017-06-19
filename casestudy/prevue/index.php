@@ -6,8 +6,8 @@
 			"title"	=> "Prevue"
 		),
 		"prev" => array(
-			"path"	=> "../atlassian",
-			"title"	=> "Atlassian"
+			"path"	=> "../..",
+			"title"	=> "Home"
 		),
 		"next" => array(
 			"path"	=> "../skype",
