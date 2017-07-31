@@ -9,6 +9,9 @@
 		"prev" => array(
 			"path"	=> "../about",
 			"title"	=> "About"
+		),
+		"this"=> array(
+			"title"	=>	"Photos (@buzz)"
 		)
 	);
 	
@@ -22,6 +25,14 @@
 	
 	// Regular header
 	$bodyclass = "ig";
+	$i=0;
+	foreach ($obj['data'] as $post):
+		if($i==0) {
+			$navigation['twitter_img']=$post['images']['standard_resolution']['url'];
+			break;
+		}
+	endforeach;
+	$baseOverride = TRUE;
 	include(path.'_includes/header.php');
 ?>
 	</div>
