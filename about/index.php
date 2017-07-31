@@ -3,8 +3,8 @@
 	$hideNav=TRUE;
 	$navigation = array(
 		"next" => array(
-			"path"	=> "..",
-			"title"	=> "Home"
+			"path"	=> "../photos",
+			"title"	=> "Photos"
 		),
 		"prev" => array(
 			"path"	=> "../casestudy/misc",
@@ -55,6 +55,5 @@
 		
 <?php
 	include(path.'_includes/recent.php');
-	$hideModal = TRUE;
 	include(path.'_includes/footer.php');
 ?>
