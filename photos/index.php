@@ -16,7 +16,7 @@
 	);
 	
 	$singlePhoto = FALSE;
-	if(isset($_GET) && $_GET['id']){
+	if(isset($_GET) && array_key_exists('id',$_GET) && $_GET['id']){
 		$singlePhoto = $_GET['id'];
 	}
 
