@@ -1,10 +1,4 @@
 <?php 
-
-	#	Protected by:
-	#		u. mike 
-	#		p. cannonbrookes
-	#	Until further notice
-
 	define('path','../../');
 	$navigation = array(
 		"this" => array(
@@ -24,7 +18,7 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
-			<h1>JIRA + Atlassian</h1>
+			<h1>JIRA <em>&amp;</em> Atlassian</h1>
 			<span class="subscript">Lead Designer <em>&#8226;</em> UX / UI / Mentorship <em>&#8226;</em> 2016&ndash;17</span>
 		</div>
 	</div>
@@ -55,19 +49,29 @@
 			<p>Every UX and visual design decision was made with this in mind &mdash; and was viewed through the lens of helping teams get to a point of productivity sooner. It was my intetion that JIRA should naturally adapt to the way you work best, and remain easy-to-use regardless of content.</p>
 			
 			<div class="image rounded"><img class="lazyload" data-sizes="auto" data-src="../_images/atlassian/jira_og.png" width="100%" /></div>
-			
 			<p class="caption inline"><strong>Above/</strong> Previous JIRA design, 2002&ndash;17</p>
 			
 			<h3>Evolving a design language</h3>
 			
 			<p>This project was a prime candidate for the adoption of the new <a href="https://atlassian.design/" target="_blank">Atlassian design language</a>, &ldquo;ADG 3&rdquo;. Working with such a fully-featured and established base presented an ideal opportunity to spend extra time on UX and micro-interactions, and less time worrying about colours or the design of componentised elements.</p><p>Above all else, it afforded me the opportunity to strip JIRA back to only what was absolutely necessary &mdash; both from a visual and UX standpoint. By far the biggest challenge was to ensure that JIRA appeared visually simple, even when dense with information and content.</p>
 			
-			<div class="image rounded"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/full_board.png" /></div>
+			<div class="image rounded"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/harrison.jpg" /></div>
+			<div class="image rounded close"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/full_board.png" /></div>
 			
 			<p class="caption"><strong>Above <em class="special amp">&amp;</em> below/</strong> Columns with multi-directional scrolling. When empty, or with multiple columns and potentially thousands of cards, boards must be clear and easy to understand</p>
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/atlassian/columns_full.png" width="100%" /></div>
+			
+			<p class="caption"><strong>Below/</strong> Even contextual menus in JIRA have the potential to become complex and overloaded with information, so it was important to consider things like overflow from the outset</p>
+		</div>
+	</div>	
 
+	<div class="fullImage">
+		<img class="lazyload" data-sizes="auto" data-src="../_images/atlassian/filters.png" />
+	</div>
+	
+	<div class="container">	
+		<div class="project">
 			<h3>Prototyping</h3>
 			<p>Because the majority of the visual styling decisions were already in place from the design system, I turned my attention to the interaction design &mdash; which involved prototyping&hellip; from scrolling interactions and shadows, to focus states and animation.</p>
 			
@@ -83,25 +87,33 @@
 		
 	<div class="container">	
 		<div class="project">
-			<p>New functionality was introduced where it made sense, and usually in response to a shift in user expectations. The ability to add tasks directly within a column &mdash; something that&rsquo;s possible in Asana, Trello and the likes &mdash; was an example of such functionality. Prototyping was important to determine the ideal placement of text, and how animation could indicate success without being too over-the-top (when adding multiple in quick succession).</p>
-						
-			<div class="image"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/shadow_loupe.jpg" /></div>		
+			<p>New functionality was introduced where it made sense, and usually in response to a shift in user expectations. The ability to add tasks directly within a column &mdash; something that&rsquo;s possible in Asana, Trello and the likes &mdash; was an example of such functionality. Prototyping was important to determine the ideal placement of text (notice how the word &lsquo;Create&rsquo; and the text cursor are aligned) and how animation could indicate success without being too over-the-top (when adding multiple in quick succession).</p>
 			
-			<p class="caption inline"><strong>Above/</strong> Minimal use of shadows to indicate depth<br /><strong>Below/</strong> Subtle animation indicates success</p>
+			<p class="caption inline"><strong>Below/</strong> That &ldquo;click&rdquo; animation&hellip;</p>
 			
-			<div class="image custom-create"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/createtask_trim.gif" /></div>			
+			<div class="image first custom-create"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/createtask_trim.gif" /></div>			
+			
+			<p>Shadows also played a big part to indicate the depth of content, especially when scrolling. The prototype below demonstrated a stacking concept &mdash; not too dissimilar to that seen in iOS &mdash; which was difficult to explain with static design or in words.</p>
+			
+			<div class="image rounded"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/scroll.gif" /></div>
 			
 			<h5>God is in the details</h5>
 			<p>With any pattern library, it&rsquo;s important to sweat the details &mdash; they&rsquo;re the difference between a collection of building blocks, and a polished interface. JIRA using ADG 3 was no exception. Special attention was spent on the details that usually get forgotten, like how shadows interact with the content beneath them, and the alignment and relationship of content.</p>
 			
-			
-			<div class="image rounded custom-hover"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/hover-interaction.gif" /></div>
-			
-			<p class="info"><strong>Above/</strong> Hover area and animation made creating an inline task feel natural</p>
-			
+			<div class="image"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/shadow_detail.png" /></div>		
+				
 			<p>Applying the design language in the context of such a large product helped evolve patterns and styles at a company-wide level &mdash; and has informed the design direction of other products with similar elements, like columns and cards. In my opinion, this two-way relationship of consuming, modifying and updating pattern libraries when applied in context is the true key to success for any living, breathing design system.</p>
 			
 			<div class="image rounded"><img class="lazyload" width="100%" data-sizes="auto" data-src="../_images/atlassian/detailing.png" /></div>
+		</div>
+	</div>
+	
+	<div class="fullImage close rounded">
+		<img class="lazyload" data-sizes="auto" data-src="../_images/atlassian/full_board_people.png" />
+	</div>
+		
+	<div class="container">	
+		<div class="project">
 			
 			<dl class="outro">
 				<div class="col left">

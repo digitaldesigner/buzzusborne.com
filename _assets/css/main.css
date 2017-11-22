@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 html,
 body {
   margin: 0;
@@ -296,8 +297,23 @@ em.special.bullet {
   display: inline-block;
   color: inherit;
   font-weight: inherit;
-  border-bottom: 2px solid #c2e065;
   position: relative;
+  z-index: 1;
+}
+#header h1 a::before {
+  content: '';
+  height: 40%;
+  background: #c2e065;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 #header h1 a span {
   display: none;
@@ -309,11 +325,11 @@ em.special.bullet {
   padding: 0 10px 0 0;
   color: #00aadd;
 }
-#header h1 a:hover {
-  border-color: #00aadd;
-}
 #header h1 a:hover span {
   display: block;
+}
+#header h1 a:hover::before {
+  opacity: 1;
 }
 #header.project {
   margin-bottom: 30px;
@@ -412,9 +428,9 @@ ol.mobileView li img {
   float: left;
   width: 100%;
   text-align: left;
-  font-family: "proxima-nova", Georgia;
-  font-size: 4em;
-  font-weight: 800;
+  font-family: 'Playfair Display', serif;
+  font-size: 5em;
+  font-weight: 700;
   color: #2f353e;
   margin: 10px 0 10px 0;
   padding: 0;
@@ -583,7 +599,7 @@ ul.instagram li.more a:hover {
   float: right;
   width: 120px;
   height: 120px;
-  margin: -20px 0 0 0;
+  margin: -13px 0 0 0;
 }
 .project #photo img,
 #project #photo img,
@@ -1161,7 +1177,10 @@ dl.outro .right {
   width: 80%;
 }
 #about h3 {
-  font-size: 2.2em;
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: #2f353e;
   width: 800px;
   padding-left: 0;
   margin: 30px 0 0 0;
@@ -1189,12 +1208,28 @@ dl.outro .right {
   font-style: italic;
 }
 #about p.lead a {
-  border-color: #00aadd;
-  border-width: 2px;
+  border: 0;
   color: #2f353e;
+  position: relative;
+  z-index: 1;
 }
-#about p.lead a:hover {
-  color: #00aadd;
+#about p.lead a::before {
+  content: '';
+  height: 40%;
+  background: #00aadd;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  opacity: .3;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+#about p.lead a:hover::before {
+  opacity: 0.7;
 }
 #about p:last-child {
   margin-top: 8px;
@@ -1434,7 +1469,23 @@ ul.caseStudies li h5 {
 }
 ul.caseStudies li h5 span {
   display: inline-block;
-  border-bottom: 2px solid #00aadd;
+  position: relative;
+  z-index: 1;
+}
+ul.caseStudies li h5 span::before {
+  content: '';
+  height: 40%;
+  background: #c2e065;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  opacity: .5;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
 }
 ul.caseStudies li p {
   float: left;
@@ -1448,8 +1499,8 @@ ul.caseStudies li p {
   margin: 0;
   padding: 0;
 }
-ul.caseStudies li a:hover h5 span {
-  border-color: #c2e065;
+ul.caseStudies li a:hover h5 span::before {
+  opacity: 1;
 }
 #footer {
   float: left;
