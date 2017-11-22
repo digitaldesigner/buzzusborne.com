@@ -29,3 +29,6 @@ ExpiresDefault "access 1 month"
 </IfModule>
 
 Options -Indexes
+
+
+RewriteRule ^photos/([^/\.]+)/?$ /photos/index.php?id=$1 [L]
