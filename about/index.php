@@ -22,8 +22,8 @@
 			<p>I currently design at <a href="https://www.helpscout.net">Help Scout</a>, mentor at <a href="http://outofofficehours.com">Out of Office Hours</a>, build <a href="https://prevue.it/">Prevue</a> and hang out with my <a href="https://www.instagram.com/p/BLAmU1yDy1R/">wife</a> and <a href="https://www.instagram.com/p/BTKs48hD2-H/">son</a> in Bondi Beach.</p>
 			
 			<div class="image">
-				<img class="image" src="../_assets/gfx/buzz_talking.jpg" />
-				<p class="inlineCaption">Me, talking through the things I&rsquo;ve learned running Prevue</p>
+				<img class="image" src="../_assets/gfx/buzz-dropbox-promo.jpg" />
+				<p class="inlineCaption">Featured in a promotional video for Dropbox Business</p>
 			</div>
 			
 			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>
