@@ -17,13 +17,13 @@
 		<div id="about">		
 			<h3 class="spacer">About me</h3>
 			
-			<p>Hello, I&rsquo;m Buzz &mdash; I spend my days sketching, designing, writing code and helping others through <a href="https://calendly.com/8uzz">mentoring</a>, talking, <a href="http://journal.buzzusborne.com/">blogging</a> and <a href="https://medium.com/@buzzusborne">writing</a> about design. I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
+			<p>Hello, I&rsquo;m Buzz &mdash; I spend my days designing at <a href="https://www.helpscout.net">Help Scout</a>, mentoring young designers, <a href="https://www.linkedin.com/company/8uzz/">advising startups</a> on how to build design teams and hanging out on the beach with my wife and son.</p>
 			
-			<p>I currently design at <a href="https://www.helpscout.net">Help Scout</a>, mentor at <a href="http://outofofficehours.com">Out of Office Hours</a>, build <a href="https://prevue.it/">Prevue</a> and hang out with my <a href="https://www.instagram.com/p/BLAmU1yDy1R/">wife</a> and <a href="https://www.instagram.com/p/BTKs48hD2-H/">son</a> in Bondi Beach.</p>
-			
+			<p>I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
+						
 			<div class="image">
 				<img class="image" src="../_assets/gfx/buzz-dropbox-promo.jpg" />
-				<p class="inlineCaption">Featured in a promotional video for Dropbox Business</p>
+				<p class="inlineCaption">Featured in a promotional <a href="https://www.youtube.com/watch?v=dxHwDzgdv9g">video</a> for Dropbox Business</p>
 			</div>
 			
 			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>
