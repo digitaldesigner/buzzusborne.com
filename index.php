@@ -96,6 +96,6 @@
 			</ul>
 			 
 <?php
-	include(path.'_includes/recent.php');
+	//include(path.'_includes/recent.php');
 	include(path.'_includes/footer.php');
 ?>

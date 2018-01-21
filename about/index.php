@@ -21,10 +21,10 @@
 			
 			<p>I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
 						
-			<div class="image">
+			<!-- <div class="image">
 				<img class="image" src="../_assets/gfx/buzz-dropbox-promo.jpg" />
 				<p class="inlineCaption">Featured in a promotional <a href="https://www.youtube.com/watch?v=dxHwDzgdv9g">video</a> for Dropbox Business</p>
-			</div>
+			</div> -->
 			
 			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>
 
