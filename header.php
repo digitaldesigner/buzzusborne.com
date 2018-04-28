@@ -1,4 +1,9 @@
 <?php
+  
+  exit("Old header");
+  
+?>
+<?php
 
 	if($_SERVER['SERVER_PORT']!='443' && $_SERVER['HTTP_HOST']!="portfolio" && $_SERVER['HTTP_HOST']!="portfolio:8888"){
 		header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);

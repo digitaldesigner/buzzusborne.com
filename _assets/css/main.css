@@ -300,6 +300,16 @@ em.special.bullet {
   position: relative;
   z-index: 1;
 }
+#header h1 a span {
+  display: none;
+  position: absolute;
+  right: 100%;
+  float: left;
+  width: auto;
+  margin: 0;
+  padding: 0 10px 0 0;
+  color: #00aadd;
+}
 #header h1 a::before {
   content: '';
   height: 40%;
@@ -315,15 +325,8 @@ em.special.bullet {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-#header h1 a span {
-  display: none;
-  position: absolute;
-  right: 100%;
-  float: left;
-  width: auto;
-  margin: 0;
-  padding: 0 10px 0 0;
-  color: #00aadd;
+#header h1 a:hover {
+  border-color: #00aadd;
 }
 #header h1 a:hover span {
   display: block;
@@ -599,7 +602,7 @@ ul.instagram li.more a:hover {
   float: right;
   width: 120px;
   height: 120px;
-  margin: -13px 0 0 0;
+  margin: -20px 0 0 0;
 }
 .project #photo img,
 #project #photo img,
@@ -1421,6 +1424,16 @@ h4 {
   font-weight: 500;
   color: #a5b3be;
 }
+ul.colorBlocks {
+  float: left;
+  width: 100%;
+  margin: 30px 0;
+}
+ul.colorBlocks li {
+  float: left;
+  width: 100%;
+  margin: 0 0 50px 0;
+}
 ul.caseStudies {
   float: left;
   width: 100%;
@@ -1823,16 +1836,10 @@ ul.caseStudies li a:hover h5 span::before {
     margin: 0;
     text-align: center!important;
   }
-  ul.instagram li:nth-child(even) {
-    margin-left: 0;
-  }
   ul.instagram li img {
     float: none;
     display: inline-block;
     max-width: 90%;
-  }
-  ul.instagram li p span.likes {
-    display: none;
   }
 }
 @media only screen and (max-width: 450px) {

@@ -21,7 +21,7 @@
 	}
 
 	// Instagram stuffs
-	$access_token="10107.ffd12dd.9c84dc0a5ade4640b35a240575751778";
+	$access_token="10107.ffd12dd.69f832d393cf48978cf51e2f7ad18780";
 	$photo_count=10;
 	if($singlePhoto) { $photo_count = 50; }
 	$json=NULL;

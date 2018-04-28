@@ -2,8 +2,8 @@
 			<dl class="outro notip">
 				<div class="col full">
 					<dt>Speaking Events</dt>
+						<dd>Sydney Product Designers <em class="special">&mdash;</em> <em>Meetup, 2018</em></dd>
 						<dd>Various <em class="special">&mdash;</em> <em>Private Events, 2017</em></dd>
-						<dd>Sydney Product Designers <em class="special">&mdash;</em> <em>Meetup, 2017</em></dd>
 						<dd>Digital Design <em class="special">&mdash;</em> <em>Spark Festival, 2016</em></dd>
 						<dd>Advance Global Summit <em class="special">&mdash;</em> <em>Sydney Opera House, 2015</em></dd>
 						<dd>The Intersection of Design and Tech <em class="special">&mdash;</em> <em>General Assembly, 2015</em></dd>
@@ -12,6 +12,7 @@
 				</div>
 				<div class="col left">
 					<dt>Recent Interviews</dt>
+            <dd><a href="https://uxplanet.org/20-designers-20-questions-20-weeks-60ee38c36b62">UX Planet</a></dd>
 						<dd><a href="http://nicelydone.club/interviews/buzz-usborne/">Nicely Done</a></dd>
 						<dd><a href="https://uigarage.net/blog-post/learn-atlassians-lead-designer-buzz-usborne/">UI Garage</a></dd>
 						<dd><a href="https://www.youtube.com/watch?v=cCNAWVt7O0I">Sydney Opera House (Video)</a></dd>
@@ -21,6 +22,7 @@
 				</div>
 				<div class="col middle">			
 					<dt>Writing</dt>
+            <dd><a href="https://medium.com/help-scout/more-tips-for-building-your-sketch-ui-library-975a44416f59">&ldquo;Tips for Building Your Sketch UI Library&rdquo;</a></dd>
 						<dd><a href="https://medium.com/@buzzusborne/where-to-find-inspiration-2c39470f3872#.4qc1qce4j">&ldquo;Where to find inspiration&rdquo;</a></dd>
 						<dd><a href="https://medium.com/prevue-app/god-is-in-the-details-bc3a9a9a5d88">&ldquo;God is in the details&rdquo;</a></dd>
 						<dd><a href="https://medium.com/prevue-app/a-designer-s-guide-to-great-client-presentations-3fdb9871696b">&ldquo;A guide to client presentations&rdquo;</a></dd>
@@ -29,8 +31,9 @@
 				</div>
 				<div class="col right">
 					<dt>Contact</dt>
-						<dd><a href="http://linkedin.com/in/buzzusborne/">LinkedIn</a></dd>
-						<dd><a href="http://medium.com/@buzzusborne/">Medium</a></dd>
+						<dd><a href="https://twitter.com/@buzzusborne/">Twitter</a></dd>
+						<dd><a href="https://linkedin.com/in/buzzusborne/">LinkedIn</a></dd>
+						<dd><a href="https://medium.com/@buzzusborne/">Medium</a></dd>
 						<dd><a href="https://www.instagram.com/buzz/">Instagram</a></dd>
 						<dd><a href="mailto:hello@buzzusborne.com">Email</a></dd>
 				</div>

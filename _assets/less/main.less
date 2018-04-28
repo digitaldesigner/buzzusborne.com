@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
 @import "variables.less";
 @import "mixins.less";
 @import "reset.less";
@@ -116,11 +117,11 @@ em.special {
 		}
 		
 		a {
-			display:inline-block;
-			color:inherit;
-			font-weight:inherit;
-			border-bottom:2px solid @link;
-			position:relative;
+            display: inline-block;
+            color: inherit;
+            font-weight: inherit;
+            position: relative;
+            z-index: 1;
 			
 			span {
 				display:none;
@@ -132,12 +133,32 @@ em.special {
 				padding:0 10px 0 0;
 				color:@linkhover;
 			}
+            
+            &::before {
+                content: '';
+                height: 40%;
+                background: #c2e065;
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+                bottom: 0;
+                left: 0;
+                opacity: .5;
+                -webkit-transition: all 0.3s ease;
+                -moz-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+            }
 			
 			&:hover {
 				span {
 					display:block;
 				}
 				
+                &::before {
+                    opacity: 1;
+                }
+                
 				border-color:@linkhover;
 			}
 		}
@@ -253,7 +274,7 @@ ol.mobileView {
 		float:left;
 		width:100%;
 		text-align:left;
-		.title(4em);
+		.titleSerif(5em);
 		margin:10px 0 10px 0;
 		padding:0;
 	}
@@ -464,7 +485,6 @@ ul.instagram {
 	}
 	
 	h2 {
-		
 		em {
 			display:inline;
 			font-weight:inherit;
@@ -875,14 +895,14 @@ dl.outro {
 	}
 	
 	h3 {
-    font-size:2.2em;
-		width:(@sitewidth - 50);
-		padding-left:0;
-    margin:30px 0 0 0;
+        .titleSerif(4em);
+    	width:(@sitewidth - 50);
+    	padding-left:0;
+        margin:30px 0 0 0;
     
-    &.spacer {
-      margin-bottom:20px;
-    }
+        &.spacer {
+          margin-bottom:20px;
+        }
 	}
 	
 	p {
@@ -907,12 +927,31 @@ dl.outro {
 			}
 			
 			a {
-				border-color:@linkhover;
-				border-width:2px;
-				color:@dark;
+                border: 0;
+                color: @dark;
+                position: relative;
+                z-index: 1;
+                
+                &::before {
+                    content: '';
+                        height: 40%;
+                        background: #00aadd;
+                        width: 100%;
+                        position: absolute;
+                        z-index: -1;
+                        bottom: 0;
+                        left: 0;
+                        opacity: .3;
+                        -webkit-transition: all 0.3s ease;
+                        -moz-transition: all 0.3s ease;
+                        -ms-transition: all 0.3s ease;
+                        -o-transition: all 0.3s ease;
+                }
 				
 				&:hover {
-					color:@linkhover;
+                    &::before {
+                            opacity: 0.7;
+                    }
 				}
 			}
 		}
@@ -1110,6 +1149,22 @@ h4 {
 	color:@subtext;
 }
 
+ul.colorBlocks {
+	float:left;
+	width:100%;
+	margin:30px 0;
+    
+    li {
+        float:left;
+        width:100%;
+        margin:0 0 50px 0;
+        
+        h5 {
+            
+        }
+    }
+}
+
 ul.caseStudies {
 	float:left;
 	width:100%;
@@ -1159,8 +1214,26 @@ ul.caseStudies {
 			.title(1.9em);
 
 			span {
-				display:inline-block;
-				border-bottom:2px solid @linkhover;
+                display: inline-block;
+                position: relative;
+                z-index: 1;
+                                
+                &::before {
+                    content: '';
+                    height: 40%;
+                    background: @link;
+                    width: 100%;
+                    position: absolute;
+                    z-index: -1;
+                    bottom: 0;
+                    left: 0;
+                    opacity: .5;
+                    -webkit-transition: all 0.3s ease;
+                    -moz-transition: all 0.3s ease;
+                    -ms-transition: all 0.3s ease;
+                    -o-transition: all 0.3s ease;
+                }
+                
 			}
 		}
 		
@@ -1175,8 +1248,8 @@ ul.caseStudies {
 		}
     
     a:hover {
-      h5 span {
-        border-color:@link;
+      h5 span::before {
+          opacity:1;
       }
     }
 	}
