@@ -19,7 +19,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Prevue</h1>
-			<span class="subscript">Founder &amp; Product Design Lead <em>&#8226;</em> UX / UI / Development <em>&#8226;</em> <?php echo date('Y'); ?></span>
+			<span class="subscript">Founder &amp; Product Design Lead <em>&#8226;</em> UX / UI / Development <em>&#8226;</em> 2018</span>
 		</div>
 	</div>
 	
@@ -34,7 +34,7 @@
 			
 			<p>In 2007, as a freelance designer, I was having trouble presenting design concepts to my clients in the browser. Sending JPGs over email, or presenting from multi-page PDFs didn't do a great job at showing my work to its full potential &mdash; plus email was a terrible way to gather contextual feedback. So I built my own solution, <a href="https://prevue.it/">Prevue</a>.</p>
 			
-			<p>Through constant progression, iteration, reinvention and plenty of late nights &mdash; Prevue now serves as the concept sharing and feedback platform for over 30,000 designers and agencies worldwide. It is, and always has been, a project built and managed solely by myself.</p> 
+			<p>Through constant progression, iteration, reinvention and plenty of late nights &mdash; I took Prevue from a side project to the profitable concept sharing and feedback platform for over 30,000 designers and agencies worldwide. Up until its acquasition in early-2018 it was a project built and managed solely by myself.</p> 
 			
 			<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/prevue/first_version.jpg" width="100%" /></div>
 			
@@ -128,7 +128,7 @@
 				<dt>Company</dt>
 					<dd>Prevue</dd>
 				<dt>Date</dt>
-					<dd>2007&ndash;<?php echo date('Y'); ?></dd>
+					<dd>2007&ndash;2018</dd>
 			</div>
 			<div class="col middle">			
 				<dt>Responsibilities</dt>
@@ -141,7 +141,6 @@
 			</div>
 			<div class="col right">
 				<dt>More</dt>
-					<dd><a href="https://medium.com/prevue-app">Articles on Medium</a></dd>
 					<dd><a href="https://prevue.it/">Visit Prevue</a></dd>
 			</div>
 		</dl>

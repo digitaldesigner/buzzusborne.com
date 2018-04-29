@@ -18,7 +18,7 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
-			<h1>JIRA <em>&amp;</em> Atlassian</h1>
+			<h1>Atlassian, JIRA</h1>
 			<span class="subscript">Lead Designer <em>&#8226;</em> UX / UI / Mentorship <em>&#8226;</em> 2016&ndash;17</span>
 		</div>
 	</div>
