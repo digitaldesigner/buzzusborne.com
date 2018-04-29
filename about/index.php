@@ -23,7 +23,7 @@
 						
       <div class="image">
         <img class="image" src="../_assets/gfx/meetup.jpg" />
-        <p class="inlineCaption">Featured in a promotional <a href="https://www.youtube.com/watch?v=dxHwDzgdv9g">video</a> for Dropbox Business</p>
+        <p class="inlineCaption">Talking at a recent event, <?php echo date('Y'); ?></p>
       </div>
 			
 			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>
