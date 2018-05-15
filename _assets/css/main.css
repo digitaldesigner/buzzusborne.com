@@ -390,6 +390,12 @@ ol.mobileView li img {
   margin: 30px 5%;
   min-height: 100px;
 }
+.fullImage video {
+  width: 100%;
+}
+.fullImage video.scrollout {
+  opacity: 0.7;
+}
 .fullImage img {
   display: inline-block;
   width: auto;

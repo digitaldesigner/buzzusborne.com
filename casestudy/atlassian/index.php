@@ -6,8 +6,8 @@
 			"title"	=> "Atlassian"
 		),
 		"prev" => array(
-			"path"	=> "../..",
-			"title"	=> "Home"
+			"path"	=> "../sleep-tracker",
+			"title"	=> "Sleep Tracker"
 		),
 		"next" => array(
 			"path"	=> "../prevue",
