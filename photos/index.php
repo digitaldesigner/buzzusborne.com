@@ -3,12 +3,12 @@
 	$hideNav=TRUE;
 	$navigation = array(
 		"next" => array(
-			"path"	=> "..",
+			"path"	=> "../",
 			"title"	=> "Home"
 		),
 		"prev" => array(
-			"path"	=> "../about",
-			"title"	=> "About"
+			"path"	=> "../more",
+			"title"	=> "More Work"
 		),
 		"this"=> array(
 			"title"	=>	"Photos (@buzz)"

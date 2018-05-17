@@ -10,8 +10,8 @@
 			"title"	=> "Postbox Party"
 		),
 		"next" => array(
-			"path"	=> "../misc",
-			"title"	=> "Misc Work"
+			"path"	=> "../../more",
+			"title"	=> "More Work"
 		),
 		"twitter_img" => "casestudy/_images/skype_business/dashbord_home.jpg"
 	);
@@ -19,7 +19,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Skype for Business</h1>
-			<span class="subscript">Product Design Lead <em>·</em> UI<em class="special">/</em>UX <em>·</em> 2009</span>
+			<span class="subscript">Product Design Lead <em>&#8226;</em> UI / UX <em>&#8226;</em>2009</span>
 		</div>
 	</div>
 	

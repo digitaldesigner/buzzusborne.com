@@ -19,7 +19,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Campaign Monitor</h1>
-			<span class="subscript">Head of Design <em>·</em> Branding / Digital / Print / Advertising <em>·</em> 2012&ndash;2014</span>
+			<span class="subscript">Head of Design <em>&#8226;</em> Branding / Digital / Print / Advertising <em>&#8226;</em> 2012&ndash;2014</span>
 		</div>
 	</div>
 	

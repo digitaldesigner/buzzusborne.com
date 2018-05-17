@@ -19,7 +19,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Monitor App</h1>
-			<span class="subscript">Product Design Lead <em class="special bullet">&#8226;</em> Art Direction / Iconography <em class="special bullet">&#8226;</em> 2014</span>
+			<span class="subscript">Product Design Lead <em>&#8226;</em> Art Direction / Iconography <em>&#8226;</em> 2014</span>
 		</div>
 	</div>
 	

@@ -3,12 +3,12 @@
 	$hideNav=TRUE;
 	$navigation = array(
 		"next" => array(
-			"path"	=> "../photos",
-			"title"	=> "Photos"
+			"path"	=> "../",
+			"title"	=> "Home"
 		),
 		"prev" => array(
-			"path"	=> "../casestudy/misc",
-			"title"	=> "Assorted Work"
+			"path"	=> "../",
+			"title"	=> "Home"
 		)
 	);
 	include(path.'_includes/header.php');

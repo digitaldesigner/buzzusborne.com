@@ -19,7 +19,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Email Builder</h1>
-			<span class="subscript">Product Design Lead <em>·</em> UX / UI / Prototype</span>
+			<span class="subscript">Product Design Lead <em>&#8226;</em> UX / UI / Prototype <em>&#8226;</em> 2014</span>
 		</div>
 	</div>
 	

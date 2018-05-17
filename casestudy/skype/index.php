@@ -19,7 +19,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Skype</h1>
-			<span class="subscript">Product Design Lead <em>·</em> Iconography <em>·</em> 2010</span>
+			<span class="subscript">Product Design Lead <em>&#8226;</em> Iconography <em>&#8226;</em> 2010</span>
 		</div>
 	</div>
 	
