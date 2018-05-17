@@ -23,77 +23,77 @@
 		<ul class="caseStudies">
 				<li>
 					<a href="casestudy/sleep-tracker/">
-						<div class="image leadImg"><img src="casestudy/_images/sleep_tracker/col-hover.png" /></div>
+						<div class="image sleeptracker leadImg"><img src="casestudy/_images/sleep_tracker/col-hover.png" /></div>
 						<h5><span>Sleep Tracker</span></h5>
 						<p>A personal app to visualize time</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/atlassian/">
-						<div class="image leadImg"><img src="casestudy/_images/atlassian/jira-hero.jpg" /></div>
+						<div class="image atlassian"><img src="casestudy/_images/atlassian/jira-hero.jpg" /></div>
 						<h5><span>Atlassian</span></h5>
 						<p>A productivity tool for software teams</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/prevue/">
-						<div class="image leadImg"><img src="casestudy/_images/prevue/Homepage.jpg" /></div>
+						<div class="image prevue"><img src="casestudy/_images/prevue/Homepage.jpg" /></div>
 						<h5><span>Prevue</span></h5>
 						<p>A feedback tool for designers</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/skype/">
-						<div class="image"><img src="casestudy/_images/skype/skype_conversation.jpg" /></div>
+						<div class="image skype"><img src="casestudy/_images/skype/skype_conversation.jpg" /></div>
 						<h5><span>Skype</span></h5>
 						<p>A suite of recognizable icons</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/canvas/">
-						<div class="image"><img src="casestudy/_images/canvas/full_app.jpg" /></div>
+						<div class="image canvas"><img src="casestudy/_images/canvas/full_app.jpg" /></div>
 						<h5><span>Campaign Monitor</span></h5>
 						<p>A fun tool to build beautiful emails</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/sendle/">
-						<div class="image"><img src="casestudy/_images/sendle/devices.jpg" /></div>
+						<div class="image sendle"><img src="casestudy/_images/sendle/devices.jpg" /></div>
 						<h5><span>Sendle</span></h5>
 						<p>A modern shipping app for small businesses</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/campaignmonitor/">
-						<div class="image"><img src="casestudy/_images/campaignmonitor/business_cards.jpg" /></div>
+						<div class="image campaignmonitor"><img src="casestudy/_images/campaignmonitor/business_cards.jpg" /></div>
 						<h5><span>Campaign Monitor</span></h5>
 						<p>A global brand for an Aussie tech company</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/monitor/">
-						<div class="image"><img src="casestudy/_images/monitor/test.jpg" /></div>
+						<div class="image monitor"><img src="casestudy/_images/monitor/test.jpg" /></div>
 						<h5><span>Monitor for iOS</span></h5>
 						<p>Fresh iconography for iOS</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/pbp/">
-						<div class="image"><img src="casestudy/_images/pbp/homepage.jpg" /></div>
+						<div class="image pbp"><img src="casestudy/_images/pbp/homepage.jpg" /></div>
 						<h5><span>Postbox Party</span></h5>
 						<p>Shopify store design and development</p>
 					</a>
 				</li>
 				<li>
 					<a href="casestudy/skype_business/">
-						<div class="image"><img src="casestudy/_images/skype_business/profile.png" /></div>
+						<div class="image skypeb"><img src="casestudy/_images/skype_business/profile.png" /></div>
 						<h5><span>Skype for Business</span></h5>
 						<p>A UI for Skype&rsquo;s business tools</p>
 					</a>
 				</li>
 				<li>
 					<a href="more/">
-						<div class="image"><img src="casestudy/_images/misc/toniguy_01.jpg" /></div>
+						<div class="image expenses"><img src="casestudy/_images/misc/toniguy_01.jpg" /></div>
 						<h5><span>More</span></h5>
 						<p>Agency work, side projects and various digital projects</p>
 					</a>

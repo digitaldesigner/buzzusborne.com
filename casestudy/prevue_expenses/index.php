@@ -6,8 +6,8 @@
 			"title"	=> "Expense Tracker"
 		),
 		"prev" => array(
-			"path"	=> "../../more",
-			"title"	=> "More Work"
+			"path"	=> "../skype_business",
+			"title"	=> "Skype for Business"
 		),
 		"next" => array(
 			"path"	=> "../toniandguy",

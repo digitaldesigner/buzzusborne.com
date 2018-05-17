@@ -15,9 +15,9 @@
 ?>
 		
 		<div id="about">		
-			<h3 class="spacer">About me</h3>
+			<h3 class="spacer maintitle">About me</h3>
 			
-			<p>Hello, I&rsquo;m Buzz &mdash; I spend my days designing at <a href="https://www.helpscout.net">Help Scout</a>, mentoring young designers, <a href="https://www.linkedin.com/company/8uzz/">advising startups</a> on how to build design teams and hanging out on the beach with my wife and son.</p>
+			<p>Hey, I&rsquo;m Buzz &#9996;I spend my days sketching, prototyping and designing UX &amp; UI remotely for <a href="https://www.helpscout.net">Help Scout</a>. I also mentor designers and ocassionally speak about the things I've learned over the course of my career. Out of office hours you'll find me on the beach with my wife and son.</p>
 			
 			<p>I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
 						

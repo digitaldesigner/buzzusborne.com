@@ -10,8 +10,8 @@
 			"title"	=> "Postbox Party"
 		),
 		"next" => array(
-			"path"	=> "../../more",
-			"title"	=> "More Work"
+			"path"	=> "../prevue_expenses",
+			"title"	=> "Expense Tracker"
 		),
 		"twitter_img" => "casestudy/_images/skype_business/dashbord_home.jpg"
 	);

@@ -929,6 +929,11 @@ dl.outro {
         &.spacer {
           margin-bottom:20px;
         }
+        
+        &.maintitle {
+            font-size:5em;
+            margin:-10px 0 35px 0;
+        }
 	}
 	
 	p {
@@ -1234,11 +1239,167 @@ ul.caseStudies {
 			overflow:hidden;
 			min-height:100px;
             .rounded-corners(3px);
+            position:relative;
 			
 			img {
+                opacity:0;
 				height:100%;
                 width:auto;
 			}
+            
+            &::before {
+                content:'';
+                position:absolute;
+                top:0;
+                left:0;
+                width:100%;
+                height:100%;
+                background-size:100% auto;
+                background-repeat:no-repeat;
+                background-position:center;
+                background-color:white;
+                -webkit-transition: all 0.2s ease;
+                -moz-transition: all 0.2s ease;
+                -ms-transition: all 0.2s ease;
+                -o-transition: all 0.2s ease;
+            }
+            
+            &:hover {
+                &::before {
+                    opacity:0.2;
+                    transform: scale(1.05);
+                }
+            }
+            
+            &.sleeptracker {
+                background-color:#fec62e;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/tracker.png');
+                }
+            }
+            
+            &.atlassian {
+                background-color:#e8c1f8;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/atlassian.png');
+                }
+            }
+            
+            &.prevue {
+                background-color:#f4f4f6;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/prevue.png');
+                }
+            }
+            
+            &.skype {
+                background-color:#01aef0;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/skype.png');
+                }
+            }
+            
+            &.canvas {
+                background-color:#f5f5f5;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/canvas.png');
+                }
+            }
+
+            &.sendle {
+                background-color:#fc6d23;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/sendle.png');
+                }
+            }
+
+            
+            &.campaignmonitor {
+                background-color:#0086ea;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/campaignmonitor.jpg');
+                }
+            }
+            
+            &.monitor {
+                background-color:#2e353d;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/monitor.png');
+                }
+            }
+            
+            &.pbp {
+                background-color:#efeee9;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/postbox.png');
+                }
+            }
+            
+            &.skypeb{
+                background-color:#00aff0;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/skypebusiness.png');
+                }
+            }
+            
+            &.expenses {
+                background-color:#e7f7db;
+                
+                &::before {
+                    background-image:url('../../casestudy/_images/thumbs/expenses.png');
+                }
+            }
+            
+            &.toniguy {
+                background-color:#1a1d20;
+                
+                &::before{
+                    background-image:url('../../casestudy/_images/thumbs/toniguy.jpg');
+                }
+            }
+            
+            &.russian {
+                background-color:#070e16;
+                
+                &::before{
+                    background-image:url('../../casestudy/_images/thumbs/russian.jpg');
+                }
+            }
+            
+            &.rango{
+                background-color:#97d3f3;
+                
+                &::before{
+                    background-image:url('../../casestudy/_images/thumbs/rango.jpg');
+                }
+            }
+            
+            &.photos{
+                background-color:#9a51e4;
+                
+                &::before{
+                    background-image:url('../../casestudy/_images/thumbs/photos.jpg');
+                }
+            }
+            
+            &.sketches{
+                background-color:#f4f4f5;
+                
+                &::before{
+                    background-image:url('../../casestudy/_images/thumbs/sketches.jpg');
+                }
+            }
+            
 		}
 		
 		h5 {
@@ -1262,10 +1423,10 @@ ul.caseStudies {
                     bottom: 0;
                     left: 0;
                     opacity: .5;
-                    -webkit-transition: all 0.3s ease;
-                    -moz-transition: all 0.3s ease;
-                    -ms-transition: all 0.3s ease;
-                    -o-transition: all 0.3s ease;
+                    -webkit-transition: all 0.2s ease;
+                    -moz-transition: all 0.2s ease;
+                    -ms-transition: all 0.2s ease;
+                    -o-transition: all 0.2s ease;
                 }
                 
 			}
@@ -1567,12 +1728,22 @@ ul.caseStudies {
             width:100%;
 			margin:0 0 50px 0;
 		
+            h5,p {
+				width:70%;
+				margin-left:15%;
+            }
+        
             .image {
                 height:auto;
                 
                 img {
                     width:100%;
                     height:auto;
+                    opacity:1;
+                }
+                
+                &::before {
+                    display:none;
                 }
             }
         }
@@ -1602,16 +1773,6 @@ ul.caseStudies {
 			margin-left:43%;
 			margin-right:43%;
 		}
-		
-    	ul.caseStudies {
-    		li {
-    			text-align:center;
-			
-    			h5,p {
-    				text-align:center;
-    			}
-    		}
-    	}
         
 		.container {
 			width:96%;
