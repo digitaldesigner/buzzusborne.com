@@ -36,8 +36,6 @@
 	<link href="<?php echo path; ?>_assets/css/main.css" rel="stylesheet" type="text/css" />
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
 	<meta name="twitter:card" content="summary<?php if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { echo "_large_image"; } ?>">
-	<meta name="twitter:site" content="@buzzusborne">
-	<meta name="twitter:creator" content="@buzzusborne">
 	<meta name="twitter:title" content="Buzz Usborne — <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Product Designer"; } ?>">
 	<meta name="twitter:description" content="Portfolio of Buzz, Founder of @GetPrevue & Designer @HelpScout. Formerly Design Lead @Atlassian, @CampaignMonitor & @Skype.">
 <?php if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { if(isset($baseOverride)){ $base = NULL; } else { $base = basesite; } ?>	<meta name="twitter:image" content="<?php echo $base.$navigation['twitter_img']; ?>">

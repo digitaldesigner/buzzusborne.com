@@ -31,7 +31,6 @@
 				</div>
 				<div class="col right">
 					<dt>Contact</dt>
-						<dd><a href="https://twitter.com/@buzzusborne/">Twitter</a></dd>
 						<dd><a href="https://linkedin.com/in/buzzusborne/">LinkedIn</a></dd>
 						<dd><a href="https://medium.com/@buzzusborne/">Medium</a></dd>
 						<dd><a href="https://www.instagram.com/buzz/">Instagram</a></dd>
