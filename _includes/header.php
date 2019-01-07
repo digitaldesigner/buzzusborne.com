@@ -1,6 +1,6 @@
 <?php
 
-	if($_SERVER['SERVER_PORT']!='443' && $_SERVER['HTTP_HOST']!="sandbox.localhost"){
+	if($_SERVER['SERVER_PORT']!='443' && $_SERVER['HTTP_HOST']!="portfolio"){
 		header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 		exit();
 	}
