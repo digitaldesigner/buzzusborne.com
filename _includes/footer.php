@@ -3,7 +3,7 @@
 				<ul>
 					<li><a href="<?php echo path; ?>/">Home</a></li>
 					<li><a href="<?php echo path; ?>about/">About</a></li>
-					<li><a href="https://linkedin.com/in/buzz/">LinkedIn</a></li>
+                    <li><a href="https://twitter.com/@buzzusborne/">@buzzusborne</a></li>
 					<li class="right">&copy;<?php echo date('Y'); ?></li>
 				</ul>
 			</div><?php } ?>

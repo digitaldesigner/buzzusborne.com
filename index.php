@@ -22,10 +22,10 @@
 		
 		<ul class="caseStudies">
 				<li>
-					<a href="casestudy/sleep-tracker/">
-						<div class="image sleeptracker leadImg"><img src="casestudy/_images/sleep_tracker/col-hover.png" /></div>
-						<h5><span>Sleep Tracker</span></h5>
-						<p>A personal app to visualize time</p>
+					<a href="casestudy/beacon/">
+						<div class="image beacon leadImg"><img src="casestudy/_images/beacon/beacon-cover.png" /></div>
+						<h5><span>Beacon</span></h5>
+						<p>Chat and support widget</p>
 					</a>
 				</li>
 				<li>
@@ -33,6 +33,13 @@
 						<div class="image atlassian"><img src="casestudy/_images/atlassian/jira-hero.jpg" /></div>
 						<h5><span>Atlassian</span></h5>
 						<p>A productivity tool for software teams</p>
+					</a>
+				</li>
+				<li>
+					<a href="casestudy/sleep-tracker/">
+						<div class="image sleeptracker leadImg"><img src="casestudy/_images/sleep_tracker/col-hover.png" /></div>
+						<h5><span>Sleep Tracker</span></h5>
+						<p>A personal app to visualize time</p>
 					</a>
 				</li>
 				<li>

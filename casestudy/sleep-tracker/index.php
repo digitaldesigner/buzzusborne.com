@@ -6,12 +6,12 @@
 			"title"	=> "Baby Sleep Tracker"
 		),
 		"prev" => array(
-			"path"	=> "../..",
-			"title"	=> "Home"
-		),
-		"next" => array(
 			"path"	=> "../atlassian",
 			"title"	=> "Atlassian"
+		),
+		"next" => array(
+			"path"	=> "../prevue",
+			"title"	=> "Prevue"
 		),
 		"twitter_img" => "casestudy/_images/sleep_tracker/popover.png"
 	);

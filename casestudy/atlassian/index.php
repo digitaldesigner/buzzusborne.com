@@ -6,12 +6,12 @@
 			"title"	=> "Atlassian"
 		),
 		"prev" => array(
-			"path"	=> "../sleep-tracker",
-			"title"	=> "Sleep Tracker"
+			"path"	=> "../beacon",
+			"title"	=> "Beacon"
 		),
 		"next" => array(
-			"path"	=> "../prevue",
-			"title"	=> "Prevue"
+			"path"	=> "../sleep-tracker",
+			"title"	=> "Sleep Tracker"
 		),
 		"twitter_img" => "casestudy/_images/atlassian/jira-hero.jpg"
 	);

@@ -22,8 +22,8 @@
 			<p>I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
 						
       <div class="image">
-        <img class="image" src="../_assets/gfx/meetup.jpg" />
-        <p class="inlineCaption">Talking at a recent event, <?php echo date('Y'); ?></p>
+        <img class="image" src="../_assets/home/181002_mccully_helpscout_0975.jpg" />
+        <p class="inlineCaption">I perform beach piggy-backs for free</p>
       </div>
 			
 			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>

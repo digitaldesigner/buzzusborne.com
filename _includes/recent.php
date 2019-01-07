@@ -22,7 +22,8 @@
 				</div>
 				<div class="col middle">			
 					<dt>Writing</dt>
-            <dd><a href="https://medium.com/help-scout/more-tips-for-building-your-sketch-ui-library-975a44416f59">&ldquo;Tips for Building Your Sketch UI Library&rdquo;</a></dd>
+                        <dd><a href="https://uxdesign.cc/designing-across-borders-683252ac668c">&ldquo;Designing Across Borders&rdquo;</a></dd>
+                        <dd><a href="https://medium.com/help-scout/more-tips-for-building-your-sketch-ui-library-975a44416f59">&ldquo;Tips for Building Your Sketch UI Library&rdquo;</a></dd>
 						<dd><a href="https://medium.com/@buzzusborne/where-to-find-inspiration-2c39470f3872#.4qc1qce4j">&ldquo;Where to find inspiration&rdquo;</a></dd>
 						<dd><a href="https://medium.com/prevue-app/god-is-in-the-details-bc3a9a9a5d88">&ldquo;God is in the details&rdquo;</a></dd>
 						<dd><a href="https://medium.com/prevue-app/a-designer-s-guide-to-great-client-presentations-3fdb9871696b">&ldquo;A guide to client presentations&rdquo;</a></dd>
@@ -32,7 +33,8 @@
 				<div class="col right">
 					<dt>Contact</dt>
 						<dd><a href="https://linkedin.com/in/buzz/">LinkedIn</a></dd>
-						<dd><a href="https://medium.com/@buzzusborne/">Medium</a></dd>
+						<dd><a href="https://twitter.com/@buzzusborne/">Twitter</a></dd>
+                        <dd><a href="https://medium.com/@buzzusborne/">Medium</a></dd>
 						<dd><a href="https://www.instagram.com/buzz/">Instagram</a></dd>
 						<dd><a href="mailto:hello@buzzusborne.com">Email</a></dd>
 				</div>

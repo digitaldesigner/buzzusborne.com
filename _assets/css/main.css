@@ -1530,6 +1530,12 @@ ul.caseStudies li .image:hover::before {
   opacity: 0.2;
   transform: scale(1.05);
 }
+ul.caseStudies li .image.beacon {
+  background-color: #e8c1f8;
+}
+ul.caseStudies li .image.beacon::before {
+  background-image: url('../../casestudy/_images/thumbs/beacon-cover.png');
+}
 ul.caseStudies li .image.sleeptracker {
   background-color: #fec62e;
 }
@@ -1537,7 +1543,7 @@ ul.caseStudies li .image.sleeptracker::before {
   background-image: url('../../casestudy/_images/thumbs/tracker.png');
 }
 ul.caseStudies li .image.atlassian {
-  background-color: #e8c1f8;
+  background-color: #0045b5;
 }
 ul.caseStudies li .image.atlassian::before {
   background-image: url('../../casestudy/_images/thumbs/atlassian.png');
