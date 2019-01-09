@@ -12,15 +12,14 @@ ErrorDocument 403 /404.php
 ErrorDocument 500 /404.php
 ErrorDocument 401 /404.php
 
-# BEGIN (mt) controlled settings
-<IfModule pagespeed_module>
-  ModPagespeed on
-</IfModule>
-# END (mt) controlled settings
+#<IfModule pagespeed_module>
+#  ModPagespeed on
+#</IfModule>
 
 AddOutputFilterByType DEFLATE text/html text/plain text/xml
 AddOutputFilterByType DEFLATE text/css application/x-javascript
 AddOutputFilterByType DEFLATE text/css text/html text/plain text/xml text/javascript
+
 <IfModule mod_expires.c>
 ExpiresActive On
 ExpiresByType text/css "access 1 month"
@@ -29,6 +28,4 @@ ExpiresDefault "access 1 month"
 </IfModule>
 
 Options -Indexes
-
-
 RewriteRule ^photos/([^/\.]+)/?$ /photos/index.php?id=$1 [L]
