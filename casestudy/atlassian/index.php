@@ -1,20 +1,5 @@
 <?php 
 	define('path','../../');
-	$navigation = array(
-		"this" => array(
-			"path"	=> "./",
-			"title"	=> "Atlassian"
-		),
-		"prev" => array(
-			"path"	=> "../beacon",
-			"title"	=> "Beacon"
-		),
-		"next" => array(
-			"path"	=> "../sleep-tracker",
-			"title"	=> "Sleep Tracker"
-		),
-		"twitter_img" => "casestudy/_images/atlassian/jira-hero.jpg"
-	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">

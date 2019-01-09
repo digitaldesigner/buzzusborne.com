@@ -1,20 +1,5 @@
 <?php 
 	define('path','../../');
-	$navigation = array(
-		"this" => array(
-			"path"	=> "../../",
-			"title"	=> "Email Builder"
-		),
-		"prev" => array(
-			"path"	=> "../skype",
-			"title"	=> "Skype"
-		),
-		"next" => array(
-			"path"	=> "../sendle",
-			"title"	=> "Sendle"
-		),
-		"twitter_img" => "casestudy/_images/canvas/full_app.jpg"
-	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">

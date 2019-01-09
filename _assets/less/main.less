@@ -18,6 +18,15 @@ body {
 	transition: width 0.4s ease;
 }
 
+.breakout {
+    float:left;
+    width:100%;
+    background:#f7f8fc;
+    box-sizing:border-box;
+    border:30px solid white;
+}
+
+
 #keycontrols {
 	display:none;
 	position:fixed;
@@ -441,6 +450,68 @@ ul.instagram {
 			}
 		}
 	}
+}
+
+.breakout .container.textlinks {
+    
+    h3 {
+        float:left;
+        .titleSerif(4em);
+    	width:100%;
+    	padding-left:0;
+        margin:200px 0 30px 0;
+    }
+    
+    ul{
+        float:left;
+        width:100%;
+        margin-bottom:250px;
+    }
+    
+    li, a {
+        float:left;
+        width:50%;
+    }
+    
+    li:nth-child(even) {
+        padding-left:10px;
+        box-sizing:border-box;
+    }
+    
+    
+    a {
+		float:left;
+		margin:20px 0 0 0;
+		width:100%;
+		.title(1.75em);
+
+		span {
+            display: inline-block;
+            position: relative;
+            z-index: 1;
+                            
+            &::before {
+                content: '';
+                height: 40%;
+                background: coral;
+                width: 100%;
+                position: absolute;
+                z-index: -1;
+                bottom: 0;
+                left: 0;
+                opacity: .3;
+                -webkit-transition: all 0.2s ease;
+                -moz-transition: all 0.2s ease;
+                -ms-transition: all 0.2s ease;
+                -o-transition: all 0.2s ease;
+            }
+		}
+        &:hover {
+            span::before {
+                opacity:1;
+            }
+        }
+    }
 }
 
 .project,
@@ -1402,7 +1473,7 @@ ul.caseStudies {
             }
             
             &.sketches{
-                background-color:#f4f4f5;
+                background-color:#f7f8fc;
                 
                 &::before{
                     background-image:url('../../casestudy/_images/thumbs/sketches.jpg');
@@ -1562,7 +1633,7 @@ ul.caseStudies {
 		margin-right:43%;
 		height:1px;
 	}
-	
+    
 	.container {
 		float:left;
 		width:90%;

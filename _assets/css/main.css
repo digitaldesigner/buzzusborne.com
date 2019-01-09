@@ -192,6 +192,13 @@ body {
   -o-transition: width 0.4s ease;
   transition: width 0.4s ease;
 }
+.breakout {
+  float: left;
+  width: 100%;
+  background: #f7f8fc;
+  box-sizing: border-box;
+  border: 30px solid white;
+}
 #keycontrols {
   display: none;
   position: fixed;
@@ -586,6 +593,62 @@ ul.instagram li.more a {
 }
 ul.instagram li.more a:hover {
   border-color: #c2e065;
+}
+.breakout .container.textlinks h3 {
+  float: left;
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  font-weight: 700;
+  color: #2f353e;
+  width: 100%;
+  padding-left: 0;
+  margin: 200px 0 30px 0;
+}
+.breakout .container.textlinks ul {
+  float: left;
+  width: 100%;
+  margin-bottom: 250px;
+}
+.breakout .container.textlinks li,
+.breakout .container.textlinks a {
+  float: left;
+  width: 50%;
+}
+.breakout .container.textlinks li:nth-child(even) {
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.breakout .container.textlinks a {
+  float: left;
+  margin: 20px 0 0 0;
+  width: 100%;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.75em;
+  font-weight: 800;
+  color: #2f353e;
+}
+.breakout .container.textlinks a span {
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+.breakout .container.textlinks a span::before {
+  content: '';
+  height: 40%;
+  background: coral;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  bottom: 0;
+  left: 0;
+  opacity: .3;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+}
+.breakout .container.textlinks a:hover span::before {
+  opacity: 1;
 }
 .project h3,
 #project h3,
@@ -1627,7 +1690,7 @@ ul.caseStudies li .image.photos::before {
   background-image: url('../../casestudy/_images/thumbs/photos.jpg');
 }
 ul.caseStudies li .image.sketches {
-  background-color: #f4f4f5;
+  background-color: #f7f8fc;
 }
 ul.caseStudies li .image.sketches::before {
   background-image: url('../../casestudy/_images/thumbs/sketches.jpg');

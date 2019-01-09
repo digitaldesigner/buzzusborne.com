@@ -4,19 +4,85 @@
 		header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 		exit();
 	}
-	
 	date_default_timezone_set('UTC');
 	define('basesite','https://www.buzzusborne.com/');
+	
+    $manifest=array();
+    $manifest['beacon']=array("order"=>1,"name"=>"Help Scout Beacon","thumb"=>"beacon-cover.png");
+    $manifest['atlassian']=array("order"=>2,"name"=>"Atlassian","thumb"=>"jira-hero.jpg");
+    $manifest['skype']=array("order"=>3,"name"=>"Skype","thumb"=>"skype_conversation.jpg");
+    $manifest['prevue']=array("order"=>4,"name"=>"Prevue","thumb"=>"FullScreen.jpg");
+    $manifest['canvas']=array("order"=>5,"name"=>"Campaign Monitor","thumb"=>"full_app.jpg");
+    $manifest['sendle']=array("order"=>6,"name"=>"Sendle","thumb"=>"devices.jpg");
+	$manifest['helpscout']=array("order"=>7,"name"=>"Help Scout","thumb"=>"");
+    $manifest['skype_business']=array("order"=>8,"name"=>"Skype for Business","thumb"=>"dashbord_home.jpg");
+    $manifest['campaignmonitor']=array("order"=>9,"name"=>"Campaign Monitor","thumb"=>"business_cards.jpg");
+    $manifest['rango']=array("order"=>10,"name"=>"Paramount Pictures","thumb"=>"rango_01.jpg");
+    $manifest['russian_standard']=array("order"=>11,"name"=>"Russian Standard Vodka","thumb"=>"russian_01.jpg");
+    $manifest['toniandguy']=array("order"=>12,"name"=>"Toni &amp; Guy","thumb"=>"toniguy_01.jpg");
+    $manifest['monitor']=array("order"=>13,"name"=>"Monitor iOS App","thumb"=>"concept_icons.png");
+    $manifest['pbp']=array("order"=>14,"name"=>"Postbox Party","thumb"=>"pbp_homepage.jpg");
+    $manifest['sleep-tracker']=array("order"=>15,"name"=>"Naptime App","thumb"=>"popover.png");
+    $manifest['prevue_expenses']=array("order"=>16,"name"=>"Expense Tracker","thumb"=>"prevue_expenses.png");    
+	
+	function getCurrentDirectory() {
+		$path = dirname($_SERVER['PHP_SELF']);
+		$position = strrpos($path,'/') + 1;
+		return substr($path,$position);
+	}
+    function navigation($thisSlug=''){
+        global $manifest;
+        $navigation=array(); // [current][previous][next]
+        
+        // Finding this page
+		foreach($manifest as $pageSlug => $pageDetails):
+    		if($pageSlug == $thisSlug){ 
+				$navigation['current']=$pageDetails;
+				$navigation['current']['slug']=$pageSlug;
+				break;
+            }
+        endforeach;
+		
+		// Finding previous and next pages
+		foreach($manifest as $pageSlug => $pageDetails):
+			if($navigation['current']['order']>1 && ($pageDetails['order']==($navigation['current']['order']-1))){
+				$navigation['previous']=$pageDetails;
+				$navigation['previous']['slug']=$pageSlug;
+			} elseif($navigation['current']['order']<count($manifest) && ($pageDetails['order']==($navigation['current']['order']+1))){
+				$navigation['next']=$pageDetails;
+				$navigation['next']['slug']=$pageSlug;
+			}
+		endforeach;
+        
+		// Filling in the blanks
+		if(!array_key_exists('previous',$navigation)){
+			$navigation['previous']=array("name"=>"Home","slug"=>"../");
+		}
+		if(!array_key_exists('next',$navigation)){
+			$navigation['next']=array("name"=>"Home","slug"=>"../");
+		}
+		
+		// Making it backwards compatible
+		$output['this']=array('path'=>'./','title'=>$navigation['current']['name']);
+		$output['next']=array('path'=>'../'.$navigation['next']['slug'],'title'=>$navigation['next']['name']);
+		$output['prev']=array('path'=>'../'.$navigation['previous']['slug'],'title'=>$navigation['previous']['name']);
+		$output['twitter_img']='casestudy/_images/'.$navigation['current']['thumb'];
+        return $output;
+    }
+	
+	if(!isset($hideNav)){
+		$navigation=navigation(getCurrentDirectory());
+	}
 
 	$prev = NULL;
 	$next = NULL;
 	
 	if(isset($navigation) && is_array($navigation)){
 		if(array_key_exists('prev',$navigation) && $navigation['prev']){
-			$prev="<li><a href=\"".$navigation['prev']['path']."/\" class=\"arrow\" title=\"Use your LEFT arrow key to navigate to the PREVIOUS casestudy\" id=\"thirtySeven\"><em>Previous</em><br />".$navigation['prev']['title']."</a></li>";
+			$prev="<li><a href=\"".$navigation['prev']['path']."\" class=\"arrow\" title=\"Use your LEFT arrow key to navigate to the PREVIOUS casestudy\" id=\"thirtySeven\"><em>Previous</em><br />".$navigation['prev']['title']."</a></li>";
 		}
 		if(array_key_exists('next',$navigation) && $navigation['next']){
-			$next="<li class=\"next\"><a href=\"".$navigation['next']['path']."/\" class=\"arrow\" title=\"Use your RIGHT arrow key to navigate to the NEXT casestudy\" id=\"thirtyNine\"><em>Next</em><br />".$navigation['next']['title']."</a></li>";
+			$next="<li class=\"next\"><a href=\"".$navigation['next']['path']."\" class=\"arrow\" title=\"Use your RIGHT arrow key to navigate to the NEXT casestudy\" id=\"thirtyNine\"><em>Next</em><br />".$navigation['next']['title']."</a></li>";
 		}
 	}
 	

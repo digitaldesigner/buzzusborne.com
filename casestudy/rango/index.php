@@ -1,20 +1,5 @@
 <?php 
 	define('path','../../');
-	$navigation = array(
-		"this" => array(
-			"path"	=> "./",
-			"title"	=> "Old El Paso &amp; Rango"
-		),
-		"prev" => array(
-			"path"	=> "../russian_standard",
-			"title"	=> "Russian Standard Vodka"
-		),
-		"next" => array(
-			"path"	=> "../../about",
-			"title"	=> "About"
-		),
-		"twitter_img" => "casestudy/_images/misc/rango_01.jpg"
-	);
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
