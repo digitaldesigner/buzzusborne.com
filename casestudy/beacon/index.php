@@ -16,9 +16,9 @@
 		<div class="project">
 			<h5>The Brief</h5>
 			<p class="info"><strong>Above/</strong> The Beacon chat experience, only one small part of the overall functionality</p>
-			<p>Help Scout has traditionally been an email platform at its core &mdash; a way for customer teams to provide world-class support a seamless and human way. Whilst chat has always been a channel that Help Scout customers wanted, the assumption was that it&rsquo;s difficult to provide fast and engaging support in real-time in a way that doesn&rsquo;t overwhelm support teams. Beacon was our attempt at challenging that.</p>
+			<p>Help Scout has traditionally been an email platform at its core &mdash; a way for customer teams to provide world-class support in a seamless and human way. Whilst chat has always been a channel that Help Scout customers wanted, the assumption was that it&rsquo;s difficult to provide fast and engaging support in real-time in a way that doesn&rsquo;t overwhelm support teams. Beacon was our attempt at challenging that.</p>
 
-            <p>At the time our existing embeddable widget, Beacon, was being used to connect visitors to support documentation &mdash; my brief was to extend that tool to also deliver chat. I took this project from scoping, user research and prototyping through to UI, HTML prototyping and launch.</p>
+            <p>At the time our existing embeddable widget was being used to connect visitors to support documentation &mdash; my brief was to extend that tool to also deliver chat. I took this project from scoping, user research and prototyping through to UI, HTML prototyping and launch.</p>
         </div>
     </div>
 	<div class="fullImage">
