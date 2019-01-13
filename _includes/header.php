@@ -7,23 +7,27 @@
 	date_default_timezone_set('UTC');
 	define('basesite','https://www.buzzusborne.com/');
 	
+	// The following order is what's used to generate nav
     $manifest=array();
-    $manifest['beacon']=array("order"=>1,"name"=>"Help Scout Beacon","thumb"=>"beacon-cover.png");
-    $manifest['atlassian']=array("order"=>2,"name"=>"Atlassian","thumb"=>"jira-hero.jpg");
-    $manifest['skype']=array("order"=>3,"name"=>"Skype","thumb"=>"skype_conversation.jpg");
-    $manifest['prevue']=array("order"=>4,"name"=>"Prevue","thumb"=>"FullScreen.jpg");
-    $manifest['canvas']=array("order"=>5,"name"=>"Campaign Monitor","thumb"=>"full_app.jpg");
-    $manifest['sendle']=array("order"=>6,"name"=>"Sendle","thumb"=>"devices.jpg");
-	$manifest['helpscout']=array("order"=>7,"name"=>"Help Scout","thumb"=>"");
-    $manifest['skype_business']=array("order"=>8,"name"=>"Skype for Business","thumb"=>"dashbord_home.jpg");
-    $manifest['campaignmonitor']=array("order"=>9,"name"=>"Campaign Monitor","thumb"=>"business_cards.jpg");
-    $manifest['rango']=array("order"=>10,"name"=>"Paramount Pictures","thumb"=>"rango_01.jpg");
-    $manifest['russian_standard']=array("order"=>11,"name"=>"Russian Standard Vodka","thumb"=>"russian_01.jpg");
-    $manifest['toniandguy']=array("order"=>12,"name"=>"Toni &amp; Guy","thumb"=>"toniguy_01.jpg");
-    $manifest['monitor']=array("order"=>13,"name"=>"Monitor iOS App","thumb"=>"concept_icons.png");
-    $manifest['pbp']=array("order"=>14,"name"=>"Postbox Party","thumb"=>"pbp_homepage.jpg");
-    $manifest['sleep-tracker']=array("order"=>15,"name"=>"Naptime App","thumb"=>"popover.png");
-    $manifest['prevue_expenses']=array("order"=>16,"name"=>"Expense Tracker","thumb"=>"prevue_expenses.png");    
+    $manifest['beacon']=array("path"=>"beacon","name"=>"Help Scout Beacon","thumb"=>"beacon-cover.png","meta"=>"Chat and support widget","short"=>"UX &amp; UI <em>/</em>  Research <em>/</em> Prototyping");
+    $manifest['atlassian']=array("path"=>"atlassian","name"=>"Atlassian","thumb"=>"jira-hero.jpg","meta"=>"A productivity tool for software teams","short"=>"UX &amp; UI <em>/</em> Mentoring <em>/</em> Prototyping");
+    $manifest['skype']=array("path"=>"skype","name"=>"Skype","thumb"=>"skype_conversation.jpg","meta"=>"A suite of recognizable icons","short"=>"Iconography");
+    $manifest['prevue']=array("path"=>"prevue","name"=>"Prevue","thumb"=>"FullScreen.jpg","meta"=>"A feedback tool for designers","short"=>"UX &amp; UI <em>/</em> Development <em>/</em> Marketing");
+	$manifest['helpscout']=array("path"=>"helpscout","name"=>"Help Scout","thumb"=>"","meta"=>"A cross-functional Design System","short"=>"Design Systems <em>/</em> UI <em>/</em> Prototyping");
+    $manifest['canvas']=array("path"=>"canvas","name"=>"Campaign Monitor","thumb"=>"full_app.jpg","meta"=>"A WYSIWYG editor to build beautiful emails","short"=>"UX &amp; UI <em>/</em> Prototyping");
+    $manifest['sendle']=array("path"=>"sendle","name"=>"Sendle","thumb"=>"devices.jpg","short"=>"Leadership <em>/</em> Visual Design <em>/</em>  UX &amp; UI");
+    $manifest['skype_business']=array("path"=>"skype_business","name"=>"Skype for Business","thumb"=>"dashbord_home.jpg","short"=>"UX &amp; UI");
+    $manifest['campaignmonitor']=array("path"=>"campaignmonitor","name"=>"Campaign Monitor","thumb"=>"business_cards.jpg","short"=>"Creative Direction <em>/</em> Visual Design <em>/</em> Print <em>/</em> Marketing");
+    $manifest['rango']=array("path"=>"rango","name"=>"Paramount Pictures","thumb"=>"rango_01.jpg","short"=>"Visual <em>/</em> Game Design");
+    $manifest['russian_standard']=array("path"=>"russian_standard","name"=>"Russian Standard Vodka","thumb"=>"russian_01.jpg","short"=>"Visual Design <em>/</em> Marketing");
+    $manifest['toniandguy']=array("path"=>"toniandguy","name"=>"Toni &amp; Guy","thumb"=>"toniguy_01.jpg","short"=>"Visual Design <em>/</em> Marketing");
+    $manifest['monitor']=array("path"=>"monitor","name"=>"Monitor iOS App","thumb"=>"concept_icons.png","short"=>"Iconography <em>/</em> Art Direction <em>/</em> UX &amp; UI");
+    $manifest['pbp']=array("path"=>"pbp","name"=>"Postbox Party","thumb"=>"pbp_homepage.jpg","short"=>"Visual Design <em>/</em> Development");
+    $manifest['sleep-tracker']=array("path"=>"naptime","name"=>"Naptime App","thumb"=>"popover.png","short"=>"UI <em>/</em> Development");
+    $manifest['prevue_expenses']=array("path"=>"prevue_expenses","name"=>"Expense Tracker","thumb"=>"prevue_expenses.png","short"=>"Visual Design <em>/</em> Development");    
+
+	// Set the above order
+	$i=1; foreach($manifest as $path => $page): $manifest[$path]['order']=$i; $i++; endforeach;
 	
 	function getCurrentDirectory() {
 		$path = dirname($_SERVER['PHP_SELF']);
@@ -36,21 +40,22 @@
         
         // Finding this page
 		foreach($manifest as $pageSlug => $pageDetails):
-    		if($pageSlug == $thisSlug){ 
+    		if($pageDetails['path'] == $thisSlug){ 
 				$navigation['current']=$pageDetails;
-				$navigation['current']['slug']=$pageSlug;
+				$navigation['current']['slug']=$pageDetails['path'];
 				break;
             }
         endforeach;
 		
 		// Finding previous and next pages
 		foreach($manifest as $pageSlug => $pageDetails):
+			$directory = $pageDetails['path'];
 			if($navigation['current']['order']>1 && ($pageDetails['order']==($navigation['current']['order']-1))){
 				$navigation['previous']=$pageDetails;
-				$navigation['previous']['slug']=$pageSlug;
+				$navigation['previous']['slug']=$directory;
 			} elseif($navigation['current']['order']<count($manifest) && ($pageDetails['order']==($navigation['current']['order']+1))){
 				$navigation['next']=$pageDetails;
-				$navigation['next']['slug']=$pageSlug;
+				$navigation['next']['slug']=$directory;
 			}
 		endforeach;
         
@@ -63,9 +68,9 @@
 		}
 		
 		// Making it backwards compatible
-		$output['this']=array('path'=>'./','title'=>$navigation['current']['name']);
-		$output['next']=array('path'=>'../'.$navigation['next']['slug'],'title'=>$navigation['next']['name']);
-		$output['prev']=array('path'=>'../'.$navigation['previous']['slug'],'title'=>$navigation['previous']['name']);
+		$output['this']=array('path'=>'./','title'=>$navigation['current']['name'],'full'=>$navigation['current']);
+		$output['next']=array('path'=>'../'.$navigation['next']['slug'],'title'=>$navigation['next']['name'],'full'=>$navigation['next']);
+		$output['prev']=array('path'=>'../'.$navigation['previous']['slug'],'title'=>$navigation['previous']['name'],'full'=>$navigation['previous']);
 		$output['twitter_img']='casestudy/_images/'.$navigation['current']['thumb'];
         return $output;
     }
@@ -73,16 +78,32 @@
 	if(!isset($hideNav)){
 		$navigation=navigation(getCurrentDirectory());
 	}
-
+	
 	$prev = NULL;
 	$next = NULL;
 	
 	if(isset($navigation) && is_array($navigation)){
 		if(array_key_exists('prev',$navigation) && $navigation['prev']){
-			$prev="<li><a href=\"".$navigation['prev']['path']."\" class=\"arrow\" title=\"Use your LEFT arrow key to navigate to the PREVIOUS casestudy\" id=\"thirtySeven\"><em>Previous</em><br />".$navigation['prev']['title']."</a></li>";
+			$prev="<li><a href=\"".$navigation['prev']['path']."\" class=\"arrow\" title=\"";
+
+			if(array_key_exists('meta',$navigation['prev']['full'])) {
+				$prev.= $navigation['next']['title']." &mdash; ".$navigation['prev']['full']['meta'];
+			} else {
+				$prev.= "Use your LEFT arrow key to navigate to the PREVIOUS casestudy";
+			}
+				
+			$prev.="\" id=\"thirtySeven\"><em>Previous</em><br />".$navigation['prev']['title']."</a></li>";
 		}
 		if(array_key_exists('next',$navigation) && $navigation['next']){
-			$next="<li class=\"next\"><a href=\"".$navigation['next']['path']."\" class=\"arrow\" title=\"Use your RIGHT arrow key to navigate to the NEXT casestudy\" id=\"thirtyNine\"><em>Next</em><br />".$navigation['next']['title']."</a></li>";
+			$next="<li class=\"next\"><a href=\"".$navigation['next']['path']."\" class=\"arrow\" title=\"";
+			
+			if(array_key_exists('meta',$navigation['next']['full'])) {
+				$next.= $navigation['next']['title']." &mdash; ".$navigation['next']['full']['meta'];
+			} else {
+				$next.= "Use your RIGHT arrow key to navigate to the NEXT casestudy";
+			}
+			
+			$next.="\" id=\"thirtyNine\"><em>Next</em><br />".$navigation['next']['title']."</a></li>";
 		}
 	}
 	

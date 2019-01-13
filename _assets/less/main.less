@@ -1334,14 +1334,6 @@ ul.caseStudies {
                 -ms-transition: all 0.2s ease;
                 -o-transition: all 0.2s ease;
             }
-            
-            &:hover {
-                &::before {
-                    opacity:0.2;
-                    transform: scale(1.05);
-                }
-            }
-
 
             &.beacon {
                 background-color:#e8c1f8;
@@ -1351,7 +1343,7 @@ ul.caseStudies {
                 }
             }
             
-            &.sleeptracker {
+            &.naptime {
                 background-color:#fec62e;
                 
                 &::before {
@@ -1424,7 +1416,7 @@ ul.caseStudies {
                 }
             }
             
-            &.skypeb{
+            &.skype_business{
                 background-color:#00aff0;
                 
                 &::before {
@@ -1432,7 +1424,7 @@ ul.caseStudies {
                 }
             }
             
-            &.expenses {
+            &.prevue_expenses {
                 background-color:#e7f7db;
                 
                 &::before {
@@ -1440,7 +1432,7 @@ ul.caseStudies {
                 }
             }
             
-            &.toniguy {
+            &.toniandguy {
                 background-color:#1a1d20;
                 
                 &::before{
@@ -1448,7 +1440,7 @@ ul.caseStudies {
                 }
             }
             
-            &.russian {
+            &.russian_standard {
                 background-color:#070e16;
                 
                 &::before{
@@ -1523,6 +1515,14 @@ ul.caseStudies {
 		}
     
     a:hover {
+        
+        .image::before {
+            opacity:0.2;
+            transform: scale(1.05);
+        }
+
+        
+        
       h5 span::before {
           opacity:1;
       }

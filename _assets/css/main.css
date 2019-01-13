@@ -1589,20 +1589,16 @@ ul.caseStudies li .image::before {
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
 }
-ul.caseStudies li .image:hover::before {
-  opacity: 0.2;
-  transform: scale(1.05);
-}
 ul.caseStudies li .image.beacon {
   background-color: #e8c1f8;
 }
 ul.caseStudies li .image.beacon::before {
   background-image: url('../../casestudy/_images/thumbs/beacon-cover.png');
 }
-ul.caseStudies li .image.sleeptracker {
+ul.caseStudies li .image.naptime {
   background-color: #fec62e;
 }
-ul.caseStudies li .image.sleeptracker::before {
+ul.caseStudies li .image.naptime::before {
   background-image: url('../../casestudy/_images/thumbs/tracker.png');
 }
 ul.caseStudies li .image.atlassian {
@@ -1653,28 +1649,28 @@ ul.caseStudies li .image.pbp {
 ul.caseStudies li .image.pbp::before {
   background-image: url('../../casestudy/_images/thumbs/postbox.png');
 }
-ul.caseStudies li .image.skypeb {
+ul.caseStudies li .image.skype_business {
   background-color: #00aff0;
 }
-ul.caseStudies li .image.skypeb::before {
+ul.caseStudies li .image.skype_business::before {
   background-image: url('../../casestudy/_images/thumbs/skypebusiness.png');
 }
-ul.caseStudies li .image.expenses {
+ul.caseStudies li .image.prevue_expenses {
   background-color: #e7f7db;
 }
-ul.caseStudies li .image.expenses::before {
+ul.caseStudies li .image.prevue_expenses::before {
   background-image: url('../../casestudy/_images/thumbs/expenses.png');
 }
-ul.caseStudies li .image.toniguy {
+ul.caseStudies li .image.toniandguy {
   background-color: #1a1d20;
 }
-ul.caseStudies li .image.toniguy::before {
+ul.caseStudies li .image.toniandguy::before {
   background-image: url('../../casestudy/_images/thumbs/toniguy.jpg');
 }
-ul.caseStudies li .image.russian {
+ul.caseStudies li .image.russian_standard {
   background-color: #070e16;
 }
-ul.caseStudies li .image.russian::before {
+ul.caseStudies li .image.russian_standard::before {
   background-image: url('../../casestudy/_images/thumbs/russian.jpg');
 }
 ul.caseStudies li .image.rango {
@@ -1735,6 +1731,10 @@ ul.caseStudies li p {
   color: #a5b3be;
   margin: 0;
   padding: 0;
+}
+ul.caseStudies li a:hover .image::before {
+  opacity: 0.2;
+  transform: scale(1.05);
 }
 ul.caseStudies li a:hover h5 span::before {
   opacity: 1;

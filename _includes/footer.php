@@ -1,4 +1,3 @@
-		
 			<?php if(!isset($hideFoot)) { ?><div id="footer"<?php if(isset($home)) { echo 'class="break"'; } ?>>
 				<ul>
 					<li><a href="<?php echo path; ?>/">Home</a></li>

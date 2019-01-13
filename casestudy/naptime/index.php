@@ -3,7 +3,7 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
-			<h1>Sleep Tracker</h1>
+			<h1>NapTime App</h1>
 			<span class="subscript">Personal Project <em>&#8226;</em> Design / Development <em>&#8226;</em> 2018</span>
 		</div>
 	</div>
