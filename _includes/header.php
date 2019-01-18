@@ -4,27 +4,127 @@
 		header('Location: https://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
 		exit();
 	}
-	date_default_timezone_set('UTC');
-	define('basesite','https://www.buzzusborne.com/');
+	$fullURL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	
-	// The following order is what's used to generate nav
+	date_default_timezone_set('UTC');
+	define('basesite',$fullURL);
+	
+#	Number of case-studies to highlight on the homepage
+	$maxCaseStudies=4;
+	
+#	You can customize the homepage with ?show=5
+	if(isset($_GET['show'])){
+		if(is_numeric($_GET['show'])){
+			$maxCaseStudies=$_GET['show'];
+			
+			if($maxCaseStudies<2){
+				$maxCaseStudies = 2;
+			}
+			
+		} else {
+			$maxCaseStudies=100;
+		}
+	}
+	
+#	Build the nav
     $manifest=array();
-    $manifest['beacon']=array("path"=>"beacon","name"=>"Help Scout Beacon","thumb"=>"beacon-cover.png","meta"=>"Chat and support widget","short"=>"UX &amp; UI <em>/</em>  Research <em>/</em> Prototyping");
-    $manifest['atlassian']=array("path"=>"atlassian","name"=>"Atlassian","thumb"=>"jira-hero.jpg","meta"=>"A productivity tool for software teams","short"=>"UX &amp; UI <em>/</em> Mentoring <em>/</em> Prototyping");
-    $manifest['skype']=array("path"=>"skype","name"=>"Skype","thumb"=>"skype_conversation.jpg","meta"=>"A suite of recognizable icons","short"=>"Iconography");
-    $manifest['prevue']=array("path"=>"prevue","name"=>"Prevue","thumb"=>"FullScreen.jpg","meta"=>"A feedback tool for designers","short"=>"UX &amp; UI <em>/</em> Development <em>/</em> Marketing");
-	$manifest['helpscout']=array("path"=>"helpscout","name"=>"Help Scout","thumb"=>"","meta"=>"A cross-functional Design System","short"=>"Design Systems <em>/</em> UI <em>/</em> Prototyping");
-    $manifest['canvas']=array("path"=>"canvas","name"=>"Campaign Monitor","thumb"=>"full_app.jpg","meta"=>"A WYSIWYG editor to build beautiful emails","short"=>"UX &amp; UI <em>/</em> Prototyping");
-    $manifest['sendle']=array("path"=>"sendle","name"=>"Sendle","thumb"=>"devices.jpg","short"=>"Leadership <em>/</em> Visual Design <em>/</em>  UX &amp; UI");
-    $manifest['skype_business']=array("path"=>"skype_business","name"=>"Skype for Business","thumb"=>"dashbord_home.jpg","short"=>"UX &amp; UI");
-    $manifest['campaignmonitor']=array("path"=>"campaignmonitor","name"=>"Campaign Monitor","thumb"=>"business_cards.jpg","short"=>"Creative Direction <em>/</em> Visual Design <em>/</em> Print <em>/</em> Marketing");
-    $manifest['rango']=array("path"=>"rango","name"=>"Paramount Pictures","thumb"=>"rango_01.jpg","short"=>"Visual <em>/</em> Game Design");
-    $manifest['russian_standard']=array("path"=>"russian_standard","name"=>"Russian Standard Vodka","thumb"=>"russian_01.jpg","short"=>"Visual Design <em>/</em> Marketing");
-    $manifest['toniandguy']=array("path"=>"toniandguy","name"=>"Toni &amp; Guy","thumb"=>"toniguy_01.jpg","short"=>"Visual Design <em>/</em> Marketing");
-    $manifest['monitor']=array("path"=>"monitor","name"=>"Monitor iOS App","thumb"=>"concept_icons.png","short"=>"Iconography <em>/</em> Art Direction <em>/</em> UX &amp; UI");
-    $manifest['pbp']=array("path"=>"pbp","name"=>"Postbox Party","thumb"=>"pbp_homepage.jpg","short"=>"Visual Design <em>/</em> Development");
-    $manifest['sleep-tracker']=array("path"=>"naptime","name"=>"Naptime App","thumb"=>"popover.png","short"=>"UI <em>/</em> Development");
-    $manifest['prevue_expenses']=array("path"=>"prevue_expenses","name"=>"Expense Tracker","thumb"=>"prevue_expenses.png","short"=>"Visual Design <em>/</em> Development");    
+	
+    $manifest['beacon']=array(
+		"path"	=>	"beacon",
+		"name" 	=>	"Help Scout Beacon",
+		"thumb"	=>	"beacon-cover.png",
+		"meta"	=>	"Chat and support widget",
+	);
+    $manifest['atlassian']=array(
+		"path"	=>	"atlassian",
+		"name"	=>	"Atlassian",
+		"thumb"	=>	"jira-hero.jpg",
+		"meta"	=>	"A productivity tool for software teams"
+	);
+    $manifest['skype']=array(
+		"path"	=>	"skype",
+		"name"	=>	"Skype",
+		"thumb"	=>	"skype_conversation.jpg",
+		"meta"	=>	"A suite of recognizable icons"
+	);
+    $manifest['prevue']=array(
+		"path"	=>	"prevue",
+		"name"	=>	"Prevue",
+		"thumb"	=>	"FullScreen.jpg",
+		"meta"	=>	"A feedback tool for designers"
+	);
+	$manifest['helpscout']=array(
+		"path"	=>	"helpscout",
+		"name"	=>	"Help Scout",
+		"thumb"	=>	"",
+		"meta"	=>	"A cross-functional design system"
+	);
+    $manifest['canvas']=array(
+		"path"	=>	"canvas",
+		"name"	=>	"Campaign Monitor",
+		"thumb"	=>	"full_app.jpg",
+		"meta"	=>	"A drag &amp; drop editor to build beautiful emails"
+	);
+    $manifest['sendle']=array(
+		"path"	=>	"sendle",
+		"name"	=>	"Sendle",
+		"thumb"	=>	"devices.jpg",
+		"meta"	=>	"A modern shipping app for small businesses"
+	);
+    $manifest['skype_business']=array(
+		"path"	=>	"skype_business",
+		"name"	=>	"Skype for Business",
+		"thumb"	=>	"dashbord_home.jpg",
+		"meta"	=>	"A UI for Skype&rsquo;s business suite"
+	);
+    $manifest['campaignmonitor']=array(
+		"path"	=>	"campaignmonitor",
+		"name"	=>	"Campaign Monitor",
+		"thumb"	=>	"business_cards.jpg",
+		"meta"	=>	"Creative direction for an Aussie tech company"
+	);
+    $manifest['rango']=array(
+		"path"	=>	"rango",
+		"name"	=>	"Paramount Pictures",
+		"thumb"	=>	"rango_01.jpg",
+		"meta"	=>	"Game design for a movie-themed promotion"
+	);
+    $manifest['russian_standard']=array(
+		"path"	=>	"russian_standard",
+		"name"	=>	"Russian Standard Vodka",
+		"thumb"	=>	"russian_01.jpg",
+		"meta"	=>	"Website for the world&rsquo;s most popular vodka"
+	);
+    $manifest['toniandguy']=array(
+		"path"	=>	"toniandguy",
+		"name"	=>	"Toni &amp; Guy",
+		"thumb"	=>	"toniguy_01.jpg",
+		"meta"	=>	"Marketing site for global hair brand"
+	);
+    $manifest['monitor']=array(
+		"path"	=>	"monitor",
+		"name"	=>	"Monitor iOS App",
+		"thumb"	=>	"concept_icons.png",
+		"meta"	=>	"Fresh iconography for iOS"
+	);
+    $manifest['pbp']=array(
+		"path"	=>	"pbp",
+		"name"	=>	"Postbox Party",
+		"thumb"	=>	"pbp_homepage.jpg",
+		"meta"	=>	"Shopify store design and development"
+	);
+    $manifest['sleep-tracker']=array(
+		"path"	=>	"naptime",
+		"name"	=>	"Naptime App",
+		"thumb"	=>	"popover.png",
+		"meta"	=>	"A personal project to visualize time"
+	);
+    $manifest['prevue_expenses']=array(
+		"path"	=>	"prevue_expenses",
+		"name"	=>	"Expense Tracker",
+		"thumb"	=>	"prevue_expenses.png",
+		"meta"	=>	"A simple tool to track business expenses"
+	);    
 
 	// Set the above order
 	$i=1; foreach($manifest as $path => $page): $manifest[$path]['order']=$i; $i++; endforeach;

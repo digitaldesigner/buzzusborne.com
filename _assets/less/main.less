@@ -21,9 +21,13 @@ body {
 .breakout {
     float:left;
     width:100%;
-    background:#f7f8fc;
+    background-color:#f7f8fc;
     box-sizing:border-box;
     border:30px solid white;
+    background-position:top center;
+    background-repeat:repeat-y;
+    background-size:cover;
+
 }
 
 
@@ -453,19 +457,19 @@ ul.instagram {
 }
 
 .breakout .container.textlinks {
-    
+        
     h3 {
         float:left;
         .titleSerif(4em);
     	width:100%;
     	padding-left:0;
-        margin:200px 0 30px 0;
+        margin:150px 0 50px 0;
     }
     
     ul{
         float:left;
         width:100%;
-        margin-bottom:250px;
+        margin-bottom:150px;
     }
     
     li, a {
@@ -481,9 +485,21 @@ ul.instagram {
     
     a {
 		float:left;
-		margin:20px 0 0 0;
+		margin:20px 0 20px 0;
 		width:100%;
-		.title(1.75em);
+		.title(1.9em); 
+
+        p {
+            float:left;
+            width:100%;
+            margin:5px 0 0 0;
+            font-family:inherit;
+            font-size:.75em;
+			line-height:1.3em;
+			font-weight:normal;
+			color:darken(@subtext,5%);
+            
+        }
 
 		span {
             display: inline-block;
@@ -492,14 +508,14 @@ ul.instagram {
                             
             &::before {
                 content: '';
-                height: 40%;
-                background: coral;
+                height: 5px;
+                background: #06c5ff;
                 width: 100%;
                 position: absolute;
                 z-index: -1;
-                bottom: 0;
-                left: 0;
-                opacity: .3;
+                bottom: 2px;
+                left: 2px;
+                opacity: .4;
                 -webkit-transition: all 0.2s ease;
                 -moz-transition: all 0.2s ease;
                 -ms-transition: all 0.2s ease;
@@ -509,6 +525,7 @@ ul.instagram {
         &:hover {
             span::before {
                 opacity:1;
+                left:0px;
             }
         }
     }
@@ -1801,6 +1818,36 @@ ul.caseStudies {
 }
 
 @media only screen and (max-width: 680px) {
+
+    .breakout {
+        border-width:0px;
+        
+       .container.textlinks {
+           h3 {
+               margin-top:100px;
+               margin-left:15%;
+           }
+           
+           ul {
+               width:70%;
+               margin:0 15% 100px;
+               
+               li {
+                   width:100%;
+                   margin:0;
+                   padding:0;
+                   
+                   &:nth-child(even){
+                       padding-left:0;
+                   }
+                   
+                   a {
+                       padding:0;
+                   }
+               }
+           }
+       }
+    }
 
 	ul.caseStudies {
 		

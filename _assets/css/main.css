@@ -195,9 +195,12 @@ body {
 .breakout {
   float: left;
   width: 100%;
-  background: #f7f8fc;
+  background-color: #f7f8fc;
   box-sizing: border-box;
   border: 30px solid white;
+  background-position: top center;
+  background-repeat: repeat-y;
+  background-size: cover;
 }
 #keycontrols {
   display: none;
@@ -602,12 +605,12 @@ ul.instagram li.more a:hover {
   color: #2f353e;
   width: 100%;
   padding-left: 0;
-  margin: 200px 0 30px 0;
+  margin: 150px 0 50px 0;
 }
 .breakout .container.textlinks ul {
   float: left;
   width: 100%;
-  margin-bottom: 250px;
+  margin-bottom: 150px;
 }
 .breakout .container.textlinks li,
 .breakout .container.textlinks a {
@@ -620,12 +623,22 @@ ul.instagram li.more a:hover {
 }
 .breakout .container.textlinks a {
   float: left;
-  margin: 20px 0 0 0;
+  margin: 20px 0 20px 0;
   width: 100%;
   font-family: "proxima-nova", Georgia;
-  font-size: 1.75em;
+  font-size: 1.9em;
   font-weight: 800;
   color: #2f353e;
+}
+.breakout .container.textlinks a p {
+  float: left;
+  width: 100%;
+  margin: 5px 0 0 0;
+  font-family: inherit;
+  font-size: .75em;
+  line-height: 1.3em;
+  font-weight: normal;
+  color: #96a6b3;
 }
 .breakout .container.textlinks a span {
   display: inline-block;
@@ -634,14 +647,14 @@ ul.instagram li.more a:hover {
 }
 .breakout .container.textlinks a span::before {
   content: '';
-  height: 40%;
-  background: coral;
+  height: 5px;
+  background: #06c5ff;
   width: 100%;
   position: absolute;
   z-index: -1;
-  bottom: 0;
-  left: 0;
-  opacity: .3;
+  bottom: 2px;
+  left: 2px;
+  opacity: .4;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -649,6 +662,7 @@ ul.instagram li.more a:hover {
 }
 .breakout .container.textlinks a:hover span::before {
   opacity: 1;
+  left: 0px;
 }
 .project h3,
 #project h3,
@@ -2048,6 +2062,28 @@ ul.caseStudies li a:hover h5 span::before {
   }
 }
 @media only screen and (max-width: 680px) {
+  .breakout {
+    border-width: 0px;
+  }
+  .breakout .container.textlinks h3 {
+    margin-top: 100px;
+    margin-left: 15%;
+  }
+  .breakout .container.textlinks ul {
+    width: 70%;
+    margin: 0 15% 100px;
+  }
+  .breakout .container.textlinks ul li {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .breakout .container.textlinks ul li:nth-child(even) {
+    padding-left: 0;
+  }
+  .breakout .container.textlinks ul li a {
+    padding: 0;
+  }
   ul.caseStudies li {
     width: 100%;
     margin: 0 0 50px 0;

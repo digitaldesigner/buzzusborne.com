@@ -1,7 +1,6 @@
 <?php 
 	define('path','');
 	$hideNav=TRUE;
-	$maxCaseStudies=4;
 	include(path.'_includes/header.php');
 ?>
 		<div id="about">		
@@ -42,7 +41,7 @@
         </div>
         
 <?php if(count($manifest)>$i) {?>
-        <div class="breakout">
+        <div class="breakout" id="fancy">
             <div class="container textlinks">
                 <h3>More&hellip;</h3>
             
@@ -53,8 +52,8 @@
 					if($page['order']>$maxCaseStudies){
 						echo '	<li><a href="casestudy/'.$page['path'].'"><span>'.$page['name'].'</span>';
 						
-						if(array_key_exists('short',$page)){
-							echo '<p>'.$page['short'].'</p>';
+						if(array_key_exists('meta',$page)){
+							echo '<p>'.$page['meta'].'</p>';
 						}
 
 						echo '</a></li>
