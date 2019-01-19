@@ -1,20 +1,6 @@
 <?php
 	define('path','../');
 	$hideNav=TRUE;
-	$navigation = array(
-		"next" => array(
-			"path"	=> "../",
-			"title"	=> "Home"
-		),
-		"prev" => array(
-			"path"	=> "../more",
-			"title"	=> "More Work"
-		),
-		"this"=> array(
-			"title"	=>	"Photos (@buzz)"
-		)
-	);
-	
 	$singlePhoto = FALSE;
 	if(isset($_GET) && array_key_exists('id',$_GET) && $_GET['id']){
 		$singlePhoto = $_GET['id'];

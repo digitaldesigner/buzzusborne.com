@@ -1,16 +1,6 @@
 <?php
 	define('path','../');
 	$hideNav=TRUE;
-	$navigation = array(
-		"next" => array(
-			"path"	=> "../",
-			"title"	=> "Home"
-		),
-		"prev" => array(
-			"path"	=> "../",
-			"title"	=> "Home"
-		)
-	);
 	include(path.'_includes/header.php');
 ?>
 		
@@ -23,14 +13,14 @@
 						
       <div class="image">
         <img class="image" src="../_assets/home/181002_mccully_helpscout_0975.jpg" />
-        <p class="inlineCaption">I perform beach piggy-backs for free</p>
+        <p class="inlineCaption">My current team. I&rsquo;m the guy giving away free piggy-backs</p>
       </div>
 			
 			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>
 
 			<p>I&rsquo;m also the Founder of <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; a company I grew for over 10 years until it was acquired in 2018. The experience of designing, building and growing a profitable product has provided me with an invaluable opportunity to understand the role of design in a business. Prevue has also given me a platform to experiment with UI, UX and product strategy &mdash; which has given me the insight and experience to better perform in my full-time roles.</p>
 
-			<p>Prior to moving to Australia, I spent a number of years in London working for a variety of different companies over a multitude of disciplines. Most notably I worked as a Product Design Lead for Skype, where I designed their current <a href="../casestudy/skype/">app iconography</a> and the UI for their <a href="../casestudy/skype_business/">business tools</a>. Prior to that, I held positions at several large digital and advertising agencies where I worked alongside a number of world-class designers and directors, designing more blogs and fashion ecommerce sites than I can recall. It was during this time that I developed my love of code and design thinking, which ultimately pushed me to a career in tech.</p>
+			<p>Prior to moving to Australia, I spent a number of years in London working for a variety of different companies over a multitude of disciplines. Most notably I worked as a Product Design Lead for Skype, where I designed their current <a href="../casestudy/<?=$manifest['skype']['path']?>">app iconography</a> and the UI for their <a href="../casestudy/<?=$manifest['skype_business']['path']?>">business tools</a>. Prior to that, I held positions at several large digital and advertising agencies where I worked alongside a number of world-class designers and directors, designing more blogs and fashion ecommerce sites than I can recall. It was during this time that I developed my love of code and design thinking, which ultimately pushed me to a career in tech.</p>
 
 			<p>Before designing full-time, I was a competitive sailor and professional dinghy racing coach living in the Mediterranean. My mind is never too far from the ocean, and I appreciate the importance of a healthy work/life balance. So when I&rsquo;m not online, you&rsquo;ll find me outdoors &mdash; riding motorbikes, swimming, sand running or travelling.</p>
 			

@@ -1,6 +1,7 @@
 <?php 
 	define('path','');
 	$hideNav=TRUE;
+	$homepage=TRUE;
 	include(path.'_includes/header.php');
 ?>
 		<div id="about">		
