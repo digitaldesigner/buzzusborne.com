@@ -53,12 +53,12 @@
 		"thumb"	=>	"FullScreen.jpg",
 		"meta"	=>	"A feedback tool for designers"
 	);
-	$manifest['helpscout']=array(
-		"path"	=>	"helpscout",
-		"name"	=>	"Help Scout",
-		"thumb"	=>	"",
-		"meta"	=>	"A cross-functional design system"
-	);
+	// $manifest['helpscout']=array(
+	// 	"path"	=>	"helpscout",
+	// 	"name"	=>	"Help Scout",
+	// 	"thumb"	=>	"",
+	// 	"meta"	=>	"A cross-functional design system"
+	// );
     $manifest['canvas']=array(
 		"path"	=>	"canvas",
 		"name"	=>	"Campaign Monitor",
