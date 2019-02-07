@@ -28,17 +28,17 @@
 			
 			<ol>
 				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Product Designer</strong><br /><a href="https://www.helpscout.net/">Help Scout</a></li>
-				<li><span>&#8226;</span><strong>Design Lead</strong><br /><a href="https://www.atlassian.com/">Atlassian</a></li>
+				<li><span>&#8226;</span><strong>Lead Designer</strong><br /><a href="https://www.atlassian.com/">Atlassian</a></li>
 				<li><span>&#8226;</span><strong>Head of Product</strong><br /><a href="https://sendle.com/">Sendle</a></li>
 				<li><span>&#8226;</span><strong>UX Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
-				<li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>Head of Design</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
+				<li><span>&#8226;</span><strong>Founder</strong><br /><a href="https://prevue.it/">Prevue</a></li>
 				<li><span>&#8226;</span><strong>Design Lead</strong><br /><a href="http://mentallyfriendly.com/">Mentally Friendly</a></li>
 				<li><span>&#8226;</span><strong>UI Design Lead</strong><br /><a href="https://www.skype.com/">Skype</a></li>
 				<li><span>&#8226;</span><strong>Freelance</strong><br />Various clients</li>
 				<li><span>&#8226;</span><strong>Senior Designer</strong><br /><a href="http://storyworldwide.com/">Story Worldwide</a></li>
 				<li><span>&#8226;</span><strong>Digital Designer</strong><br />Large Design</li>
-				<li><span>&#8226;</span><strong>Designer</strong><br /><a href="http://popcornbox.com/">Popcorn Design</a></li>
+				<li><span>&#8226;</span><strong>Graphic Designer</strong><br /><a href="http://popcornbox.com/">Popcorn Design</a></li>
 				<li><span>&#8226;</span><strong>Junior</strong><br /><a href="http://www.absolutedesign.co.uk/">Absolute Design</a></li>
 				<span id="fadeOut">&nbsp;</span>
 			</ol>

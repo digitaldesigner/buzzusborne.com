@@ -211,7 +211,7 @@ body {
   text-align: center;
   z-index: 150;
   background: white;
-  border-bottom: 1px solid #dfdfe2;
+  border-bottom: 1px solid #d9def1;
   box-shadow: 0px 0 0px 2px rgba(0, 0, 0, 0.04);
   -moz-box-shadow: 0px 0 0px 2px rgba(0, 0, 0, 0.04);
   -webkit-box-shadow: 0px 0 0px 2px rgba(0, 0, 0, 0.04);
@@ -281,7 +281,7 @@ em.special.amp {
 em.special.bullet {
   margin-left: 10px;
   margin-right: 10px;
-  color: #ccccd1;
+  color: #bfc7e7;
 }
 #header {
   float: left;
@@ -367,7 +367,7 @@ hr.sectionBreak {
   padding: 0;
   border: none;
   height: 2px;
-  background: #d9d9dd;
+  background: #d2d8ee;
 }
 img {
   display: block;
@@ -380,7 +380,7 @@ ol.mobileView {
   text-align: center;
   list-style: none;
   padding: 10px 0;
-  background: #f4f4f5;
+  background: #f7f8fc;
 }
 ol.mobileView li {
   max-width: 375px;
@@ -428,11 +428,11 @@ ol.mobileView li img {
   opacity: 0.7;
 }
 .fullImage.placeholder {
-  background: #f4f4f5;
+  background: #f7f8fc;
   height: 450px;
-  box-shadow: inset 0px 0 0px 10px #f2f2f4;
-  -moz-box-shadow: inset 0px 0 0px 10px #f2f2f4;
-  -webkit-box-shadow: inset 0px 0 0px 10px #f2f2f4;
+  box-shadow: inset 0px 0 0px 10px #f5f6fb;
+  -moz-box-shadow: inset 0px 0 0px 10px #f5f6fb;
+  -webkit-box-shadow: inset 0px 0 0px 10px #f5f6fb;
 }
 .fullImage.close {
   margin-top: 0;
@@ -588,7 +588,7 @@ ul.instagram li.more a {
   color: #2f353e;
   padding: 12px 25px 11px;
   display: inline-block;
-  border: 2px solid #e7e7e9;
+  border: 2px solid #e4e8f5;
   -khtml-border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
@@ -774,7 +774,7 @@ ul.instagram li.more a:hover {
   margin: 70px 45% 90px;
   height: 0;
   border: none;
-  border-bottom: 2px solid #ececee;
+  border-bottom: 2px solid #eceef8;
 }
 .project p,
 #project p,
@@ -892,7 +892,7 @@ ul.instagram li.more a:hover {
   width: 502.66666667px;
   padding: 0 60px 0 10px;
   margin: 0px 0 10px 170px;
-  border-left: 1px solid #f4f4f5;
+  border-left: 1px solid #f7f8fc;
 }
 .project p.caption.inline,
 #project p.caption.inline,
@@ -914,7 +914,18 @@ ul.instagram li.more a:hover {
   width: 183.33333333px;
   padding: 0 10px 0 40px;
   text-align: right;
-  border-right: 1px solid #f4f4f5;
+  border-right: 1px solid #f7f8fc;
+}
+.project p.central,
+#project p.central,
+#about p.central,
+.project blockquote.central,
+#project blockquote.central,
+#about blockquote.central {
+  text-align: center;
+  border: none;
+  padding-left: 0;
+  padding-right: 0;
 }
 .project p.half,
 #project p.half,
@@ -934,7 +945,7 @@ ul.instagram li.more a:hover {
 #about blockquote.half.caption {
   float: right;
   padding-left: 20px;
-  border-left: 1px solid #f4f4f5;
+  border-left: 1px solid #f7f8fc;
   clear: none;
 }
 .project blockquote,
@@ -1010,7 +1021,7 @@ ul.instagram li.more a:hover {
 #about .image {
   float: left;
   width: 100%;
-  background: #f4f4f5;
+  background: #f7f8fc;
   min-height: 200px;
   margin: 30px 0 30px;
 }
@@ -1035,7 +1046,7 @@ ul.instagram li.more a:hover {
 #project .image.border,
 #about .image.border {
   width: 848px;
-  border: 1px solid #f4f4f5;
+  border: 1px solid #f7f8fc;
 }
 .project .image.border img,
 #project .image.border img,
@@ -1078,11 +1089,11 @@ ul.instagram li.more a:hover {
 .project .image.placeholder,
 #project .image.placeholder,
 #about .image.placeholder {
-  background: #f4f4f5;
+  background: #f7f8fc;
   height: 300px;
-  box-shadow: inset 0px 0 0px 10px #f2f2f4;
-  -moz-box-shadow: inset 0px 0 0px 10px #f2f2f4;
-  -webkit-box-shadow: inset 0px 0 0px 10px #f2f2f4;
+  box-shadow: inset 0px 0 0px 10px #f5f6fb;
+  -moz-box-shadow: inset 0px 0 0px 10px #f5f6fb;
+  -webkit-box-shadow: inset 0px 0 0px 10px #f5f6fb;
 }
 .project .image.rounded img,
 #project .image.rounded img,
@@ -1138,7 +1149,7 @@ ul.instagram li.more a:hover {
   width: 562.66666667px;
   margin: 0 0 30px 0;
   padding: 0 0 0 0;
-  background: #f4f4f5;
+  background: #f7f8fc;
 }
 .project .video img,
 #project .video img,
@@ -1153,11 +1164,11 @@ dl.outro {
   float: left;
   width: 100%;
   margin: 30px 0;
-  border: 1px solid #e7e7e9;
-  box-shadow: 0px 4px 0px #f9f9fa;
-  -moz-box-shadow: 0px 4px 0px #f9f9fa;
-  -webkit-box-shadow: 0px 4px 0px #f9f9fa;
-  border-bottom-color: #dfdfe2;
+  border: 1px solid #e4e8f5;
+  box-shadow: 0px 4px 0px #fefeff;
+  -moz-box-shadow: 0px 4px 0px #fefeff;
+  -webkit-box-shadow: 0px 4px 0px #fefeff;
+  border-bottom-color: #d9def1;
   -khtml-border-radius: 5px;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
@@ -1185,7 +1196,7 @@ dl.outro:after {
 }
 dl.outro:before {
   border-color: rgba(255, 0, 162, 0);
-  border-bottom-color: #d9d9dd;
+  border-bottom-color: #d2d8ee;
   border-width: 7px;
   margin-left: -7px;
 }
@@ -1360,7 +1371,7 @@ dl.outro .right {
   clear: both;
   border: 0;
   margin: 0 0 30px 0;
-  border-bottom: 1px solid #bfbfc4;
+  border-bottom: 1px solid #adb7e0;
 }
 #about .image {
   background: none;
@@ -1386,7 +1397,7 @@ dl.outro .right {
   padding: 0 30px 50px 0;
   text-align: left;
   margin: 77px 0 0 0;
-  border-right: 1px solid #efeff0;
+  border-right: 1px solid #f0f2f9;
 }
 #about ol #fadeOut {
   position: absolute;
@@ -1431,7 +1442,7 @@ dl.outro .right {
   height: 9px;
   overflow: hidden;
   text-indent: 9000px;
-  background: #e7e7e9;
+  background: #e4e8f5;
   -khtml-border-radius: 20px;
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
@@ -1573,7 +1584,7 @@ ul.caseStudies li .image {
   float: left;
   width: 100%;
   height: 500px;
-  background: #f4f4f5;
+  background: #f7f8fc;
   overflow: hidden;
   min-height: 100px;
   -khtml-border-radius: 3px;
@@ -1620,6 +1631,12 @@ ul.caseStudies li .image.atlassian {
 }
 ul.caseStudies li .image.atlassian::before {
   background-image: url('../../casestudy/_images/thumbs/atlassian.png');
+}
+ul.caseStudies li .image.hsds {
+  background-color: #ffc5e2;
+}
+ul.caseStudies li .image.hsds::before {
+  background-image: url('../../casestudy/_images/thumbs/hsds.png');
 }
 ul.caseStudies li .image.prevue {
   background-color: #f4f4f6;
@@ -1914,7 +1931,7 @@ ul.caseStudies li a:hover h5 span::before {
     padding-left: 2%;
     padding-right: 0;
     text-align: left;
-    border-left: 1px solid #e7e7e9;
+    border-left: 1px solid #e4e8f5;
     border-right: none;
   }
   .container .project h2.caption,
@@ -2045,7 +2062,7 @@ ul.caseStudies li a:hover h5 span::before {
     float: left;
     width: 70%;
     padding: 50px 0 0 0;
-    border-top: 1px solid #d9d9dd;
+    border-top: 1px solid #d2d8ee;
     margin: 0 15%;
     text-align: left;
     border-right: 0;
@@ -2068,6 +2085,7 @@ ul.caseStudies li a:hover h5 span::before {
   .breakout .container.textlinks h3 {
     margin-top: 100px;
     margin-left: 15%;
+    width: 85%;
   }
   .breakout .container.textlinks ul {
     width: 70%;
@@ -2082,7 +2100,14 @@ ul.caseStudies li a:hover h5 span::before {
     padding-left: 0;
   }
   .breakout .container.textlinks ul li a {
+    margin: 0 0 30px 0;
     padding: 0;
+  }
+  .breakout .container.textlinks ul li a p {
+    display: none;
+  }
+  .breakout .container.textlinks ul li:last-child a {
+    margin-bottom: 0px;
   }
   ul.caseStudies li {
     width: 100%;
@@ -2131,7 +2156,7 @@ ul.caseStudies li a:hover h5 span::before {
     -moz-box-shadow: 0px 0px 0px;
     -webkit-box-shadow: 0px 0px 0px;
     border: none;
-    border-top: 1px dashed #d9d9dd;
+    border-top: 1px dashed #d2d8ee;
     -khtml-border-radius: 0;
     -moz-border-radius: 0;
     -webkit-border-radius: 0;

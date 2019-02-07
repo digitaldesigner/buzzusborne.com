@@ -10,7 +10,7 @@
 	define('basesite',$fullURL);
 	
 #	Number of case-studies to highlight on the homepage
-	$maxCaseStudies=4;
+	$maxCaseStudies=6;
 	
 #	You can customize the homepage with ?show=5
 	if(isset($_GET['show'])){
@@ -53,17 +53,17 @@
 		"thumb"	=>	"FullScreen.jpg",
 		"meta"	=>	"A feedback tool for designers"
 	);
-	// $manifest['helpscout']=array(
-	// 	"path"	=>	"helpscout",
-	// 	"name"	=>	"Help Scout",
-	// 	"thumb"	=>	"",
-	// 	"meta"	=>	"A cross-functional design system"
-	// );
-    $manifest['canvas']=array(
-		"path"	=>	"canvas",
+	$manifest['helpscout']=array(
+		"path"	=>	"hsds",
+		"name"	=>	"HSDS",
+		"thumb"	=>	"hsds.png",
+		"meta"	=>	"A cross-functional design system"
+	);
+    $manifest['campaignmonitor']=array(
+		"path"	=>	"campaignmonitor",
 		"name"	=>	"Campaign Monitor",
-		"thumb"	=>	"full_app.jpg",
-		"meta"	=>	"A drag &amp; drop editor to build beautiful emails"
+		"thumb"	=>	"business_cards.jpg",
+		"meta"	=>	"Creative direction for an Aussie tech company"
 	);
     $manifest['sendle']=array(
 		"path"	=>	"sendle",
@@ -77,11 +77,11 @@
 		"thumb"	=>	"dashbord_home.jpg",
 		"meta"	=>	"A UI for Skype&rsquo;s business suite"
 	);
-    $manifest['campaignmonitor']=array(
-		"path"	=>	"campaignmonitor",
+    $manifest['canvas']=array(
+		"path"	=>	"canvas",
 		"name"	=>	"Campaign Monitor",
-		"thumb"	=>	"business_cards.jpg",
-		"meta"	=>	"Creative direction for an Aussie tech company"
+		"thumb"	=>	"full_app.jpg",
+		"meta"	=>	"A drag &amp; drop editor to build beautiful emails"
 	);
     $manifest['rango']=array(
 		"path"	=>	"rango",
