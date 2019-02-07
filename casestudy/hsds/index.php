@@ -9,7 +9,7 @@
 	</div>
 	
 	<div class="fullImage top video">
-	    <video autoplay muted loop id="showcase" class="leadImg">
+	    <video autoplay muted loop height="auto" poster="../_images/hsds/cover.jpg" id="showcase" class="leadImg">
 	      <source src="../_video/hsds.mp4" type="video/mp4">
 	    </video>
 	</div>
@@ -26,19 +26,27 @@
 				<img class="lazyload" data-sizes="auto" data-src="../_images/hsds/hsds-covers.png" width="100%" />
 			</div>
 
-			<h5>Taking a different tack</h5>
-			<p>Design Systems aren&rsquo;t a new concept, though having built and worked with large design systems at Campaign Monitor and Atlassian, I was familiar with the challenges various approaches bring with scale. Before long, UI Libraries risk become too large, confronting or difficult to maintain &mdash; ours needed to be leaner.</p>
-			
+			<h5>Taking a different approach</h5>
+			<p>Design Systems aren&rsquo;t a new concept, though having built and worked with large design systems at Campaign Monitor and Atlassian, I was familiar with the challenges various approaches bring with scale. Before long, UI Libraries risk become too difficult to maintain, or worse restrict the creative process &mdash; ours needed to be different.</p>
+
 			<p class="info"><strong>Below/</strong> A selection of HSDS components. The lower libraries reference components from those above to form interdependency</p>
-			
-			<p>Working with the design team and UI Engineers, I proposed a system of inter-dependent UI Libraries that spanned the various products and functions of the business &mdash; Marketing, Product, Embeddables and Mobile. Each Library came with its own documentation, GitHub repository and associated React component Storybook. I called it, unimaginatively, <strong>HSDS</strong>. The Help Scout Design System.</p>
+
+			<p>Working with the design team and UI Engineers, I proposed a system of inter-dependent UI Libraries that spanned the various products and functions of the business &mdash; Marketing, Product, Embeddables and Mobile. Each Library came with its own documentation, GitHub repository and associated React component Storybook. I called it, unimaginatively, <strong>HSDS</strong>. The Help Scout Design System.</p>			
 			
 			<div class="image">
 				<img class="lazyload" data-sizes="auto" data-src="../_images/hsds/symbols.png" width="100%" />
 			</div>
 			
-			<h5>Making Sketch work</h5>
+			<h5>Creativity first</h5>
 			<p>Our fully-remote Design team is spread across 3 continents and 5 timezones, so our approach to how the Sketch Libraries were constructed needed to be self-explanatory and protected from accidental damage. So instead of following the popular <a href="https://shop.bradfrost.com/collections/frontpage/products/atomic-design">&ldquo;Atomic&rdquo;</a>  approach, our components were constructed in pre-built chunks with total color and over-writing control, example uses and a commit process similar to submitting code. Some of my approach is covered <a href="https://medium.com/help-scout/more-tips-for-building-your-sketch-ui-library-975a44416f59">in this article</a> &mdash; but simply, my approach meant that anyone could create a full and accurate UI in seconds.</p>
+			
+			<p>At its core, HSDS was designed to be flexible in the sense that it doesn&rsquo;t come with the strict rules and guidelines common with these types of systems. Instead it expects the designer to use best judgement, and acts as a non-restrictive creative starting point.</p> 
+			
+			<blockquote>&ldquo;A Design System is a set of rules, and rules and creativity aren't mutually exclusive. Rules can be broken&rdquo;</blockquote>
+			
+			<p>&mdash; <a href="https://twitter.com/MinaMarkham">Mina Markham</a></p>
+			
+			<p>The pre-build components are there for ease &mdash; but if a designer wants to freestyle their own design and use only the smallest building blocks, we support that too. Designers exist to serve the problem being solved, not beholden to the systems created to help them.</p>
 			
 	        <div class="image">
 				<img class="lazyload" data-sizes="auto" data-src="../_images/hsds/example-embed.png" width="100%" />

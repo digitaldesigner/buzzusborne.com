@@ -62,7 +62,7 @@
 		"name"	=>	"HSDS",
 		"thumb"	=>	"hsds.png",
 		"meta"	=>	"A cross-functional design system",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/example-embed.png"
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/cover.jpg"
 	);
     $manifest['campaignmonitor']=array(
 		"path"	=>	"campaignmonitor",
