@@ -1,7 +1,7 @@
 <?php
 	define('path','../');
 	$hideNav=TRUE;
-	$navigation['twitter_img']="http://portfolio/_assets/home/hand-gestures.gif";
+	$navigation['twitter_img']="https://buzzusborne.com/_assets/home/hand-gestures.gif";
 	include(path.'_includes/header.php');
 ?>
 		
