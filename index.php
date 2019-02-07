@@ -2,6 +2,7 @@
 	define('path','');
 	$hideNav=TRUE;
 	$homepage=TRUE;
+	$navigation['twitter_img']="https://buzzusborne.com/casestudy/_images/beacon/beacon-cover.png";
 	include(path.'_includes/header.php');
 ?>
 		<div id="about">		

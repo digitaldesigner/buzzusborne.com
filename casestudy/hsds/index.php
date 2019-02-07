@@ -4,7 +4,7 @@
 ?>
 		<div id="projectIntro">
 			<h1>Help Scout Design System</h1>
-			<span class="subscript">Lead Designer <em>&#8226;</em> Design Systems / UI / Prototyping <em>&#8226;</em> 2018&ndash;<?=date('Y')?></span>
+			<span class="subscript">Product Designer <em>&#8226;</em> Design Systems / UI <em>&#8226;</em> 2018&ndash;<?=date('Y')?></span>
 		</div>
 	</div>
 	

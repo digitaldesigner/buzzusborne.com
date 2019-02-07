@@ -34,96 +34,112 @@
 		"name" 	=>	"Help Scout Beacon",
 		"thumb"	=>	"beacon-cover.png",
 		"meta"	=>	"Chat and support widget",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/beacon/beacon-cover.png"
 	);
     $manifest['atlassian']=array(
 		"path"	=>	"atlassian",
 		"name"	=>	"Atlassian",
 		"thumb"	=>	"jira-hero.jpg",
-		"meta"	=>	"A productivity tool for software teams"
+		"meta"	=>	"A productivity tool for software teams",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/atlassian/jira-hero.jpg"
 	);
     $manifest['skype']=array(
 		"path"	=>	"skype",
 		"name"	=>	"Skype",
 		"thumb"	=>	"skype_conversation.jpg",
-		"meta"	=>	"A suite of recognizable icons"
+		"meta"	=>	"A suite of recognizable icons",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype/desktop_skype.jpg"
 	);
     $manifest['prevue']=array(
 		"path"	=>	"prevue",
 		"name"	=>	"Prevue",
 		"thumb"	=>	"FullScreen.jpg",
-		"meta"	=>	"A feedback tool for designers"
+		"meta"	=>	"A feedback tool for designers",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/prevue/Library.jpg"
 	);
 	$manifest['helpscout']=array(
 		"path"	=>	"hsds",
 		"name"	=>	"HSDS",
 		"thumb"	=>	"hsds.png",
-		"meta"	=>	"A cross-functional design system"
+		"meta"	=>	"A cross-functional design system",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/example-embed.png"
 	);
     $manifest['campaignmonitor']=array(
 		"path"	=>	"campaignmonitor",
 		"name"	=>	"Campaign Monitor",
 		"thumb"	=>	"business_cards.jpg",
-		"meta"	=>	"Creative direction for an Aussie tech company"
+		"meta"	=>	"Creative direction for an Aussie tech company",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/campaignmonitor/business_cards.jpg"
 	);
     $manifest['sendle']=array(
 		"path"	=>	"sendle",
 		"name"	=>	"Sendle",
 		"thumb"	=>	"devices.jpg",
-		"meta"	=>	"A modern shipping app for small businesses"
+		"meta"	=>	"A modern shipping app for small businesses",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/sendle/devices.jpg"
 	);
     $manifest['skype_business']=array(
 		"path"	=>	"skype_business",
 		"name"	=>	"Skype for Business",
 		"thumb"	=>	"dashbord_home.jpg",
-		"meta"	=>	"A UI for Skype&rsquo;s business suite"
+		"meta"	=>	"A UI for Skype&rsquo;s business suite",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype_business/dashbord_home.jpg"
 	);
     $manifest['canvas']=array(
 		"path"	=>	"canvas",
 		"name"	=>	"Campaign Monitor",
 		"thumb"	=>	"full_app.jpg",
-		"meta"	=>	"A drag &amp; drop editor to build beautiful emails"
+		"meta"	=>	"A drag &amp; drop editor to build beautiful emails",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/canvas/full_app.jpg"
 	);
     $manifest['rango']=array(
 		"path"	=>	"rango",
 		"name"	=>	"Paramount Pictures",
 		"thumb"	=>	"rango_01.jpg",
-		"meta"	=>	"Game design for a movie-themed promotion"
+		"meta"	=>	"Game design for a movie-themed promotion",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/rango_01.jpg"
 	);
     $manifest['russian_standard']=array(
 		"path"	=>	"russian_standard",
 		"name"	=>	"Russian Standard Vodka",
 		"thumb"	=>	"russian_01.jpg",
-		"meta"	=>	"Website for the world&rsquo;s most popular vodka"
+		"meta"	=>	"Website for the world&rsquo;s most popular vodka",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/russian_01.jpg"
 	);
     $manifest['toniandguy']=array(
 		"path"	=>	"toniandguy",
 		"name"	=>	"Toni &amp; Guy",
 		"thumb"	=>	"toniguy_01.jpg",
-		"meta"	=>	"Marketing site for global hair brand"
+		"meta"	=>	"Marketing site for global hair brand",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/toniguy_01.jpg"
 	);
     $manifest['monitor']=array(
 		"path"	=>	"monitor",
 		"name"	=>	"Monitor iOS App",
 		"thumb"	=>	"concept_icons.png",
-		"meta"	=>	"Fresh iconography for iOS"
+		"meta"	=>	"Fresh iconography for iOS",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/monitor/test.jpg"
 	);
     $manifest['pbp']=array(
 		"path"	=>	"pbp",
 		"name"	=>	"Postbox Party",
 		"thumb"	=>	"pbp_homepage.jpg",
-		"meta"	=>	"Shopify store design and development"
+		"meta"	=>	"Shopify store design and development",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/pbp/pbp_homepage.jpg"
 	);
     $manifest['sleep-tracker']=array(
 		"path"	=>	"naptime",
 		"name"	=>	"Naptime App",
 		"thumb"	=>	"popover.png",
-		"meta"	=>	"A personal project to visualize time"
+		"meta"	=>	"A personal project to visualize time",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/naptime/popover.png"
 	);
     $manifest['prevue_expenses']=array(
 		"path"	=>	"prevue_expenses",
 		"name"	=>	"Expense Tracker",
 		"thumb"	=>	"prevue_expenses.png",
-		"meta"	=>	"A simple tool to track business expenses"
+		"meta"	=>	"A simple tool to track business expenses",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/prevue_expenses.png"
 	);    
 
 	// Set the above order
@@ -171,7 +187,8 @@
 		$output['this']=array('path'=>'./','title'=>$navigation['current']['name'],'full'=>$navigation['current']);
 		$output['next']=array('path'=>'../'.$navigation['next']['slug'],'title'=>$navigation['next']['name'],'full'=>$navigation['next']);
 		$output['prev']=array('path'=>'../'.$navigation['previous']['slug'],'title'=>$navigation['previous']['name'],'full'=>$navigation['previous']);
-		$output['twitter_img']='casestudy/_images/'.$navigation['current']['thumb'];
+		$output['twitter_img']=$navigation['current']['og'];
+		$output['meta']=$navigation['current']['meta'];
         return $output;
     }
 	
@@ -217,16 +234,21 @@
 	<meta name="Description" content="Product Designer (UX/UI) and Founder." />
 	<meta name="Keywords" content="Buzz Usborne UX UI product software app director digital design creative art campaign monitor prevue osbourne Pete Peter Graphic Digital Design Portfolio Designer London Sydney" />
 	<meta property="og:title" content="Buzz Usborne - <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Product Designer"; } ?>">
-	<meta property="og:description" content="A collection of digital projects from Atlassian, Prevue, Campaign Monitor, Skype and more">
 	<link href="<?php echo path; ?>_assets/gfx/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
 	<link href="<?php echo path; ?>_assets/css/main.css" rel="stylesheet" type="text/css" />
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
 	<meta name="twitter:card" content="summary<?php if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { echo "_large_image"; } ?>">
-	<meta name="twitter:title" content="Buzz Usborne — <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Product Designer"; } ?>">
-	<meta name="twitter:description" content="Portfolio of Buzz, Founder of @GetPrevue & Designer @HelpScout. Formerly Design Lead @Atlassian, @CampaignMonitor & @Skype.">
-<?php if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { if(isset($baseOverride)){ $base = NULL; } else { $base = basesite; } ?>	<meta name="twitter:image" content="<?php echo $base.$navigation['twitter_img']; ?>">
-	<meta name="og:image" content="<?php echo $base.$navigation['twitter_img']; ?>"><?php echo "\n"; } ?>
+	<meta name="twitter:title" content="Portfolio of Buzz Usborne">
+<?php if(isset($navigation) && array_key_exists('meta',$navigation)) {?>	<meta name="twitter:description" content="<?=$navigation['this']['title']." — ".$navigation['meta']?>">
+	<meta property="og:description" content="<?=$navigation['this']['title']." — ".$navigation['meta']?>">
+<?php } else { ?>
+	<meta name="twitter:description" content="Product Designer @HelpScout, formerly @Atlassian, @CampaignMonitor & @Skype">
+	<meta property="og:description" content="A collection of digital projects from Atlassian, Campaign Monitor, Help Scout and more">
+<?php } if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { if(isset($baseOverride)){ $base = NULL; } else { $base = basesite; } ?>	<meta name="twitter:image" content="<?php echo $navigation['twitter_img']; ?>">
+	<meta name="og:image" content="<?php echo $navigation['twitter_img']; ?>"><?php echo "\n"; } else { ?>
+	<meta name="twitter:image" content="BOOBOO">
+<?php	} ?>
 	<script type="text/javascript" src="//use.typekit.net/dlu2bpa.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=320,initial-scale=1.0" />
