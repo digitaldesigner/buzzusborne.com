@@ -192,15 +192,51 @@ body {
   -o-transition: width 0.4s ease;
   transition: width 0.4s ease;
 }
+.container.floaty {
+  position: fixed;
+  top: 0;
+  padding-left: 10%;
+}
 .breakout {
   float: left;
   width: 100%;
   background-color: #f7f8fc;
   box-sizing: border-box;
-  border: 30px solid white;
+  border: 30px solid blue;
   background-position: top center;
   background-repeat: repeat-y;
   background-size: cover;
+}
+.landing {
+  height: 100vh;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+}
+.landing section {
+  margin: 0px auto;
+  width: 850px;
+  position: relative;
+}
+.landing section h1,
+.landing section h2,
+.landing section h3 {
+  position: relative;
+  z-index: 1;
+}
+.landing section h1,
+.landing section h2,
+.landing section h3 {
+  float: left;
+  width: 80%;
+  margin: 0 0 20px 0;
+  line-height: 28px;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.7em;
+  font-weight: 800;
+  color: #2f353e;
+  font-weight: normal;
+  color: black;
 }
 #keycontrols {
   display: none;

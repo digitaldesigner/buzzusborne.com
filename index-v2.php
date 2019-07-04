@@ -7,17 +7,20 @@
   include(path.'_includes/header.php');
 ?>
 
-	<div class="container floaty">
-		<div id="header" class="project">
-			<h1><a href="#">Buzz Usborne</a></h1>
-		</div>
-	</div>
-
   <div class="breakout landing">
     <section>
-      <h1>I'm Buzz, casually tall</h1>
-      <h2>Currently Product Lead @<a href="#">HelpScout</a> &amp; consultant and mentor.</h2>
-      <h3>Previously UX Director at <a href="#">Campaign Monitor</a>, Head of Product at <a href="#">Sendle</a> and Lead Designer at <a href="#">Atlassian</a>, <a href="#">Skype</a> &amp; Founder of <a href="#">Prevue</a>.</h3>
+      <h1>Hi, I&rsquo;m Buzz</h1>
+      <h2>I&rsquo;m a Design Coach working with individuals, startups and tech teams. I help design teams reach their full potential through hiring, leadership, mentorship and building sustainable practices that enable designers and businesses to succeed.</h2>
+      <h3>Currently I work with <a href="#">Help Scout</a> and consult with startups looking to grow their design capabilities. Previously I was the UX Director at <a href="#">Campaign Monitor</a>, Head of Product at <a href="#">Sendle</a> and Lead Designer at <a href="#">Atlassian</a> and <a href="#">Skype</a>. I also Founded <a href="#">Prevue</a> <em>(acq &rsquo;18)</em>.</h3>
+      <h3>I have 15+ multi-diciplinary experience both client-side and agency, in-house and remote, and a deep love of cross-functional team collaboration.</h3>
+      
+      <ol class="tinyNav">
+        <li><a href="#">Work</a></li>
+        <li><a href="#">Speaking</a></li>
+        <li><a href="#">Coaching</a></li>
+        <li><a href="#">About</a></li>
+      </ol>
+    </section>
   </div>
   
   <div class="container">

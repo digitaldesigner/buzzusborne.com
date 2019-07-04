@@ -253,10 +253,10 @@
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=320,initial-scale=1.0" />
 </head>
-<body<?php if(isset($bodyclass)){ echo " class=\"".$bodyclass."\""; }?>>
+<body <?php if(isset($bodyclass)){ echo " class=\"".$bodyclass."\""; }?>>
 	<div class="container">
 		<?php if(path=="../../"){ ?><div id="header" class="project">
-			<h1><a href="<?php echo path; ?>">Buzz</a></h1><?php } else { ?><div id="header">
+			<h1><a href="<?php echo path; ?>">Buzz</a></h1><?php } elseif(!isset($hideLogo)) { ?><div id="header">
 			<h1><a href="<?php echo path; ?>">Buzz Usborne</a></h1>
 			<?php } ?>
 
