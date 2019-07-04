@@ -21,7 +21,7 @@
   <div id="splash" class="landing">
     <section>
       <div class="introtext">
-        <h1 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami">a designer</a> with over <?php echo (date('Y') - 2005); ?> years experience and a passion for building, scaling and coaching highly effective &amp; collaborative product teams.</h1>
+        <h1 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami">a designer</a> with over <?php echo (date('Y') - 2005); ?> years experience and a passion for building, scaling and coaching highly effective &amp; collaborative product teams. 🙌</h1>
       </div>
     </section>
     <div id="workIntro" class="fixed"><h2>My work.</h2></div>
