@@ -12,7 +12,7 @@
 			<h1><a href="./">Buzz Usborne</a></h1>
       <ol class="shortNav">
         <li><a href="#work">Work</a></li>
-        <li><a href="#">Coaching</a></li>
+        <li><a href="https://medium.com/@buzzusborne">Writing</a></li>
         <li><a href="./about/">About</a></li>
       </ol>
 		</div>
