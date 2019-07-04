@@ -46,5 +46,6 @@
 		
 <?php
 	include(path.'_includes/recent.php');
+    $hideModal = TRUE;
 	include(path.'_includes/footer.php');
 ?>

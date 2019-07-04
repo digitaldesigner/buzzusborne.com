@@ -7,22 +7,30 @@
   include(path.'_includes/header.php');
 ?>
 
-	<div class="container floaty">
-		<div id="header" class="project">
-			<h1><a href="#">Buzz Usborne</a></h1>
+	<div class="container overlap">
+		<div id="header">
+			<h1><a href="./">Buzz Usborne</a></h1>
+      <ol class="shortNav">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#">Coaching</a></li>
+        <li><a href="./about/">About</a></li>
+      </ol>
 		</div>
 	</div>
 
-  <div class="breakout landing">
+  <div id="splash" class="landing">
     <section>
-      <h1>I'm Buzz, casually tall</h1>
-      <h2>Currently Product Lead @<a href="#">HelpScout</a> &amp; consultant and mentor.</h2>
-      <h3>Previously UX Director at <a href="#">Campaign Monitor</a>, Head of Product at <a href="#">Sendle</a> and Lead Designer at <a href="#">Atlassian</a>, <a href="#">Skype</a> &amp; Founder of <a href="#">Prevue</a>.</h3>
+      <div class="introtext">
+        <h1 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami">a designer</a> with over <?php echo (date('Y') - 2005); ?> years experience and a passion for building, scaling and coaching highly effective &amp; collaborative product teams.</h1>
+      </div>
+    </section>
+    <div id="workIntro" class="fixed"><h2>My work.</h2></div>
   </div>
   
   <div class="container">
-		
+    <div id="work" class="anchor"></div>
 		<ul class="caseStudies">
+      
 			<?php
 					
 				$i=1;
@@ -56,7 +64,7 @@
 <?php if(count($manifest)>$i) {?>
         <div class="breakout" id="fancy">
             <div class="container textlinks">
-                <h3>More&hellip;</h3>
+                <h3>More work</h3>
             
 				<ul>
 				<?php
@@ -81,5 +89,6 @@
 <?php } ?>
         <div class="container">
 <?php
+  $JS = "home.js";
 	include(path.'_includes/footer.php');
 ?>

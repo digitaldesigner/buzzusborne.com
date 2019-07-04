@@ -3,6 +3,10 @@
 @import "mixins.less";
 @import "reset.less";
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	overflow-x:hidden;
 }
@@ -16,57 +20,142 @@ body {
 	-ms-transition: width 0.4s ease;
 	-o-transition: width 0.4s ease;
 	transition: width 0.4s ease;
-
-
-    &.floaty {
-        position:fixed;
-        top:0;
-        padding-left:10%;
-    }
 }
-
-
 
 .breakout {
     float:left;
     width:100%;
     background-color:@testing;
     box-sizing:border-box;
-    border:30px solid blue;
     background-position:top center;
     background-repeat:repeat-y;
     background-size:cover;
 }
 
+h1 { .title; }
+p,blockquote { .bodyfont; }
+
+// Start of the intro
+
+.overlap {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    
+    #header {
+        float:none;
+        margin:0px auto;
+        width:@sitewidth;
+        padding:80px 0 0 0;
+        
+        h1 {
+            width:auto;
+        }
+    }
+}
+
+ol.shortNav {
+    float:right;
+    list-style:none;
+    padding:0;
+    margin:0;
+    
+    li {
+        float:left;
+        padding:0;
+        margin:0;
+        
+        a {
+            float:left;
+            width:auto;
+            .title(1.4em);
+            margin:5px 0 0 20px;
+            color:darken(#06c5ff,30%);
+            
+            &:hover {
+                color:black;
+            }
+        }
+    }
+}
+
+.anchor {
+    float:left;
+    width:100%;
+}
+
 .landing {
+    float:left;
+    width:100%;
     height:100vh;
     border-radius:0px;
     display:flex;
     align-items:center;
+    background:#eaf5ff;
+    margin:0 0 50px 0;
+    overflow:hidden;
     
     section {
         margin:0px auto;
         width:@sitewidth;
-        position:relative;
         
-        h1,h2,h3 {
-            position:relative;
-            z-index:1;
-        }
-        
-        h1,h2,h3 {
+        .introtext {
             float:left;
-            width:80%;
-            margin:0 0 20px 0;
-            line-height:28px;
-            .title(1.7em);
-            font-weight:normal;
-            color:black;
-        }
-        
+            width:100%;
+            position:relative;
+            
+            h1 {
+				width:90%;
+                position:relative;
+                .titleSerif(3.4em);
+                font-weight:400;
+                line-height:60px;
+                margin-top:60px;
+                
+                a {
+					color:inherit;
+					
+					&.on,
+					&:hover {
+						background:white;
+					}
+                }
+            }
+        }   
     }
-    
+	
+	.fixed {
+		position:absolute;
+		bottom:0;
+		width:100%;
+		
+		h2 {
+			margin:0px auto;
+			width:@sitewidth;
+			.titleSerif(3.5em);
+			font-weight:400;
+			padding:0 0 50px 0;
+			opacity:0;
+			-webkit-transition: all 0.35s ease-out;
+			-moz-transition: all 0.35s ease-out;
+			-ms-transition: all 0.35s ease-out;
+			-o-transition: all 0.35s ease-out;
+			transition: all 0.35s ease-out;
+		}
+
+		&.show {
+			h2 {
+				padding-bottom:100px;
+				opacity:1;
+			}
+		}
+		
+	}
 }
+
+
+// End of the fancy intro stuff
 
 #keycontrols {
 	display:none;
@@ -124,9 +213,6 @@ body {
 	}
 }
 
-h1 { .title; }
-p,blockquote { .bodyfont; }
-
 em.special {
 	display:inline-block;
 	margin:0 2px;
@@ -181,23 +267,23 @@ em.special {
 				width:auto;
 				margin:0;
 				padding:0 10px 0 0;
-				color:@linkhover;
+				color:black;
 			}
             
             &::before {
                 content: '';
-                height: 40%;
-                background: #c2e065;
+                height:2px;
+                background: @linkhover;
                 width: 100%;
                 position: absolute;
                 z-index: -1;
                 bottom: 0;
                 left: 0;
-                opacity: .5;
-                -webkit-transition: all 0.3s ease;
-                -moz-transition: all 0.3s ease;
-                -ms-transition: all 0.3s ease;
-                -o-transition: all 0.3s ease;
+                opacity: 1;
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
             }
 			
 			&:hover {
@@ -206,6 +292,7 @@ em.special {
 				}
 				
                 &::before {
+					height:40%;
                     opacity: 1;
                 }
                 
@@ -497,10 +584,11 @@ ul.instagram {
         
     h3 {
         float:left;
-        .titleSerif(4em);
+        .titleSerif(5em);
+        font-weight:400;
     	width:100%;
     	padding-left:0;
-        margin:150px 0 50px 0;
+        margin:150px 0 80px 0;
     }
     
     ul{
@@ -545,24 +633,25 @@ ul.instagram {
                             
             &::before {
                 content: '';
-                height: 5px;
                 background: #06c5ff;
                 width: 100%;
                 position: absolute;
                 z-index: -1;
-                bottom: 2px;
-                left: 2px;
-                opacity: .4;
-                -webkit-transition: all 0.2s ease;
-                -moz-transition: all 0.2s ease;
-                -ms-transition: all 0.2s ease;
-                -o-transition: all 0.2s ease;
+                bottom: 0px;
+                left: 0px;
+                opacity: .7;
+                height: 2px;
+                -webkit-transition: all 0.15s ease;
+                -moz-transition: all 0.15s ease;
+                -ms-transition: all 0.15s ease;
+                -o-transition: all 0.15s ease;
             }
 		}
         &:hover {
             span::before {
                 opacity:1;
                 left:0px;
+                height: 40%;
             }
         }
     }
@@ -1556,14 +1645,14 @@ ul.caseStudies {
                                 
                 &::before {
                     content: '';
-                    height: 40%;
                     background: @link;
                     width: 100%;
                     position: absolute;
                     z-index: -1;
                     bottom: 0;
                     left: 0;
-                    opacity: .5;
+                    opacity: .6;
+                    height:2px;
                     -webkit-transition: all 0.2s ease;
                     -moz-transition: all 0.2s ease;
                     -ms-transition: all 0.2s ease;
@@ -1594,6 +1683,7 @@ ul.caseStudies {
         
       h5 span::before {
           opacity:1;
+          height:40%;
       }
     }
 	}

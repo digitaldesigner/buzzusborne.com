@@ -140,5 +140,6 @@
 			
 	<div class="container">
 <?php
+    $hideModal = TRUE;
 	include(path.'_includes/footer.php');
 ?>

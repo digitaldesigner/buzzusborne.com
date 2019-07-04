@@ -179,6 +179,9 @@ textarea {
 strong {
   font-weight: bold;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   overflow-x: hidden;
 }
@@ -192,51 +195,133 @@ body {
   -o-transition: width 0.4s ease;
   transition: width 0.4s ease;
 }
-.container.floaty {
-  position: fixed;
-  top: 0;
-  padding-left: 10%;
-}
 .breakout {
   float: left;
   width: 100%;
   background-color: #f7f8fc;
   box-sizing: border-box;
-  border: 30px solid blue;
   background-position: top center;
   background-repeat: repeat-y;
   background-size: cover;
 }
+h1 {
+  font-family: "proxima-nova", Georgia;
+  font-size: 4em;
+  font-weight: 800;
+  color: #2f353e;
+}
+p,
+blockquote {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.5em;
+  line-height: 1.6em;
+  color: #505a6a;
+}
+.overlap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.overlap #header {
+  float: none;
+  margin: 0px auto;
+  width: 850px;
+  padding: 80px 0 0 0;
+}
+.overlap #header h1 {
+  width: auto;
+}
+ol.shortNav {
+  float: right;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ol.shortNav li {
+  float: left;
+  padding: 0;
+  margin: 0;
+}
+ol.shortNav li a {
+  float: left;
+  width: auto;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #2f353e;
+  margin: 5px 0 0 20px;
+  color: #00536c;
+}
+ol.shortNav li a:hover {
+  color: black;
+}
+.anchor {
+  float: left;
+  width: 100%;
+}
 .landing {
+  float: left;
+  width: 100%;
   height: 100vh;
   border-radius: 0px;
   display: flex;
   align-items: center;
+  background: #eaf5ff;
+  margin: 0 0 50px 0;
+  overflow: hidden;
 }
 .landing section {
   margin: 0px auto;
   width: 850px;
-  position: relative;
 }
-.landing section h1,
-.landing section h2,
-.landing section h3 {
-  position: relative;
-  z-index: 1;
-}
-.landing section h1,
-.landing section h2,
-.landing section h3 {
+.landing section .introtext {
   float: left;
-  width: 80%;
-  margin: 0 0 20px 0;
-  line-height: 28px;
-  font-family: "proxima-nova", Georgia;
-  font-size: 1.7em;
-  font-weight: 800;
+  width: 100%;
+  position: relative;
+}
+.landing section .introtext h1 {
+  width: 90%;
+  position: relative;
+  font-family: 'Playfair Display', serif;
+  font-size: 3.4em;
+  font-weight: 700;
   color: #2f353e;
-  font-weight: normal;
-  color: black;
+  font-weight: 400;
+  line-height: 60px;
+  margin-top: 60px;
+}
+.landing section .introtext h1 a {
+  color: inherit;
+}
+.landing section .introtext h1 a.on,
+.landing section .introtext h1 a:hover {
+  background: white;
+}
+.landing .fixed {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.landing .fixed h2 {
+  margin: 0px auto;
+  width: 850px;
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5em;
+  font-weight: 700;
+  color: #2f353e;
+  font-weight: 400;
+  padding: 0 0 50px 0;
+  opacity: 0;
+  -webkit-transition: all 0.35s ease-out;
+  -moz-transition: all 0.35s ease-out;
+  -ms-transition: all 0.35s ease-out;
+  -o-transition: all 0.35s ease-out;
+  transition: all 0.35s ease-out;
+}
+.landing .fixed.show h2 {
+  padding-bottom: 100px;
+  opacity: 1;
 }
 #keycontrols {
   display: none;
@@ -288,19 +373,6 @@ body {
 }
 #keycontrols ul li a:hover {
   color: #00aadd;
-}
-h1 {
-  font-family: "proxima-nova", Georgia;
-  font-size: 4em;
-  font-weight: 800;
-  color: #2f353e;
-}
-p,
-blockquote {
-  font-family: 'Lora', Georgia, serif;
-  font-size: 1.5em;
-  line-height: 1.6em;
-  color: #505a6a;
 }
 em.special {
   display: inline-block;
@@ -354,22 +426,22 @@ em.special.bullet {
   width: auto;
   margin: 0;
   padding: 0 10px 0 0;
-  color: #00aadd;
+  color: black;
 }
 #header h1 a::before {
   content: '';
-  height: 40%;
-  background: #c2e065;
+  height: 2px;
+  background: #00aadd;
   width: 100%;
   position: absolute;
   z-index: -1;
   bottom: 0;
   left: 0;
-  opacity: .5;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
+  opacity: 1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
 }
 #header h1 a:hover {
   border-color: #00aadd;
@@ -378,6 +450,7 @@ em.special.bullet {
   display: block;
 }
 #header h1 a:hover::before {
+  height: 40%;
   opacity: 1;
 }
 #header.project {
@@ -636,12 +709,13 @@ ul.instagram li.more a:hover {
 .breakout .container.textlinks h3 {
   float: left;
   font-family: 'Playfair Display', serif;
-  font-size: 4em;
+  font-size: 5em;
   font-weight: 700;
   color: #2f353e;
+  font-weight: 400;
   width: 100%;
   padding-left: 0;
-  margin: 150px 0 50px 0;
+  margin: 150px 0 80px 0;
 }
 .breakout .container.textlinks ul {
   float: left;
@@ -683,22 +757,23 @@ ul.instagram li.more a:hover {
 }
 .breakout .container.textlinks a span::before {
   content: '';
-  height: 5px;
   background: #06c5ff;
   width: 100%;
   position: absolute;
   z-index: -1;
-  bottom: 2px;
-  left: 2px;
-  opacity: .4;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
+  bottom: 0px;
+  left: 0px;
+  opacity: .7;
+  height: 2px;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
 }
 .breakout .container.textlinks a:hover span::before {
   opacity: 1;
   left: 0px;
+  height: 40%;
 }
 .project h3,
 #project h3,
@@ -1774,14 +1849,14 @@ ul.caseStudies li h5 span {
 }
 ul.caseStudies li h5 span::before {
   content: '';
-  height: 40%;
   background: #c2e065;
   width: 100%;
   position: absolute;
   z-index: -1;
   bottom: 0;
   left: 0;
-  opacity: .5;
+  opacity: .6;
+  height: 2px;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -1805,6 +1880,7 @@ ul.caseStudies li a:hover .image::before {
 }
 ul.caseStudies li a:hover h5 span::before {
   opacity: 1;
+  height: 40%;
 }
 #footer {
   float: left;
