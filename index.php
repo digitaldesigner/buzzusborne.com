@@ -9,19 +9,19 @@
 
 	<div class="container overlap">
 		<div id="header">
-			<h1><a href="./">Buzz Usborne</a></h1>
-      <ol class="shortNav">
-        <li><a href="#work">Work</a></li>
-        <li><a href="https://medium.com/@buzzusborne">Writing</a></li>
-        <li><a href="./about/">About</a></li>
-      </ol>
+            <h1><a href="./" title="Buzz">Buzz Usborne</a></h1>
+            <ol class="shortNav">
+                <li><a href="#work" title="My Work">Work</a></li>
+                <li><a href="https://medium.com/@buzzusborne" title="My Writing">Writing</a></li>
+                <li><a href="./about/" title="About Me">About</a></li>
+            </ol>
 		</div>
 	</div>
 
   <div id="splash" class="landing">
     <section>
       <div class="introtext">
-        <h1 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami">a designer</a> with over <?php echo (date('Y') - 2005); ?> years experience and a passion for building, scaling and coaching highly effective &amp; collaborative product teams. 🙌</h1>
+        <h1 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami" title="And so much mor">a designer</a> with over <?php echo (date('Y') - 2005); ?> years experience and a passion for building, scaling and coaching highly effective &amp; collaborative product teams. 🙌</h1>
       </div>
     </section>
     <div id="workIntro" class="fixed"><h2>My work.</h2></div>

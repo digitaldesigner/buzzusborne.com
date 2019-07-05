@@ -222,6 +222,8 @@ blockquote {
   top: 0;
   left: 0;
   width: 100%;
+  background: #f7f8fc;
+  z-index: 2;
 }
 .overlap #header {
   float: none;
@@ -251,7 +253,7 @@ ol.shortNav li a {
   font-weight: 800;
   color: #2f353e;
   margin: 5px 0 0 20px;
-  color: #00536c;
+  color: #505a6a;
 }
 ol.shortNav li a:hover {
   color: black;
@@ -1936,6 +1938,7 @@ ul.caseStudies li a:hover h5 span::before {
   .container.overlap {
     position: relative;
     margin-bottom: 20px;
+    background: white;
   }
   .container.overlap #header {
     float: left;
@@ -2184,6 +2187,12 @@ ul.caseStudies li a:hover h5 span::before {
   }
   .container #footer.break ul {
     width: 100%;
+  }
+  .container #footer ul li.right {
+    width: 100%;
+    float: left;
+    margin: 20px 0 0 0;
+    text-align: left;
   }
   .container #about h3,
   .container #about p,

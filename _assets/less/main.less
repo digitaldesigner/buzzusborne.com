@@ -42,13 +42,15 @@ p,blockquote { .bodyfont; }
     top:0;
     left:0;
     width:100%;
-    
+	background:@testing;
+	z-index:2;
+	
     #header {
         float:none;
         margin:0px auto;
         width:@sitewidth;
         padding:80px 0 0 0;
-        
+		
         h1 {
             width:auto;
         }
@@ -71,7 +73,7 @@ ol.shortNav {
             width:auto;
             .title(1.4em);
             margin:5px 0 0 20px;
-            color:darken(#06c5ff,30%);
+            color:@text;
             
             &:hover {
                 color:black;
@@ -1752,6 +1754,7 @@ ul.caseStudies {
 	.container.overlap {
 		position:relative;
 		margin-bottom:20px;
+		background:white;
 		
 		#header {
 			float:left;
@@ -1953,7 +1956,15 @@ ul.caseStudies {
 				ul {
 					width:100%;
 				}
+			}	
+
+			ul li.right {
+				width:100%;
+				float:left;
+				margin:20px 0 0 0;
+				text-align:left;
 			}
+	
 		}
 	
 		#about {	      
@@ -2012,7 +2023,6 @@ ul.caseStudies {
 }
 
 @media only screen and (max-width: 680px) {
-
     .breakout {
         border-width:0px;
         

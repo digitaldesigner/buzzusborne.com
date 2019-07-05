@@ -36,7 +36,7 @@ var thingsIam = [
 	'another white guy',
 	'a pixel pusher',
 	'a tall dude',
-	'a femimist',
+	'a feminist',
 	'an ex-sailor',
 	'a wannabe architect',
 	'a minimalist',
@@ -46,7 +46,8 @@ var thingsIam = [
 	'a human',
 	'a UX/UI guy',
 	'a perfectionist',
-	'a remote worker'
+	'a remote worker',
+	'your friend'
 ];
 
 function getrandom(existingVal){
