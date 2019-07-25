@@ -73,11 +73,15 @@ ol.shortNav {
             width:auto;
             .title(1.4em);
             margin:5px 0 0 20px;
-            color:@text;
+            color:lighten(@text,20%);
             
             &:hover {
                 color:black;
             }
+			
+			&.active {
+				color:black;
+			}
         }
     }
 }
@@ -97,7 +101,7 @@ ol.shortNav {
     background:@testing;  // e8e8e8
     margin:0 0 50px 0;
     overflow:hidden;
-    
+	
     section {
         margin:0px auto;
         width:@sitewidth;
@@ -113,7 +117,11 @@ ol.shortNav {
                 .titleSerif(3.4em);
                 font-weight:400;
                 line-height:60px;
-                margin-top:60px;
+                margin-top:60px;				
+				
+				&.fwidth {
+					width:100%;
+				}
                 
                 a {
 					color:inherit;
@@ -671,6 +679,16 @@ ul.instagram {
 		.title(3em);
 	}
 	
+	h4 {
+		margin:15px 0 30px 0;
+	}
+
+	h2,h3,h4 {
+		&.coaching {
+			margin-bottom:20px;
+		}
+	}
+	
 	#photo {
 		float:right;
 		width:120px;
@@ -1119,6 +1137,11 @@ dl.outro {
 	margin-bottom:20px;
 	position:relative;
 	
+	&.spacer {
+		margin-top:50px;
+		margin-bottom:150px;
+	}
+	
 	&.timeline {		
 		p,h6 {
 			width:80%;
@@ -1148,15 +1171,25 @@ dl.outro {
     	width:(@sitewidth - 50);
     	padding-left:0;
         margin:30px 0 0 0;
+		font-weight:400;
     
         &.spacer {
           margin-bottom:20px;
         }
         
-        &.maintitle {
+        &.maintitle, {
             font-size:5em;
             margin:-10px 0 35px 0;
+			
+			&.inline {
+				margin-top:0;
+				margin-bottom:0;
+			}
         }
+		
+		&.bigspace {
+			margin:40px 0 25px 0;
+		}
 	}
 	
 	p {
@@ -1243,7 +1276,15 @@ dl.outro {
     background:none;
     width:690px;
     margin:10px 0 30px -30px;
-    
+	
+	&.fullwidth {
+		width:auto;
+		
+		img {
+			width:100%!important;
+		}
+	}
+	
     img {
       .rounded-corners(4px);
     }
@@ -1968,7 +2009,7 @@ ul.caseStudies {
 		}
 	
 		#about {	      
-			h3,p,h6 {
+			h3,p,h6,h4 {
 				float:left;
 				width:70%;
 				margin-left:15%;

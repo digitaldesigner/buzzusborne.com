@@ -9,12 +9,12 @@
 
 	<div class="container overlap">
 		<div id="header">
-            <h1><a href="./" title="Buzz">Buzz Usborne</a></h1>
-            <ol class="shortNav">
-                <li><a href="#work" title="My Work">Work</a></li>
-                <li><a href="https://medium.com/@buzzusborne" title="My Writing">Writing</a></li>
-                <li><a href="./about/" title="About Me">About</a></li>
-            </ol>
+	      <h1><a href="./" title="Buzz">Buzz Usborne</a></h1>
+	      <ol class="shortNav">
+	          <li><a href="#work" title="My Work">Work</a></li>
+	          <li><a href="./coaching/" title="Coaching">Coaching</a></li>
+	          <li><a href="./about/" title="About Me">About</a></li>
+	      </ol>
 		</div>
 	</div>
 

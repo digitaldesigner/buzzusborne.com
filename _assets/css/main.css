@@ -253,9 +253,12 @@ ol.shortNav li a {
   font-weight: 800;
   color: #2f353e;
   margin: 5px 0 0 20px;
-  color: #505a6a;
+  color: #808ca0;
 }
 ol.shortNav li a:hover {
+  color: black;
+}
+ol.shortNav li a.active {
   color: black;
 }
 .anchor {
@@ -292,6 +295,9 @@ ol.shortNav li a:hover {
   font-weight: 400;
   line-height: 60px;
   margin-top: 60px;
+}
+.landing section .introtext h1.fwidth {
+  width: 100%;
 }
 .landing section .introtext h1 a {
   color: inherit;
@@ -791,6 +797,22 @@ ul.instagram li.more a:hover {
   font-size: 3em;
   font-weight: 800;
   color: #2f353e;
+}
+.project h4,
+#project h4,
+#about h4 {
+  margin: 15px 0 30px 0;
+}
+.project h2.coaching,
+#project h2.coaching,
+#about h2.coaching,
+.project h3.coaching,
+#project h3.coaching,
+#about h3.coaching,
+.project h4.coaching,
+#project h4.coaching,
+#about h4.coaching {
+  margin-bottom: 20px;
 }
 .project #photo,
 #project #photo,
@@ -1382,6 +1404,10 @@ dl.outro .right {
   margin-bottom: 20px;
   position: relative;
 }
+#about.spacer {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
 #about.timeline p,
 #about.timeline h6 {
   width: 80%;
@@ -1412,6 +1438,7 @@ dl.outro .right {
   width: 800px;
   padding-left: 0;
   margin: 30px 0 0 0;
+  font-weight: 400;
 }
 #about h3.spacer {
   margin-bottom: 20px;
@@ -1419,6 +1446,13 @@ dl.outro .right {
 #about h3.maintitle {
   font-size: 5em;
   margin: -10px 0 35px 0;
+}
+#about h3.maintitle.inline {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#about h3.bigspace {
+  margin: 40px 0 25px 0;
 }
 #about p {
   float: left;
@@ -1490,6 +1524,12 @@ dl.outro .right {
   background: none;
   width: 690px;
   margin: 10px 0 30px -30px;
+}
+#about .image.fullwidth {
+  width: auto;
+}
+#about .image.fullwidth img {
+  width: 100%!important;
 }
 #about .image img {
   -khtml-border-radius: 4px;
@@ -2196,7 +2236,8 @@ ul.caseStudies li a:hover h5 span::before {
   }
   .container #about h3,
   .container #about p,
-  .container #about h6 {
+  .container #about h6,
+  .container #about h4 {
     float: left;
     width: 70%;
     margin-left: 15%;
