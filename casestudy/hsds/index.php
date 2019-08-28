@@ -14,15 +14,18 @@
 	    </video>
 	</div>
 		
-	<div class="container">	
+	<div class="container">
+		<div class="project">
+		</div>
 		<div class="project">
 			<h5>Building a Design System</h5>
 			<p class="info"><strong>Above/</strong> Quickly constructing ready-made UI that perfectly matches our production environment</p>
-			<p>Help Scout has always been strong on <a href="http://style.helpscout.com/">visual guides</a> and documentation for their brand. However, there were no established UI standards that covered the product, or anything that served as a &lsquo;single source of truth&rsquo; for anyone on the team. In fact, Designers were referencing and re-drawing what was on the live site &mdash; a pretty common, though less than ideal situation for any product.</p>
+			<p class="infobox">I recently wrote an article for Smashing Magazine on moving the Help Scout Design Systems to Figma. <a href="http://smashingmagazine.com/2019/09/migrating-design-systems-sketch-figma/">You should check it out</a></p>
+			<p>Help Scout has always been strong on visual guides and documentation for their brand &mdash; <a href="https://style.helpscout.com/product/">check out the Brand Handbook</a>. However, there were no established UI standards that covered the product, or anything that served as a &lsquo;single source of truth&rsquo; for anyone on the team. In fact, Designers were referencing and re-drawing what was on the live site &mdash; a pretty common, though less than ideal situation for any product.</p>
 			
 			<p>This approach worked well until the business hit a period of growth which saw the expansion of both our team and product footprint. At this point I saw an opportunity to define how we manage, share and contribute to our UI at scale. Our first cross-functional Design System.</p>
 
-	        <div class="image">
+			<div class="image">
 				<img class="lazyload" data-sizes="auto" data-src="../_images/hsds/hsds-covers.png" width="100%" />
 			</div>
 
@@ -117,8 +120,8 @@
 				</div>
 				<div class="col right">
 					<dt>More</dt>
-						<dd><a href="https://helpscout.com/">Help Scout</a></dd>
-						<dd><a href="https://medium.com/help-scout/more-tips-for-building-your-sketch-ui-library-975a44416f59">Read more</a></dd>
+						<dd><a href="https://style.helpscout.com/product/">Help Scout</a></dd>
+						<dd><a href="https://www.smashingmagazine.com/2019/09/migrating-design-systems-sketch-figma/">Smashing Magazine</a></dd>
 				</div>
 			</dl>
 		

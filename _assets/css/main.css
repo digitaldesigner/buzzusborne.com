@@ -301,10 +301,25 @@ ol.shortNav li a.active {
 }
 .landing section .introtext h1 a {
   color: inherit;
+  position: relative;
+  z-index: 2;
 }
-.landing section .introtext h1 a.on,
-.landing section .introtext h1 a:hover {
-  background: white;
+.landing section .introtext h1 a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #08ffc8;
+  height: 8px;
+  z-index: -1;
+  transform: rotate(-2.5deg);
+  transition: all 0.2s;
+}
+.landing section .introtext h1 a.on::before,
+.landing section .introtext h1 a:hover::before {
+  transform: rotate(0deg);
+  height: 20px;
 }
 .landing .fixed {
   position: absolute;
@@ -380,7 +395,7 @@ ol.shortNav li a.active {
   color: #a5b3be;
 }
 #keycontrols ul li a:hover {
-  color: #00aadd;
+  color: #1292ee;
 }
 em.special {
   display: inline-block;
@@ -439,7 +454,7 @@ em.special.bullet {
 #header h1 a::before {
   content: '';
   height: 2px;
-  background: #00aadd;
+  background: #1292ee;
   width: 100%;
   position: absolute;
   z-index: -1;
@@ -452,7 +467,7 @@ em.special.bullet {
   -o-transition: all 0.3s;
 }
 #header h1 a:hover {
-  border-color: #00aadd;
+  border-color: #1292ee;
 }
 #header h1 a:hover span {
   display: block;
@@ -660,8 +675,8 @@ ul.instagram li p a.location {
   border-bottom: 2px solid #c2e065;
 }
 ul.instagram li p a.location:hover {
-  color: #00aadd;
-  border-color: #00aadd;
+  color: #1292ee;
+  border-color: #1292ee;
 }
 ul.instagram li p span.likes strong {
   color: #d1d9de;
@@ -938,8 +953,39 @@ ul.instagram li.more a:hover {
 .project blockquote a:hover,
 #project blockquote a:hover,
 #about blockquote a:hover {
-  color: #00aadd;
-  border-color: #00aadd;
+  color: #1292ee;
+  border-color: #1292ee;
+}
+.project p.infobox,
+#project p.infobox,
+#about p.infobox,
+.project blockquote.infobox,
+#project blockquote.infobox,
+#about blockquote.infobox {
+  background: #edfffb;
+  padding: 30px 20px;
+  font-size: 1.5em;
+  border: 1px solid #08ffc8;
+  border-radius: 3px;
+}
+.project p.infobox a,
+#project p.infobox a,
+#about p.infobox a,
+.project blockquote.infobox a,
+#project blockquote.infobox a,
+#about blockquote.infobox a {
+  border: none;
+  background: #08ffc8;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+.project p.infobox a:hover,
+#project p.infobox a:hover,
+#about p.infobox a:hover,
+.project blockquote.infobox a:hover,
+#project blockquote.infobox a:hover,
+#about blockquote.infobox a:hover {
+  color: inherit;
 }
 .project p.caption,
 #project p.caption,
@@ -1143,13 +1189,14 @@ ul.instagram li.more a:hover {
 #project .signature,
 #about .signature {
   float: left;
-  width: 130px;
-  height: 90px;
-  background: url('../gfx/buzz-signature.png') top left no-repeat;
-  background-size: 100% auto;
+  width: 140px;
+  height: 140px;
+  background: url('../svg/buzz.svg') top left no-repeat;
+  background-size: auto 100%;
   overflow: hidden;
   text-indent: 100%;
-  margin-left: -30px;
+  margin-left: -20px;
+  margin-top: -10px;
 }
 .project .image,
 #project .image,
@@ -1357,8 +1404,8 @@ dl.outro dd a {
 }
 dl.outro dt a:hover,
 dl.outro dd a:hover {
-  color: #00aadd;
-  border-color: #00aadd;
+  color: #1292ee;
+  border-color: #1292ee;
 }
 dl.outro dt {
   margin: 21px 0 7px 0;
@@ -1427,8 +1474,8 @@ dl.outro .right {
   border-bottom: 1px solid #c2e065;
 }
 #about h2 a:hover {
-  color: #00aadd;
-  border-color: #00aadd;
+  color: #1292ee;
+  border-color: #1292ee;
 }
 #about h3 {
   font-family: 'Playfair Display', serif;
@@ -1605,12 +1652,12 @@ dl.outro .right {
   right: -25px;
   width: 8px;
   height: 8px;
-  background: #00a2d3;
+  background: #108ce5;
   z-index: 2;
 }
 #about ol li span.pulse {
   z-index: 1;
-  background: #00aadd;
+  background: #1292ee;
   -khtml-border-radius: 100px;
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
@@ -1641,8 +1688,8 @@ dl.outro .right {
   font-style: inherit;
 }
 #about ol li a:hover {
-  color: #00aadd;
-  border-color: #00aadd;
+  color: #1292ee;
+  border-color: #1292ee;
 }
 @-moz-keyframes pulse {
   0% {
@@ -1891,7 +1938,7 @@ ul.caseStudies li h5 span {
 }
 ul.caseStudies li h5 span::before {
   content: '';
-  background: #c2e065;
+  background: #08ffc8;
   width: 100%;
   position: absolute;
   z-index: -1;
@@ -1944,8 +1991,8 @@ ul.caseStudies li a:hover h5 span::before {
   border-bottom: 1px solid #c2e065;
 }
 #footer ul li a:hover {
-  color: #00aadd;
-  border-color: #00aadd;
+  color: #1292ee;
+  border-color: #1292ee;
 }
 #footer ul li.right {
   float: right;
@@ -2164,6 +2211,13 @@ ul.caseStudies li a:hover h5 span::before {
   .container #project blockquote.caption.inline {
     float: left;
     width: 70%;
+  }
+  .container .project p.infobox,
+  .container #project p.infobox {
+    border: none;
+    padding: 0;
+    box-sizing: border-box;
+    padding: 30px;
   }
   .container .project ol li,
   .container #project ol li {

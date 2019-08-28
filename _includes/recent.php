@@ -24,6 +24,7 @@
 				</div>
 				<div class="col middle">			
 					<dt>Writing</dt>
+						<dd><a href="https://www.smashingmagazine.com/2019/09/migrating-design-systems-sketch-figma/">&ldquo;Migrating to Figma&rdquo; &mdash; Smashing Magazine</a></dd>
 						<dd><a href="https://www.helpscout.com/blog/beacon-design/">&ldquo;Behind the Scenes: The Design of Beacon&rdquo;</a></dd>
 						<dd><a href="https://uxdesign.cc/designing-across-borders-683252ac668c">&ldquo;Designing Across Borders&rdquo;</a></dd>
 						<dd><a href="https://medium.com/help-scout/more-tips-for-building-your-sketch-ui-library-975a44416f59">&ldquo;Tips for Building Your Sketch UI Library&rdquo;</a></dd>

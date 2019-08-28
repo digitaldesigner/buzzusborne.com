@@ -125,10 +125,29 @@ ol.shortNav {
                 
                 a {
 					color:inherit;
+					position:relative;
+					z-index:2;
+					
+					&::before {
+						content:'';
+						position:absolute;
+						bottom:0;
+						left:0;
+						width:100%;
+						background:@accent;
+						height:8px;
+						z-index:-1;
+						transform: rotate(-2.5deg);
+						transition: all 0.2s;
+					}
 					
 					&.on,
 					&:hover {
-						background:white;
+						&::before {
+							transform: rotate(0deg);
+							height:20px;
+						}
+						//background:white;
 					}
                 }
             }
@@ -782,6 +801,26 @@ ul.instagram {
 				border-color:@linkhover;
 			}
 		}
+		
+		
+		&.infobox {
+			background:lighten(@accent,45%);
+			padding:30px 20px;			
+			font-size:1.5em;
+			border:1px solid @accent;
+			border-radius:3px;
+			
+			a {
+				border:none;
+				background:@accent;
+				padding:2px 4px;
+				border-radius:3px;
+				
+				&:hover {
+					color:inherit;
+				}
+			}
+		}
 	
 		&.caption,&.info,&.inlineCaption{
 			font-style:italic;
@@ -893,13 +932,14 @@ ul.instagram {
 	
   .signature {
     float:left;
-    width:130px;
-    height:90px;
-    background:url('../gfx/buzz-signature.png') top left no-repeat;
-    background-size:100% auto;
+    width:140px;
+    height:140px;
+    background:url('../svg/buzz.svg') top left no-repeat;
+    background-size:auto 100%;
     overflow:hidden;
     text-indent:100%;
-    margin-left:-30px;
+    margin-left:-20px;
+	margin-top:-10px;
   }
   
 	.image {
@@ -1688,7 +1728,7 @@ ul.caseStudies {
                                 
                 &::before {
                     content: '';
-                    background: @link;
+                    background: @accent;
                     width: 100%;
                     position: absolute;
                     z-index: -1;
@@ -1929,7 +1969,16 @@ ul.caseStudies {
 					width:70%;
 				}
 			}
-			
+
+
+			p.infobox {
+				border:none;
+				padding:0;
+				box-sizing:border-box;
+				padding:30px;
+			}
+
+
 			ol li {
 				width:100%;
 				margin-left:0;

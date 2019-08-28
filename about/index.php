@@ -6,20 +6,20 @@
 ?>
 		
 		<div id="about">		
-			<h3 class="spacer maintitle">About me</h3>
+			<h3 class="spacer maintitle">:wave:</h3>
 			
-			<p>Hey, I&rsquo;m Buzz &#9996;I spend my days sketching, prototyping and designing UX &amp; UI remotely for <a href="https://www.helpscout.net">Help Scout</a>. I also mentor designers and ocassionally speak about the things I've learned over the course of my career. Out of office hours you'll find me on the beach with my wife and son.</p>
+			<p class="lead">I spend my days as Principal Designer for <a href="https://www.helpscout.com">Help Scout</a> &mdash; where I work remotely from a tiny surf town on the East coast of Australia. I also coach design teams, advise startups and ocassionally write about design. Out of office hours you'll find me on the beach with my wife and son.</p>
 			
-			<p>I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia.</p>
+			<p>I&rsquo;m passionate about solving tough customer problems by combining thoughtful research, clever technology and beautiful design. I&rsquo;ve previously contributed to, and led design teams at Atlassian, Campaign Monitor, Skype, Sendle and a number of start-ups and agencies in Europe and Australia. Above all else, I enjoy helping design teams do their best work.</p>
 						
 			  <div class="image">
-			    <img class="image" src="../_assets/home/181002_mccully_helpscout_0975.jpg" />
-			    <p class="inlineCaption">My current team. I&rsquo;m the guy giving away free piggy-backs</p>
+			    <img class="image" src="../_assets/gfx/best-tshirt-ever.jpg" />
+			    <p class="inlineCaption">I&rsquo;m the big one</p>
 			  </div>
 
-			<p>I enjoy working with teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, writing clever code, or by mentoring others to achieve great results.</p>
+			<p>I enjoy working with tech teams to produce amazing visual solutions to tough customer-centric problems. I like to see projects from concept through to completion, and love getting my hands dirty &mdash; whether that&rsquo;s through talking with customers, crafting beautiful visual design, coding prototypes, or by mentoring others to achieve great results.</p>
 
-			<p>I&rsquo;m also the Founder of <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; a company I grew for over 10 years until it was acquired in 2018. The experience of designing, building and growing a profitable product has provided me with an invaluable opportunity to understand the role of design in a business. Prevue has also given me a platform to experiment with UI, UX and product strategy &mdash; which has given me the insight and experience to better perform in my full-time roles.</p>
+			<p>I also created <a href="https://prevue.it/" target="_blank">Prevue</a>, a design presentation tool used by over 30,000 design agencies to share concepts and gather client feedback &mdash; a product I built and managed for over 10 years until it was acquired in 2018. The experience of designing, building and growing a profitable product has provided me with an invaluable opportunity to understand the role of design in a business. Prevue has also given me a platform to experiment with UI, UX and product strategy &mdash; which has given me the insight and experience to better perform in my full-time roles.</p>
 
 			<p>Prior to moving to Australia, I spent a number of years in London working for a variety of different companies over a multitude of disciplines. Most notably I worked as a Product Design Lead for Skype, where I designed their current <a href="../casestudy/<?=$manifest['skype']['path']?>">app iconography</a> and the UI for their <a href="../casestudy/<?=$manifest['skype_business']['path']?>">business tools</a>. Prior to that, I held positions at several large digital and advertising agencies where I worked alongside a number of world-class designers and directors, designing more blogs and fashion ecommerce sites than I can recall. It was during this time that I developed my love of code and design thinking, which ultimately pushed me to a career in tech.</p>
 
@@ -28,7 +28,7 @@
 			<p><strong class="signature">Buzz/</strong></p>
 			
 			<ol>
-				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Product Designer</strong><br /><a href="https://www.helpscout.net/">Help Scout</a></li>
+				<li><span class="first">&#8226;</span><span class="pulse">&#8226;</span><strong>Principal Designer</strong><br /><a href="https://www.helpscout.com/">Help Scout</a></li>
 				<li><span>&#8226;</span><strong>Lead Designer</strong><br /><a href="https://www.atlassian.com/">Atlassian</a></li>
 				<li><span>&#8226;</span><strong>Head of Product</strong><br /><a href="https://sendle.com/">Sendle</a></li>
 				<li><span>&#8226;</span><strong>UX Director</strong><br /><a href="http://campaignmonitor.com/">Campaign Monitor</a></li>
