@@ -140,8 +140,9 @@
 		"thumb"	=>	"prevue_expenses.png",
 		"meta"	=>	"A simple tool to track business expenses",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/prevue_expenses.png"
-	);    
-
+	);
+	
+	
 	// Set the above order
 	$i=1; foreach($manifest as $path => $page): $manifest[$path]['order']=$i; $i++; endforeach;
 	
@@ -247,7 +248,7 @@
 	<meta property="og:description" content="A collection of digital projects from Atlassian, Campaign Monitor, Help Scout and more">
 <?php } if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { if(isset($baseOverride)){ $base = NULL; } else { $base = basesite; } ?>	<meta name="twitter:image" content="<?php echo $navigation['twitter_img']; ?>">
 	<meta name="og:image" content="<?php echo $navigation['twitter_img']; ?>"><?php echo "\n"; } else { ?>
-	<meta name="twitter:image" content="BOOBOO">
+	<meta name="twitter:image" content="https://buzzusborne.com/casestudy/_images/beacon/beacon-cover.png">
 <?php	} ?>
 	<script type="text/javascript" src="//use.typekit.net/dlu2bpa.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>

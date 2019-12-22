@@ -12,6 +12,7 @@
 	      <h1><a href="./" title="Buzz">Buzz Usborne</a></h1>
 	      <ol class="shortNav">
 	          <li><a href="#work" title="My Work">Work</a></li>
+						<li><a href="./coaching/" title="Coaching">Coaching</a></li>
 	          <li><a href="./about/" title="About Me">About</a></li>
 	      </ol>
 		</div>

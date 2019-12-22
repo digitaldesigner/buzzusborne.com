@@ -11,6 +11,10 @@ body {
 	overflow-x:hidden;
 }
 
+body.alt {
+	background:@alt;
+}
+
 .container {
 	margin:0px auto;
 	width:@sitewidth;
@@ -464,13 +468,525 @@ ol.mobileView {
 	}
 }
 
-body.ig {
+body.ig,
+body.text {
 	#header {
 		h1 {
 			text-align:center;
 		}
 	}
 }
+
+.fullwidth {
+	float:left;
+	width:100%;
+	border-top:2px solid @accent;
+	
+	.moments {
+		margin:-57px 0 50px 0;
+		float:left;
+		width:100%;
+	    display: flex;
+	    justify-content: space-between;
+		padding-top:50px;
+		cursor:pointer;
+
+		.point {
+			width:6.5%;
+			text-align:center;
+			.title(11px);
+			letter-spacing:0.6px;
+		}
+		
+		.year {
+			float:left;
+			margin:20px 0 0 0;
+			width:100%;
+			
+			em {
+				font-weight:inherit;
+			}
+			
+			span {
+				display:none;
+			}
+		}
+		
+		.point {
+			text-align:center;
+			position:relative;
+			
+			.pointer {
+				right:50%;
+				position:absolute;
+				background:@dark;
+				font-size:13px;
+				line-height:17px;
+				color:white;
+				font-weight:normal;
+				padding:12px 15px 10px;
+				bottom:40px;
+				opacity:0;
+				transition: all 0.2s;
+				text-align:left;
+				z-index:-10;
+
+				strong {
+					font-weight:600;
+					font-size:14px;
+					color:white;
+				}
+								
+				&:after {
+					bottom:-7px;
+					right: 0;
+					border: solid transparent;
+					content: " ";
+					height: 0;
+					width: 0;
+					position: absolute;
+					pointer-events: none;
+					border-color: rgba(0, 0, 0, 0);
+					border-top-color: @dark;
+					border-width: 10px;
+					transform: rotate(90deg);
+					z-index:-1;
+				}
+				
+				&.highlight {
+					background:@accent2;
+					
+					&:after {
+						border-top-color:@accent2;
+					}
+				}
+				
+				&.right {
+					right:50%;
+					left:auto;
+					text-align:right;
+				}
+				
+				&.left {
+					text-align:left;
+					left:50%;
+					right:auto;
+					
+					&:after {
+						right:auto;
+						left:0;
+						border-bottom-color: @dark;
+						border-top-color: rgba(0,0,0,0);
+					}
+				}
+			}
+			
+			.marker {
+				transition: all 0.3s;
+				display:inline-block;
+				background:@accent;
+				width:8px;
+				height:8px;
+				border-radius:50%;
+				border:2px solid white;
+				position:relative;
+				-webkit-font-smoothing: antialiased;
+				
+				&.this {
+					background:@accent2;
+					
+					&::before {
+						backface-visibility:hidden;
+						translate3d:(0);
+						-webkit-font-smoothing: antialiased;
+						position:absolute;
+						content:'';
+						background:@accent2;
+						width:100%;
+						height:100%;
+						left:0;
+						top:0;
+						-webkit-transform: scale(6);
+						transform:scale(6);
+						z-index:0;
+						border-radius:50%;
+						-webkit-animation: pulseBig 3s ease-out;
+						-moz-animation: pulseBig 3s ease-out;
+						animation: pulseBig 3s ease-out;
+						-webkit-animation-iteration-count: infinite;
+						-moz-animation-iteration-count: infinite;
+						animation-iteration-count: infinite;
+						opacity:0;
+					}
+				}
+			}
+			
+			
+			&.hovered,
+			&:hover {
+				z-index:5;
+				
+				.marker.single {
+					-webkit-transform: scale(6);
+					transform:scale(6);
+				}
+				
+				.pointer {
+					z-index:5;
+					opacity:1;
+					bottom:70px;
+				}
+				
+				.year {
+					position:relative;
+					z-index:6;
+				}
+			}			
+		}
+	}
+}
+
+body.text {
+
+	.textonly {
+		width:100%;
+		float:left;
+		margin:70px 0 100px;
+		
+		.colgroup {
+			float:left;
+			width:100%;
+
+			.column {
+				float:left;
+				width:33.3%;
+			}
+
+		}
+		
+		.showcase {
+			float:left;
+			width:100%;
+			margin-bottom:20px;
+			margin-top:20px;
+			
+			&.spacer-bottom {
+				margin-bottom:60px;
+			}
+			
+			.work {
+				float:left;
+				width:49.5%;
+				min-height:200px;
+				
+				&.shadow {
+					img {
+						box-shadow:0px 10px 20px darken(@testing,2%);
+					}
+				}
+				
+				&:hover {
+					background:none;
+				}
+				
+				a {
+					cursor: zoom-in;
+					
+					img {
+						cursor: zoom-in;
+					}
+					
+					&:hover {
+						background:none;
+						
+						img {
+							position:relative;
+							z-index:10;
+							transform: translateY(-10px);
+						}
+					}
+				}
+				
+				&.shadow a:hover img {
+					box-shadow:0px 20px 20px darken(@testing,3%);
+				}
+				
+				&.right {
+					float:right;
+				}
+				
+				&.single {
+					width:100%;
+				}
+				
+				img {
+					float:left;
+					margin:0;
+					width:100%;
+					height:auto;
+					transition: all 0.2s ease;
+				}
+			
+			}
+		}
+		
+		h1,h2,h3,h4,h5,p,ol,ul,li,blockquote {
+			float:left;
+			width:100%;
+			clear:both;
+			margin:0;
+			padding:0;
+			box-sizing:border-box;
+					
+			&.spacer--large {
+				margin-top:20px;
+			}
+			&.spacer--xlarge {
+				margin-top:40px;
+			}
+		}
+		
+		
+		h1,h2,h3,h4,h5 {
+			padding-left:10%;
+			padding-right:10%;
+		}
+				
+		h1 {
+			.titleSerif;
+			font-weight:normal;
+			font-size:40px;
+			color:@dark;
+			margin:0 0 40px 0;
+			line-height:45px;
+			
+			
+			span.texter {
+				position:relative;
+				
+				&::after {
+					content:'';
+					background:@accent;
+					width:100%;
+					height:10px;
+					position:absolute;
+					bottom:2px;
+					right:-3px;
+					z-index:-1;
+					transform: rotate(-2deg);
+				}
+			}
+			
+			
+		}
+		
+		h2 {
+			.titleSerif;
+			letter-spacing:0.3px;
+			font-size:34px;
+			font-weight:normal;
+			margin-top:20px;
+			margin-bottom:30px;
+			color:@dark;
+		}
+		
+		h3 {
+			.title;
+			font-size:22px;
+			margin-top:5px;
+			margin-bottom:15px;
+			color:@dark;
+		}
+		
+		h4 {
+			.title;
+			font-size:13px;
+			color:@dark;
+		}
+		
+		.spacer-small {
+			margin-top:20px;
+		}
+		
+		a {
+			color:@linkhover;
+			border-bottom:1px solid @linkhover;
+			
+			&:hover {
+				color:@accent2;
+				border-bottom:1px solid white;
+			}
+			
+			&.chilled {
+				color:inherit;
+				
+				&:hover {
+					color:@linkhover;
+				}
+			}
+		}
+		
+		hr {
+			float:left;
+			width:10%;
+			margin:40px 0 60px 45%;
+			border-top:0;
+			border-right:0;
+			border-left:0;
+			background:transparent;
+			border-bottom:4px solid @accent;
+			transform: rotate(-3deg);
+			border-radius:4px;
+		}
+		
+		p {
+			padding-left:10%;
+			padding-right:10%;
+			font-size:17px;
+			line-height:30px;
+			margin-bottom:35px;
+			letter-spacing:0.1px;
+			color:lighten(@dark,10%);
+			
+			&.central {
+				text-align:center;
+			}
+			
+			&.smoosh {
+				margin-top:-10px;
+			}
+			
+			&.lead {
+				color:@dark;
+				font-size:18px;
+				line-height:34px;
+				
+				a {
+					border-width:2px;
+				}
+			}
+			
+			strong {
+				.title;
+				font-size:18px;
+				
+				a {
+					font-weight:inherit;
+					border-width:2px;
+				}
+			}
+			
+			&.caption {
+				color:@text;
+				font-size:14px;
+				margin-top:-5px;
+				margin-bottom:20px;
+				color:darken(@subtext,15%);
+			}
+			
+			span.bullet {
+				width:4px;
+				height:4px;
+				background:none;
+				border:2px solid @accent;
+				margin:0 0 1px;
+				overflow:hidden;
+				text-indent:-100px;
+				display:inline-block;
+				border-radius:100px;
+			}
+			span.cross {
+				font-weight:500;
+				font-size:30px;
+				font-family:"Helvetica";
+				color:@accent;
+			}
+			
+			small {
+				font-size:14px;
+				line-height:auto;
+				color:@subtext;
+				display:inline-block;
+			}
+			
+			&.highlight {
+				background:lighten(@accent,40%);
+				margin-left:5%;
+				margin-right:5%;
+				margin-top:20px;
+				margin-bottom:60px;
+				width:90%;
+				padding:25px 5%;
+				color:darken(@accent,35%);
+			}
+			
+			span.texter {
+				position:relative;
+				
+				&::after {
+					content:'';
+					background:@accent;
+					width:100%;
+					height:100%;
+					position:absolute;
+					top:2px;
+					right:-3px;
+					z-index:-1;
+					transform: rotate(-2deg);
+				}
+			}
+			
+			&.cost {
+				span {
+					background:@accent;
+					padding:4px 10px;
+					border-radius:4px;
+					font-family:courier;
+					font-size:15px;
+				}
+				
+				em {
+					font-size:13px;
+					color:lighten(@dark,40%);
+					font-style:italic;
+				}
+			}
+		}
+		
+		.spacer--xlarge {
+			margin-top:40px!important;
+		}		
+		
+		blockquote {
+			margin-left:5%;
+			padding-left:5%;
+			border-left:3px solid @accent;
+			padding-right:30%;
+			margin-bottom:40px;
+			font-size:2.5em;
+			font-weight:normal;
+			font-style:italic;
+		}
+		
+		ol {
+			padding-left:10%;
+			padding-right:10%;
+			margin-left:-20px;
+			float:left;
+			
+			li {
+				float:left;
+				padding:0 0 0 20px;
+				margin:0 0 20px 0;
+				font-size:17px;
+				line-height:30px;
+				color:lighten(@dark,10%);
+			}
+			
+		}
+	}
+}
+
 
 ul.instagram {
 	float:left;
@@ -1473,6 +1989,36 @@ dl.outro {
  }
 }
 
+@-moz-keyframes pulseBig {
+    0% {
+       -webkit-transform: scale(1);
+       opacity: 0.0;
+    }
+    80% {
+       -webkit-transform: scale(6);
+       opacity: 0.3;
+    }
+    100% {
+       -webkit-transform: scale(10);
+       opacity: 0.0;
+    }
+}
+
+@-webkit-keyframes "pulseBig" {
+ 0% {
+    -webkit-transform: scale(1);
+    opacity: 0.0;
+ }
+ 80% {
+    -webkit-transform: scale(6);
+    opacity: 0.3;
+ }
+ 100% {
+    -webkit-transform: scale(10);
+    opacity: 0.0;
+ }
+}
+
 h4 {
 	float:left;
 	width:100%;
@@ -1820,7 +2366,17 @@ ul.caseStudies {
 
 @media only screen and (max-width: @breakpoint) {
 	// Let's call this the "tablet" breakpoint
-
+	
+	
+	body.text .fullwidth .moments .year {		
+		em {
+			display:none;
+		}
+		span {
+			display:inline;
+		}
+	}
+	
 	#header {
 		h1,h2,.subscript {
 				float:left;
@@ -2113,6 +2669,29 @@ ul.caseStudies {
 }
 
 @media only screen and (max-width: 680px) {
+	
+	body.text .textonly .colgroup .column {
+		width:100%;
+	}
+	
+	body.text .fullwidth .moments {
+		.point:nth-child(1),
+		.point:nth-child(2),
+		.point:nth-child(3),
+		.point:nth-child(4),
+		.point:nth-child(5),
+		.point:nth-child(6),
+		.point:nth-child(7),
+		.point:nth-child(8) {
+			display:none;
+		}	
+		
+		.point .marker.this::before {
+			display:none;
+		}
+		
+	}	
+	
     .breakout {
         border-width:0px;
         
@@ -2194,6 +2773,16 @@ ul.caseStudies {
 				float:none;
 				display:inline-block;
 				max-width:90%;
+			}
+		}
+	}
+	
+	body.text .textonly {
+		
+		.showcase {
+			.work {
+				width:100%;
+				margin:0 0 10px 0;				
 			}
 		}
 	}

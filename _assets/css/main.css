@@ -185,6 +185,9 @@ html {
 body {
   overflow-x: hidden;
 }
+body.alt {
+  background: #fff5e6;
+}
 .container {
   margin: 0px auto;
   width: 850px;
@@ -598,8 +601,480 @@ ol.mobileView li img {
   font-weight: 400;
   color: #a5b3be;
 }
-body.ig #header h1 {
+body.ig #header h1,
+body.text #header h1 {
   text-align: center;
+}
+.fullwidth {
+  float: left;
+  width: 100%;
+  border-top: 2px solid #08ffc8;
+}
+.fullwidth .moments {
+  margin: -57px 0 50px 0;
+  float: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  cursor: pointer;
+}
+.fullwidth .moments .point {
+  width: 6.5%;
+  text-align: center;
+  font-family: "proxima-nova", Georgia;
+  font-size: 11px;
+  font-weight: 800;
+  color: #2f353e;
+  letter-spacing: 0.6px;
+}
+.fullwidth .moments .year {
+  float: left;
+  margin: 20px 0 0 0;
+  width: 100%;
+}
+.fullwidth .moments .year em {
+  font-weight: inherit;
+}
+.fullwidth .moments .year span {
+  display: none;
+}
+.fullwidth .moments .point {
+  text-align: center;
+  position: relative;
+}
+.fullwidth .moments .point .pointer {
+  right: 50%;
+  position: absolute;
+  background: #2f353e;
+  font-size: 13px;
+  line-height: 17px;
+  color: white;
+  font-weight: normal;
+  padding: 12px 15px 10px;
+  bottom: 40px;
+  opacity: 0;
+  transition: all 0.2s;
+  text-align: left;
+  z-index: -10;
+}
+.fullwidth .moments .point .pointer strong {
+  font-weight: 600;
+  font-size: 14px;
+  color: white;
+}
+.fullwidth .moments .point .pointer:after {
+  bottom: -7px;
+  right: 0;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border-color: rgba(0, 0, 0, 0);
+  border-top-color: #2f353e;
+  border-width: 10px;
+  transform: rotate(90deg);
+  z-index: -1;
+}
+.fullwidth .moments .point .pointer.highlight {
+  background: #505bda;
+}
+.fullwidth .moments .point .pointer.highlight:after {
+  border-top-color: #505bda;
+}
+.fullwidth .moments .point .pointer.right {
+  right: 50%;
+  left: auto;
+  text-align: right;
+}
+.fullwidth .moments .point .pointer.left {
+  text-align: left;
+  left: 50%;
+  right: auto;
+}
+.fullwidth .moments .point .pointer.left:after {
+  right: auto;
+  left: 0;
+  border-bottom-color: #2f353e;
+  border-top-color: rgba(0, 0, 0, 0);
+}
+.fullwidth .moments .point .marker {
+  transition: all 0.3s;
+  display: inline-block;
+  background: #08ffc8;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+.fullwidth .moments .point .marker.this {
+  background: #505bda;
+}
+.fullwidth .moments .point .marker.this::before {
+  backface-visibility: hidden;
+  translate3d: 0;
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  content: '';
+  background: #505bda;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  -webkit-transform: scale(6);
+  transform: scale(6);
+  z-index: 0;
+  border-radius: 50%;
+  -webkit-animation: pulseBig 3s ease-out;
+  -moz-animation: pulseBig 3s ease-out;
+  animation: pulseBig 3s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+.fullwidth .moments .point.hovered,
+.fullwidth .moments .point:hover {
+  z-index: 5;
+}
+.fullwidth .moments .point.hovered .marker.single,
+.fullwidth .moments .point:hover .marker.single {
+  -webkit-transform: scale(6);
+  transform: scale(6);
+}
+.fullwidth .moments .point.hovered .pointer,
+.fullwidth .moments .point:hover .pointer {
+  z-index: 5;
+  opacity: 1;
+  bottom: 70px;
+}
+.fullwidth .moments .point.hovered .year,
+.fullwidth .moments .point:hover .year {
+  position: relative;
+  z-index: 6;
+}
+body.text .textonly {
+  width: 100%;
+  float: left;
+  margin: 70px 0 100px;
+}
+body.text .textonly .colgroup {
+  float: left;
+  width: 100%;
+}
+body.text .textonly .colgroup .column {
+  float: left;
+  width: 33.3%;
+}
+body.text .textonly .showcase {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+body.text .textonly .showcase.spacer-bottom {
+  margin-bottom: 60px;
+}
+body.text .textonly .showcase .work {
+  float: left;
+  width: 49.5%;
+  min-height: 200px;
+}
+body.text .textonly .showcase .work.shadow img {
+  box-shadow: 0px 10px 20px #f0f2f9;
+}
+body.text .textonly .showcase .work:hover {
+  background: none;
+}
+body.text .textonly .showcase .work a {
+  cursor: zoom-in;
+}
+body.text .textonly .showcase .work a img {
+  cursor: zoom-in;
+}
+body.text .textonly .showcase .work a:hover {
+  background: none;
+}
+body.text .textonly .showcase .work a:hover img {
+  position: relative;
+  z-index: 10;
+  transform: translateY(-10px);
+}
+body.text .textonly .showcase .work.shadow a:hover img {
+  box-shadow: 0px 20px 20px #eceef8;
+}
+body.text .textonly .showcase .work.right {
+  float: right;
+}
+body.text .textonly .showcase .work.single {
+  width: 100%;
+}
+body.text .textonly .showcase .work img {
+  float: left;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  transition: all 0.2s ease;
+}
+body.text .textonly h1,
+body.text .textonly h2,
+body.text .textonly h3,
+body.text .textonly h4,
+body.text .textonly h5,
+body.text .textonly p,
+body.text .textonly ol,
+body.text .textonly ul,
+body.text .textonly li,
+body.text .textonly blockquote {
+  float: left;
+  width: 100%;
+  clear: both;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body.text .textonly h1.spacer--large,
+body.text .textonly h2.spacer--large,
+body.text .textonly h3.spacer--large,
+body.text .textonly h4.spacer--large,
+body.text .textonly h5.spacer--large,
+body.text .textonly p.spacer--large,
+body.text .textonly ol.spacer--large,
+body.text .textonly ul.spacer--large,
+body.text .textonly li.spacer--large,
+body.text .textonly blockquote.spacer--large {
+  margin-top: 20px;
+}
+body.text .textonly h1.spacer--xlarge,
+body.text .textonly h2.spacer--xlarge,
+body.text .textonly h3.spacer--xlarge,
+body.text .textonly h4.spacer--xlarge,
+body.text .textonly h5.spacer--xlarge,
+body.text .textonly p.spacer--xlarge,
+body.text .textonly ol.spacer--xlarge,
+body.text .textonly ul.spacer--xlarge,
+body.text .textonly li.spacer--xlarge,
+body.text .textonly blockquote.spacer--xlarge {
+  margin-top: 40px;
+}
+body.text .textonly h1,
+body.text .textonly h2,
+body.text .textonly h3,
+body.text .textonly h4,
+body.text .textonly h5 {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+body.text .textonly h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  font-weight: 700;
+  font-weight: normal;
+  font-size: 40px;
+  color: #2f353e;
+  margin: 0 0 40px 0;
+  line-height: 45px;
+}
+body.text .textonly h1 span.texter {
+  position: relative;
+}
+body.text .textonly h1 span.texter::after {
+  content: '';
+  background: #08ffc8;
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 2px;
+  right: -3px;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+body.text .textonly h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  font-size: 34px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #2f353e;
+}
+body.text .textonly h3 {
+  font-family: "proxima-nova", Georgia;
+  font-size: 4em;
+  font-weight: 800;
+  font-size: 22px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #2f353e;
+}
+body.text .textonly h4 {
+  font-family: "proxima-nova", Georgia;
+  font-size: 4em;
+  font-weight: 800;
+  font-size: 13px;
+  color: #2f353e;
+}
+body.text .textonly .spacer-small {
+  margin-top: 20px;
+}
+body.text .textonly a {
+  color: #1292ee;
+  border-bottom: 1px solid #1292ee;
+}
+body.text .textonly a:hover {
+  color: #505bda;
+  border-bottom: 1px solid white;
+}
+body.text .textonly a.chilled {
+  color: inherit;
+}
+body.text .textonly a.chilled:hover {
+  color: #1292ee;
+}
+body.text .textonly hr {
+  float: left;
+  width: 10%;
+  margin: 40px 0 60px 45%;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  background: transparent;
+  border-bottom: 4px solid #08ffc8;
+  transform: rotate(-3deg);
+  border-radius: 4px;
+}
+body.text .textonly p {
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 17px;
+  line-height: 30px;
+  margin-bottom: 35px;
+  letter-spacing: 0.1px;
+  color: #454e5b;
+}
+body.text .textonly p.central {
+  text-align: center;
+}
+body.text .textonly p.smoosh {
+  margin-top: -10px;
+}
+body.text .textonly p.lead {
+  color: #2f353e;
+  font-size: 18px;
+  line-height: 34px;
+}
+body.text .textonly p.lead a {
+  border-width: 2px;
+}
+body.text .textonly p strong {
+  font-family: "proxima-nova", Georgia;
+  font-size: 4em;
+  font-weight: 800;
+  color: #2f353e;
+  font-size: 18px;
+}
+body.text .textonly p strong a {
+  font-weight: inherit;
+  border-width: 2px;
+}
+body.text .textonly p.caption {
+  color: #505a6a;
+  font-size: 14px;
+  margin-top: -5px;
+  margin-bottom: 20px;
+  color: #798d9e;
+}
+body.text .textonly p span.bullet {
+  width: 4px;
+  height: 4px;
+  background: none;
+  border: 2px solid #08ffc8;
+  margin: 0 0 1px;
+  overflow: hidden;
+  text-indent: -100px;
+  display: inline-block;
+  border-radius: 100px;
+}
+body.text .textonly p span.cross {
+  font-weight: 500;
+  font-size: 30px;
+  font-family: "Helvetica";
+  color: #08ffc8;
+}
+body.text .textonly p small {
+  font-size: 14px;
+  line-height: auto;
+  color: #a5b3be;
+  display: inline-block;
+}
+body.text .textonly p.highlight {
+  background: #d4fff5;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 90%;
+  padding: 25px 5%;
+  color: #005442;
+}
+body.text .textonly p span.texter {
+  position: relative;
+}
+body.text .textonly p span.texter::after {
+  content: '';
+  background: #08ffc8;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 2px;
+  right: -3px;
+  z-index: -1;
+  transform: rotate(-2deg);
+}
+body.text .textonly p.cost span {
+  background: #08ffc8;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-family: courier;
+  font-size: 15px;
+}
+body.text .textonly p.cost em {
+  font-size: 13px;
+  color: #8f9aaa;
+  font-style: italic;
+}
+body.text .textonly .spacer--xlarge {
+  margin-top: 40px!important;
+}
+body.text .textonly blockquote {
+  margin-left: 5%;
+  padding-left: 5%;
+  border-left: 3px solid #08ffc8;
+  padding-right: 30%;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+  font-style: italic;
+}
+body.text .textonly ol {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-left: -20px;
+  float: left;
+}
+body.text .textonly ol li {
+  float: left;
+  padding: 0 0 0 20px;
+  margin: 0 0 20px 0;
+  font-size: 17px;
+  line-height: 30px;
+  color: #454e5b;
 }
 ul.instagram {
   float: left;
@@ -1727,6 +2202,34 @@ dl.outro .right {
     opacity: 0.0;
   }
 }
+@-moz-keyframes pulseBig {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0.0;
+  }
+  80% {
+    -webkit-transform: scale(6);
+    opacity: 0.3;
+  }
+  100% {
+    -webkit-transform: scale(10);
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes "pulseBig" {
+  0% {
+    -webkit-transform: scale(1);
+    opacity: 0.0;
+  }
+  80% {
+    -webkit-transform: scale(6);
+    opacity: 0.3;
+  }
+  100% {
+    -webkit-transform: scale(10);
+    opacity: 0.0;
+  }
+}
 h4 {
   float: left;
   width: 100%;
@@ -2012,6 +2515,12 @@ ul.caseStudies li a:hover h5 span::before {
   }
 }
 @media only screen and (max-width: 980px) {
+  body.text .fullwidth .moments .year em {
+    display: none;
+  }
+  body.text .fullwidth .moments .year span {
+    display: inline;
+  }
   #header h1,
   #header h2,
   #header .subscript {
@@ -2336,6 +2845,22 @@ ul.caseStudies li a:hover h5 span::before {
   }
 }
 @media only screen and (max-width: 680px) {
+  body.text .textonly .colgroup .column {
+    width: 100%;
+  }
+  body.text .fullwidth .moments .point:nth-child(1),
+  body.text .fullwidth .moments .point:nth-child(2),
+  body.text .fullwidth .moments .point:nth-child(3),
+  body.text .fullwidth .moments .point:nth-child(4),
+  body.text .fullwidth .moments .point:nth-child(5),
+  body.text .fullwidth .moments .point:nth-child(6),
+  body.text .fullwidth .moments .point:nth-child(7),
+  body.text .fullwidth .moments .point:nth-child(8) {
+    display: none;
+  }
+  body.text .fullwidth .moments .point .marker.this::before {
+    display: none;
+  }
   .breakout {
     border-width: 0px;
   }
@@ -2395,6 +2920,10 @@ ul.caseStudies li a:hover h5 span::before {
     float: none;
     display: inline-block;
     max-width: 90%;
+  }
+  body.text .textonly .showcase .work {
+    width: 100%;
+    margin: 0 0 10px 0;
   }
 }
 @media only screen and (max-width: 450px) {

@@ -4,7 +4,7 @@
 <?php } ?>
 					<li><a href="<?php echo path; ?>about/">About</a></li>
                     <li><a href="https://twitter.com/@buzzusborne/">@buzzusborne</a></li>
-					<li class="right">No cookies, no tracking, no CMS... just love.</li>
+					<li class="right">No cookies, no tracking, no CMS&hellip; just love.</li>
 				</ul>
 			</div><?php } ?>
 	
@@ -23,9 +23,9 @@
 		</div>
 	
   <?php if(!isset($hideFoot)) { ?>
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 	<?php if(isset($JS)) { ?><script src="<?php echo path; ?>_assets/js/<?=$JS?>"></script><?php } elseif(!isset($hideModal)){ ?><script src="<?php echo path; ?>_assets/js/lazysizes.min.js"></script>
 	<script src="<?php echo path; ?>_assets/js/projects.js"></script><?php } } ?>
-
+	<?php if(isset($script) && $script){ echo $script; } ?>
 </body>
 </html>
