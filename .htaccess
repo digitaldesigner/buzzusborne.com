@@ -1,4 +1,7 @@
 RewriteEngine On
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
 RewriteRule ^(.*)$ $1.php
@@ -15,6 +18,10 @@ ErrorDocument 401 /404.php
 #<IfModule pagespeed_module>
 #  ModPagespeed on
 #</IfModule>
+
+<IfModule mod_alias.c>
+	RedirectMatch 301 ^//(.*)$ http://example.com/$1
+</IfModule>
 
 AddOutputFilterByType DEFLATE text/html text/plain text/xml
 AddOutputFilterByType DEFLATE text/css application/x-javascript
