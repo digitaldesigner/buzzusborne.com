@@ -31,6 +31,23 @@
 	$baseOverride = TRUE;
 	include(path.'_includes/header.php');
 ?>
+	<div class="container">
+
+<?php 
+					printf(file_get_contents(path.'_includes/nav.html'),
+					'', /* container class */
+					'', /* h1 class (i.e. "color") */ 
+					path, /* home href */
+					path."#work", /* work href */
+					'', /* work class */
+					path.'coaching/', /* coaching href */
+					'', /* coaching class */
+					path.'about', /* about href */
+					'',  /* about class */
+					'<li><a href="../" class="item active" title="Photos">Photos</a></li>'
+				);
+?>
+
 	</div>
 	
 	<ul class="instagram">
@@ -101,7 +118,7 @@
 					$post_loc = NULL;
 					if(
 						array_key_exists('location',$post)
-						&& count($post['location'])
+						&& $post['location']
 						&& $post['location']['latitude']
 						&& $post['location']['longitude']
 					) {
@@ -140,6 +157,7 @@
 			
 	<div class="container">
 <?php
-    $hideModal = TRUE;
+	$JS="text.js";
+	$hideModal = TRUE;
 	include(path.'_includes/footer.php');
 ?>

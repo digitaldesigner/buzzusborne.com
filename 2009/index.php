@@ -7,8 +7,23 @@
 	$bodyclass = "text";
 	include(path.'_includes/header.php');
 ?>
-	
-		<div class="textonly">
+	<div class="container">
+	<?php 
+						printf(file_get_contents(path.'_includes/nav.html'),
+						'', /* container class */
+						'', /* h1 class (i.e. "color") */ 
+						path, /* home href */
+						path."#work", /* work href */
+						' active', /* work class */
+						path.'coaching/', /* coaching href */
+						'', /* coaching class */
+						path.'about', /* about href */
+						'',  /* about class */
+						''
+					);
+	?>
+
+		<div class="textonly spacer-top">
 			<h1>My First Portfolio</h1>
 			<p class="lead"><strong><?php echo (date('Y') - 2009); ?> years ago&hellip;</strong> I wanted to break into tech. At the time I had 4 years of agency experience under my belt, but was keen to move into the not-so glamorous world of software. So I did what any digital designer did back then: I <span class="texter">printed</span> my web work, put it in an A3 leather-bound portfolio and went out for interviews.</p>
 			<p>What follows is the printed portfolio of 25 year old Buzz&hellip; my greatest hits from 2006 to 2009. It&rsquo;s the work that landed me a job with Skype.</p>
@@ -119,6 +134,6 @@
 		});
 	</script>';	
 	
-	
+	$JS = "text.js";
 	include(path.'_includes/footer.php');
 ?>

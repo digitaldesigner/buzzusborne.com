@@ -9,6 +9,10 @@ function fancyBoi(){
 			'top':'-'+(distance / 2)+'px',
 			'opacity':asOpacityInv
 		});
+		$('#signature').css({
+			'top':'-'+(distance / 1.2)+'px',
+			'opacity':asOpacityInv
+		});
 		
 		if(asOpacityInv <= 0.5){
 			$('#workIntro').addClass('show');
@@ -18,6 +22,7 @@ function fancyBoi(){
 		
 	} else {
 		 $('#bio').removeAttr('style');
+		 $('#signature').removeAttr('style');
 		 $('#workIntro').removeClass('show');
    }
 }
@@ -61,3 +66,12 @@ function getrandom(existingVal){
 $('#whoami').click(function(){
 	$(this).html(thingsIam[getrandom($(this).html())]).addClass('on');
 });
+
+$('#burger').click(function(e){
+	e.preventDefault();
+	$('#mainNav').toggleClass('menuOpen');
+});
+
+$('a[href="#work"]').click(function(){
+	$('#mainNav').removeClass('menuOpen');
+})

@@ -10,7 +10,7 @@
 	define('basesite',$fullURL);
 	
 #	Number of case-studies to highlight on the homepage
-	$maxCaseStudies=6;
+	$maxCaseStudies=4;
 	
 #	You can customize the homepage with ?show=5
 	if(isset($_GET['show'])){
@@ -31,116 +31,132 @@
 	
     $manifest['beacon']=array(
 		"path"	=>	"beacon",
-		"name" 	=>	"Help Scout Beacon",
-		"thumb"	=>	"beacon-cover.png",
+		"name" 	=>	"Help Scout",
+		"thumb"	=>	"solid-beacon.png",
 		"meta"	=>	"Chat and support widget",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/beacon/beacon-cover.png"
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/thumbs/beacon-cover.png",
+		"color" => "#cd4dcc"
 	);
     $manifest['atlassian']=array(
 		"path"	=>	"atlassian",
 		"name"	=>	"Atlassian",
-		"thumb"	=>	"jira-hero.jpg",
+		"thumb"	=>	"solid-atlassian.png",
 		"meta"	=>	"A productivity tool for software teams",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/atlassian/jira-hero.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/atlassian/jira-hero.jpg",
+		"color" => "#3e64ff"
+		);
     $manifest['skype']=array(
 		"path"	=>	"skype",
 		"name"	=>	"Skype",
-		"thumb"	=>	"skype_conversation.jpg",
+		"thumb"	=>	"solid-skype.png",
 		"meta"	=>	"A suite of recognizable icons",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype/desktop_skype.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype/desktop_skype.jpg",
+		"color" => "#42dee1"
+		);
     $manifest['prevue']=array(
 		"path"	=>	"prevue",
 		"name"	=>	"Prevue",
-		"thumb"	=>	"FullScreen.jpg",
+		"thumb"	=>	"solid-prevue.png",
 		"meta"	=>	"A feedback tool for designers",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/prevue/Library.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/prevue/Library.jpg",
+		"color" => "#272d39"
+		);
 	$manifest['helpscout']=array(
 		"path"	=>	"hsds",
-		"name"	=>	"HSDS",
+		"name"	=>	"HS Design System",
 		"thumb"	=>	"hsds.png",
 		"meta"	=>	"A cross-functional design system",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/cover.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/cover.jpg",
+		"color" => "#c886e5"
+		);
     $manifest['campaignmonitor']=array(
 		"path"	=>	"campaignmonitor",
 		"name"	=>	"Campaign Monitor",
 		"thumb"	=>	"business_cards.jpg",
 		"meta"	=>	"Creative direction for an Aussie tech company",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/campaignmonitor/business_cards.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/campaignmonitor/business_cards.jpg",
+		"color" => "#413c69"
+		);
     $manifest['sendle']=array(
 		"path"	=>	"sendle",
 		"name"	=>	"Sendle",
 		"thumb"	=>	"devices.jpg",
 		"meta"	=>	"A modern shipping app for small businesses",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/sendle/devices.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/sendle/devices.jpg",
+		"color" => "#f67280"
+		);
     $manifest['skype_business']=array(
 		"path"	=>	"skype_business",
 		"name"	=>	"Skype for Business",
 		"thumb"	=>	"dashbord_home.jpg",
 		"meta"	=>	"A UI for Skype&rsquo;s business suite",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype_business/dashbord_home.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype_business/dashbord_home.jpg",
+		"color" => "#a0c334"
+		);
     $manifest['canvas']=array(
 		"path"	=>	"canvas",
 		"name"	=>	"Campaign Monitor",
 		"thumb"	=>	"full_app.jpg",
 		"meta"	=>	"A drag &amp; drop editor to build beautiful emails",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/canvas/full_app.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/canvas/full_app.jpg",
+		"color" => "#f4b0c7"
+		);
     $manifest['rango']=array(
 		"path"	=>	"rango",
 		"name"	=>	"Paramount Pictures",
 		"thumb"	=>	"rango_01.jpg",
 		"meta"	=>	"Game design for a movie-themed promotion",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/rango_01.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/rango_01.jpg",
+		"color" => "#ffd369"
+		);
     $manifest['russian_standard']=array(
 		"path"	=>	"russian_standard",
 		"name"	=>	"Russian Standard Vodka",
 		"thumb"	=>	"russian_01.jpg",
 		"meta"	=>	"Website for the world&rsquo;s most popular vodka",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/russian_01.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/russian_01.jpg",
+		"color" => "#574f7d"
+		);
     $manifest['toniandguy']=array(
 		"path"	=>	"toniandguy",
 		"name"	=>	"Toni &amp; Guy",
 		"thumb"	=>	"toniguy_01.jpg",
 		"meta"	=>	"Marketing site for global hair brand",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/toniguy_01.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/toniguy_01.jpg",
+		"color" => "#000"
+		);
     $manifest['monitor']=array(
 		"path"	=>	"monitor",
 		"name"	=>	"Monitor iOS App",
 		"thumb"	=>	"concept_icons.png",
 		"meta"	=>	"Fresh iconography for iOS",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/monitor/test.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/monitor/test.jpg",
+		"color" => "#3fc5f0"
+		);
     $manifest['pbp']=array(
 		"path"	=>	"pbp",
 		"name"	=>	"Postbox Party",
 		"thumb"	=>	"pbp_homepage.jpg",
 		"meta"	=>	"Shopify store design and development",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/pbp/pbp_homepage.jpg"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/pbp/pbp_homepage.jpg",
+		"color" => "#049aa0"
+		);
     $manifest['sleep-tracker']=array(
 		"path"	=>	"naptime",
 		"name"	=>	"Naptime App",
 		"thumb"	=>	"popover.png",
 		"meta"	=>	"A personal project to visualize time",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/naptime/popover.png"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/naptime/popover.png",
+		"color" => "#fec700"
+		);
     $manifest['prevue_expenses']=array(
 		"path"	=>	"prevue_expenses",
 		"name"	=>	"Expense Tracker",
 		"thumb"	=>	"prevue_expenses.png",
 		"meta"	=>	"A simple tool to track business expenses",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/prevue_expenses.png"
-	);
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/prevue_expenses.png",
+		"color" => "#f35588"
+		);
 	
 	
 	// Set the above order
@@ -227,38 +243,70 @@
 	
 ?><!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
-	<title>Buzz Usborne - <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Product Designer"; } ?></title>
+	<title>Buzz Usborne<?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo "- ".$navigation['this']['title']; } else { echo " - Product Designer & Coach"; } ?></title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="robots" content="index,follow,archive"/>
-	<meta name="Description" content="Product Designer (UX/UI) and Founder." />
-	<meta name="Keywords" content="Buzz Usborne UX UI product software app director digital design creative art campaign monitor prevue osbourne Pete Peter Graphic Digital Design Portfolio Designer London Sydney" />
-	<meta property="og:title" content="Buzz Usborne - <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Product Designer"; } ?>">
-	<link href="<?php echo path; ?>_assets/gfx/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<meta name="Description" content="Design Coach & Product Designer" />
+	<meta name="Keywords" content="Buzz Usborne coach designer UX UI product software app director digital design creative art campaign monitor prevue osbourne Pete Peter Graphic Digital Design Portfolio Designer London Sydney" />
+	<meta property="og:title" content="Buzz Usborne - <?php if(isset($navigation) && array_key_exists('this',$navigation)) { echo $navigation['this']['title']; } else { echo "Design Coach"; } ?>">
 	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
 	<link href="<?php echo path; ?>_assets/css/main.css" rel="stylesheet" type="text/css" />
 	<link href='https://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#2b5797">	
 	<meta name="twitter:card" content="summary<?php if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { echo "_large_image"; } ?>">
-	<meta name="twitter:title" content="Portfolio of Buzz Usborne">
+	<meta name="twitter:title" content="Buzz Usborne">
 <?php if(isset($navigation) && array_key_exists('meta',$navigation)) {?>	<meta name="twitter:description" content="<?=$navigation['this']['title']." — ".$navigation['meta']?>">
 	<meta property="og:description" content="<?=$navigation['this']['title']." — ".$navigation['meta']?>">
 <?php } else { ?>
-	<meta name="twitter:description" content="Product Designer @HelpScout, formerly @Atlassian, @CampaignMonitor & @Skype">
-	<meta property="og:description" content="A collection of digital projects from Atlassian, Campaign Monitor, Help Scout and more">
+	<meta name="twitter:description" content="Design Coach & Product Designer at Help Scout. Formerly Atlassian, Skype, Campaign Monitor and more...">
+	<meta property="og:description" content="Design Coach & Product Designer at Help Scout. Formerly Atlassian, Skype, Campaign Monitor and more...">
 <?php } if(isset($navigation) && array_key_exists('twitter_img',$navigation)) { if(isset($baseOverride)){ $base = NULL; } else { $base = basesite; } ?>	<meta name="twitter:image" content="<?php echo $navigation['twitter_img']; ?>">
 	<meta name="og:image" content="<?php echo $navigation['twitter_img']; ?>"><?php echo "\n"; } else { ?>
-	<meta name="twitter:image" content="https://buzzusborne.com/casestudy/_images/beacon/beacon-cover.png">
+	<meta name="twitter:image" content="https://buzzusborne.com/_assets/gfx/twitter-card.png">
 <?php	} ?>
 	<script type="text/javascript" src="//use.typekit.net/dlu2bpa.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 	<meta name="viewport" content="width=320,initial-scale=1.0" />
 </head>
-<body <?php if(isset($bodyclass)){ echo " class=\"".$bodyclass."\""; }?>>
-	<div class="container">
-		<?php if(path=="../../"){ ?><div id="header" class="project">
-			<h1><a href="<?php echo path; ?>">Buzz</a></h1><?php } elseif(!isset($hideLogo)) { ?><div id="header">
-			<h1><a href="<?php echo path; ?>">Buzz Usborne</a></h1>
-			<?php } ?>
+<body<?php if(isset($bodyclass)){ echo " class=\"".$bodyclass."\""; }?>>
+		<?php if(path=="../../"){ ?>
 
-		</div>
+	<div class="container">
+<?php 
+
+	$keyNav = NULL;
+	if(isset($navigation)) {
+		$keyNav = '<li class="tip"><div class="keys">';
+		
+		if(array_key_exists('prev',$navigation)){
+			$keyNav .= '<a href="'.$navigation['prev']['path'].'" class="thirtySeven" title="'.$navigation['prev']['title'].'">&larr;</a>';
+		}
+		if(array_key_exists('next',$navigation)){
+			$keyNav .= '<a href="'.$navigation['next']['path'].'" class="thirtyNine" title="'.$navigation['next']['title'].'">&rarr;</a>';
+		}
+		
+		$keyNav .="</div></li>";
+	}
+		
+					printf(file_get_contents(path.'_includes/nav.html'),
+					'', /* container class */
+					'', /* h1 class (i.e. "color") */ 
+					path, /* home href */
+					path."#work", /* work href */
+					' active', /* work class */
+					path.'coaching/', /* coaching href */
+					'', /* coaching class */
+					path.'about', /* about href */
+					'',  /* about class */
+					$keyNav /* Other links */
+				);
+ } ?>
+

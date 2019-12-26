@@ -3,7 +3,7 @@
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
-			<h1>Help Scout Beacon</h1>
+			<h1>Help Scout Chat</h1>
 			<span class="subscript">Designer <em>&#8226;</em> UX / UI / Prototyping <em>&#8226;</em> 2017&ndash;<?=date('Y')?></span>
 		</div>
 	</div>
@@ -41,11 +41,12 @@
 
     <div class="container">
         <div class="project">
-            <h3>App-Side</h3>
+            <h3>Chat UI</h3>
             <p>Part of this project was also to extend the main application to support this additional channel in a way that didn&rsquo;t negatively impact the core (traditionally email) experience. The below screens show the agent-side chat view and Beacon customizations.</p>
-            <div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/beacon/chat-convo.png" width="100%" /></div>
-            <div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/beacon/sidebars.png" width="100%" /></div>
-            <div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/beacon/beacon-settings.png" width="100%" /></div>
+						<div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/beacon/type-bar.png" width="100%" /></div>
+            <div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/beacon/setup.png" width="100%" /></div>
+            <div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/beacon/chat-convo-next.png" width="100%" /></div>
+            <div class="image"><img class="lazyload" data-sizes="auto" data-src="../_images/beacon/tapbacks.gif" width="100%" /></div>
         </div>
     </div>
 

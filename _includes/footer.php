@@ -1,10 +1,9 @@
 			<?php if(!isset($hideFoot)) { ?><div id="footer"<?php if(isset($home)) { echo 'class="break"'; } ?>>
 				<ul>
-					<?php if(!isset($homepage)) {?><li><a href="<?php echo path; ?>/">Home</a></li>
-<?php } ?>
-					<li><a href="<?php echo path; ?>about/">About</a></li>
-                    <li><a href="https://twitter.com/@buzzusborne/">@buzzusborne</a></li>
-					<li class="right">No cookies, no tracking, no CMS&hellip; just love.</li>
+					<?php if(!isset($homepage)) {?><li><a href="<?php echo path; ?>">Home</a></li><?php } ?>
+					<li><a href="<?=path?>coaching/">Coaching</a></li>
+					<li><a href="<?=path?>about/">About</a></li>
+					<li class="right" title="No tracking, no cookies. Just love">✌️</li>
 				</ul>
 			</div><?php } ?>
 	
