@@ -198,6 +198,10 @@ body.alt {
   -o-transition: width 0.4s ease;
   transition: width 0.4s ease;
 }
+.container.spacer-top,
+.textonly.spacer-top {
+  padding-top: 200px;
+}
 .breakout {
   float: left;
   width: 100%;
@@ -252,14 +256,15 @@ ol.shortNav li a {
   float: left;
   width: auto;
   font-family: 'Playfair Display', serif;
-  font-size: 5em;
+  font-size: 3.5em;
   font-weight: 700;
   font-weight: 500;
   margin: 0;
   color: #2f353e;
+  transition: all 0.1s;
 }
 ol.shortNav li a:hover {
-  color: #191c21;
+  color: rgba(255, 255, 255, 0.8);
 }
 ol.shortNav li a.active {
   color: white;
@@ -378,7 +383,8 @@ em.special.bullet {
 .introtext h1.signature {
   float: left;
   margin: 0 0 0 -5px;
-  position: relative;
+  position: absolute;
+  z-index: 5;
 }
 .siteNav h1.signature a,
 .introtext h1.signature a {
@@ -411,15 +417,16 @@ em.special.bullet {
 .siteNav {
   float: none;
   padding: 120px 0 0 0;
-  position: fixed;
-  z-index: 100;
   width: 100%;
   left: 0;
   top: 0;
-  margin: 0px auto;
+  position: absolute;
 }
 .siteNav .shortNav {
+  position: fixed;
+  z-index: 100;
   margin-top: 0;
+  right: 0;
 }
 .siteNav .shortNav li {
   display: none;
@@ -520,7 +527,7 @@ em.special.bullet {
   padding: 0;
   margin: 0;
   width: 100%;
-  padding: 20px 0;
+  padding: 15px 0;
   text-align: center;
 }
 .siteNav.menuOpen .shortNav li.tip {
@@ -887,13 +894,28 @@ body.alt.text .textonly p.highlight {
 body.alt.text .textonly p.highlight:after {
   border-top-color: #fff5e6;
 }
+body.alt.text .textonly p.list a {
+  float: left;
+  line-height: 25px;
+}
+body.alt.text .textonly p.list a:hover {
+  background: none;
+}
+body.alt.text .textonly p.list a small {
+  float: left;
+  width: 100%;
+  margin: 5px 0 40px 0;
+  font-family: "proxima-nova", Georgia;
+  font-size: 13px;
+  font-weight: 800;
+  color: #2f353e;
+  font-weight: 500;
+  color: #fab4cb;
+}
 body.text .textonly {
   width: 100%;
   float: left;
   margin: 70px 0 100px;
-}
-body.text .textonly.spacer-top {
-  padding-top: 200px;
 }
 body.text .textonly.inline {
   margin-top: 0;
@@ -901,6 +923,7 @@ body.text .textonly.inline {
 body.text .textonly .colgroup {
   float: left;
   width: 100%;
+  margin-top: -40px;
 }
 body.text .textonly .colgroup .column {
   float: left;
@@ -1001,6 +1024,18 @@ body.text .textonly ul.spacer--xlarge,
 body.text .textonly li.spacer--xlarge,
 body.text .textonly blockquote.spacer--xlarge {
   margin-top: 40px;
+}
+body.text .textonly h1.target,
+body.text .textonly h2.target,
+body.text .textonly h3.target,
+body.text .textonly h4.target,
+body.text .textonly h5.target,
+body.text .textonly p.target,
+body.text .textonly ol.target,
+body.text .textonly ul.target,
+body.text .textonly li.target,
+body.text .textonly blockquote.target {
+  padding-top: 40px;
 }
 body.text .textonly h1,
 body.text .textonly h2,
@@ -1351,6 +1386,105 @@ ul.instagram li.more a {
 }
 ul.instagram li.more a:hover {
   border-color: #c2e065;
+}
+.breakout .container.recent ol {
+  float: left;
+  width: 100%;
+  margin: 150px 0 170px;
+  list-style: none;
+  padding: 0;
+}
+.breakout .container.recent ol .row {
+  float: left;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+.breakout .container.recent ol li {
+  float: left;
+  width: 33%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+.breakout .container.recent ol li a,
+.breakout .container.recent ol li p,
+.breakout .container.recent ol li .meta,
+.breakout .container.recent ol li small {
+  float: left;
+  width: 100%;
+}
+.breakout .container.recent ol li small,
+.breakout .container.recent ol li p,
+.breakout .container.recent ol li .meta {
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.5em;
+  font-weight: 800;
+  color: #2f353e;
+}
+.breakout .container.recent ol li small {
+  font-weight: 800;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a5b3be;
+  margin-bottom: 15px;
+}
+.breakout .container.recent ol li p {
+  box-sizing: border-box;
+  padding-right: 100px;
+  font-size: 20px;
+  color: #2f353e;
+  margin-bottom: 15px;
+  line-height: 24px;
+}
+.breakout .container.recent ol li .meta {
+  width: auto;
+  display: inline-block;
+  padding: 0 0 2px 0;
+  font-weight: normal;
+  color: #505a6a;
+  font-size: 13px;
+}
+.breakout .container.recent ol li a.more {
+  color: inherit;
+  font-weight: inherit;
+  padding: 30px 0;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.breakout .container.recent ol li a.more:hover p {
+  color: #f35588;
+}
+.breakout .container.recent ol li.showmore {
+  width: 100%;
+  margin: 0px 0 0;
+}
+.breakout .container.recent ol li.showmore a {
+  float: left;
+  width: auto;
+  padding: 20px 0;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.6em;
+  font-weight: 800;
+  color: #2f353e;
+  position: relative;
+  z-index: 2;
+}
+.breakout .container.recent ol li.showmore a::before {
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  width: 100%;
+  background: #08ffc8;
+  height: 6px;
+  z-index: -1;
+  transition: all 0.2s ease-in-out;
+}
+.breakout .container.recent ol li.showmore a:hover::before {
+  bottom: 10px;
 }
 .breakout .container.textlinks h3 {
   float: left;
@@ -1813,19 +1947,6 @@ ul.instagram li.more a:hover {
   margin-left: 0;
   padding-left: 0;
   font-size: 2.1em;
-}
-.project .signature,
-#project .signature,
-#about .signature {
-  float: left;
-  width: 140px;
-  height: 140px;
-  background: url('../svg/buzz.svg') top left no-repeat;
-  background-size: auto 100%;
-  overflow: hidden;
-  text-indent: 100%;
-  margin-left: -20px;
-  margin-top: -10px;
 }
 .project .image,
 #project .image,
@@ -2443,12 +2564,22 @@ ul.colorBlocks li {
 ul.caseStudies {
   float: left;
   width: 100%;
-  margin: 30px 0 30px 0;
+  margin: 30px 0 0 0;
+}
+ul.caseStudies .overflow {
+  float: left;
+  width: 100%;
+  background: white;
+  height: 1px;
+  position: absolute;
+  top: 650px;
+  z-index: -10;
 }
 ul.caseStudies li {
   float: left;
   width: 49%;
   margin: 0 0 80px 0;
+  position: relative;
 }
 ul.caseStudies li.slim {
   margin-bottom: 10px;
@@ -2526,7 +2657,7 @@ ul.caseStudies li .image.hsds {
   background-color: #ffc5e2;
 }
 ul.caseStudies li .image.hsds::before {
-  background-image: url('../../casestudy/_images/thumbs/hsds.png');
+  background-image: url('../../casestudy/_images/thumbs/solid-hsds.png');
 }
 ul.caseStudies li .image.prevue {
   background-color: #f4f4f6;
@@ -2550,13 +2681,13 @@ ul.caseStudies li .image.sendle {
   background-color: #fc6d23;
 }
 ul.caseStudies li .image.sendle::before {
-  background-image: url('../../casestudy/_images/thumbs/sendle.png');
+  background-image: url('../../casestudy/_images/thumbs/solid-sendle.png');
 }
 ul.caseStudies li .image.campaignmonitor {
   background-color: #0086ea;
 }
 ul.caseStudies li .image.campaignmonitor::before {
-  background-image: url('../../casestudy/_images/thumbs/campaignmonitor.jpg');
+  background-image: url('../../casestudy/_images/thumbs/solid-cm.png');
 }
 ul.caseStudies li .image.monitor {
   background-color: #2e353d;
@@ -2574,7 +2705,7 @@ ul.caseStudies li .image.skype_business {
   background-color: #00aff0;
 }
 ul.caseStudies li .image.skype_business::before {
-  background-image: url('../../casestudy/_images/thumbs/skypebusiness.png');
+  background-image: url('../../casestudy/_images/thumbs/solid-bcp.png');
 }
 ul.caseStudies li .image.prevue_expenses {
   background-color: #e7f7db;
@@ -2611,6 +2742,37 @@ ul.caseStudies li .image.sketches {
 }
 ul.caseStudies li .image.sketches::before {
   background-image: url('../../casestudy/_images/thumbs/sketches.jpg');
+}
+ul.caseStudies li.more {
+  width: 100%;
+  margin: 0;
+}
+ul.caseStudies li.more a {
+  transition: all 0.2s;
+  height: 150px;
+}
+ul.caseStudies li.more div {
+  transition: background 0.2s;
+  border-radius: 3px 3px 0px 0px;
+  float: left;
+  width: 49%;
+  height: 100%;
+  background: #f5afc7;
+  text-indent: -1000px;
+  overflow: hidden;
+}
+ul.caseStudies li.more div:hover {
+  background: #ef82a7;
+}
+ul.caseStudies li.more div:nth-child(even) {
+  float: right;
+  background: #d6e5fa;
+}
+ul.caseStudies li.more div:nth-child(even):hover {
+  background: #a9c8f4;
+}
+ul.caseStudies li.more a:hover {
+  height: 160px;
 }
 ul.caseStudies li h5 {
   float: left;
@@ -2792,6 +2954,24 @@ ul.caseStudies li a:hover h5 span::before {
   body.text .container .mobSpacerTop {
     margin-top: 100px;
     margin-bottom: 40px;
+  }
+  body.text .container .colgroup {
+    float: left;
+    margin: 0px;
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+  }
+  body.text .container .colgroup .column {
+    float: left;
+    width: 100%;
+  }
+  body.text .container .colgroup .column p,
+  body.text .container .colgroup .column p.list,
+  body.text .container .colgroup .column p.list a {
+    float: left;
+    width: 100%;
+    padding: 0;
   }
   body.text .container #footer {
     width: 100%;
@@ -3058,9 +3238,6 @@ ul.caseStudies li a:hover h5 span::before {
   }
 }
 @media only screen and (max-width: 680px) {
-  body.text .textonly .colgroup .column {
-    width: 100%;
-  }
   body.text .fullwidth .moments .point:nth-child(1),
   body.text .fullwidth .moments .point:nth-child(2),
   body.text .fullwidth .moments .point:nth-child(3),
@@ -3124,6 +3301,39 @@ ul.caseStudies li a:hover h5 span::before {
   ul.caseStudies li .image::before {
     display: none;
   }
+  ul.caseStudies li.more {
+    margin: 20px 0 80px 0;
+  }
+  ul.caseStudies li.more a {
+    width: 70%;
+    margin-left: 15%;
+    height: auto;
+    text-align: center;
+    font-family: "proxima-nova", Georgia;
+    font-size: 1.7em;
+    font-weight: 800;
+    color: #2f353e;
+    border: 3px solid #08ffc8;
+    padding: 20px 0 18px;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  ul.caseStudies li.more a:hover {
+    height: auto;
+    background: #edfffb;
+  }
+  ul.caseStudies li.more a div {
+    text-indent: 0;
+    background: none;
+    width: auto;
+    float: none;
+    height: auto;
+    display: inline-block;
+  }
+  ul.caseStudies li.more a div:nth-child(even) {
+    background: none;
+    float: none;
+  }
   ul.instagram li {
     width: 100%;
     margin: 0;
@@ -3133,6 +3343,47 @@ ul.caseStudies li a:hover h5 span::before {
     float: none;
     display: inline-block;
     max-width: 90%;
+  }
+  .breakout .container.recent ol {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 100px;
+    margin-bottom: 120px;
+  }
+  .breakout .container.recent ol div.row {
+    width: 100%;
+    display: block;
+  }
+  .breakout .container.recent ol li {
+    display: block;
+    width: 100%;
+  }
+  .breakout .container.recent ol li a p {
+    padding: 0;
+  }
+  .breakout .container.recent ol li a.more {
+    padding: 10px 0;
+  }
+  .breakout .container.recent ol li a.more .meta {
+    display: none;
+  }
+  .breakout .container.recent ol li.showmore {
+    margin-top: 30px;
+  }
+  .breakout .container.recent ol li.showmore a {
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #08ffc8;
+    text-align: center;
+    padding: 20px 0 18px;
+    border-radius: 4px;
+    font-size: 1.7em;
+  }
+  .breakout .container.recent ol li.showmore a::before {
+    display: none;
+  }
+  .breakout .container.recent ol li.showmore a:hover {
+    background: rgba(255, 255, 255, 0.5);
   }
   body.text .textonly .showcase .work {
     width: 100%;

@@ -19,6 +19,14 @@ function fancyBoi(){
 		 $('#signature').removeAttr('style');
    }
 }
+function menuPos(){
+	var nLeft = $('#mainNav').offset().left;
+	var nWidth = $('#mainNav').width();
+	$('#menu').css('left',((nLeft + nWidth)-60)+'px');
+}
+
+menuPos();
+$(window).resize(function() { menuPos(); });
 $(window).scroll(function(){ fancyBoi(); });
 
 $('#burger').click(function(e){

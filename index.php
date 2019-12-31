@@ -1,25 +1,21 @@
 <?php 
-	define('path','');
+	define('path','./');
 	$hideNav=TRUE;
 	$homepage=TRUE;
 	$navigation['twitter_img']="https://buzzusborne.com/_assets/gfx/twitter-card.png";
 	$hideLogo = TRUE; 
-  include(path.'_includes/header.php');
-?>
-	<div class="container overlap">
-<?php 
-					printf(file_get_contents(path.'_includes/nav.html'),
-					'', /* container class */
-					'', /* h1 class (i.e. "color") */ 
-					path."#work", /* home href */
-					path."#work", /* work href */
-					'', /* work class */
-					path.'coaching/', /* coaching href */
-					'', /* coaching class */
-					path.'about', /* about href */
-					'',  /* about class */
-					''
-				);
+  include(path.'_includes/publications.php');
+	include(path.'_includes/header.php');
+	echo "	<div class=\"container\">\n";
+	printf(str_replace("_root_",path,file_get_contents(path.'_includes/nav.html')),
+		NULL,				// Additional class to 'siteNav'
+		NULL, 			// Logo: Classname (optional) 
+		' active', 	// Home: Class (optiona;)
+		NULL, 			// Work: Class (optional)
+		NULL, 			// Coaching: Class (optional)
+		NULL,  			// About: Class (optional)
+		NULL				// Additional options (optional)
+	);
 ?> 
 	</div>
 	
@@ -33,29 +29,25 @@
 	</div>
 
 	<div class="container">
-	  <div id="work" class="anchor"></div>
 		<ul class="caseStudies">
-    
-			<?php
+		<?php
 				
 				$i=1;
 				foreach($manifest as $key => $page):
 					if($i<=$maxCaseStudies){
 				
-						echo '	<li>
-					<a href="casestudy/'.$page['path'].'">
-						<div class="image '.strtolower($page['path']).' leadImg"><img src="casestudy/_images/'.$page['path'].'/'.$page['thumb'].'" /></div>
-						<h5><span>'.$page['name'].'</span></h5>';
+						echo '	<li><a href="casestudy/'.$page['path'].'">
+				<div class="image '.strtolower($page['path']).' leadImg"><img src="casestudy/_images/thumbs/'.$page['thumb'].'" /></div>
+				<h5><span>'.$page['name'].'</span></h5>';
 					
 						if(array_key_exists('meta',$page)){
 							echo '
-						<p>'.$page['meta'].'</p>';
+				<p>'.$page['meta'].'</p>';
 						}
 					
 					echo '
-					</a>
-				</li>
-			';
+			</a></li>
+		';
 					
 					} else {
 						break;
@@ -63,36 +55,52 @@
 					$i++;
 				endforeach;
 				
+				echo '	<li class="more"><a href="'.path.'work#more" title="See more design work"><div>More&nbsp;</div><div>work</div></a></li>
+		';
 				?></ul>
-	      </div>
+	</div>
       
-	<?php if(count($manifest)>$i) {?>
-	      <div class="breakout" id="fancy">
-	          <div class="container textlinks">
-	              <h3>More</h3>
-          
-				<ul>
-				<?php
-			
-				foreach($manifest as $key => $page):
-					if($page['order']>$maxCaseStudies){
-						echo '	<li><a href="casestudy/'.$page['path'].'"><span>'.$page['name'].'</span>';
+	<div class="breakout" id="fancy">
+		<div class="container recent">
+			<ol>
+				<div class="row">
+<?php
+
+				$i=1;
+				
+				foreach($pubsByCategory as $category => $pubList):
+					if($i>3){ break; }
 					
-						if(array_key_exists('meta',$page)){
-							echo '<p>'.$page['meta'].'</p>';
-						}
-
-						echo '</a></li>
-				';
+					foreach($pubList as $pubID => $pub):
+						echo '					<li>
+						<a class="more" target="_blank" href="'.$pub['url'].'">
+							<small>Recent '.$pub['type'].'</small>
+							<p>'.$pub['title'].'</p>
+							<div class="meta">'.$pub['source'].', '.$pub['date'].'</div>
+						</a>
+					</li>';
+						echo "\n";
+						break;
+					endforeach;
+					
+					if($i % 3 == 0){
+						echo '				</div>';
+						echo "\n";
+						echo '				<div class="row">';
+						echo "\n";
 					}
-				endforeach;
-			
-				?></ul>
-	          </div>
-	      </div>
 
-	<?php } ?>
-	      <div class="container">
+					$i++;
+				endforeach;
+				
+?>
+					<li class="showmore"><a href="/coaching/#more">More publications</a></li>
+				</div>
+			</ol>
+		</div>
+	</div>
+	
+	<div class="container">
 	<?php
 	$JS = "home.js";
 	include(path.'_includes/footer.php');

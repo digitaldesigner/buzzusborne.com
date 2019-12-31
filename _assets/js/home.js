@@ -9,24 +9,27 @@ function fancyBoi(){
 			'top':'-'+(distance / 2)+'px',
 			'opacity':asOpacityInv
 		});
-		$('#signature').css({
-			'top':'-'+(distance / 1.2)+'px',
-			'opacity':asOpacityInv
-		});
-		
 		if(asOpacityInv <= 0.5){
 			$('#workIntro').addClass('show');
 		} else {
 			$('#workIntro').removeClass('show');
 		}
-		
 	} else {
 		 $('#bio').removeAttr('style');
-		 $('#signature').removeAttr('style');
 		 $('#workIntro').removeClass('show');
    }
 }
+
+function menuPos(){
+	var nLeft = $('#mainNav').offset().left;
+	var nWidth = $('#mainNav').width();
+	$('#menu').css('left',((nLeft + nWidth)-60)+'px');
+}
+
+menuPos();
+
 $(window).scroll(function(){ fancyBoi(); });
+$(window).resize(function() { menuPos(); });
 
 var thingsIam = [
 	'a fan of geese',

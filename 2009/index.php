@@ -6,22 +6,9 @@
 	$navigation['twitter_img']="https://buzzusborne.com/2009/images/thumbs/Paper-01.jpg";
 	$bodyclass = "text";
 	include(path.'_includes/header.php');
+	echo "	<div class=\"container\">\n";
+	printf(str_replace("_root_",path,file_get_contents(path.'_includes/nav.html')),NULL,NULL,NULL,' active',NULL,NULL,NULL);
 ?>
-	<div class="container">
-	<?php 
-						printf(file_get_contents(path.'_includes/nav.html'),
-						'', /* container class */
-						'', /* h1 class (i.e. "color") */ 
-						path, /* home href */
-						path."#work", /* work href */
-						' active', /* work class */
-						path.'coaching/', /* coaching href */
-						'', /* coaching class */
-						path.'about', /* about href */
-						'',  /* about class */
-						''
-					);
-	?>
 
 		<div class="textonly spacer-top">
 			<h1>My First Portfolio</h1>

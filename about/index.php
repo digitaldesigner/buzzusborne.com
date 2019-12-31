@@ -3,22 +3,8 @@
 	$hideNav=TRUE;
 	$bodyclass = "text";
 	include(path.'_includes/header.php');
-?>
-	<div class="container">
-
-<?php 
-					printf(file_get_contents(path.'_includes/nav.html'),
-					'', /* container class */
-					' white', /* h1 class (i.e. "color") */ 
-					path, /* home href */
-					path."#work", /* work href */
-					'', /* work class */
-					path.'coaching/', /* coaching href */
-					'', /* coaching class */
-					path.'about', /* about href */
-					' active',  /* about class */
-					''
-				);
+	echo "	<div class=\"container\">\n";
+	printf(str_replace("_root_",path,file_get_contents(path.'_includes/nav.html')),NULL,' white',NULL,NULL,NULL,' active',NULL);
 ?>
 		
 		<div class="textonly">
@@ -61,8 +47,7 @@
 				</div>
 			
 				<div class="textonly">
-					<h2>Contact</h2>
-					<p>Connect on <a href="https://linkedin.com/in/buzz/">LinkedIn</a><br />Drop me an <a href="mailto:hello@buzzusborne.com">Email</a><br />Send a <a href="https://twitter.com/@buzzusborne/">Tweet</a><br /></p>
+					<p><strong>Say &ldquo;hello&rdquo;</strong><br /><a href="https://linkedin.com/in/buzz/">LinkedIn</a><br /><a href="mailto:hello@buzzusborne.com">Email</a><br /><a href="https://twitter.com/@buzzusborne/">Twitter</a><br /></p>
 				</div>
 			</div>
 		</div>

@@ -10,7 +10,10 @@
 	define('basesite',$fullURL);
 	
 #	Number of case-studies to highlight on the homepage
-	$maxCaseStudies=4;
+	
+	if(!isset($maxCaseStudies)) {
+		$maxCaseStudies=2;
+	} 
 	
 #	You can customize the homepage with ?show=5
 	if(isset($_GET['show'])){
@@ -33,7 +36,8 @@
 		"path"	=>	"beacon",
 		"name" 	=>	"Help Scout",
 		"thumb"	=>	"solid-beacon.png",
-		"meta"	=>	"Chat and support widget",
+		"meta"	=>	"Principal Designer",
+		"year"	=>	date("Y"),
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/thumbs/beacon-cover.png",
 		"color" => "#cd4dcc"
 	);
@@ -41,7 +45,8 @@
 		"path"	=>	"atlassian",
 		"name"	=>	"Atlassian",
 		"thumb"	=>	"solid-atlassian.png",
-		"meta"	=>	"A productivity tool for software teams",
+		"meta"	=>	"Lead Designer",
+		"year"	=>	"2017",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/atlassian/jira-hero.jpg",
 		"color" => "#3e64ff"
 		);
@@ -49,6 +54,7 @@
 		"path"	=>	"skype",
 		"name"	=>	"Skype",
 		"thumb"	=>	"solid-skype.png",
+		"year"	=>	"2010",
 		"meta"	=>	"A suite of recognizable icons",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype/desktop_skype.jpg",
 		"color" => "#42dee1"
@@ -57,6 +63,7 @@
 		"path"	=>	"prevue",
 		"name"	=>	"Prevue",
 		"thumb"	=>	"solid-prevue.png",
+		"year"	=>	"2018",
 		"meta"	=>	"A feedback tool for designers",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/prevue/Library.jpg",
 		"color" => "#272d39"
@@ -64,7 +71,8 @@
 	$manifest['helpscout']=array(
 		"path"	=>	"hsds",
 		"name"	=>	"HS Design System",
-		"thumb"	=>	"hsds.png",
+		"thumb"	=>	"solid-hsds.png",
+		"year"	=>	"2019",
 		"meta"	=>	"A cross-functional design system",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/cover.jpg",
 		"color" => "#c886e5"
@@ -72,7 +80,8 @@
     $manifest['campaignmonitor']=array(
 		"path"	=>	"campaignmonitor",
 		"name"	=>	"Campaign Monitor",
-		"thumb"	=>	"business_cards.jpg",
+		"thumb"	=>	"solid-cm.png",
+		"year"	=>	"2014",
 		"meta"	=>	"Creative direction for an Aussie tech company",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/campaignmonitor/business_cards.jpg",
 		"color" => "#413c69"
@@ -80,7 +89,8 @@
     $manifest['sendle']=array(
 		"path"	=>	"sendle",
 		"name"	=>	"Sendle",
-		"thumb"	=>	"devices.jpg",
+		"thumb"	=>	"solid-sendle.png",
+		"year"	=>	"2016",
 		"meta"	=>	"A modern shipping app for small businesses",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/sendle/devices.jpg",
 		"color" => "#f67280"
@@ -88,7 +98,8 @@
     $manifest['skype_business']=array(
 		"path"	=>	"skype_business",
 		"name"	=>	"Skype for Business",
-		"thumb"	=>	"dashbord_home.jpg",
+		"thumb"	=>	"solid-bcp.png",
+		"year"	=>	"2009",
 		"meta"	=>	"A UI for Skype&rsquo;s business suite",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype_business/dashbord_home.jpg",
 		"color" => "#a0c334"
@@ -97,6 +108,7 @@
 		"path"	=>	"canvas",
 		"name"	=>	"Campaign Monitor",
 		"thumb"	=>	"full_app.jpg",
+		"year"	=>	"UX/UI<em class='special bullet'>&bullet;</em>2014",
 		"meta"	=>	"A drag &amp; drop editor to build beautiful emails",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/canvas/full_app.jpg",
 		"color" => "#f4b0c7"
@@ -105,6 +117,7 @@
 		"path"	=>	"rango",
 		"name"	=>	"Paramount Pictures",
 		"thumb"	=>	"rango_01.jpg",
+		"year"	=>	"Game Design<em class='special bullet'>&bullet;</em>2011",
 		"meta"	=>	"Game design for a movie-themed promotion",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/rango_01.jpg",
 		"color" => "#ffd369"
@@ -113,6 +126,7 @@
 		"path"	=>	"russian_standard",
 		"name"	=>	"Russian Standard Vodka",
 		"thumb"	=>	"russian_01.jpg",
+		"year"	=>	"Visual Design<em class='special bullet'>&bullet;</em>2009",
 		"meta"	=>	"Website for the world&rsquo;s most popular vodka",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/russian_01.jpg",
 		"color" => "#574f7d"
@@ -121,6 +135,7 @@
 		"path"	=>	"toniandguy",
 		"name"	=>	"Toni &amp; Guy",
 		"thumb"	=>	"toniguy_01.jpg",
+		"year"	=>	"Visual Design<em class='special bullet'>&bullet;</em>2011",
 		"meta"	=>	"Marketing site for global hair brand",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/toniguy_01.jpg",
 		"color" => "#000"
@@ -129,6 +144,7 @@
 		"path"	=>	"monitor",
 		"name"	=>	"Monitor iOS App",
 		"thumb"	=>	"concept_icons.png",
+		"year"	=>	"Iconography<em class='special bullet'>&bullet;</em>2014",
 		"meta"	=>	"Fresh iconography for iOS",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/monitor/test.jpg",
 		"color" => "#3fc5f0"
@@ -137,6 +153,7 @@
 		"path"	=>	"pbp",
 		"name"	=>	"Postbox Party",
 		"thumb"	=>	"pbp_homepage.jpg",
+		"year"	=>	"Visual Design<em class='special bullet'>&bullet;</em>2014",
 		"meta"	=>	"Shopify store design and development",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/pbp/pbp_homepage.jpg",
 		"color" => "#049aa0"
@@ -145,6 +162,7 @@
 		"path"	=>	"naptime",
 		"name"	=>	"Naptime App",
 		"thumb"	=>	"popover.png",
+		"year"	=>	"UI<em class='special bullet'>&bullet;</em>2018",
 		"meta"	=>	"A personal project to visualize time",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/naptime/popover.png",
 		"color" => "#fec700"
@@ -153,6 +171,7 @@
 		"path"	=>	"prevue_expenses",
 		"name"	=>	"Expense Tracker",
 		"thumb"	=>	"prevue_expenses.png",
+		"year"	=>	"UI<em class='special bullet'>&bullet;</em>2018",
 		"meta"	=>	"A simple tool to track business expenses",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/prevue_expenses.png",
 		"color" => "#f35588"
@@ -194,10 +213,10 @@
         
 		// Filling in the blanks
 		if(!array_key_exists('previous',$navigation)){
-			$navigation['previous']=array("name"=>"Home","slug"=>"../");
+			$navigation['previous']=array("name"=>"Work","slug"=>"../work/");
 		}
 		if(!array_key_exists('next',$navigation)){
-			$navigation['next']=array("name"=>"Home","slug"=>"../");
+			$navigation['next']=array("name"=>"Work","slug"=>"../work/");
 		}
 		
 		// Making it backwards compatible
@@ -295,18 +314,15 @@
 		
 		$keyNav .="</div></li>";
 	}
-		
-					printf(file_get_contents(path.'_includes/nav.html'),
-					'', /* container class */
-					'', /* h1 class (i.e. "color") */ 
-					path, /* home href */
-					path."#work", /* work href */
-					' active', /* work class */
-					path.'coaching/', /* coaching href */
-					'', /* coaching class */
-					path.'about', /* about href */
-					'',  /* about class */
-					$keyNav /* Other links */
-				);
+	
+	printf(str_replace("_root_",path,file_get_contents(path.'_includes/nav.html')),
+		NULL,				// Additional class to 'siteNav'
+		NULL, 			// Logo: Classname (optional) 
+		NULL, 			// Home: Class (optiona;)
+		' active', 	// Work: Class (optional)
+		NULL, 			// Coaching: Class (optional)
+		NULL,  			// About: Class (optional)
+		$keyNav			// Additional options (optional)
+	);
  } ?>
 
