@@ -2625,12 +2625,14 @@ ul.caseStudies {
 		&.more {
 			width:100%;
 			margin:0;
+			position:relative;
+			overflow:hidden;
 		
 			a { 
 				transition:all 0.2s;
 				height:150px;
 			}
-		
+			
 			div {
 				transition:background 0.2s;
 				border-radius:3px 3px 0px 0px;
@@ -2655,11 +2657,26 @@ ul.caseStudies {
 			    }
 			}
 			
+			span.morelink {
+				position:absolute;
+				.title(1.4em);
+				padding:10px 20px;
+				background:white;
+				border-radius:100px;
+				box-shadow:0px 4px 8px rgba(0,0,0,0.1);
+				top:90px;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+				transition:all 0.3s ease-out;
+			}
+			
 			a:hover {
 				height:160px;
 				
-				div {
-					
+				span.morelink {
+					top:80px;
+					opacity:1;
 				}
 			}
 		}

@@ -2746,6 +2746,8 @@ ul.caseStudies li .image.sketches::before {
 ul.caseStudies li.more {
   width: 100%;
   margin: 0;
+  position: relative;
+  overflow: hidden;
 }
 ul.caseStudies li.more a {
   transition: all 0.2s;
@@ -2771,8 +2773,28 @@ ul.caseStudies li.more div:nth-child(even) {
 ul.caseStudies li.more div:nth-child(even):hover {
   background: #a9c8f4;
 }
+ul.caseStudies li.more span.morelink {
+  position: absolute;
+  font-family: "proxima-nova", Georgia;
+  font-size: 1.4em;
+  font-weight: 800;
+  color: #2f353e;
+  padding: 10px 20px;
+  background: white;
+  border-radius: 100px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  top: 90px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  transition: all 0.3s ease-out;
+}
 ul.caseStudies li.more a:hover {
   height: 160px;
+}
+ul.caseStudies li.more a:hover span.morelink {
+  top: 80px;
+  opacity: 1;
 }
 ul.caseStudies li h5 {
   float: left;

@@ -55,7 +55,7 @@
 					$i++;
 				endforeach;
 				
-				echo '	<li class="more"><a href="'.path.'work#more" title="See more design work"><div>More&nbsp;</div><div>work</div></a></li>
+				echo '	<li class="more"><a href="'.path.'work#more" title="See more design work"><span class="morelink">More work</span><div>More&nbsp;</div><div>work</div></a></li>
 		';
 				?></ul>
 	</div>

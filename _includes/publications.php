@@ -27,7 +27,7 @@
 	));
 	array_push($publications,array(
 		'date'		=>	'2019',
-		'url'			=>	'https://www.youtube.com/watch?v=IcUgFhn0XxU',
+		'url'			=>	'https://www.invisionapp.com/talks/designingtogether/',
 		'type'		=>	'Video',
 		'source'	=>	'InVision Talk Series',
 		'title'		=>	'Designing together across continents',
