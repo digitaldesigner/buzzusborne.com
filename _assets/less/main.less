@@ -489,6 +489,12 @@ hr.sectionBreak {
 	border:none;
 	height:2px;
 	background:darken(@borders,10%);
+	
+	&.roomy {
+		margin-top:100px;
+		margin-bottom:100px;
+	}
+	
 }
 
 img { display:block; }
@@ -568,6 +574,10 @@ ol.mobileView {
   
   &.close {
     margin-top:0;
+  }
+  
+  &.under {
+	  margin-bottom:70px;
   }
   
   &.rounded {
@@ -1531,7 +1541,7 @@ ul.instagram {
 #project,
 #about {
 	position:relative;
-	z-index:-1;
+	z-index:0;
 	h3,h2 {
 		float:left;
 		width:@sitewidth - (@sitewidth/3 + 3);
@@ -1785,6 +1795,10 @@ ul.instagram {
 			padding:0;
 		}
 		
+		&.transparent {
+			background:none;
+		}
+		
 		&.first {
 			margin-top:0;
 		}
@@ -1891,6 +1905,156 @@ ul.instagram {
 			margin:0;
 			padding:0;
 		}
+	}
+	
+	&.alignLeft {
+		
+		.video-link {
+			float:left;
+			width:100%;
+			margin-left:-20px;
+			
+			p {
+				float:none;
+				width:auto;
+				padding:0;
+				margin:0;
+				text-align:left;
+				font-size:15px;
+				line-height:26px;
+				max-width:50%;
+				
+				strong {
+					.title(16px);
+					display:inline-block;
+					margin-bottom:20px;
+					
+					&.loom {
+						padding-left:25px;
+						position:relative;
+						
+						&::before {
+							content:'';
+							position:absolute;
+							left:0;
+							top:-2px;
+							width:20px;
+							height:20px;
+							background:url('https://cdn.loom.com/assets/favicons-loom/safari-pinned-tab.svg') center no-repeat;
+							background-size:auto 100%;
+						}
+					}
+					
+					&.youtube {
+						padding-left:25px;
+						position:relative;
+						
+						&::before {
+							content:'';
+							position:absolute;
+							left:0;
+							top:-2px;
+							width:20px;
+							height:20px;
+							background:url('https://s.ytimg.com/yts/img/favicon_96-vflW9Ec0w.png') center no-repeat;
+							background-size:auto 100%;
+						}
+					}
+					
+					&.miscvideo {
+						padding-left:25px;
+						position:relative;
+						
+						&::before {
+							content:'';
+							position:absolute;
+							left:0;
+							top:-2px;
+							width:20px;
+							height:20px;
+							background:url('../svg/play.svg') center no-repeat;
+							background-size:auto 100%;
+						}
+					}
+				}
+			}
+			
+			.thumb {
+				float:left;
+				width:280px;
+				margin:20px;
+				margin-right:40px;
+				
+				img,video {
+					width:100%;
+					height:auto;
+					float:left;
+					margin:0;
+					padding:0;
+					border-radius:4px;
+				}
+			}
+			
+			a {
+				float:left;
+				width:100%;
+				//box-sizing:border-box;
+				padding:0px 40px 0 0;
+				background:@testing;
+				border-radius:6px;
+				margin:20px 0 55px 0;
+			    display: flex;
+			    align-items: center;
+			    justify-content: left;
+				
+				&:hover {
+					strong {
+						text-decoration:underline;
+					}
+				}
+			}
+		}
+		
+		h3 {
+			padding-left:0;
+		
+			&.lrg {
+				font-size:40px;
+			}
+			
+			&.space-above {
+				margin-top:50px;
+			}
+		}
+		
+		p, blockquote {
+			float:left;
+		}
+		
+		p {
+			width:80%;
+			font-size:16.5px;
+			line-height:34px;
+			
+			&.info {
+				text-align:left;
+				font-size:12px;
+				margin-left:0;
+				padding-left:0;
+				text-transform:uppercase;
+				.title(11px);
+				font-style:normal;
+				letter-spacing:0.4px;
+				font-weight:normal;
+				color:@subtext;
+				
+				strong {
+					font-weight:bold;
+					color:@dark;
+				}
+			}
+		}
+		
 	}
 }
 
@@ -3064,12 +3228,29 @@ body.text {
 		
 
 		#footer {
-			text-align:center;
+			text-align:left;
 			
 			ul {
 				float:none;
 				width:70%;
 				display:inline-block;
+				margin-bottom:100px;
+				
+				li {
+					width:70%;
+					margin-left:22%;
+					
+					a {
+						float:left;
+						width:100%;
+						padding:10px 0;
+						border:none;
+					}
+					
+					&.right {
+						display:none;
+					}
+				}
 			}
 			
 			&.break {
@@ -3198,6 +3379,66 @@ body.text {
            }
        }
     }
+	
+	.container .project.alignLeft .video-link {
+		margin-left:0;
+		float:left;
+		width:100%;
+		
+		a {
+			float:left;
+			width:100%;
+			padding:40px 0;
+			display:block;
+			text-align:center;
+			border-radius:8px;
+			position:relative;
+			
+			&::before {
+				content:'VIDEO';
+				position:absolute;
+				top:-11px;
+				left:50%;
+				margin-left:-27px;
+				.title(10px);
+				width:50px;
+				color:white;
+				letter-spacing:0.5px;
+				padding:4px 0 3px;
+				background:darken(@testing,30%);
+				border-radius:6px;
+				border:3px solid white;
+			}
+			
+			.thumb {
+				margin:10px 0 30px;
+				max-width:50%;
+				width:50%;
+				display:inline-block;
+				float:none;
+			}
+			
+			p {
+				float:none;
+				clear:both;
+				display:inline-block;
+				width:70%;
+				max-width:70%;
+				text-align:center;
+				
+				strong.loom,
+				strong.youtube {
+					padding:35px 0 0 0;
+					margin:0 0 10px 0;
+					
+					&::before {
+						left:50%;
+						margin-left:-10px;
+					}
+				}
+			}
+		}
+	}
 
 	ul.caseStudies {
 		
@@ -3411,7 +3652,7 @@ body.text {
 						
 			.project,
 			#project {
-				
+
 				p {
 					&.caption,&.info{
 						width:70%;

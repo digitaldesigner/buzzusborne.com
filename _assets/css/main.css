@@ -605,6 +605,10 @@ hr.sectionBreak {
   height: 2px;
   background: #d2d8ee;
 }
+hr.sectionBreak.roomy {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
 img {
   display: block;
 }
@@ -672,6 +676,9 @@ ol.mobileView li img {
 }
 .fullImage.close {
   margin-top: 0;
+}
+.fullImage.under {
+  margin-bottom: 70px;
 }
 .fullImage.rounded img {
   -khtml-border-radius: 4px;
@@ -1559,7 +1566,7 @@ ul.instagram li.more a:hover {
 #project,
 #about {
   position: relative;
-  z-index: -1;
+  z-index: 0;
 }
 .project h3,
 #project h3,
@@ -1964,6 +1971,11 @@ ul.instagram li.more a:hover {
   margin: 0;
   padding: 0;
 }
+.project .image.transparent,
+#project .image.transparent,
+#about .image.transparent {
+  background: none;
+}
 .project .image.first,
 #project .image.first,
 #about .image.first {
@@ -2091,6 +2103,181 @@ ul.instagram li.more a:hover {
   float: left;
   margin: 0;
   padding: 0;
+}
+.project.alignLeft .video-link,
+#project.alignLeft .video-link,
+#about.alignLeft .video-link {
+  float: left;
+  width: 100%;
+  margin-left: -20px;
+}
+.project.alignLeft .video-link p,
+#project.alignLeft .video-link p,
+#about.alignLeft .video-link p {
+  float: none;
+  width: auto;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  font-size: 15px;
+  line-height: 26px;
+  max-width: 50%;
+}
+.project.alignLeft .video-link p strong,
+#project.alignLeft .video-link p strong,
+#about.alignLeft .video-link p strong {
+  font-family: "proxima-nova", Georgia;
+  font-size: 16px;
+  font-weight: 800;
+  color: #2f353e;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.project.alignLeft .video-link p strong.loom,
+#project.alignLeft .video-link p strong.loom,
+#about.alignLeft .video-link p strong.loom {
+  padding-left: 25px;
+  position: relative;
+}
+.project.alignLeft .video-link p strong.loom::before,
+#project.alignLeft .video-link p strong.loom::before,
+#about.alignLeft .video-link p strong.loom::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  background: url('https://cdn.loom.com/assets/favicons-loom/safari-pinned-tab.svg') center no-repeat;
+  background-size: auto 100%;
+}
+.project.alignLeft .video-link p strong.youtube,
+#project.alignLeft .video-link p strong.youtube,
+#about.alignLeft .video-link p strong.youtube {
+  padding-left: 25px;
+  position: relative;
+}
+.project.alignLeft .video-link p strong.youtube::before,
+#project.alignLeft .video-link p strong.youtube::before,
+#about.alignLeft .video-link p strong.youtube::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  background: url('https://s.ytimg.com/yts/img/favicon_96-vflW9Ec0w.png') center no-repeat;
+  background-size: auto 100%;
+}
+.project.alignLeft .video-link p strong.miscvideo,
+#project.alignLeft .video-link p strong.miscvideo,
+#about.alignLeft .video-link p strong.miscvideo {
+  padding-left: 25px;
+  position: relative;
+}
+.project.alignLeft .video-link p strong.miscvideo::before,
+#project.alignLeft .video-link p strong.miscvideo::before,
+#about.alignLeft .video-link p strong.miscvideo::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -2px;
+  width: 20px;
+  height: 20px;
+  background: url('../svg/play.svg') center no-repeat;
+  background-size: auto 100%;
+}
+.project.alignLeft .video-link .thumb,
+#project.alignLeft .video-link .thumb,
+#about.alignLeft .video-link .thumb {
+  float: left;
+  width: 280px;
+  margin: 20px;
+  margin-right: 40px;
+}
+.project.alignLeft .video-link .thumb img,
+#project.alignLeft .video-link .thumb img,
+#about.alignLeft .video-link .thumb img,
+.project.alignLeft .video-link .thumb video,
+#project.alignLeft .video-link .thumb video,
+#about.alignLeft .video-link .thumb video {
+  width: 100%;
+  height: auto;
+  float: left;
+  margin: 0;
+  padding: 0;
+  border-radius: 4px;
+}
+.project.alignLeft .video-link a,
+#project.alignLeft .video-link a,
+#about.alignLeft .video-link a {
+  float: left;
+  width: 100%;
+  padding: 0px 40px 0 0;
+  background: #f7f8fc;
+  border-radius: 6px;
+  margin: 20px 0 55px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.project.alignLeft .video-link a:hover strong,
+#project.alignLeft .video-link a:hover strong,
+#about.alignLeft .video-link a:hover strong {
+  text-decoration: underline;
+}
+.project.alignLeft h3,
+#project.alignLeft h3,
+#about.alignLeft h3 {
+  padding-left: 0;
+}
+.project.alignLeft h3.lrg,
+#project.alignLeft h3.lrg,
+#about.alignLeft h3.lrg {
+  font-size: 40px;
+}
+.project.alignLeft h3.space-above,
+#project.alignLeft h3.space-above,
+#about.alignLeft h3.space-above {
+  margin-top: 50px;
+}
+.project.alignLeft p,
+#project.alignLeft p,
+#about.alignLeft p,
+.project.alignLeft blockquote,
+#project.alignLeft blockquote,
+#about.alignLeft blockquote {
+  float: left;
+}
+.project.alignLeft p,
+#project.alignLeft p,
+#about.alignLeft p {
+  width: 80%;
+  font-size: 16.5px;
+  line-height: 34px;
+}
+.project.alignLeft p.info,
+#project.alignLeft p.info,
+#about.alignLeft p.info {
+  text-align: left;
+  font-size: 12px;
+  margin-left: 0;
+  padding-left: 0;
+  text-transform: uppercase;
+  font-family: "proxima-nova", Georgia;
+  font-size: 11px;
+  font-weight: 800;
+  color: #2f353e;
+  font-style: normal;
+  letter-spacing: 0.4px;
+  font-weight: normal;
+  color: #a5b3be;
+}
+.project.alignLeft p.info strong,
+#project.alignLeft p.info strong,
+#about.alignLeft p.info strong {
+  font-weight: bold;
+  color: #2f353e;
 }
 dl.outro {
   float: left;
@@ -3202,12 +3389,26 @@ ul.caseStudies li a:hover h5 span::before {
     width: 100%;
   }
   .container #footer {
-    text-align: center;
+    text-align: left;
   }
   .container #footer ul {
     float: none;
     width: 70%;
     display: inline-block;
+    margin-bottom: 100px;
+  }
+  .container #footer ul li {
+    width: 70%;
+    margin-left: 22%;
+  }
+  .container #footer ul li a {
+    float: left;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+  }
+  .container #footer ul li.right {
+    display: none;
   }
   .container #footer.break ul {
     width: 100%;
@@ -3302,6 +3503,63 @@ ul.caseStudies li a:hover h5 span::before {
   }
   .breakout .container.textlinks ul li:last-child a {
     margin-bottom: 0px;
+  }
+  .container .project.alignLeft .video-link {
+    margin-left: 0;
+    float: left;
+    width: 100%;
+  }
+  .container .project.alignLeft .video-link a {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    display: block;
+    text-align: center;
+    border-radius: 8px;
+    position: relative;
+  }
+  .container .project.alignLeft .video-link a::before {
+    content: 'VIDEO';
+    position: absolute;
+    top: -11px;
+    left: 50%;
+    margin-left: -27px;
+    font-family: "proxima-nova", Georgia;
+    font-size: 10px;
+    font-weight: 800;
+    color: #2f353e;
+    width: 50px;
+    color: white;
+    letter-spacing: 0.5px;
+    padding: 4px 0 3px;
+    background: #8897d2;
+    border-radius: 6px;
+    border: 3px solid white;
+  }
+  .container .project.alignLeft .video-link a .thumb {
+    margin: 10px 0 30px;
+    max-width: 50%;
+    width: 50%;
+    display: inline-block;
+    float: none;
+  }
+  .container .project.alignLeft .video-link a p {
+    float: none;
+    clear: both;
+    display: inline-block;
+    width: 70%;
+    max-width: 70%;
+    text-align: center;
+  }
+  .container .project.alignLeft .video-link a p strong.loom,
+  .container .project.alignLeft .video-link a p strong.youtube {
+    padding: 35px 0 0 0;
+    margin: 0 0 10px 0;
+  }
+  .container .project.alignLeft .video-link a p strong.loom::before,
+  .container .project.alignLeft .video-link a p strong.youtube::before {
+    left: 50%;
+    margin-left: -10px;
   }
   ul.caseStudies li {
     width: 100%;
