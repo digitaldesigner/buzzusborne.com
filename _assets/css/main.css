@@ -2268,6 +2268,7 @@ ul.instagram li.more a:hover {
   font-size: 11px;
   font-weight: 800;
   color: #2f353e;
+  line-height: 20px;
   font-style: normal;
   letter-spacing: 0.4px;
   font-weight: normal;
@@ -2822,10 +2823,10 @@ ul.caseStudies li .image::before {
   -ms-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
 }
-ul.caseStudies li .image.beacon {
+ul.caseStudies li .image.helpscout-chat {
   background-color: #e8c1f8;
 }
-ul.caseStudies li .image.beacon::before {
+ul.caseStudies li .image.helpscout-chat::before {
   background-image: url('../../casestudy/_images/thumbs/solid-beacon.png');
 }
 ul.caseStudies li .image.naptime {
@@ -3103,7 +3104,7 @@ ul.caseStudies li a:hover h5 span::before {
     margin-left: 18%;
   }
   .siteNav .container h1.signature a {
-    margin: 0 0 0 -5px;
+    margin: 0 0 0 -20px;
   }
   .siteNav .container ol.shortNav {
     position: fixed;
@@ -3203,6 +3204,9 @@ ul.caseStudies li a:hover h5 span::before {
     margin-right: 0;
     padding-left: 0;
     padding-right: 0;
+  }
+  #projectIntro .subscript {
+    line-height: 22px;
   }
   .fullImage.top {
     margin-left: 0;
@@ -3552,11 +3556,13 @@ ul.caseStudies li a:hover h5 span::before {
     text-align: center;
   }
   .container .project.alignLeft .video-link a p strong.loom,
+  .container .project.alignLeft .video-link a p strong.miscvideo,
   .container .project.alignLeft .video-link a p strong.youtube {
     padding: 35px 0 0 0;
     margin: 0 0 10px 0;
   }
   .container .project.alignLeft .video-link a p strong.loom::before,
+  .container .project.alignLeft .video-link a p strong.miscvideo::before,
   .container .project.alignLeft .video-link a p strong.youtube::before {
     left: 50%;
     margin-left: -10px;

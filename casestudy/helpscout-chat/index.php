@@ -1,6 +1,5 @@
 <?php 
 	define('path','../../');
-	$hideNav=TRUE;
 	include(path.'_includes/header.php');
 ?>
 		<div id="projectIntro">
@@ -16,7 +15,7 @@
 	<div class="container">	
 		<div class="project alignLeft">
 			<h3 class="lrg">Designing Beacon</h3>
-			<p>The brief was straight-forward enough &mdash; to bring chat as a communication channel to the Help Scout platform via the existing embeddable widget, Beacon. The original Beacon (shown below) was originally designed as a super simple way to view help documentation within our customers&rsquo; websites &mdash; though never intended to extend to much more. So... add chat to the widget and call it a day 😜</p>
+			<p>The brief was straight-forward enough &mdash; to bring chat as a communication channel to the Help Scout platform via the existing embeddable widget, Beacon. The original Beacon (shown below) was designed as a super simple way to view help documentation within our customers&rsquo; websites &mdash; though never intended to extend to much more. So... add chat to the widget and call it a day 😜</p>
 			
 			<p class="info"><strong>Below/</strong> The original Beacon</p>
 			
@@ -28,8 +27,8 @@
 			<p>Since this small widget was going to be the gateway to chat and our future plans, I pushed for re-designing Beacon entirely using mobile-first principles. Aside from wanting a fresh start, early explorations revealed that my biggest challenge was going to be navigation &mdash; with so much functionality bundled into a small space, traditional desktop methods would have made this little tool feel heavy and hard to use.</p>
 			
 			<div class="video-link">
-				<a href="https://www.loom.com/embed/312ec6b8a6344bcb9119cae821c97d02">
-					<div class="thumb"><video autoplay muted loop><source src="https://cdn.loom.com/sessions/thumbnails/312ec6b8a6344bcb9119cae821c97d02-00001.mp4" type="video/mp4"></video></div>
+				<a href="https://www.loom.com/share/312ec6b8a6344bcb9119cae821c97d02" target="_blank">
+					<div class="thumb"><video playsinline autobuffer autoplay muted loop><source src="https://cdn.loom.com/sessions/thumbnails/312ec6b8a6344bcb9119cae821c97d02-00001.mp4" type="video/mp4"></video></div>
 					<p><strong class="loom">Beacon Walkthrough (May 2017)</strong><br />Talking through a very early stage concept to identify complexity around sections and navigation.</p>
 				</a>
 			</div>
@@ -59,7 +58,7 @@
     </div>
 
 	<div class="fullImage">
-	    <video autoplay muted loop>
+	    <video playsinline autobuffer autoplay muted loop>
 	      <source src="../_images/helpscout-chat/_mp4/Transitions.mp4" type="video/mp4">
 	    </video>
 	</div>
@@ -76,10 +75,10 @@
     </div>
 
 	<div class="fullImage">
-	    <video autoplay muted loop>
+	    <video playsinline autobuffer autoplay muted loop>
 	      <source src="../_images/helpscout-chat/_mp4/Beacon-Rating.mp4" type="video/mp4">
 	    </video>
-	    <video autoplay muted loop>
+	    <video playsinline autobuffer autoplay muted loop>
 	      <source src="../_images/helpscout-chat/_mp4/Confetti.mp4" type="video/mp4">
 	    </video>
 	</div>
@@ -89,9 +88,9 @@
 <!-- END BREAKOUT -->
 			
 			<div class="video-link">
-				<a href="https://soapbox.wistia.com/videos/rMZHCBbCce/">
+				<a href="https://soapbox.wistia.com/videos/rMZHCBbCce/" target="_blank">
 					<div class="thumb wistia"><img src="../_images/helpscout-chat/video-thumb-buzz.gif" width="100%" /></div>
-					<p><strong class="miscvideo">Introducing Beacon</strong><br />I presented a more personal walkthrough for our Engineers on some ideas I had around animations, and why they were important for our customers.</p>
+					<p><strong class="miscvideo">Introducing some improvements</strong><br />I presented a more personal walkthrough for our Engineers on some ideas I had around animations, and why they were important for our customers.</p>
 				</a>
 			</div>
 			
@@ -127,7 +126,7 @@
 			<p>When a visitor sends a chat message via Beacon, there needs to be a place for Support Pros to receive, respond, manage and triage those messages. So whilst Beacon was being worked on, I set out to extend the existing Help Scout platform from supporting only email and phone to also (optionally) allowing chat communication. For this I designed an entirely new part of the product which neatly integrated with the old.</p>
 			
 			<div class="video-link">
-				<a href="https://www.loom.com/share/4df68577242b47f5a325ace585256dc0">
+				<a href="https://www.loom.com/share/4df68577242b47f5a325ace585256dc0" target="_blank">
 					<div class="thumb"><img src="../_images/helpscout-chat/video-thumb-wires.png" width="100%" /></div>
 					<p><strong class="loom">Structural Decisions (July 2017)</strong><br />A walkthrough of some wireframes and ideas on how to integrate chat into the wider product.</p>
 				</a>
@@ -138,7 +137,7 @@
         </div>
     </div>
 	<div class="fullImage">
-	    <video autoplay muted loop>
+	    <video playsinline autobuffer autoplay muted loop>
 	      <source src="../_images/helpscout-chat/_mp4/Chat.mp4" type="video/mp4">
 	    </video>
     </div>
@@ -179,8 +178,8 @@
 			<p>Customers are able to customize colors, icons, translate every bit of text, even decide how prominent they want chat or self-service to be. It&rsquo;s safe to say that settings play a bit part of the overall experience.</p>
 			
 			<div class="video-link">
-				<a href="https://www.loom.com/share/bbfbe3eba3f440daad48b801aba12621">
-					<div class="thumb"><video autoplay muted loop><source src="https://cdn.loom.com/sessions/thumbnails/bbfbe3eba3f440daad48b801aba12621-00001.mp4" type="video/mp4"></video></div>
+				<a href="https://www.loom.com/share/bbfbe3eba3f440daad48b801aba12621" target="_blank">
+					<div class="thumb"><video playsinline autobuffer autoplay muted loop><source src="https://cdn.loom.com/sessions/thumbnails/bbfbe3eba3f440daad48b801aba12621-00001.mp4" type="video/mp4"></video></div>
 					<p><strong class="loom">Settings Interactions (Dec 2019)</strong><br />A quick walkthrough of some new interaction states in response to a design crit session the day before.</p>
 				</a>
 			</div>
@@ -189,7 +188,7 @@
 			<p>Although it&rsquo;s impossible to avoid forms, I saw no reason why creating a bespoke chat widget couldn&rsquo;t be an enjoyable process. Sometimes this just meant choosing the right components, but other times it called for creating entirely new patterns which used the same depth techniques as Beacon.</p>
 	        
 			<div class="image transparent">
-			    <video class="image" autoplay muted loop>
+			    <video class="image" playsinline autobuffer autoplay muted loop>
 			      <source src="../_images/helpscout-chat/_mp4/Radio-Tiles.mp4" type="video/mp4">
 			    </video>
 			</div>
@@ -197,7 +196,7 @@
     </div>
 	
 	<div class="fullImage">
-	    <video autoplay muted loop>
+	    <video playsinline autobuffer autoplay muted loop>
 	      <source src="../_images/helpscout-chat/_mp4/Accordion.mp4" type="video/mp4">
 	    </video>
 	</div>
@@ -235,10 +234,10 @@
 			<hr class="sectionBreak" />
 			
 			<h3 class="lrg">And finally&hellip;</h3>
-			<p>As I worked through this body of work &mdash; I also used the opportunity to build out a design system and visual language for the entire Help Scout design team. We call it HSDS &mdash; a full platform UI library that exists as a translation layer between Figma and React (via StoryBook). Today I work as the design lead of HSDS, which has 12 key contributors spanning design and engineering.</p>
+			<p>As I worked through this body of work &mdash; I also used the opportunity to build out a design system and visual language for the entire Help Scout design team. We call it HSDS (<a href="../hsds/">see more</a>) &mdash; a full platform UI library that exists as a translation layer between Figma and React (via StoryBook). Today I work as the design lead of HSDS, which has 12 key contributors spanning design and engineering.</p>
 			
 			<div class="video-link">
-				<a href="https://www.youtube.com/watch?v=IcUgFhn0XxU">
+				<a href="https://www.youtube.com/watch?v=IcUgFhn0XxU" target="_blank">
 					<div class="thumb"><img src="../_images/helpscout-chat/video-buzz-conf.gif" width="100%" /></div>
 					<p><strong class="youtube">Moving your team from Sketch to Figma</strong><br />Talking at a conference in Sydney about moving our design systems from Sketch to Figma.</p>
 				</a>
