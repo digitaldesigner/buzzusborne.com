@@ -38,7 +38,7 @@
 		"thumb"	=>	"solid-beacon.png",
 		"meta"	=>	"Principal Designer",
 		"year"	=>	date("Y"),
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/helpscout-chat/cover.png",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/helpscout-chat/beacon-cover.png",
 		"color" => "#cd4dcc"
 	);
     $manifest['atlassian']=array(
