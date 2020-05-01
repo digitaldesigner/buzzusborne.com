@@ -2,6 +2,14 @@
 	$publications = array();
 
 	array_push($publications,array(
+		'date'		=>	'2020',
+		'url'		=>	'https://medium.com/@buzzusborne/tips-for-being-a-remote-designer-21566b3ac38',
+		'type'		=>	'Article',
+		'source'	=>	'Medium',
+		'title'		=>	'Tips for designing remotely',
+		'cta'		=>	'Read'
+	));
+	array_push($publications,array(
 		'date'		=>	'2019',
 		'url'			=>	'https://www.smashingmagazine.com/2019/09/migrating-design-systems-sketch-figma/',
 		'type'		=>	'Article',
