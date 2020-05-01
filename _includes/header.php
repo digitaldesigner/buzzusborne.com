@@ -12,7 +12,7 @@
 #	Number of case-studies to highlight on the homepage
 	
 	if(!isset($maxCaseStudies)) {
-		$maxCaseStudies=2;
+		$maxCaseStudies=6;
 	} 
 	
 #	You can customize the homepage with ?show=5
@@ -35,7 +35,7 @@
     $manifest['beacon']=array(
 		"path"	=>	"helpscout-chat",
 		"name" 	=>	"Help Scout",
-		"thumb"	=>	"solid-beacon.png",
+		"thumb"	=>	"thumb_helpscout.png",
 		"meta"	=>	"Principal Designer",
 		"year"	=>	date("Y"),
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/helpscout-chat/beacon-cover.png",
@@ -44,72 +44,72 @@
     $manifest['atlassian']=array(
 		"path"	=>	"atlassian",
 		"name"	=>	"Atlassian",
-		"thumb"	=>	"solid-atlassian.png",
+		"thumb"	=>	"thumb_atlassian.png",
 		"meta"	=>	"Lead Designer",
 		"year"	=>	"2017",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/atlassian/jira-hero.jpg",
 		"color" => "#3e64ff"
-		);
-    $manifest['skype']=array(
-		"path"	=>	"skype",
-		"name"	=>	"Skype",
-		"thumb"	=>	"solid-skype.png",
-		"year"	=>	"2010",
-		"meta"	=>	"A suite of recognizable icons",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype/desktop_skype.jpg",
-		"color" => "#42dee1"
-		);
+	);
     $manifest['prevue']=array(
 		"path"	=>	"prevue",
 		"name"	=>	"Prevue",
-		"thumb"	=>	"solid-prevue.png",
+		"thumb"	=>	"thumb_prevue.png",
 		"year"	=>	"2018",
-		"meta"	=>	"A feedback tool for designers",
+		"meta"	=>	"Founder",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/prevue/Library.jpg",
 		"color" => "#272d39"
-		);
-	$manifest['helpscout']=array(
-		"path"	=>	"hsds",
-		"name"	=>	"HS Design System",
-		"thumb"	=>	"solid-hsds.png",
-		"year"	=>	"2019",
-		"meta"	=>	"A cross-functional design system",
-		"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/cover.jpg",
-		"color" => "#c886e5"
-		);
+	);
+    $manifest['skype']=array(
+		"path"	=>	"skype",
+		"name"	=>	"Skype",
+		"thumb"	=>	"thumb_skype.png",
+		"year"	=>	"2010",
+		"meta"	=>	"UI Design Lead",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype/desktop_skype.jpg",
+		"color" => "#42dee1"
+	);
+	// $manifest['helpscout']=array(
+	// 	"path"	=>	"hsds",
+	// 	"name"	=>	"HS Design System",
+	// 	"thumb"	=>	"solid-hsds.png",
+	// 	"year"	=>	"2019",
+	// 	"meta"	=>	"A cross-functional design system",
+	// 	"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/cover.jpg",
+	// 	"color" => "#c886e5"
+	// 	);
     $manifest['campaignmonitor']=array(
 		"path"	=>	"campaignmonitor",
 		"name"	=>	"Campaign Monitor",
-		"thumb"	=>	"solid-cm.png",
+		"thumb"	=>	"thumb_campaignmonitor.png",
 		"year"	=>	"2014",
-		"meta"	=>	"Creative direction for an Aussie tech company",
+		"meta"	=>	"UX Director",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/campaignmonitor/business_cards.jpg",
 		"color" => "#413c69"
 		);
     $manifest['sendle']=array(
 		"path"	=>	"sendle",
 		"name"	=>	"Sendle",
-		"thumb"	=>	"solid-sendle.png",
+		"thumb"	=>	"thumb_sendle.png",
 		"year"	=>	"2016",
-		"meta"	=>	"A modern shipping app for small businesses",
+		"meta"	=>	"Product Lead",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/sendle/devices.jpg",
 		"color" => "#f67280"
 		);
     $manifest['skype_business']=array(
 		"path"	=>	"skype_business",
 		"name"	=>	"Skype for Business",
-		"thumb"	=>	"solid-bcp.png",
+		"thumb"	=>	"thumb_skypebusiness.png",
 		"year"	=>	"2009",
-		"meta"	=>	"A UI for Skype&rsquo;s business suite",
+		"meta"	=>	"UI Designer",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype_business/dashbord_home.jpg",
 		"color" => "#a0c334"
 		);
     $manifest['canvas']=array(
 		"path"	=>	"canvas",
-		"name"	=>	"Campaign Monitor",
-		"thumb"	=>	"full_app.jpg",
-		"year"	=>	"UX/UI<em class='special bullet'>&bullet;</em>2014",
-		"meta"	=>	"A drag &amp; drop editor to build beautiful emails",
+		"name"	=>	"Email Builder",
+		"thumb"	=>	"thumb_canvas.png",
+		"year"	=>	"2014",
+		"meta"	=>	"Lead Designer",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/canvas/full_app.jpg",
 		"color" => "#f4b0c7"
 		);
@@ -117,7 +117,7 @@
 		"path"	=>	"rango",
 		"name"	=>	"Paramount Pictures",
 		"thumb"	=>	"rango_01.jpg",
-		"year"	=>	"Game Design<em class='special bullet'>&bullet;</em>2011",
+		"year"	=>	"2011",
 		"meta"	=>	"Game design for a movie-themed promotion",
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/misc/rango_01.jpg",
 		"color" => "#ffd369"

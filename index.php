@@ -4,7 +4,7 @@
 	$homepage=TRUE;
 	$navigation['twitter_img']="https://buzzusborne.com/_assets/gfx/twitter-card.png";
 	$hideLogo = TRUE; 
-  include(path.'_includes/publications.php');
+  	include(path.'_includes/publications.php');
 	include(path.'_includes/header.php');
 	echo "	<div class=\"container\">\n";
 	printf(str_replace("_root_",path,file_get_contents(path.'_includes/nav.html')),
@@ -22,7 +22,7 @@
 	<div id="splash" class="landing">
 	  <section>
 	    <div class="introtext">
-	      <h2 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami" title="And so much more">a design coach</a> with over <?php echo (date('Y') - 2005); ?> years experience and a passion for building, scaling and coaching highly effective &amp; collaborative teams.</h2>
+	      <h2 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami" title="Plus some other stuff">a product designer</a> with <?php echo (date('Y') - 2005); ?>+ years experience and a passion for building, scaling and coaching highly effective &amp; collaborative teams.</h2>
 	    </div>
 	  </section>
 	  <div id="workIntro" class="fixed"><h2>My work.</h2></div>
@@ -37,7 +37,7 @@
 					if($i<=$maxCaseStudies){
 				
 						echo '	<li><a href="casestudy/'.$page['path'].'">
-				<div class="image '.strtolower($page['path']).' leadImg"><img src="casestudy/_images/thumbs/'.$page['thumb'].'" /></div>
+				<div class="image '.strtolower($page['path']).' leadImg"><img src="_assets/home/'.$page['thumb'].'" /></div>
 				<h5><span>'.$page['name'].'</span></h5>';
 					
 						if(array_key_exists('meta',$page)){
@@ -55,7 +55,7 @@
 					$i++;
 				endforeach;
 				
-				echo '	<li class="more"><a href="'.path.'work#more" title="See more design work"><span class="morelink">More work</span><div>More&nbsp;</div><div>work</div></a></li>
+				echo '	<li class="more"><a href="'.path.'work#more" title="See more design work"><span class="morelink">More work</span></a></li>
 		';
 				?></ul>
 	</div>

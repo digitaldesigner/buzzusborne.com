@@ -30,7 +30,7 @@
 						if($i==3){ echo "	<div class=\"overflow\" id=\"more\"></div>\n		"; }
 						
 						echo '	<li><a href="../casestudy/'.$page['path'].'">
-				<div class="image '.strtolower($page['path']).' leadImg"><img src="../casestudy/_images/thumbs/'.$page['thumb'].'" /></div>
+				<div class="image '.strtolower($page['path']).' leadImg"><img src="../_assets/home/'.$page['thumb'].'" /></div>
 				<h5><span>'.$page['name'].'</span></h5>';
 					
 						if(array_key_exists('meta',$page)){

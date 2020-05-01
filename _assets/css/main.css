@@ -280,12 +280,9 @@ ol.shortNav li a.active {
   border-radius: 0px;
   display: flex;
   align-items: center;
-  background: #f7f8fc;
+  background: white;
   margin: 0 0 50px 0;
   overflow: hidden;
-  background-image: linear-gradient(45deg, #f7f8fc 0%, #e1e5f4 100%);
-  background-size: 400% 400%;
-  animation: gradientBG 3s ease infinite;
 }
 .landing section {
   margin: 0px auto;
@@ -2814,10 +2811,10 @@ ul.caseStudies li .image::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: 100% auto;
+  background-size: 416px 500px;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: white;
+  background-color: #f7f8fc;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
@@ -2827,7 +2824,7 @@ ul.caseStudies li .image.helpscout-chat {
   background-color: #e8c1f8;
 }
 ul.caseStudies li .image.helpscout-chat::before {
-  background-image: url('../../casestudy/_images/thumbs/solid-beacon.png');
+  background-image: url('../../_assets/home/thumb_helpscout.png');
 }
 ul.caseStudies li .image.naptime {
   background-color: #fec62e;
@@ -2839,7 +2836,7 @@ ul.caseStudies li .image.atlassian {
   background-color: #0045b5;
 }
 ul.caseStudies li .image.atlassian::before {
-  background-image: url('../../casestudy/_images/thumbs/solid-atlassian.png');
+  background-image: url('../../_assets/home/thumb_atlassian.png');
 }
 ul.caseStudies li .image.hsds {
   background-color: #ffc5e2;
@@ -2851,31 +2848,31 @@ ul.caseStudies li .image.prevue {
   background-color: #f4f4f6;
 }
 ul.caseStudies li .image.prevue::before {
-  background-image: url('../../casestudy/_images/thumbs/solid-prevue.png');
+  background-image: url('../../_assets/home/thumb_prevue.png');
 }
 ul.caseStudies li .image.skype {
   background-color: #01aef0;
 }
 ul.caseStudies li .image.skype::before {
-  background-image: url('../../casestudy/_images/thumbs/solid-skype.png');
+  background-image: url('../../_assets/home/thumb_skype.png');
 }
 ul.caseStudies li .image.canvas {
   background-color: #f5f5f5;
 }
 ul.caseStudies li .image.canvas::before {
-  background-image: url('../../casestudy/_images/thumbs/canvas.png');
+  background-image: url('../../_assets/home/thumb_canvas.png');
 }
 ul.caseStudies li .image.sendle {
   background-color: #fc6d23;
 }
 ul.caseStudies li .image.sendle::before {
-  background-image: url('../../casestudy/_images/thumbs/solid-sendle.png');
+  background-image: url('../../_assets/home/thumb_sendle.png');
 }
 ul.caseStudies li .image.campaignmonitor {
   background-color: #0086ea;
 }
 ul.caseStudies li .image.campaignmonitor::before {
-  background-image: url('../../casestudy/_images/thumbs/solid-cm.png');
+  background-image: url('../../_assets/home/thumb_campaignmonitor.png');
 }
 ul.caseStudies li .image.monitor {
   background-color: #2e353d;
@@ -2893,7 +2890,7 @@ ul.caseStudies li .image.skype_business {
   background-color: #00aff0;
 }
 ul.caseStudies li .image.skype_business::before {
-  background-image: url('../../casestudy/_images/thumbs/solid-bcp.png');
+  background-image: url('../../_assets/home/thumb_skypebusiness.png');
 }
 ul.caseStudies li .image.prevue_expenses {
   background-color: #e7f7db;
@@ -2941,48 +2938,24 @@ ul.caseStudies li.more a {
   transition: all 0.2s;
   height: 150px;
 }
-ul.caseStudies li.more div {
-  transition: background 0.2s;
-  border-radius: 3px 3px 0px 0px;
-  float: left;
-  width: 49%;
-  height: 100%;
-  background: #f5afc7;
-  text-indent: -1000px;
-  overflow: hidden;
-}
-ul.caseStudies li.more div:hover {
-  background: #ef82a7;
-}
-ul.caseStudies li.more div:nth-child(even) {
-  float: right;
-  background: #d6e5fa;
-}
-ul.caseStudies li.more div:nth-child(even):hover {
-  background: #a9c8f4;
-}
 ul.caseStudies li.more span.morelink {
   position: absolute;
   font-family: "proxima-nova", Georgia;
-  font-size: 1.4em;
+  font-size: 1.6em;
   font-weight: 800;
   color: #2f353e;
-  padding: 10px 20px;
+  padding: 10px 25px 9px;
   background: white;
   border-radius: 100px;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  top: 90px;
+  border: 2px solid #2f353e;
+  top: 20px;
   left: 50%;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
-  transition: all 0.3s ease-out;
-}
-ul.caseStudies li.more a:hover {
-  height: 160px;
+  transition: all 0.2s ease-out;
 }
 ul.caseStudies li.more a:hover span.morelink {
-  top: 80px;
-  opacity: 1;
+  border-color: #08ffc8;
 }
 ul.caseStudies li h5 {
   float: left;
@@ -3026,8 +2999,7 @@ ul.caseStudies li p {
   padding: 0;
 }
 ul.caseStudies li a:hover .image::before {
-  opacity: 0.2;
-  transform: scale(1.05);
+  opacity: 0.15;
 }
 ul.caseStudies li a:hover h5 span::before {
   opacity: 1;
@@ -3589,36 +3561,6 @@ ul.caseStudies li a:hover h5 span::before {
   }
   ul.caseStudies li.more {
     margin: 20px 0 80px 0;
-  }
-  ul.caseStudies li.more a {
-    width: 70%;
-    margin-left: 15%;
-    height: auto;
-    text-align: center;
-    font-family: "proxima-nova", Georgia;
-    font-size: 1.7em;
-    font-weight: 800;
-    color: #2f353e;
-    border: 3px solid #08ffc8;
-    padding: 20px 0 18px;
-    box-sizing: border-box;
-    border-radius: 4px;
-  }
-  ul.caseStudies li.more a:hover {
-    height: auto;
-    background: #edfffb;
-  }
-  ul.caseStudies li.more a div {
-    text-indent: 0;
-    background: none;
-    width: auto;
-    float: none;
-    height: auto;
-    display: inline-block;
-  }
-  ul.caseStudies li.more a div:nth-child(even) {
-    background: none;
-    float: none;
   }
   ul.instagram li {
     width: 100%;
