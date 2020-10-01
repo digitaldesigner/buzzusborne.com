@@ -411,6 +411,12 @@ em.special.bullet {
   background-size: 400% 400%;
   animation: gradientBG 5s ease infinite;
 }
+.dark-logo .siteNav h1.white a {
+  background: #2f353e;
+}
+.dark-logo .siteNav h1.white a:hover {
+  background-color: #f35588;
+}
 .siteNav {
   float: none;
   padding: 120px 0 0 0;

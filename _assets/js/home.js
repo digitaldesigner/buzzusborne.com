@@ -32,6 +32,8 @@ $(window).scroll(function(){ fancyBoi(); });
 $(window).resize(function() { menuPos(); });
 
 var thingsIam = [
+	'a product designer',
+	'an <i></i>ally',
 	'a fan of geese',
 	'a meatbag',
 	'a coffee addict',
@@ -41,7 +43,6 @@ var thingsIam = [
 	'a random guy',
 	'a dad',
 	'a nerd',
-	'another white guy',
 	'a pixel pusher',
 	'a tall dude',
 	'a feminist',

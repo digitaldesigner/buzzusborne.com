@@ -22,7 +22,7 @@
 	<div id="splash" class="landing">
 	  <section>
 	    <div class="introtext">
-	      <h2 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami" title="Plus some other stuff">a product designer</a> with <?php echo (date('Y') - 2005); ?>+ years experience and a passion for building, scaling and coaching highly effective &amp; collaborative teams.</h2>
+	      <h2 id="bio">I&rsquo;m Buzz, <a href="javascript://" id="whoami" title="#blacklivesmatter">an <i></i>ally</a> with <?php echo (date('Y') - 2005); ?>+ years experience and a passion for building, scaling and coaching highly effective &amp; collaborative teams.</h2>
 	    </div>
 	  </section>
 	  <div id="workIntro" class="fixed"><h2>My work.</h2></div>
@@ -94,7 +94,7 @@
 				endforeach;
 				
 ?>
-					<li class="showmore"><a href="/coaching/#more">More publications</a></li>
+					<li class="showmore"><a href="https://yourfriend.buzz/">More press</a></li>
 				</div>
 			</ol>
 		</div>

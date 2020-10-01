@@ -68,15 +68,15 @@
 		"og"	=>	"https://buzzusborne.com/casestudy/_images/skype/desktop_skype.jpg",
 		"color" => "#42dee1"
 	);
-	// $manifest['helpscout']=array(
-	// 	"path"	=>	"hsds",
-	// 	"name"	=>	"HS Design System",
-	// 	"thumb"	=>	"solid-hsds.png",
-	// 	"year"	=>	"2019",
-	// 	"meta"	=>	"A cross-functional design system",
-	// 	"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/cover.jpg",
-	// 	"color" => "#c886e5"
-	// 	);
+	$manifest['helpscout']=array(
+		"path"	=>	"helpscout-design-system",
+		"name"	=>	"HS Design System",
+		"thumb"	=>	"solid-hsds.png",
+		"year"	=>	"2020",
+		"meta"	=>	"A cross-functional design system",
+		"og"	=>	"https://buzzusborne.com/casestudy/_images/hsds/cover.jpg",
+		"color" => "#c886e5"
+	);
     $manifest['campaignmonitor']=array(
 		"path"	=>	"campaignmonitor",
 		"name"	=>	"Campaign Monitor",

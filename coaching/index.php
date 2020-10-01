@@ -1,4 +1,10 @@
 <?php
+
+	header('Location: https://yourfriend.buzz/');
+	exit();
+	
+?>
+<?php
 	define('path','../');
 	$hideNav=TRUE;
 	$bodyclass = "alt text";
@@ -58,7 +64,7 @@
 	</div>
 	
 	<div class="textonly inline">
-		<p class="highlight"><strong>Say hi!</strong><br /><a href="mailto:hello@buzzusborne.com">Email</a> or call +61 (0)451 116 531</p>
+		<p class="highlight"><strong>Say hi!</strong><br />Drop me <a href="mailto:hello@buzzusborne.com">an email</a></p>
 	</div>
 	
 		

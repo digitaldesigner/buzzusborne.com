@@ -3,6 +3,14 @@
 
 	array_push($publications,array(
 		'date'		=>	'2020',
+		'url'		=>	'https://www.youtube.com/watch?v=SdhGCSrLYc8',
+		'type'		=>	'Video',
+		'source'	=>	'DesignOps',
+		'title'		=>	'Design systems for small teams',
+		'cta'		=>	'Watch'
+	));
+	array_push($publications,array(
+		'date'		=>	'2020',
 		'url'		=>	'https://medium.com/@buzzusborne/tips-for-being-a-remote-designer-21566b3ac38',
 		'type'		=>	'Article',
 		'source'	=>	'Medium',

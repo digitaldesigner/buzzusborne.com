@@ -2,7 +2,7 @@
 			<ul>
 				<li><a href="<?php echo path; ?>">Home</a></li>
 				<li><a href="<?php echo path; ?>work/">Work</a></li>
-				<li><a href="<?=path?>coaching/">Coaching</a></li>
+				<li><a href="https://yourfriend.buzz/">Coaching</a></li>
 				<li><a href="<?=path?>about/">About</a></li>
 				<li class="right" title="No tracking, no cookies. Just love">✌️</li>
 			</ul>

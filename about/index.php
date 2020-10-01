@@ -1,7 +1,7 @@
 <?php
 	define('path','../');
 	$hideNav=TRUE;
-	$bodyclass = "text";
+	$bodyclass = "text dark-logo";
 	include(path.'_includes/header.php');
 	echo "	<div class=\"container\">\n";
 	printf(str_replace("_root_",path,file_get_contents(path.'_includes/nav.html')),NULL,' white',NULL,NULL,NULL,' active',NULL);
@@ -9,10 +9,10 @@
 		
 		<div class="textonly">
 			<div class="showcase spacer-bottom">
-				<div class="work single oversize"><img src="../_assets/home/buzz-2020.jpg" /></div>
+				<div class="work single oversize"><img src="../_assets/home/Buzz_Usborne.jpg" /></div>
 			</div>
 
-			<p class="lead large">I&rsquo;m Buzz, a British designer who works remotely from a tiny surf town on the East coast of Australia. Currently I&rsquo;m Principal Designer at <a href="https://helpscout.com/" class="chilled" target="_blank">Help Scout</a> &mdash; I also <a href="../coaching/" class="chilled">coach design teams</a>, advise startups and ocassionally write about design.</p>
+			<p class="lead large">I&rsquo;m Buzz, a British designer who works remotely from a tiny surf town on the East coast of Australia. Currently I&rsquo;m Principal Designer at <a href="https://helpscout.com/" class="chilled" target="_blank">Help Scout</a> &mdash; I also <a href="https://yourfriend.buzz/" class="chilled">coach design teams</a>, advise startups and ocassionally write about design.</p>
 
 			<p>Through a career of designing and managing, I&rsquo;ve found that I&rsquo;m at my best when I&rsquo;m helping others succeed. Today I do that through building design systems, running workshops, speaking and mentoring.</p>
 
@@ -43,7 +43,8 @@
 					<div class="point"><span class="marker single"></span><div class="pointer right"><strong>Atlassian</strong><br />Lead&nbsp;Designer</div><div class="year"><em>20</em><span>&lsquo;</span>16</div></div>
 					<div class="point"><span class="marker single"></span><div class="pointer right"><strong>Atlassian</strong><br />Lead&nbsp;Designer</div><div class="year"><em>20</em><span>&lsquo;</span>17</div></div>
 					<div class="point"><span class="marker single"></span><div class="pointer right"><strong>Help&nbsp;Scout</strong><br />Lead&nbsp;Designer</div><div class="year"><em>20</em><span>&lsquo;</span>18</div></div>
-					<div class="point hovered"><span class="marker this"></span><div class="pointer right highlight"><strong>Help&nbsp;Scout</strong><br />Principal&nbsp;Designer</div><div class="year"><em>20</em><span>&lsquo;</span>19</div></div>
+					<div class="point"><span class="marker single"></span><div class="pointer right"><strong>Help&nbsp;Scout</strong><br />Principal&nbsp;Designer</div><div class="year"><em>20</em><span>&lsquo;</span>19</div></div>
+					<div class="point hovered"><span class="marker this"></span><div class="pointer right highlight"><strong>Help&nbsp;Scout</strong><br />Principal&nbsp;Designer</div><div class="year"><em>20</em><span>&lsquo;</span><?=date('y')?></div></div>
 				</div>
 			
 				<div class="textonly">
